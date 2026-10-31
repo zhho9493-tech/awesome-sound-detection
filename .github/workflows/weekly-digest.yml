@@ -1,0 +1,17 @@
+name: Weekly resource review
+on:
+  schedule:
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+permissions:
+  issues: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create resource review issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create --title "Weekly resource review $(date -u +%F)" --body "Human review checklist: verify newly published papers, official code, datasets and company announcements; record primary URLs, dates, and deduplicate. This workflow does NOT automatically claim verified news."
