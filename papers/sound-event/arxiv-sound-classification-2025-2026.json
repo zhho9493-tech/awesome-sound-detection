@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-31",
+  "range_start": "2025-10-31",
+  "range_end": "2026-10-31",
+  "completeness": "curated-not-exhaustive",
+  "papers": [
+    {
+      "arxiv_id": "2610.14673",
+      "title": "FAM-gate: field-aware metadata attention with prior-constrained vector gating for audio classification",
+      "published": "2026-10-10",
+      "topic": "metadata fusion",
+      "method_summary_zh": "音频与多字段元数据的受限门控融合；BSD10k/BSD35k/FSD50K",
+      "transfer_hypothesis_zh": "项目ID、采集条件等元数据辅助分类，但需防止项目捷径",
+      "paper_url": "https://arxiv.org/abs/2610.14673",
+      "pdf_url": "https://arxiv.org/pdf/2610.14673",
+      "status": "not-reproduced"
+    },
+    {
+      "arxiv_id": "2609.14730",
+      "title": "Parameter isolation with domain-specific experts for incremental audio classification",
+      "published": "2026-09-13",
+      "topic": "domain incremental",
+      "method_summary_zh": "冻结历史专家、生成回放与跨域特征生成；DCASE 2026 Task 7",
+      "transfer_hypothesis_zh": "跨项目增量扩展与遗忘控制",
+      "paper_url": "https://arxiv.org/abs/2609.14730",
+      "pdf_url": "https://arxiv.org/pdf/2609.14730",
+      "status": "not-reproduced"
+    },
+    {
+      "arxiv_id": "2607.01974",
+      "title": "A Multi-Branch Hierarchy-Aware Framework for Heterogeneous Audio Classification",
+      "published": "2026-07-02",
+      "topic": "hierarchical classification",
+      "method_summary_zh": "CLAP、声学多分支、层级分类器与 KNN 后处理；DCASE 2026 Task 1",
+      "transfer_hypothesis_zh": "多层级异常类别及检索复核",
+      "paper_url": "https://arxiv.org/abs/2607.01974",
+      "pdf_url": "https://arxiv.org/pdf/2607.01974",
+      "status": "not-reproduced"
+    },
+    {
+      "arxiv_id": "2606.22952",
+      "title": "Domain-incremental audio classification using domain-specific experts and prototype classifier",
+      "published": "2026-06-22",
+      "topic": "prototype / domain incremental",
+      "method_summary_zh": "冻结专家特征、原型分类器、生成回放；DCASE 2026 Task 7",
+      "transfer_hypothesis_zh": "多项目原型分类与持续学习",
+      "paper_url": "https://arxiv.org/abs/2606.22952",
+      "pdf_url": "https://arxiv.org/pdf/2606.22952",
+      "status": "not-reproduced"
+    },
+    {
+      "arxiv_id": "2606.02173",
+      "title": "Domain-Agnostic Incremental Learning for Sound Classification. A DCASE 2026 Challenge task",
+      "published": "2026-06-01",
+      "topic": "benchmark / domain incremental",
+      "method_summary_zh": "三域顺序学习的声音分类任务与基线",
+      "transfer_hypothesis_zh": "跨项目泛化和不能回看原始数据时的基准设计",
+      "paper_url": "https://arxiv.org/abs/2606.02173",
+      "pdf_url": "https://arxiv.org/pdf/2606.02173",
+      "status": "not-reproduced"
+    }
+  ]
+}
