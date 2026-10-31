@@ -1,0 +1,153 @@
+{
+  "generated_at": "2026-10-31",
+  "window": {
+    "start": "2025-10-31",
+    "end": "2026-10-31"
+  },
+  "scope": "curated, not exhaustive",
+  "papers": [
+    {
+      "arxiv_id": "2610.25892",
+      "submitted": "2026-10-19",
+      "title": "Manifold-Constrained Residual Adaptation with Frame-Adaptive Layer Aggregation for Speaker Verification",
+      "authors": "Zezhong Jin et al.",
+      "topic": "parameter-efficient adaptation",
+      "method": "MCRA residual adaptation + frame-adaptive layer aggregation",
+      "acoustic_transfer_priority": "High",
+      "transfer_hypothesis": "工业声学预训练编码器的参数高效跨域微调",
+      "url": "https://arxiv.org/abs/2610.25892",
+      "pdf_url": "https://arxiv.org/pdf/2610.25892",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2610.11099",
+      "submitted": "2026-10-08",
+      "title": "Cross-Lingual Speaker Verification with Self-Supervised Pre-Trained Models",
+      "authors": "Jinghan Peng et al.",
+      "topic": "cross-lingual generalization",
+      "method": "SSL pretrained features and downstream embeddings",
+      "acoustic_transfer_priority": "High",
+      "transfer_hypothesis": "跨项目领域不变表征",
+      "url": "https://arxiv.org/abs/2610.11099",
+      "pdf_url": "https://arxiv.org/pdf/2610.11099",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2609.24061",
+      "submitted": "2026-09-21",
+      "title": "MECT: Mixture of Experts with CNN-Transformer Network for Speaker verification",
+      "authors": "Yu Zheng et al.",
+      "topic": "mixture of experts",
+      "method": "CNN-Transformer and frame/utterance MoE routing",
+      "acoustic_transfer_priority": "High",
+      "transfer_hypothesis": "多项目多工况专家路由",
+      "url": "https://arxiv.org/abs/2609.24061",
+      "pdf_url": "https://arxiv.org/pdf/2609.24061",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2609.01221",
+      "submitted": "2026-09-01",
+      "title": "A Unified Uncertainty-Aware Back-End for Speaker Verification: Scoring, Normalization, and Calibration",
+      "authors": "Junjie Li; Kong Aik Lee",
+      "topic": "uncertainty calibration",
+      "method": "uncertainty-aware scoring, AS-Norm and calibration",
+      "acoustic_transfer_priority": "Very high",
+      "transfer_hypothesis": "不确定性建模与低误报报警校准",
+      "url": "https://arxiv.org/abs/2609.01221",
+      "pdf_url": "https://arxiv.org/pdf/2609.01221",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2608.03623",
+      "submitted": "2026-08-04",
+      "title": "Speaker Verification Under Real Classroom Conditions for English Speech",
+      "authors": "Saba Tabatabaee et al.",
+      "topic": "noisy domain adaptation",
+      "method": "SSL and two-stage fine-tuning on noisy classroom speech",
+      "acoustic_transfer_priority": "High",
+      "transfer_hypothesis": "噪声鲁棒与少标签数据适应",
+      "url": "https://arxiv.org/abs/2608.03623",
+      "pdf_url": "https://arxiv.org/pdf/2608.03623",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2607.07579",
+      "submitted": "2026-07-08",
+      "title": "Text-Independent Speaker Verification Using Discrete Audio Tokens",
+      "authors": "Zheng Liang et al.",
+      "topic": "discrete token distillation",
+      "method": "cross-feature knowledge distillation from Fbank teacher",
+      "acoustic_transfer_priority": "Medium",
+      "transfer_hypothesis": "离散音频表征与教师学生蒸馏",
+      "url": "https://arxiv.org/abs/2607.07579",
+      "pdf_url": "https://arxiv.org/pdf/2607.07579",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2606.21305",
+      "submitted": "2026-06-19",
+      "title": "LISE: Listenable Interpretable Speaker Embeddings",
+      "authors": "Xiaoliang Wu et al.",
+      "topic": "embedding interpretability",
+      "method": "label-free decomposition of speaker embeddings",
+      "acoustic_transfer_priority": "Medium",
+      "transfer_hypothesis": "声学异常表征可解释性",
+      "url": "https://arxiv.org/abs/2606.21305",
+      "pdf_url": "https://arxiv.org/pdf/2606.21305",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2605.15044",
+      "submitted": "2026-05-14",
+      "title": "SpeakerLLM: A Speaker-Specialized Audio-LLM for Speaker Understanding and Verification Reasoning",
+      "authors": "KiHyun Nam et al.",
+      "topic": "audio LLM",
+      "method": "hierarchical speaker tokens and verification reasoning",
+      "acoustic_transfer_priority": "Medium",
+      "transfer_hypothesis": "基于音频大模型的证据组织与复核",
+      "url": "https://arxiv.org/abs/2605.15044",
+      "pdf_url": "https://arxiv.org/pdf/2605.15044",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2604.23354",
+      "submitted": "2026-04-29",
+      "title": "Explainable AI in Speaker Recognition -- Making Latent Representations Understandable",
+      "authors": "Yanze Xu et al.",
+      "topic": "representation clustering",
+      "method": "SLINK and HDBSCAN hierarchical embedding analysis",
+      "acoustic_transfer_priority": "Medium",
+      "transfer_hypothesis": "聚类分析与疑似噪声标签识别",
+      "url": "https://arxiv.org/abs/2604.23354",
+      "pdf_url": "https://arxiv.org/pdf/2604.23354",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2603.08092",
+      "submitted": "2026-03-09",
+      "title": "Language-Invariant Multilingual Speaker Verification for the TidyVoice 2026 Challenge",
+      "authors": "Ze Li et al.",
+      "topic": "domain-adversarial speaker embeddings",
+      "method": "w2v-BERT 2.0 + adapters + language-adversarial learning",
+      "acoustic_transfer_priority": "High",
+      "transfer_hypothesis": "对抗学习抑制项目特征",
+      "url": "https://arxiv.org/abs/2603.08092",
+      "pdf_url": "https://arxiv.org/pdf/2603.08092",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2602.10829",
+      "submitted": "2026-02-11",
+      "title": "Self-Supervised Learning for Speaker Recognition: A study and review",
+      "authors": "Theo Lepage; Reda Dehak",
+      "topic": "self-supervised review",
+      "method": "SimCLR/MoCo/DINO speaker recognition comparison",
+      "acoustic_transfer_priority": "Very high",
+      "transfer_hypothesis": "千万级未标注音频的自监督学习路线",
+      "url": "https://arxiv.org/abs/2602.10829",
+      "pdf_url": "https://arxiv.org/pdf/2602.10829",
+      "reproduced": false
+    }
+  ]
+}
