@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-10-31",
+  "search_range": {
+    "start": "2025-10-31",
+    "end": "2026-10-31"
+  },
+  "scope": "curated, non-exhaustive",
+  "topic": "distributed acoustic sensing / fiber optic DAS",
+  "papers": [
+    {
+      "arxiv_id": "2610.39892",
+      "date": "2026-10-29",
+      "title": "Edge intelligence for distributed acoustic sensing with ultracompact neural networks",
+      "topic": "edge-ai",
+      "summary_zh": "DAS-NanoNet、OmniDAS，多场景分类/定位/压缩/降噪及超轻量推理",
+      "industrial_transfer_hypothesis_zh": "托辊边缘部署、多任务小模型设计",
+      "priority": "high",
+      "abstract_url": "https://arxiv.org/abs/2610.39892",
+      "pdf_download_url": "https://arxiv.org/pdf/2610.39892",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2609.26136",
+      "date": "2026-08-07",
+      "title": "Distributed Acoustic Sensing Over Deployed Telecommunication Fiber Networks: Opportunities and Challenges",
+      "topic": "fiber-hardware",
+      "summary_zh": "既有通信光纤DAS、机械耦合、偏振与激光相位噪声",
+      "industrial_transfer_hypothesis_zh": "理解光纤耦合和跨部署环境的信号差异",
+      "priority": "medium",
+      "abstract_url": "https://arxiv.org/abs/2609.26136",
+      "pdf_download_url": "https://arxiv.org/pdf/2609.26136",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2609.07558",
+      "date": "2026-09-07",
+      "title": "SeisBench DAS: A machine learning framework for Distributed Acoustic Sensing",
+      "topic": "framework",
+      "summary_zh": "DAS 数据、标签与模型标准化；xDAS/PyTorch 工作流",
+      "industrial_transfer_hypothesis_zh": "跨项目格式统一、复现及基准管理",
+      "priority": "very-high",
+      "abstract_url": "https://arxiv.org/abs/2609.07558",
+      "pdf_download_url": "https://arxiv.org/pdf/2609.07558",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2512.08845",
+      "date": "2025-12-09",
+      "title": "Near real-time channel selection for Distributed Acoustic Sensing technology",
+      "topic": "channel-selection",
+      "summary_zh": "ORION 根据几何聚类及信噪比选择高质量通道",
+      "industrial_transfer_hypothesis_zh": "探测器/通道选择和降低推理规模",
+      "priority": "high",
+      "abstract_url": "https://arxiv.org/abs/2512.08845",
+      "pdf_download_url": "https://arxiv.org/pdf/2512.08845",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2603.14844",
+      "date": "2026-03-16",
+      "title": "A deep learning framework for marine acoustic and seismic monitoring with distributed acoustic sensing",
+      "topic": "event-detection",
+      "summary_zh": "DASNet 半监督多类检测、时空框与分割掩码、事件追踪",
+      "industrial_transfer_hypothesis_zh": "从10秒片段分类提升到多通道时空事件检测",
+      "priority": "very-high",
+      "abstract_url": "https://arxiv.org/abs/2603.14844",
+      "pdf_download_url": "https://arxiv.org/pdf/2603.14844",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2604.10331",
+      "date": "2026-04-11",
+      "title": "Buried Fiber-Optic Geolocalization with Distributed Acoustic Sensing",
+      "topic": "physical-model",
+      "summary_zh": "交通激励、物理应变模型、神经网络轨迹优化以定位埋地光纤",
+      "industrial_transfer_hypothesis_zh": "物理约束及空间几何标定方法",
+      "priority": "medium",
+      "abstract_url": "https://arxiv.org/abs/2604.10331",
+      "pdf_download_url": "https://arxiv.org/pdf/2604.10331",
+      "reproduced": false
+    },
+    {
+      "arxiv_id": "2607.28306",
+      "date": "2026-07-30",
+      "title": "A Distributed Acoustic Sensing Dataset for Vessel Detection and Localization in Submarine Cable Protection",
+      "topic": "dataset",
+      "summary_zh": "Marlinks-NS，真实海缆DAS数据、船舶检测与距离估计",
+      "industrial_transfer_hypothesis_zh": "真实工况跨域基准、多通道特征构建",
+      "priority": "very-high",
+      "abstract_url": "https://arxiv.org/abs/2607.28306",
+      "pdf_download_url": "https://arxiv.org/pdf/2607.28306",
+      "reproduced": false
+    }
+  ]
+}
