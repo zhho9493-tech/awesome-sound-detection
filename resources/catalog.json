@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "resources": [
+    {
+      "id": "dcase",
+      "domain": "acoustic-anomaly",
+      "type": "community",
+      "title": "DCASE",
+      "url": "https://dcase.community/",
+      "status": "to-reproduce"
+    },
+    {
+      "id": "clap",
+      "domain": "foundation-models",
+      "type": "code",
+      "title": "LAION CLAP",
+      "url": "https://github.com/LAION-AI/CLAP",
+      "status": "to-reproduce"
+    },
+    {
+      "id": "beats",
+      "domain": "foundation-models",
+      "type": "code",
+      "title": "BEATs",
+      "url": "https://github.com/microsoft/unilm/tree/master/beats",
+      "status": "to-reproduce"
+    },
+    {
+      "id": "ecapa",
+      "domain": "speaker-recognition",
+      "type": "paper",
+      "title": "ECAPA-TDNN",
+      "url": "https://arxiv.org/abs/2005.07143",
+      "status": "to-reproduce"
+    },
+    {
+      "id": "arcface",
+      "domain": "face-recognition",
+      "type": "paper",
+      "title": "ArcFace",
+      "url": "https://arxiv.org/abs/1801.07698",
+      "status": "to-reproduce"
+    },
+    {
+      "id": "subcenter",
+      "domain": "face-recognition",
+      "type": "paper",
+      "title": "Sub-center ArcFace",
+      "url": "https://arxiv.org/abs/2004.00288",
+      "status": "to-reproduce"
+    },
+    {
+      "id": "patchcore",
+      "domain": "visual-anomaly",
+      "type": "paper",
+      "title": "PatchCore",
+      "url": "https://arxiv.org/abs/2106.08265",
+      "status": "to-reproduce"
+    },
+    {
+      "id": "padim",
+      "domain": "visual-anomaly",
+      "type": "paper",
+      "title": "PaDiM",
+      "url": "https://arxiv.org/abs/2011.08785",
+      "status": "to-reproduce"
+    }
+  ]
+}
