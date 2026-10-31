@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-31",
+  "source": "Google Drive",
+  "visibility": "public-metadata-only",
+  "rounds": [
+    {
+      "round": "round1",
+      "category_records": 33,
+      "category_directories": 7,
+      "report": "resources/google-drive-import-2026-10-31.md"
+    },
+    {
+      "round": "round2",
+      "category_records": 23,
+      "category_directories": 6,
+      "report": "resources/google-drive-round2-2026-10-31.md"
+    },
+    {
+      "round": "round3",
+      "category_records": 22,
+      "category_directories": 5,
+      "report": "resources/google-drive-round3-2026-10-31.md"
+    },
+    {
+      "round": "round4",
+      "category_records": 16,
+      "category_directories": 4,
+      "report": "resources/google-drive-round4-2026-10-31.md"
+    }
+  ],
+  "classification_records_total": 94,
+  "distinct_paper_count": null,
+  "global_doi_dedup_complete": false,
+  "public_pdf_verification_complete": false,
+  "scope": "partial, title-level inventory"
+}
