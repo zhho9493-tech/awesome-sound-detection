@@ -1,0 +1,1046 @@
+# 技术调研子目录索引 A
+
+扫描日 2026-11-01；Google Drive 指定文件夹的直接子项；依据文件名合并 PDF 与 summary，不公开私人 ID。论文身份和公共下载待核验。
+
+## 声音分类/工作时间线（文件 1000，归一标题 507）
+
+- 2026-04-15-Comparison of window shapes and lengths in short-time feature extraction for classification of heart sound signals
+- 2026-04-14-Sky-Ear: An Unmanned Aerial Vehicle-Enabled Victim Sound Detection and Localization System.pdf
+- 2026-04-14-Elastic Net Regularization and Gabor Dictionary for Classification of Heart Sound Signals using Deep Learning.pdf
+- 2026-04-14-Adaptive Test-Time Scaling for Zero-Shot Respiratory Audio Classification.pdf
+- 2026-04-10-Few-Shot Contrastive Adaptation for Audio Abuse Detection inLow-Resource Indic Languages.pdf
+- 2025-06-28-Acoustic Analysis of Fish Tanks for Marine Bioacoustics Research.pdf
+- 2025-07-21-Bioacoustics as a Measure of Population Size and Breeding Success of European Storm Petrels Hydrobates pelagicus.pdf
+- 2025-04-07-Text-guided Device-realistic Sound Generation for Fiber-based Sound Event Classification.pdf
+- 2024-11-19-Class-Incremental Learning for Sound Event Localization and Detection.pdf
+- 2025-01-02-Vocal individuality of male Western Capercaillie Tetrao urogallus calls, an ambisonic bio-acoustic approach.pdf
+- 2022-10-18-BirdSoundsDenoising Deep Visual Audio Denoising for Bird Sounds.pdf
+- 2025-05-25-Automated note annotation after bioacoustic classification- Unsupervised clustering of extracted acoustic features improves detection of a cryptic owl.pdf
+- 2020-04-03-Techniques for distinguishing between impulsive and non-impulsive sound in the context of regulating sound exposure for marine mammals.pdf
+- 2025-06-18-A Bird Song Detector for improving bird identification through Deep Learning- a case study from Donana.pdf
+- 2023-08-22-Detecting gas pipeline leaks in sandy soil with fiber-optic distributed acoustic sensing.pdf
+- 2025-03-18-FA3-Net feature aggregation and augmentation with attention network for sound event localization and detection  Applied Intelligence.pdf
+- 2024-06-21-Exploring Audio-Visual Information Fusion for Sound Event Localization and Detection In Low-Resource Realistic Scenarios.pdf
+- 2025-01-18-Deep Learning Models for Acoustic Monitoring of the Himalayan Monal and Other Elusive Bird.pdf
+- 2025-09-24-Enabling Multi-Species Bird Classification on Low-Power Bioacoustic Loggers.pdf
+- 2025-12-23-Scalable and low-power edge architecture with Wi-Fi HaLow and on-device spectrograms generation for flexible urban bioacoustics monitoring.pdf
+- 2024-08-09-SELD-Mamba Selective State-Space Model for Sound Event Localization and Detection with Source Distance Estimation.pdf
+- 2024-07-31-Anomaly identification of wind turbine blades based on Mel-Spectrogram Difference feature of aerodynamic noise.pdf
+- 2025-01-24-Urban Sound Recognition in Smart Cities Using an IoT–Fog Computing Framework and Deep Learning Models: A Performance Comparison.pdf
+- 2025-07-14-First-of-its-kind AI model for bioacoustic detection using a lightweight associative memory Hopfield.pdf
+- 2024-03-04-6DoF SELD Sound Event Localization and Detection Using Microphones and Motion Tracking Sensors on s.pdf
+- 2024-12-24-Transformers and audio detection tasks An overview.pdf
+- 2023-10-05-Deep Learning-based drone acoustic event detection system for microphone arrays.pdf
+- 2025-10-29-Retaining Mixture Representations for Domain Generalized Anomalous Sound Detection.pdf
+- 2026-12-07-Aeroacoustic impact of heat exchanger installation in an industrial engine cooling module.pdf
+- 2025-09-12-Spatial Annotation-Free Sound Event Localization and Detection via Spatial Instance Classification.pdf
+- 2025-04-19-Detection of Disease on Nasal Breath Sound by New Lightweight Architecture Using COVID-19 as An Example.pdf
+- 2022-10-05-Distributed acoustic sensing for monitoring linear infrastructures: Current status and trends.pdf
+- 2025-09-28-HDA-SELD Hierarchical Cross-Modal Distillation with Multi-Level Data Augmentation for Low-Resource Audio-Visual Sound Event Localization and Detection.pdf
+- 2024-09-13-Unified Audio Event Detection.pdf
+- 2025-01-12-Leveraging LLM and Text-Queried Separation for Noise-Robust Sound Event Detection.pdf
+- 2024-09-08-Deep Generic Representations for Domain-Generalized Anomalous Sound Detection.pdf
+- 2025-07-01-Improving Stereo 3D Sound Event Localization and Detection Perceptual Features, Stereo-specific Data Augmentation, and Distance Normalization.pdf
+- 2025-10-13-One-Class Bioacoustic Detector for Monitoring the Critically Endangered Pied Tamarin.pdf
+- 2024-10-30-WildDESED An LLM-Powered Dataset for Wild Domestic Environment Sound Event Detection System.pdf
+- 2024-06-26-AND Audio Network Dissection for Interpreting Deep Acoustic Models.pdf
+- 2025-01-10-IoT Anomaly Detection with Sound-Based Spectral Analysis and Lightweight Model.pdf
+- 2025-01-18-Designing a Bioacoustics Gun for the Prevention of Bird Attacks in Farms, Fields & Buildings.pdf
+- 2025-06-10-Frequency Dynamic Convolutions for Sound Event Detection.pdf
+- 2024-05-15-CNN-RNN Hybrid Model For Dangerous Sound Detection in Urban Area.pdf
+- 2025-07-02-PSELDNets Pre-trained Neural Networks on a Large-scale Synthetic Dataset for Sound Event Localizati.pdf
+- 2026-01-23-PC-MCL PATIENT-CONSISTENT MULTI-CYCLE LEARNING WITH MULTI-LABEL BIAS CORRECTION FOR RESPIRATORY SOUND CLASSIFICATION.pdf
+- 2025-07-16-Stereo Sound Event Localization and Detection with Onscreenoffscreen Classification.pdf
+- 2024-05-25-A Feature-Reduction Scheme Based on a Two-Sample t-Test to Eliminate Useless Spectrogram Frequency Bands in Acoustic Event Detection Systems.pdf
+- 2024-06-08-Diversifying and Expanding Frequency-Adaptive Convolution Kernels for Sound Event Detection.pdf
+- 2025-04-19-Acoustic Event Detection in Vehicles- A Multi-Label Classification Approach.pdf
+- 2024-03-16-Fine-Grained Engine Fault Sound Event Detection Using Multimodal Signals.pdf
+- 2024-01-18-Sound event detection with soft labels- a new perspective on evaluation.pdf
+- 2024-12-29-Exploring Transfer Learning Approach for Environmental Sound Classification A Comparative Analysis.pdf
+- 2025-09-21-A dual SVM-based method for valve leakage fault identification with adaptive waveform extraction.pdf
+- 2024-07-04-Use of IoT with Deep Learning for Classification of Environmental Sound and Detection of Gases.pdf
+- 2025-09-12-A Semi-Supervised Acoustic Scene Classification Network Based on Multi-Modal Information Fusion.pdf
+- 2023-08-20-Fine-tuning audio spectrogram transformer with task-aware adapters for sound event detection.pdf
+- 2024-03-27-Mind the Domain Gap a Systematic Analysis on Bioacoustic Sound Event Detection.pdf
+- 2025-02-05-An Enhanced Contrastive Ensemble Learning Method for Anomaly Sound Detection..pdf
+- 2025-05-01-Efficient Anomaly Detection Algorithm for Heart Sound Signal.pdf
+- 2025-01-18-Research and Implementation of Bird Species Identification Method Around Overhead Transmission Lines Based on Voiceprint Recognition.pdf
+- 2023-06-05-Divided spectro-temporal attention for sound event localization and detection in real scenes for DCA.pdf
+- 2024-10-05-Selective-Memory Meta-Learning with Environment Representations for Sound Event Localization and Det.pdf
+- 2021-08-16-Precision and accuracy of acoustic gunshot location in an urban environment.pdf
+- 2025-07-10-Domain Adaptation of Few-Shot Bioacoustic Event Detection in Different Environments.pdf
+- 2023-10-24-Dynamic Convolutional Neural Networks as Efficient Pre-trained Audio Models.pdf
+- 2023-12-07-Frame Pairwise Distance Loss for Weakly-supervised Sound Event Detection.pdf
+- 2024-12-31-Annotation-free Fine-tuning for Unsupervised Anomalous Sound Detection.pdf
+- 2024-12-07-Diesel generator set anomalous sound detection based on lightweight convolutional autoencoder and prior knowledge integration.pdf
+- 2026-01-07-Sound Event Detection with Boundary-Aware Optimization and Inference.pdf
+- 2024-09-11-MTDA-HSED Mutual-Assistance Tuning and Dual-Branch Aggregating for Heterogeneous Sound Event Detection.pdf
+- 2025-09-11-TD-CLNet a time-distributed CNN-LSTM network for fault detection in belt conveyor idlers.pdf
+- 2024-03-21-SwG-former A Sliding-Window Graph Convolutional Network for Simultaneous Spatial-Temporal INFORMATION EXTRACTION IN SOUND EVENT LOCALIZATION AND DETECTION.pdf
+- 2025-01-19-Comparing Self-Supervised Learning Models Pre-Trained on Human Speech and Animal Vocalizations for Bioacoustics Processing.pdf
+- 2024-03-11-First-Shot Unsupervised Anomalous Sound Detection With Unknown Anomalies Estimated by Metadata-Assisted Audio Generation.pdf
+- 2025-04-07-Adaptive Prototype Learning for Anomalous Sound Detection with Partially Known Attributes.pdf
+- 2024-07-17-Multi-Iteration Multi-Stage Fine-Tuning of Transformers for Sound Event Detection with Heterogeneous Datasets.pdf
+- 2024-05-28-Novel sound event and sound activity detection framework based on intrinsic mode functions and deep learning.pdf
+- 2024-12-23-Trainingless Adaptation of Pretrained Models for Environmental Sound Classification.pdf
+- 2025-08-13-No Free Lunch from Audio Pretraining in Bioacoustics A Benchmark Study of Embeddings.pdf
+- 2023-09-21-Frequency & Channel Attention for Computationally Efficient Sound Event Detection.pdf
+- 2025-04-06-Formula-Supervised Sound Event Detection Pre-Training Without Real Data.pdf
+- 2025-01-29-acoupi An Open-Source Python Framework for Deploying Bioacoustic AI Models on Edge Devices.pdf
+- 2025-12-01-Advancing Marine Bioacoustics with Deep Generative Models A Hybrid Augmentation Strategy for Southe.pdf
+- 2025-07-17-Anuran call synthesis with diffusion models for enhanced bioacoustic classification under data scarcity.pdf
+- 2021-09-27-MIMII DUE SOUND DATASET FOR MALFUNCTIONING INDUSTRIAL MACHINE INVESTIGATION AND INSPECTION WITH DOMAIN SHIFTS DUE TO CHANGES IN OPERATIONAL AND ENVIRONMENTAL CONDITIONS.pdf
+- 2020-06-27-A DATASET OF REVERBERANT SPATIAL SOUND SCENES WITH MOVING SOURCES FOR SOUND EVENT LOCALIZATION AND DETECTION.pdf
+- 2024-08-18-A Study of Improved Two-Stage Dual-Conv Coordinate Attention Model for Sound Event Detection and Localization.pdf
+- 2022-08-16-Gunshots_Localization_and_Classification_Model_Based_on_Wind_Noise_Sensitivity_Analysis_Using_Extreme_Learning_Machine_summary.md
+- 2024-08-24-Real-time monitoring of disc cutter wear in tunnel boring machines- A sound and vibration sensor-based approach with machine learning technique.pdf
+- 2024-03-04-6DoF SELD Sound Event Localization and Detection Using Microphones and Motion Tracking Sensors on self-motioning human.pdf
+- 2025-06-26-Anomaly Detection on the Edge- Comparison of Reconstruction and Classification Based Approaches.pdf
+- 2025-02-19-An integrated hierarchical wireless acoustic sensor network and optimized deep learning model for scalable urban sound and environmental monitoring.pdf
+- 2025-01-08-Automatic synthesis of insects bioacoustics using machine learning a systematic review.pdf
+- 2026-04-09-DeepForestSound: a multi-species automatic detector for passive acoustic monitoring in African tropical forests, a case study in Kibale National Park.pdf
+- 2025-01-07-Pseudo Strong Labels from Frame-Level Predictions for Weakly Supervised Sound Event Detection.pdf
+- 2024-09-09-Machine Anomalous Sound Detection Using Spectral-temporal Modulation Representations Derived from Machine-specific Filterbanks.pdf
+- 2024-07-12-SQUEEZE-AND-EXCITE RESNET-CONFORMERS FOR SOUND EVENT LOCALIZATION,DETECTION, AND DISTANCE ESTIMATION FOR DCASE2024 CHALLENGE.pdf
+- 2025-12-24-YOLO-Based Transfer Learning for Sound Event Detection Using Visual Object Detection Techniques.pdf
+- 2024-06-12-Sound Event Detection and Localization with Distance Estimation.pdf
+- 2024-07-17-Improving Audio Spectrogram Transformers for Sound Event Detection Through Multi-Stage Training.pdf
+- 2025-03-01-s41598-025-93873-x.pdf
+- 2024-02-05-DUAL KNOWLEDGE DISTILLATION FOR EFFICIENT SOUND EVENT DETECTION.pdf
+- 2024-01-12-MICROPHONE CONVERSION MITIGATING DEVICE VARIABILITY IN SOUND EVENT CLASSIFICATION.pdf
+- 2023-05-10-AD-YOLO You Look Only Once in Training Multiple Sound Event Localization and Detection.pdf
+- 2024-07-12-Squeeze-and-Excite ResNet-Conformers for Sound Event Localization, Detection, and Distance Estimation for DCASE 2024 Challenge.pdf
+- 2023-01-01-FMSG submission for DCASE 2023 challenge task 4 on sound event detection with weak labels and synthetic soundscapes.pdf
+- 2024-01-18-Sound event detection based on soft label.pdf
+- 2023-12-13-A review of distributed acoustic sensing applications for railroad condition monitoring.pdf
+- 2023-06-25-Channel-Spatial-Based Few-Shot Bird Sound Event Detection.pdf
+- 2023-10-10-DPM-TSE A DIFFUSION PROBABILISTIC MODEL FOR TARGET SOUND EXTRACTION.pdf
+- 2025-10-30-A Lightweight Temporal Attention Module for Frequency Dynamic Sound Event Detection.pdf
+- 2025-09-12-Spatial Annotation-free Training for Sound Event Localization and Detection.pdf
+- 2023-08-16-DiffSED Sound Event Detection with Denoising Diffusion.pdf
+- 2026-01-30-DDSC Dynamic Dual-Signal Curriculum for Data-Efficient Acoustic Scene Classification under Domain Shift.pdf
+- 2024-01-01-Training one model to detect heart and lung sound events from single point auscultations.pdf
+- 2025-12-03-State Space Models for Bioacoustics A comparative Evaluation with Transformers.pdf
+- 2025-01-01-BioSoundSCape A bioacoustic dataset for the Fynbos Biome.pdf
+- 2025-08-05-Foundation Models for Bioacoustics -- a Comparative Review.pdf
+- 2025-01-01-DISTANCE-BASED UNSUPERVISED ANOMALOUS SOUND DETECTION WITH ATTENTIVE STATISTICS POOLING AND ARCFACE MULTI-TASK LEARNING.pdf
+- 2025-07-30-A Two-Step Learning Framework for Enhancing Sound Event Localization and Detection.pdf
+- 2023-12-29-FINE-TUNE THE PRETRAINED ATST MODEL FOR SOUND EVENT DETECTION.pdf
+- 2025-02-08-Detection of Animals based on their Species by Implementing Bio-Acoustic Classification for Forest Wildlife Monitoring.pdf
+- 2025-07-04-BAHBench- A Unified Benchmark for Evaluating Bio-Acoustic Health With Acoustic Foundation Models.pdf
+- 2023-11-09-A safety-oriented framework for sound event detection in driving scenarios.pdf
+- 2025-07-02-PSELDNets Pre-trained Neural Networks on a Large-scale Synthetic Dataset for Sound Event Localization and Detection.pdf
+- 2025-01-09-Anomalous Sound Analysis Technology for Factories That Reduces Network Load.pdf
+- 2023-04-25-Leveraging Audio-Tagging Assisted Sound Event Detection using Weakified Strong Labels and Frequency .pdf
+- 2025-06-13-ArcticSoundsNET- BirdNET embeddings facilitate improved bioacoustic classification of Arctic species.pdf
+- 2025-06-25-A framework for detecting and predicting highway traffic anomalies via multimodal fusion and heterogeneous graph neural networks .pdf
+- 2025-02-08-Automatic Animal Specie Identification Using Bioacoustics Characterization and Modeling.pdf
+- 2026-01-23-I Guess That's Why They Call it the Blues Causal Analysis for Audio Classifiers.pdf
+- 2025-03-17-Continuous Real-Time Acoustic Monitoring of endangered bird species in Hawai‘i.pdf
+- 2023-05-18-A Multi-Task Learning Framework for Sound Event Detection using High-level Acoustic Characteristics.pdf
+- 2024-04-13-Polyphonic sound event localization and detection using channel-wise FusionNet.pdf
+- 2025-03-04-Aggregation Strategies for Efficient Annotation of Bioacoustic Sound Events Using Active Learning.pdf
+- 2024-08-30-Learning Multi-Target TDOA Features for Sound Event Localization and Detection.pdf
+- 2025-02-09-Efficient Real-Time Acoustic Monitoring System with Convolution Recurrent Neural Networks.pdf
+- 2021-06-04-TOYADMOS2 ANOTHER DATASET OF MINIATURE-MACHINE OPERATING SOUNDS FOR ANOMALOUS SOUND DETECTION UNDER DOMAIN SHIFT CONDITIONS.pdf
+- 2025-01-30-Lightweight Anomalous Detection of Hydro Turbine Operation Sound Using Fusion Network Enhanced by Load Information.pdf
+- 2025-02-19-Multichannel feature fusion network-based technique for heart sound signal classification and recognition.pdf
+- 2024-01-29-ENHANCED SOUND EVENT LOCALIZATION AND DETECTION IN REAL 360 AUDIO-VISUAL SOUNDSCAPES.pdf
+- 2024-10-13-LEAD Dataset How Can Labels for Sound Event Detection Vary Depending on Annotators.pdf
+- 2025-07-30-Unsupervised Anomaly Detection Method for Electrical Equipment Based on Audio Latent Representation and Parallel Attention Mechanism.pdf
+- 2025-01-10-Exploring Text-Queried Sound Event Detection with Audio Source Separation.pdf
+- 2025-05-12-BirdDenoiser a bird sound denoising network based on optimized modern convolution Signal, Image and Video Processing Springer Nature Link.pdf
+- 2022-07-04-Frequency Dynamic Convolution Frequency-Adaptive Pattern Recognition for Sound Event Detection.pdf
+- 2024-04-29-Exploring current research trends in sound event detection a systematic literature review.pdf
+- 2025-09-12-Distilling Spectrograms into Tokens Fast and Lightweight Bioacoustic Classification for BirdCLEF+ 2.pdf
+- 2025-03-30-Multi-Scale Feature Fusion GANomaly with Dilated Neighborhood Attention for Oil and Gas Pipeline Sound Anomaly Detection.pdf
+- 2025-11-12-Acoustic Anomaly Detection for Propeller Crack Defects- A Drone-Based Surrogate Dataset for UAM.pdf
+- 2025-06-14-Optimized Network Combining Depthwise Separable Convolutional with Multi-scale Dilated Convolution Used for Polyphonic Sound Event Detection.pdf
+- 2025-01-18-An Experimental Study on Joint Modeling for Sound Event Localization and Detection with Source Distance Estimation.pdf
+- 2025-04-03-Generating Diverse Audio-Visual 360 Soundscapes for Sound Event Localization and Detection.pdf
+- 2022-09-09-SOUND EVENT LOCALIZATION AND DETECTION FOR REAL SPATIAL SOUND SCENES EVENT-INDEPENDENT NETWORK AND DATA AUGMENTATION CHAINS.pdf
+- 2025-10-09-Duration-Aware Sound Event Detection on Ultra-Low-Power Sensor Devices.pdf
+- 2024-05-25-A Feature-Reduction Scheme Based on a Two-Sample t-Test to Eliminate Useless Spectrogram Frequency Bands in Acoustic Event Detection Systems. Electronics 2024, 13, 2064.pdf
+- 2025-01-01-Anomalous Event Detection in Traffic Audio.pdf
+- 2025-08-21-An Enhanced Audio Feature Tailored for Anomalous Sound Detection Based on Pre-trained Models.pdf
+- 2024-07-19-State-of-The-Art application and challenges of optical fibre distributed acoustic sensing in civil engineering.pdf
+- 2021-06-15-Optical Fiber Distributed Acoustic Sensors- A Review.pdf
+- 2024-01-27-Data-Driven Estimation of the False Positive Rate of the Bayes Binary Classifier via Soft Labels.pdf
+- 2024-05-13-SIAlex Species identification and monitoring based on bird sound features.pdf
+- 2024-09-14-Improvements of Discriminative Feature Space Training for Anomalous Sound Detection in Unlabeled Conditions.pdf
+- 2024-09-18-Real-Time Sound Event Localization and Detection Deployment Challenges on Edge Devices.pdf
+- 2023-05-18-A Multi-Task Learning Framework for Sound Event Detection using High-level Acoustic Characteristics of Sounds.pdf
+- 2024-07-18-WavCaps A ChatGPT-Assisted Weakly-Labelled Audio Captioning Dataset for Audio-Language Multimodal Research.pdf
+- 2025-09-12-Distilling Spectrograms into Tokens Fast and Lightweight Bioacoustic Classification for BirdCLEF+ 2025.pdf
+- 2024-10-29-Representational learning for an anomalous sound detection system with source separation model.pdf
+- 2025-04-03-Increased avian bioacoustic diversity without lost profit after planting perennial vegetation in marginal cropland.pdf
+- 2022-11-23-AMResNet- An automatic recognition model of bird sounds in real environment.pdf
+- 2023-10-01-Waveform-Logmel Audio Neural Networks for Respiratory Sound Classification.pdf
+- 2025-01-06-SAFE Sound Analysis for Fall Event detection using machine learning.pdf
+- 2024-10-29-Leveraging Reverberation and Visual Depth Cues for Sound Event Localization and Detection with Distance Estimation.pdf
+- 2025-04-06-FAF-Filt- Frequency-aware Fourier Filter for Sound Event Detection.pdf
+- 2025-09-12-Unsupervised Anomalous Sound Detection for Mechanical Equipment Based on Domain Generalization Techniques.pdf
+- 2024-01-02-w2v-SELD A Sound Event Localization and Detection Framework for Self-Supervised Spatial Audio Pre-TRAINING.pdf
+- 2025-09-17-A trio-based feature extraction framework for bird sounds classification.pdf
+- 2024-01-12-Open set classification of sound event.pdf
+- 2026-01-13-Decodable but not structured linear probing enables Underwater Acoustic Target Recognition with pretrained audio embeddings.pdf
+- 2021-02-06-SOUND EVENT DETECTION IN URBAN AUDIO WITH SINGLE AND MULTI-RATE PCEN.pdf
+- 2025-10-30-Assessing a Domain-Adaptive Deployment Workflow for Selective Audio Recording in Wildlife Acoustic Monitoring.pdf
+- 2025-08-17-Leveraging Multi-Level Features of ATST with Conformer-Based Dual-Branch Network for Sound Event Detection.pdf
+- 2026-02-03-Instantaneous Spectra Analysis of Pulse Series - Application to Lung Sounds with Abnormalities.pdf
+- 2023-11-07-Whombat- An open‐source audio annotation tool for machine learning assisted bioacoustics.pdf
+- 2023-12-14-Binaural Sound Event Localization and Detection Neural Network based on HRTF Localization Cues for Humanoid Robots.pdf
+- 2024-08-05-Leveraging Language Model Capabilities for Sound Event Detection.pdf
+- 2023-02-14-A dataset for Audio-Visual Sound Event Detection in Movies.pdf
+- 2025-12-18-Determining the Distribution of Red Deer (Cervus elaphus L.) in the Kopački Rit Nature Park Using Bioacoustic Monitoring_1.pdf
+- 2025-09-05-Robust detection of overlapping bioacoustic sound events.pdf
+- 2023-12-01-STARSS23- An Audio-Visual Dataset of Spatial Recordings of Real Scenes with Spatiotemporal Annotations of Sound Events.pdf
+- 2024-10-28-Frequency-aware convolution for sound event detection.pdf
+- 2024-06-13-Vision Transformer Segmentation for Visual Bird Sound Denoising_1.pdf
+- 2024-01-18-ZERO- AND FEW-SHOT SOUND EVENT LOCALIZATION AND DETECTION.pdf
+- 2023-09-30-Sound event detection in domestic environment using frequency-dynamic convolution and local attention.pdf
+- 2024-12-14-Audio-based Anomaly Detection in Industrial Machines Using Deep One-Class Support Vector Data Description.pdf
+- 2025-11-04-Lightweight Hopfield Neural Networks for Bioacoustic Detection and Call Monitoring of Captive Primat.pdf
+- 2019-11-25-VOICe A Sound Event Detection Dataset For Generalizable Domain Adaptation.pdf
+- 2022-11-25-EDGAR Embedded Detection of Gunshots by AI in Real-time_summary.md
+- 2025-06-14-Overview of Modern Technologies for Acquiring and Analysing Acoustic Information Based on AI and IoT.pdf
+- 2024-10-05-Selective-Memory Meta-Learning with Environment Representations for Sound Event Localization and Detection.pdf
+- 2023-11-26-Weakly Supervised Detection of Baby Cry.pdf
+- 2025-11-06-An adaptive time–frequency fusion framework for real-time sound monitoring in CVD roller dressing.pdf
+- 2023-03-10-Improving Weakly Supervised Sound Event Detection with Causal Intervention.pdf
+- 2025-07-18-EfficientAudioNet- Enhancing Environmental Sound Classification through Data Fusion of Multiple Audio Representations.pdf
+- 2025-01-25-One-class network leveraging spectro-temporal features for generalized synthetic speech detection.pdf
+- 2023-09-23-Two vs. Four-Channel Sound Event Localization and Detection.pdf
+- 2024-09-20-Self Training and Ensembling Frequency Dependent Networks with Coarse Prediction Pooling and Sound Event Bounding Boxes.pdf
+- 2025-07-07-Spatial and Semantic Embedding Integration for Stereo Sound Event Localization and Detection in Regular Videos.pdf
+- 2025-05-20-AI-based real-time anomaly detection in industrial engineering A structured literature review, taxonomy, and research agenda.pdf
+- 2025-04-04-Mind the Prompt Prompting Strategies in Audio Generations for Improving Sound Classification.pdf
+- 2023-04-25-Leveraging Audio-Tagging Assisted Sound Event Detection using Weakified Strong Labels and Frequency Dynamic Convolutions.pdf
+- 2024-01-01-Performance Comparison of Overlapping Sound Event Detection Methods.pdf
+- 2023-12-13-Sound event localization and detection using a spatial omni-dimensional dynamic interactions network.pdf
+- 2024-01-11-Contrastive Loss Based Frame-wise Feature disentanglement for Polyphonic Sound Event Detection.pdf
+- 2023-09-04-Database of Simulated Room Impulse Responses for Acoustic Sensor Networks Deployed in Complex Multi-Source Acoustic Environments.pdf
+- 2024-11-13-AudioProtoPNet An interpretable deep learning model for bird sound classification.pdf
+- 2024-04-30-IOT AUDIO SENSOR NETWORKS AND DECISION TREES FOR ENHANCED RAIN SOUND CLASSIFICATION.pdf
+- 2025-02-08-First-Shot Machine Anomalous Sound Detection- Exploring the Impact of Limited Target Dataset Size on Model Performance.pdf
+- 2025-08-10-Noise-Robust Sound Event Detection and Counting via Language-Queried Sound Separation.pdf
+- 2025-12-01-Parallel Delayed Memory Units for Enhanced Temporal Modeling in Biomedical and Bioacoustic Signal An.pdf
+- 2025-07-07-Spatial and Semantic Embedding Integration for Stereo Sound Event Localization and Detection in Regu.pdf
+- 2024-01-17-REGULARIZED CONTRASTIVE PRE-TRAINING FOR FEW-SHOT BIOACOUSTIC SOUND DETECTION.pdf
+- 2024-06-12-FakeSound Deepfake General Audio Detection.pdf
+- 2025-05-23-Review on Sound-Based Industrial Predictive Maintenance- From Feature Engineering to Deep Learning.pdf
+- 2025-04-17-CST-former Multidimensional Attention-based Transformer for Sound Event Localization and Detection in Real Scenes.pdf
+- 2025-01-27-Vibration-Based Anomaly Detection for Induction Motors Using Machine Learning.pdf
+- 2025-08-11-Auditory Intelligence Understanding the World Through Sound.pdf
+- 2026-03-07-Adaptive Discovery of Interpretable Audio Attributes with Multimodal LLMs for Low-Resource Classification.pdf
+- 2023-09-05-Sound Event Localization and Detection Using Parallel Multi-attention Enhancement.pdf
+- 2021-10-27-Environmental sound recognition on embedded devices using deep learning- a review .pdf
+- 2024-06-13-Vision Transformer Segmentation for Visual Bird Sound Denoising_2.pdf
+- 2025-12-01-Advancing Marine Bioacoustics with Deep Generative Models A Hybrid Augmentation Strategy for Southern Resident Killer Whale Detection.pdf
+- 2024-03-01-Few-Shot_Bioacoustics_Event_Detection_using_Transudative_Inference_with_Data_Augmentation.pdf
+- 2025-01-01-Wind turbine blade damage detection based on acoustic signals.pdf
+- 2025-05-09-Soundscape Identification of Endangered Bird Species using Bidirectional Long Short Term Memory.pdf
+- 2025-02-08-Hand-Grip Strength Estimation through Bioacoustic Sensing.pdf
+- 2024-10-28-Advancing multi-grained alignment for contrastive language-audio pre-training.pdf
+- 2023-09-21-Auditory Neural Response Inspired Sound Event Detection Based on Spectro-temporal Receptive Field.pdf
+- 2024-05-25-BAT Learning to Reason about Spatial Sounds with Large Language Models.pdf
+- 2023-07-17-Dynamic Kernel Convolution Network with Scene-dedicate Training for Sound Event Localization and Detection.pdf
+- 2022-01-01-Review of Sensitivity-enhanced Optical Fiber and Cable Used in Distributed Acoustic Fiber Sensing.pdf
+- 2025-04-30-Anomaly Detection in Industrial Machine Sounds Using High-Frequency Features and Gate Recurrent Unit Networks.pdf
+- 2025-10-30-Bioacoustics on Tiny Hardware at the BioDCASE 2025 Challenge.pdf
+- 2025-01-16-Research on Anomaly Sound Detection Methods Based on Large Models.pdf
+- 2025-09-19-MAGENTA Magnitude and Geometry-ENhanced Training Approach for Robust Long-Tailed Sound Event Locali.pdf
+- 2025-02-08-Advanced Deep Learning Techniques for Lung Sound Classification- Binary, Multi-Class, and Ensemble Approach.pdf
+- 2024-03-17-Multitask frame-level learning for few-shot sound event detection.pdf
+- 2023-09-06-Leveraging Geometrical Acoustic Simulations of Spatial Room Impulse Responses for Improved Sound Event Detection and Localization.pdf
+- 2025-04-07-Adapting Single-Channel Pre-trained Transformer Models for Multi-Channel Sound Event Localization and Detection.pdf
+- 2024-12-31-Self-Supervised Augmented Diffusion Model for Anomalous Sound Detection.pdf
+- 2024-09-20-Pushing the Limit of Sound Event Detection with Multi-Dilated Frequency Dynamic Convolution.pdf
+- 2025-05-01-A Novel Unsupervised Sound Based Vehicle Fault Anomalous Detection Method with Adversarial Defense Mechanisms.pdf
+- 2023-09-04-Deep Learning Models for Gunshot Detection in the Albufera Natural Park.pdf
+- 2024-05-08-Listen-as-you-wish--Fusion-of-audio-and-text-for-cross-moda_2024_Information_summary.md
+- 2021-07-04-A DATASET OF DYNAMIC REVERBERANT SOUND SCENES WITH DIRECTIONAL INTERFERERS FOR SOUND EVENT LOCALIZATION AND DETECTION.pdf
+- 2024-10-07-Automated Audio Data Augmentation Network Using Bi-Level Optimization for Sound Event Localization and Detection.pdf
+- 2024-08-22-Full-frequency dynamic convolution a physical frequency-dependent convolution for sound event detec.pdf
+- 2025-12-01-Parallel Delayed Memory Units for Enhanced Temporal Modeling in Biomedical and Bioacoustic Signal Analysis.pdf
+- 2025-04-11-Reverberation-based Features for Sound Event Localization and Detection with Distance Estimation.pdf
+- 2025-09-09-Machine Learning Framework for Industrial Machine Sound Classification in Predictive Maintenance.pdf
+- 2025-02-25-From Vision to Sound Advancing Audio Anomaly Detection with Vision-Based Algorithms.pdf
+- 2023-08-17-META-SELD Meta-Learning for Fast Adaptation to the new environment in Sound Event Localization and .pdf
+- 2024-01-19-SPATIAL SCAPER A LIBRARY TO SIMULATE AND AUGMENT SOUNDSCAPES FOR SOUND EVENT LOCALIZATION AND DETECTION IN REALISTIC ROOMS.pdf
+- 2021-12-27-Anomalous sound event detection A survey of machine learning based methods and applications.pdf
+- 2025-02-28-JiTTER Jigsaw Temporal Transformer for Event Reconstruction for Self-Supervised Sound Event Detection.pdf
+- 2025-10-29-Multi-Representation Attention Framework for Underwater Bioacoustic Denoising and Recognition.pdf
+- 2025-06-03-Prototyping an internet-of-things-based bioacoustics system to support research and surveillance of avian-associated infectious diseases.pdf
+- 2024-06-28-Anylogic and Python-Based Gunshot Detection System Using CNN and Trilateration.pdf
+- 2025-03-31-Machine Learning Analysis of Heartbeat Sounds Using Weka for Classification.pdf
+- 2025-04-26-Ifap-Net An Interactive Feature Aggregation and Perception Network for 3D Sound Event Localization and Detection by Yongbo Li, Qinghua Huang, Kai Liu.pdf
+- 2025-07-14-First-of-its-kind AI model for bioacoustic detection using a lightweight associative memory Hopfield neural network.pdf
+- 2024-09-13-Energy Consumption Trends in Sound Event Detection Systems.pdf
+- 2025-10-09-Collaborative Transformer Prototype Network With Pretrained Contrastive Language-Audio Encoder for Open Set Audio Recognition.pdf
+- 2024-08-15-Enhancing conformer-based sound event detection using frequency dynamic convolutions and BEATs audio embeddings.pdf
+- 2025-04-22-Location-Oriented Sound Event Localization and Detection with Spatial Mapping and Regression Localiz.pdf
+- 2025-09-19-Improving Anomalous Sound Detection with Attribute-aware Representation from Domain-adaptive Pre-training.pdf
+- 2025-04-07-Debiased Training For Semi-supervised Sound Event Detection.pdf
+- 2024-09-15-Impact of Noisy Labels on Sound Event Detection Deletion Errors Are More Detrimental Than Insertion Errors.pdf
+- 2025-01-31-ScaloAdaptAlert, a novel framework for supervised anomaly detection in industrial acoustic data, integrating power scalograms, adaptive filter banks, and convolutional neural networks — A case study.pdf
+- 2025-04-07-Global Enhanced Frame Prompt Tuning for Sound Event Detection.pdf
+- 2024-01-19-Spatial Scaper A Library to Simulate and Augment Soundscapes for Sound Event Localization and Detec.pdf
+- 2025-03-26-Multilevel feature encoder for transfer learning-based fault detection on acoustic signal.pdf
+- 2024-09-09-Machine Anomalous Sound Detection Using Spectral-temporal Modulation Representations Derived from Ma.pdf
+- 2026-01-20-Event Classification by Physics-informed Inpainting for Distributed Multichannel Acoustic Sensor wit.pdf
+- 2025-01-29-Enhanced heart sound anomaly detection via WCOS a semi-supervised framework integrating wavelet, autoencoder and SVM.pdf
+- 2025-04-25-Unsupervised outlier detection to improve bird audio dataset labels.pdf
+- 2025-04-19-Detection of Disease on Nasal Breath Sound by New Lightweight Architecture Using COVID-19 as An Exa.pdf
+- 2023-08-17-META-SELD Meta-Learning for Fast Adaptation to the new environment in Sound Event Localization and Detection.pdf
+- 2021-08-16-Precision and accuracy of acoustic gunshot location in an urban environment more complicated (Figure 1, bottom.) (Hornikx 2016).pdf
+- 2025-08-24-Multi-scale Scanning Network for Machine Anomalous Sound Detection.pdf
+- 2023-02-28-Training sound event detection with soft labels from crowdsourced annotations.pdf
+- 2023-02-01-Drone Detection and Localization Using Enhanced Fiber-Optic Acoustic Sensor and Distributed Acoustic Sensing Technology.pdf
+- 2025-08-17-Exploring Self-Supervised Audio Models for Generalized Anomalous Sound Detection.pdf
+- 2025-08-30-Towards High-Fidelity and Controllable Bioacoustic Generation via Enhanced Diffusion Learning.pdf
+- 2025-09-12-The APSIPA ASC 2025 Grand Challenge on City and Time-Aware Semi-Supervised Acoustic Scene Classification- Summary and Results.pdf
+- 2021-03-01-Sound of Guns- Digital Forensics of Gun Audio Samples meets Artificial Intelligence_summary.md
+- 2025-10-01-TEFFDConv An Improved Approach to Enhance Temporal Localization in Sound Event Detection.pdf
+- 2025-08-17-Finetune Large Pre-Trained Model Based on Frequency-Wise Multi-Query Attention Pooling for Anomalous Sound Detection.pdf
+- 2025-02-24-ENACT-Heart -- ENsemble-based Assessment Using CNN and Transformer on Heart Sounds.pdf
+- 2023-02-21-Multi-dimensional frequency dynamic convolution with confident mean teacher for sound event detectio.pdf
+- 2025-08-26-Revisiting SSL for sound event detection complementary fusion and adaptive post-processing.pdf
+- 2024-07-18-Enhance Temporal Relations in Audio Captioning with Sound Event Detection.pdf
+- 2025-11-20-Sex and age determination in European lobsters using AI-Enhanced bioacoustics.pdf
+- 2024-02-17-Supervised abnormal event detection based on ChatGPT attention mechanism  Multimedia Tools and Applications.pdf
+- 2023-06-27-Post-Processing Independent Evaluation of Sound Event Detection Systems.pdf
+- 2023-09-25-Online Active Learning For Sound Event Detection.pdf
+- 2021-02-15-Distributed Acoustic Sensing With Sensitivity-Enhanced Optical Cable.pdf
+- 2024-10-04-The Sounds of Home A Speech-Removed Residential Audio Dataset for Sound Event Detection.pdf
+- 2024-08-22-Full-frequency dynamic convolution a physical frequency-dependent convolution for sound event detection.pdf
+- 2025-03-29-Bioacoustic detection of four Bruchid species in bulk red and green bulk-stored beans.pdf
+- 2025-03-11-A review on recent advances in sound source localization techniques, challenges, and applications.pdf
+- 2025-08-19-What Matters for Bioacoustic Encoding.pdf
+- 2025-03-19-InsectSet459 an open dataset of insect sounds for bioacoustic machine learning.pdf
+- 2025-09-19-MAGENTA Magnitude and Geometry-ENhanced Training Approach for Robust Long-Tailed Sound Event Localization and Detection.pdf
+- 2025-09-05-Synthetic data enables context-aware bioacoustic sound event detection.pdf
+- 2024-06-06-Sound Event Bounding Boxes.pdf
+- 2025-09-26-Weakly Labeled Environmental Sound Event Detection Based on Dynamic Multi-scale Convolution Attention.pdf
+- 2025-01-19-Comparing Self-Supervised Learning Models Pre-Trained on Human Speech and Animal Vocalizations for B.pdf
+- 2024-11-28-Effective Pre-Training of Audio Transformers for Sound Event Detection.pdf
+- 2024-05-16-Sound event detection in traffic scenes based on graph convolutional network to obtain multi-modal information.pdf
+- 2025-03-10-An unsupervised anomalous sound detection method based on similarity-driven automatic feature selection.pdf
+- 2024-08-02-A parametric survey on polyphonic sound event detection and localization  Multimedia Tools and Applications.pdf
+- 2025-03-12-Multi-modal Language models in bioacoustics with zero-shot transfer a case study  Scientific Reports.pdf
+- 2026-02-03-Synthetic Data Augmentation for Medical Audio Classification A Preliminary Evaluation.pdf
+- 2025-04-07-Source-Aware Spatial Self-Supervision for Sound Event Localization and Detection.pdf
+- 2024-09-11-Improving Anomalous Sound Detection via Low-Rank Adaptation Fine-Tuning of Pre-Trained Audio Models.pdf
+- 2025-12-18-Determining the Distribution of Red Deer (Cervus elaphus L.) in the Kopački Rit Nature Park Using Bioacoustic Monitoring.pdf
+- 2022-08-13-Research progress in distributed acoustic sensing techniques.pdf
+- 2025-01-08-Planing It by Ear Convolutional Neural Networks for Acoustic Anomaly Detection in Industrial Wood P.pdf
+- 2024-03-20-Onset and offset weighted loss function for sound event detection.pdf
+- 2024-09-14-Improvements of Discriminative Feature Space Training for Anomalous Sound Detection in Unlabeled Con.pdf
+- 2023-09-25-Evaluating Classification Systems Against Soft Labels with Fuzzy Precision and Recall.pdf
+- 2025-02-14-Acoustic-Based Industrial Diagnostics- A Scalable Noise-Robust Multiclass Framework for Anomaly Detection.pdf
+- 2024-06-29-FMSG-JLESS Submission for DCASE 2024 Task4 on Sound Event Detection with Heterogeneous Training Dataset and Potentially Missing Labels.pdf
+- 2025-07-16-Stereo Sound Event Localization and Detection with Onscreenoffscreen Classification_2.pdf
+- 2024-08-27-On the impact of operating condition and testing environment on the noise sources in an industrial engine cooling fan.pdf
+- 2025-07-01-Improving Stereo 3D Sound Event Localization and Detection Perceptual Features, Stereo-specific Dat.pdf
+- 2025-06-12-The Search for Squawk Agile Modeling in Bioacoustics.pdf
+- 2025-03-21-Toward Inclusive Smart Cities: Sound-Based Vehicle Diagnostics, Emergency Signal Recognition, and Beyond.pdf
+- 2025-06-16-Stereo sound event localization and detection based on PSELDnet pretraining and BiMamba sequence modeling.pdf
+- 2025-08-24-ATA-MSTF-Net: An Audio Texture-Aware MultiSpectro-Temporal Attention Fusion Network.pdf
+- 2025-05-28-Hybrid Disagreement-Diversity Active Learning for Bioacoustic Sound Event Detection.pdf
+- 2025-06-20-Hidden assumptions of integer ratio analyses in bioacoustics and music.pdf
+- 2024-06-15-MFF-EINV2 Multi-scale Feature Fusion across Spectral-Spatial-Temporal Domains for Sound Event Localization and Detection.pdf
+- 2021-10-28-Audio-visual Representation Learning for Anomaly Events Detection in Crowds.pdf
+- 2022-01-28-Scientific applications of distributed acoustic sensing: State-of-the-art review and perspective.pdf
+- 2025-04-22-Location-Oriented Sound Event Localization and Detection with Spatial Mapping and Regression Localiz_1.pdf
+- 2025-09-23-SynSonic Augmenting Sound Event Detection through Text-to-Audio Diffusion ControlNet and Effective .pdf
+- 2023-06-04-Semi-Supervised Sound Event Detection with Pre-Trained Model.pdf
+- 2025-01-01-Sounds like gambling detection of gambling venue visitation from sounds in gamblers’ environments using a transformer.pdf
+- 2023-06-14-A review of deep learning techniques in audio event recognition (AER) applications.pdf
+- 2024-10-29-Leveraging Reverberation and Visual Depth Cues for Sound Event Localization and Detection with Dista.pdf
+- 2025-05-24-A hybrid framework for classifying and detecting aircraft cabin anomalous sounds under heavy background noise.pdf
+- 2021-11-10-Audio Attacks and Defenses against AED Systems - A Practical Study.pdf
+- 2024-08-19-MAT-SED A Masked Audio Transformer with Masked-Reconstruction Based Pre-training for Sound Event De.pdf
+- 2025-07-23-Resnet-conformer network with shared weights and attention mechanism for sound event localization, detection, and distance estimation.pdf
+- 2020-01-29-Gun Source and Muzzle Head Detection.pdf
+- 2024-10-03-Research progress in bird sounds recognition based on acoustic monitoring technology- A systematic review.pdf
+- 2026-01-27-Structural and Statistical Audio Texture Knowledge Distillation for Environmental Sound Classificati.pdf
+- 2025-02-16-Investigating the drivers of temporal and spatial dynamics in urban forest bird acoustic patterns.pdf
+- 2025-01-23-Enhancing smart home environments a novel pattern recognition approach to ambient acoustic event detection and localization.pdf
+- 2025-12-16-A robust framework for sound event localization and detection on real recordings.pdf
+- 2025-07-16-Stereo Sound Event Localization and Detection with Onscreenoffscreen Classification_1.pdf
+- 2024-02-17-Influence of recording devices and environmental noise on acoustic index scores- Implications for bird sound-based assessments.pdf
+- 2025-08-28-Sound event detection with audio-text models and heterogeneous temporal annotations.pdf
+- 2024-06-21-Exploring Audio-Visual Information Fusion for Sound Event Localization and Detection In Low-Resource.pdf
+- 2024-04-14-Learning Ontology Informed Representations with Constraints for Acoustic Event Detection.pdf
+- 2025-06-04-Domain Adaptation Method and Modality Gap Impact in Audio-Text Models for Prototypical Sound Classif.pdf
+- 2022-08-11-Design of Bird Sound Recognition Model Based on Lightweight.pdf
+- 2024-01-16-Performance and energy balance a comprehensive study of state-of-the-art sound event detection syst.pdf
+- 2025-10-27-Detect Any Sound Open-Vocabulary Sound Event Detection with Multi-Modal Queries.pdf
+- 2025-11-19-Whip strike detection using high-sampling-rate audio by evaluating convolutional recurrent neural network configurations and class imbalance strategies.pdf
+- 2025-09-26-Audio anomaly detection in industrial machines using inverse-Mel scale spectrograms.pdf
+- 2025-02-25-Towards Audio-Visual Navigation in Noisy Environments A Large-Scale Benchmark Dataset and an Architecture Considering Multiple Sound-Sources.pdf
+- 2025-05-15-Lightweight Machine Sound Anomaly Detector Based on Parallel Discrete Wavelet Transform.pdf
+- 2023-12-07-Interactive Dual-Conformer with Scene-Inspired Mask for Soft Sound Event Detection.pdf
+- 2024-01-29-Enhanced Sound Event Localization and Detection in Real 360-degree audio-visual soundscapes.pdf
+- 2025-06-17-EchoTraffic- Enhancing Traffic Anomaly Understanding with Audio-Visual Insights.pdf
+- 2025-01-12-Advancing Environmental Surveillance- A Comprehensive Review of Sound Event Classification Techniques and Applications.pdf
+- 2023-12-30-Bird-sound-detection-based-on-sub-band-features-and-the-p_2024_Applied-Acous_summary.md
+- 2025-03-12-Anomalous Sound Detection Using Self-Supervised Classification Deep Hierarchical Reconstruction Network with Symmetric Fusion Attention  Circuits, Systems, and Signal Processing.pdf
+- 2025-04-15-Autoencoder-Based Classifier and Anomaly Detector for Underwater Sounds.pdf
+- 2024-06-13-Vision Transformer Segmentation for Visual Bird Sound Denoising.pdf
+- 2024-01-16-Performance and energy balance a comprehensive study of state-of-the-art sound event detection systems.pdf
+- 2021-06-21-ENSEMBLE OF ACCDOA- AND EINV2-BASED SYSTEMS WITH D3NETS AND IMPULSE RESPONSE SIMULATION FOR SOUND EVENT LOCALIZATION AND DETECTION.pdf
+- 2023-02-04-Bird sound classification based on ECOC-SVM.pdf
+- 2024-09-15-Impact of Noisy Labels on Sound Event Detection Deletion Errors Are More Detrimental Than Insertion.pdf
+- 2025-01-08-Planing It by Ear Convolutional Neural Networks for Acoustic Anomaly Detection in Industrial Wood Planers.pdf
+- 2024-01-17-ASPED AN AUDIO DATASET FOR DETECTING PEDESTRIANS.pdf
+- 2024-05-17-An event-scene cooperative analysis network with dual-stream attention convolution module and soft parameter-sharing.pdf
+- 2023-10-30-Sound Events Localization and Detection Using Bio-inspired Gammatone Filters and Temporal Convolutional Neural Networks.pdf
+- 2025-09-04-Ecologically Valid Benchmarking and Adaptive Attention Scalable Marine Bioacoustic Monitoring.pdf
+- 2025-07-13-Ensemble Confidence Calibration for Sound Event Detection in Open-environment.pdf
+- 2024-01-01-Development of Innovative Algorithm for Sound Detection Based on FFT and Goertzel Algorithms.pdf
+- 2025-09-04-EZhouNetA framework based on graph neural network and anchor interval for the respiratory sound eve.pdf
+- 2023-12-14-Binaural Sound Event Localization and Detection Neural Network based on HRTF Localization Cues for H.pdf
+- 2026-01-30-Location-Oriented Sound Event Localization and Detection with Spatial Mapping and Regression Localization.pdf
+- 2025-12-31-Retrieval-Augmented Difference Captioning to Explain Unsupervised Anomalous Sound Detection.pdf
+- 2025-07-23-Resnet-conformer network with shared weights and attention mechanism for sound event localization, d.pdf
+- 2025-08-26-DG-SED Domain Generalization for Sound Event Detection with Heterogeneous Training Data.pdf
+- 2024-06-21-Enhanced Gunshot Sound Detection using AlexNet and XGBoost from Fourier Spectrograms.pdf
+- 2023-09-15-SEMI-SUPERVISED SOUND EVENT DETECTION WITH LOCAL AND GLOBAL CONSISTENCY REGULARIZATION.pdf
+- 2024-03-05-Intelligent Traffic Monitoring with Distributed Acoustic Sensing.pdf
+- 2023-09-27-A Novel Bird Sound Recognition Method Based on Multifeature Fusion and a Transformer Encoder.pdf
+- 2023-09-18-Preventing Crimes Through Gunshots Recognition Using Novel Feature Engineering and Meta-Learning Approach.pdf
+- 2025-08-19-Comparative Study of Time–Frequency Representations for Anomaly Detection in Industrial Equipment.pdf
+- 2023-02-17-Enemy Spotted- In-game Gun Sound Dataset for Gunshot Classification and Localization_summary.md
+- 2025-02-14-Abnormal Sound Source Detection and Localization by Spatial Mapping of Normal Sounds for Robotic Inspection in Oil Refineries .pdf
+- 2025-07-24-A multimodal AI framework for automated multiclass lung disease diagnosis from respiratory sounds with simulated biomarker fusion and personalized medication recommendation.pdf
+- 2025-12-11-STUDY OF THE EFFECTIVENESS OF BIOACOUSTIC CORRECTION (BAC) THERAPY IN CHILDREN WITH FEBRILE SEIZURES.pdf
+- 2025-06-24-Generative adversarial network augmented data for improved heart sound abnormality detection.pdf
+- 2025-09-12-Modelling Spatio-Temporal Dynamics by Graph Attention Network for Distributed Multi-Microphone Sound Event Classification.pdf
+- 2024-07-01-Birds bats and beyond evaluating generalization in bioacoustics models.pdf
+- 2025-03-01-A self-supervised anomalous machine sound detection model based on spectrogram decomposition and parallel sub-network  Applied Intelligence.pdf
+- 2025-03-29-Anomalous sound detection using sound image and CTF-bilateral filter.pdf
+- 2024-09-03-Multi-granularity acoustic information fusion for sound event detection.pdf
+- 2024-08-26-From Weak to Strong Sound Event Labels using Adaptive Change-Point Detection and Active Learning.pdf
+- 2024-12-14-Audio-based Anomaly Detection in Industrial Machines Using Deep One-Class Support Vector Data Descri.pdf
+- 2024-11-28-Onset-and-offset-aware sound event detection via differentiable frame-to-event mapping.pdf
+- 2022-04-28-SPATIAL DATA AUGMENTATION WITH SIMULATED ROOM IMPULSE RESPONSES FOR SOUND EVENT LOCALIZATION AND DETECTION.pdf
+- 2024-09-11-Insights into Corncrake (Crex crex) movements in a fragmented agricultural landscape using bioacoustics with implications for nature conservation strategies.pdf
+- 2026-01-24-Sound event localization and classification using WASN in Outdoor Environment.pdf
+- 2024-02-14-Static Sound Event Localization and Detection Using Bipartite Matching Loss for Emergency Monitoring.pdf
+- 2024-01-08-Polyphonic sound event localization and detection based on Multiple Attention Fusion ResNet.pdf
+- 2023-02-20-False negative probability in iGSR detection a Bayesian approach_summary.md
+- 2023-03-07-AST-SED An Effective Sound Event Detection Method Based on Audio Spectrogram Transformer.pdf
+- 2026-01-13-Quantitative Analysis of Proxy Tasks for Anomalous Sound Detection.pdf
+- 2026-03-14-Distributed Acoustic Sensing for Urban Traffic Monitoring- Spatio-Temporal Attention in Recurrent Neural Networks.pdf
+- 2024-10-28-Double Mixture Towards Continual Event Detection from Speech.pdf
+- 2025-09-23-SynSonic Augmenting Sound Event Detection through Text-to-Audio Diffusion ControlNet and Effective Sample Filtering.pdf
+- 2026-01-24-ToS A Team of Specialists ensemble framework for Stereo Sound Event Localization and Detection with.pdf
+- 2025-02-28-JiTTER Jigsaw Temporal Transformer for Event Reconstruction for Self-Supervised Sound Event Detecti.pdf
+- 2024-10-07-A decade of DCASE Achievements, practices, evaluations and future challenges.pdf
+- 2025-05-09-Scene-dependent sound event detection based on multitask learning with deformable large kernel attention convolution.pdf
+- 2025-05-14-Artificial Intelligence in Respiratory Health: A Review of AI-Driven Analysis of Oral and Nasal Breathing Sounds for Pulmonary Assessment.pdf
+- 2024-08-09-SELD-Mamba Selective State-Space Model for Sound Event Localization and Detection with Source Dista.pdf
+- 2025-05-01-Descriptor- Heart and Lung Sounds Dataset Recorded from a Clinical Manikin using Digital Stethoscope (HLS-CMDS).pdf
+- 2025-09-12-Dual-Dimensional Adaptive Extraction Method for Mechanical Equipment Acoustic Features Under Variable Working Conditions.pdf
+- 2025-01-04-WABAD A World Annotated Bird Acoustic Dataset.pdf
+- 2024-09-20-Self Training and Ensembling Frequency Dependent Networks with Coarse Prediction Pooling and Sound E.pdf
+- 2020-04-09-Gunshot Detection Using Convolutional Neural Networks.pdf
+- 2025-08-26-Unsupervised Anomalous Sound Detection Focused on Timbral-Related Features.pdf
+- 2025-08-17-Training Onset-and-Offset-Aware Sound Event Detection on a Heterogeneous Dataset via Probabilistic Sequential Modeling.pdf
+- 2024-09-30-A lightweight framework for unsupervised anomalous sound detection based on selective learning of time-frequency domain features.pdf
+- 2020-02-04-SOUND EVENT RECOGNITION IN A SMART CITY SURVEILLANCE CONTEXT_summary.md
+- 2025-05-27-Adversarial attacks and robustness in deep neural networks for sound event detection.pdf
+- 2025-06-12-Exploring Performance-Complexity Trade-Offs in Sound Event Detection Models_2.pdf
+- 2025-12-19-The Characterization of the Installation Effects on the Flow and Sound Field of Automotive Cooling Modules.pdf
+- 2021-10-25-CONDITIONAL SOUND GENERATION USING NEURAL DISCRETE TIME-FREQUENCY REPRESENTATION LEARNING.pdf
+- 2025-01-01-Performance of a generalised algorithm for the detection of noise events from road traffic in a real urban area A simulation study.pdf
+- 2025-09-19-Improving Anomalous Sound Detection with Attribute-aware Representation from Domain-adaptive Pre-tra.pdf
+- 2025-09-23-FlexSED Towards Open-Vocabulary Sound Event Detection.pdf
+- 2024-04-14-Active learning for sound event classification using Bayesian neural networks with Gaussian variational posterior.pdf
+- 2025-06-12-Exploring Performance-Complexity Trade-Offs in Sound Event Detection Models.pdf
+- 2023-02-21-Multi-dimensional frequency dynamic convolution with confident mean teacher for sound event detection.pdf
+- 2024-03-19-Real-Time_Sound_Recognition_System_for_Human_Care_Robot_Considering_Custom_Sound_Events.pdf
+- 2025-06-23-Clustering and novel class recognition evaluating bioacoustic deep learning feature extractors.pdf
+- 2025-02-07-ASiT-CRNN A method for sound event detection with fine-tuning of self-supervised pre-trained ASiT-based model.pdf
+- 2025-06-25-Same data, different results? Machine learning approaches in bioacoustics.pdf
+- 2023-08-17-NoisenseDB- An Urban Sound Event Database to Develop Neural Classification Systems for Noise-Monitoring Applications.pdf
+- 2024-11-21-MVANet Multi-Stage Video Attention Network for Sound Event Localization and Detection with Source Distance Estimation.pdf
+- 2023-06-05-Divided spectro-temporal attention for sound event localization and detection in real scenes for DCASE2023 challenge.pdf
+- 2023-09-06-Leveraging Geometrical Acoustic Simulations of Spatial Room Impulse Responses for Improved Sound Eve.pdf
+- 2025-10-24-Compressing Quaternion Convolutional Neural Networks for Audio Classification.pdf
+- 2025-11-04-Lightweight Hopfield Neural Networks for Bioacoustic Detection and Call Monitoring of Captive Primates.pdf
+- 2026-01-13-Decodable but not structured linear probing enables Underwater Acoustic Target Recognition with pre.pdf
+- 2025-01-03-Disentangling Hierarchical Features for Anomalous Sound Detection Under Domain Shift.pdf
+- 2025-04-28-Real-time active-learning method for audio-based anomalous event identification and rare events classification for audio events detection.pdf
+- 2025-01-04-Implementing transfer learning for sound event classification using the realised audio database.pdf
+- 2025-01-11-UCIL An Unsupervised Class Incremental Learning Approach for Sound Event Detection.pdf
+- 2025-02-08-A Machine Anomalous Sound Detection Method Based on Deep Residual Generative Adversarial Network.pdf
+- 2025-06-04-Domain Adaptation Method and Modality Gap Impact in Audio-Text Models for Prototypical Sound Classification.pdf
+- 2023-05-30-Wild bird species identification based on a lightweight model with frequency dynamic convolution.pdf
+- 2024-05-08-Listen as you wish- Fusion of audio and text for cross-modal event detection in smart cities.pdf
+- 2025-10-15-Design of Identification System Based on Machine Tools’ Sounds Using Neural Networks.pdf
+- 2025-03-19-s41598-025-93873-x_1.pdf
+- 2024-07-17-Multi-Iteration Multi-Stage Fine-Tuning of Transformers for Sound Event Detection with Heterogeneous.pdf
+- 2025-10-28-AI-Driven Urban Analytics Using IoT-Enabled Mobile Sensor Networks for Environmental Monitoring.pdf
+- 2025-10-20-An Anomalous Sound Detection Network Based on Time-Frequency Attention and Improved One-Class Softmax.pdf
+- 2025-04-07-Scaling Bioacoustic Signal Pre-training with Million Samples Via Mask-Modeling.pdf
+- 2025-06-12-Exploring Performance-Complexity Trade-Offs in Sound Event Detection Models_1.pdf
+- 2024-08-19-MAT-SED A Masked Audio Transformer with Masked-Reconstruction Based Pre-training for Sound Event Detection.pdf
+- 2025-11-19-Model Merging Improves Zero-Shot Generalization in Bioacoustic Foundation Models.pdf
+- 2021-08-01-Temporal Attention Pooling for Frequency Dynamic Convolution in Sound Event Detection.pdf
+- 2025-03-03-A Systematic Review of Heart Sound Detection Algorithms- Experimental Results and Insights.pdf
+- 2024-10-30-DOA-Aware Audio-Visual Self-Supervised Learning for Sound Event Localization and Detection.pdf
+- 2024-10-02-Semi-supervised sound event detection with dynamic convolution and confidence-aware mean teacher.pdf
+- 2024-01-01-Sound Event Detection A Journey Through DCASE Challenge Series.pdf
+- 2024-06-12-DCASE 2024 Task 4 Sound Event Detection with Heterogeneous Data and Missing Labels.pdf
+- 2025-01-09-ASDNet- An Efficient Self-Supervised Convolutional Network for Anomalous Sound Detection.pdf
+- 2025-03-20-A dual-stage thermal runaway early warning strategy for lithium-ion batteries based on multi-domain acoustic signal fusion.pdf
+- 2025-03-29-Machine sound anomaly detection based on dual-channel feature fusion variational auto-encoder.pdf
+- 2025-02-08-Robust Sound Source Localization Using CDR-Based Masking and CNN-Enhanced GCC-PRAT in Reverberant Environments.pdf
+- 2023-07-17-Dynamic Kernel Convolution Network with Scene-dedicate Training for Sound Event Localization and Det.pdf
+- 2021-07-23-AUTOMATIC DETECTION OF NOISE EVENTS AT SHOOTING RANGE USING MACHINE LEARNING.pdf
+- 2026-01-06-Spectrogram Features for Audio and Speech Analysis.pdf
+- 2025-04-17-CST-former Multidimensional Attention-based Transformer for Sound Event Localization and Detection .pdf
+- 2025-01-01-Bird Sounds Recognition Based on Optoelectric Reservoir Computing.pdf
+- 2024-09-26-Prototype based Masked Audio Model for Self-Supervised Learning of Sound Event Detection.pdf
+- 2025-01-18-An Experimental Study on Joint Modeling for Sound Event Localization and Detection with Source Dista.pdf
+- 2024-02-06-Few-Shot Bioacoustics Event Detection Using Transductive Inference With Data Augmentation.pdf
+- 2023-12-20-CST-FORMER TRANSFORMER WITH CHANNEL-SPECTRO-TEMPORAL ATTENTION FOR SOUND EVENT LOCALIZATION AND DETECTION.pdf
+- 2026-01-06-Perch 2.0 The Bittern Lesson for Bioacoustics.pdf
+- 2024-06-29-FMSG-JLESS Submission for DCASE 2024 Task4 on Sound Event Detection with Heterogeneous Training Data.pdf
+- 2023-12-14-FUSION OF AUDIO AND VISUAL EMBEDDINGS FOR SOUND EVENT LOCALIZATION AND DETECTION.pdf
+- 2023-11-15-Improved detection of bird vocalisations using BirdNET embeddings and machine learning.pdf
+
+
+## 声纹识别/工作时间线（文件 357，归一标题 180）
+
+- 2026-04-15-SpeakerRPL v2: Robust Open-set Speaker Identification through Enhanced Few-shot Foundation Tuning and Model Fusion
+- 2025-01-30-Fast Adaptation of Pretrained Speaker Verification System for Source Speaker Tracking.pdf
+- 2026-01-29-An Effective Energy Mask-based Adversarial Evasion Attacks against Misclassification in Speaker Reco.pdf
+- 2025-10-11-Enhancing Speaker Verification with w2v-BERT 2.0 and Knowledge Distillation guided Structured Pruning.pdf
+- 2026-02-04-Noise-Conditioned Mixture-of-Experts Framework for Robust Speaker Verification.pdf
+- 2025-12-10-PhiNet- Speaker Verification With Phonetic Interpretability.pdf
+- 2026-03-12-ReDimNet2- Scaling Speaker Verification via Time-Pooled Dimension Reshaping.pdf
+- 2024-12-07-Self-distillation-based domain exploration for source speaker verification under spoofed speech from unknown voice conversion.pdf
+- 2025-07-24-Self-Supervised Frameworks for Speaker Verification via Bootstrapped Positive Sampling.pdf
+- 2025-01-19-Voice synthesis in Polish and English-analyzing prediction differences in speaker verification systems.pdf
+- 2025-11-10-A Secure and Robust Multimodal Framework for In-Vehicle Voice Control- Integrating Bilingual Wake-Up, Speaker Verification, and Fuzzy Command Understanding.pdf
+- 2024-10-31-Privacy-preserving speaker verification system using Ranking-of-Element hashing.pdf
+- 2025-01-30-Energy-based Model Guided Self-Supervised Learning for Speaker Verification.pdf
+- 2026-01-03-Speakerlm: End-to-end versatile speaker diarization and recognition with multimodal large language models.pdf
+- 2025-05-27-VoxAging Continuously Tracking Speaker Aging with a Large-Scale Longitudinal Dataset in English and.pdf
+- 2025-01-01-A Comparative Evaluation of Traditional and Deep Learning Models for Speaker Recognition in Assistive Systems for DHH Children.pdf
+- 2025-09-08-Robust Speaker Recognition Using Perceptual Stationary Wavelet Coefficients and Prosodic Feature in Noisy Conditions.pdf
+- 2025-05-30-Pretraining Multi-Speaker Identification for Neural Speaker Diarization.pdf
+- 2025-08-01-Enhancing Speaker Recognition through Generative Adversarial Networks and Feature Fusion with ResNet18 Networks.pdf
+- 2025-08-17-Do you read me?-flow of speech effect on speaker recognition systems.pdf
+- 2025-02-07-Spectral-Aware Low-Rank Adaptation for Speaker Verification.pdf
+- 2025-05-27-An Investigation on Speaker Augmentation for End-to-End Speaker Extraction.pdf
+- 2025-05-07-Noise-Robust Speaker Verification With Attenuated Speech Restoration and Consistency Training.pdf
+- 2024-12-27-3D-Speaker-Toolkit An Open-Source Toolkit for Multimodal Speaker Verification and Diarization.pdf
+- 2025-04-07-AdaptiveDrop- A Simple Adaptive Label Noise Filtering Scheme for Enhanced Self-supervised Speaker Verification.pdf
+- 2025-03-11-Gender recognition in text-independent speaker identification using MFCC, spectrogram, Bi-LSTM, and rat swarm evolutionary algorithm optimization.pdf
+- 2025-05-06-MGFF-TDNN A Multi-Granularity Feature Fusion TDNN Model with Depth-Wise Separable Module for Speake.pdf
+- 2026-01-19-The Achilles' Heel of Angular Margins A Chebyshev Polynomial Fix for Speaker Verification.pdf
+- 2025-05-17-ConFusionformer- Locality-enhanced Conformer through multi-resolution attention fusion for speaker verification.pdf
+- 2025-09-24-Can Audio Large Language Models Verify Speaker Identity?.pdf
+- 2025-08-17-IDIR- Identifying and Distilling Informative Relations for Speaker Verification.pdf
+- 2024-11-04-Overview of Speaker Modeling and Its Applications From the Lens of Deep Speaker Representation Lear.pdf
+- 2025-08-30-Voice Conversion Augmentation for Speaker Recognition on Defective Datasets.pdf
+- 2025-09-12-Interpolating Speaker Identities in Embedding Space for Data Expansion.pdf
+- 2025-04-07-Augmenting Short Enrollment Speech via Synthesis for Target Speaker Extraction.pdf
+- 2025-02-12-Hopfield Neural Network with Lotus Effect Optimization for Automatic Speaker Recognition in Noisy Environment.pdf
+- 2025-11-01-Enhancing Speaker Recognition Robustness with Scalable Deep Learning Models and MFCC Features.pdf
+- 2026-01-20-DAME Duration-Aware Matryoshka Embedding for Duration-Robust Speaker Verification.pdf
+- 2025-04-07-Self-supervised Speaker Verification with Batch-scale Pseudo-labels Correction.pdf
+- 2025-09-18-Probing Speaker-specific Features in Speaker Representations.pdf
+- 2025-06-14-Mitigating Non-Target Speaker Bias in Guided Speaker Embedding.pdf
+- 2025-10-13-A lightweight meta-learning-based open-set speaker identification system with integrated spoofing and impostor detection.pdf
+- 2026-02-01-Causally Disentangled Contrastive Learning for Multilingual Speaker Embeddings.pdf
+- 2025-01-03-Lightweight speaker verification with integrated VAD and speech enhancement.pdf
+- 2025-08-11-Improving Speaker Verification Robustness With Multilingual Phonetic Information and Feature Decorrelation.pdf
+- 2026-01-22-TidyVoice A Curated Multilingual Dataset for Speaker Verification Derived from Common Voice.pdf
+- 2025-12-29-Scalability analysis of neural network architectures for voice biometric authentication.pdf
+- 2025-06-09-Bayesian Learning for Domain-Invariant Speaker Verification and Anti-Spoofing.pdf
+- 2025-03-14-Research on Lightweight Speaker Recognition Algorithm Based on Attention Mechanism.pdf
+- 2025-01-01-Design on Small-Footprint x-Vector-Based End-to-End Speaker Verification System.pdf
+- 2025-01-23-Adversarially adaptive temperatures for decoupled knowledge distillation with applications to speaker verification.pdf
+- 2025-04-05-CBW Towards Dataset Ownership Verification for Speaker Verification via Clustering-based Backdoor W.pdf
+- 2025-01-01-DeepVoice- An End-to-End Speaker Recognition System Leveraging Convolutional and Recurrent Neural Networks for Robust Voice Identification.pdf
+- 2024-12-31-VoxVietnam a Large-Scale Multi-Genre Dataset for Vietnamese Speaker Recognition.pdf
+- 2025-08-19-Evaluating Identity Leakage in Speaker De-Identification Systems.pdf
+- 2024-12-18-Certification of Speaker Recognition Models to Additive Perturbations.pdf
+- 2025-02-20-MT2KD Towards A General-Purpose Encoder for Speech, Speaker, and Audio Events.pdf
+- 2026-01-22-Xi+ Uncertainty Supervision for Robust Speaker Embedding.pdf
+- 2025-01-29-Speaker Verification Based on Channel Attention and Adaptive Joint Loss.pdf
+- 2019-09-30-Probing the Information Encoded in X-vectors.pdf
+- 2025-01-01-Improved Cross-Lingual Speaker Verification Using Speaker Sensitive Feature Guidance and Fine-grained Phonetic Information.pdf
+- 2025-05-27-A hybrid approach to secure automatic speaker verification integrating clone detection and speaker identification.pdf
+- 2024-12-12-Stationary wavelet Filtering Cepstral coefficients (SWFCC) for robust speaker identification.pdf
+- 2025-03-20-Generalized Score Comparison-Based Learning Objective for Deep Speaker Embedding.pdf
+- 2025-01-27-A Multi-Component Framework for Speaker Recognition- Leveraging Differentiable Architecture Search and Temporal Dependencies.pdf
+- 2025-08-08-Robust Target Speaker Diarization and Separation via Augmented Speaker Embedding Sampling.pdf
+- 2026-01-12-Quantifying the Relationship Between Speech Quality Metrics and Biometric Speaker Recognition Performance Under Acoustic Degradation.pdf
+- 2025-10-02-Joint Optimization of Speaker and Spoof Detectors for Spoofing-Robust Automatic Speaker Verification.pdf
+- 2024-12-22-Analysis of Speech Temporal Dynamics in the Context of Speaker Verification and Voice Anonymization.pdf
+- 2026-03-25-What and When to Learn: CURriculum Ranking Loss for Large-ScaleSpeaker Verification.pdf
+- 2025-02-24-Enhancing Voice Spoofing Detection- A Hybrid Approach With VGGish-LSTM Model for Improved Security in Automatic Speaker Verification Systems.pdf
+- 2024-10-05-Comparative analysis of speaker identification performance using deep learning, machine learning, and novel subspace classifiers with multiple feature extraction techniques.pdf
+- 2024-01-01-From Dialect Gaps to Identity Maps Tackling Variability in Speaker Verification.pdf
+- 2025-06-03-On the influence of language similarity in non-target speaker verification trials.pdf
+- 2026-01-27-Hyperbolic Additive Margin Softmax with Hierarchical Information for Speaker Verification.pdf
+- 2024-09-08-A New Perspective on Speaker Verification Joint Modeling with DFSMN and Transformer.pdf
+- 2026-01-16-Trainable multi-channel front-ends for joint beamforming and speaker embedding extraction.pdf
+- 2025-01-27-UniPET-SPK A Unified Framework for Parameter-Efficient Tuning of Pre-trained Speech Models for Robu.pdf
+- 2025-01-01-Resnet-SV- Fast and accurate speaker verification with a multi-layer cascade attention mechanism.pdf
+- 2025-12-15-Rethinking Leveraging Pre-Trained Multi-Layer Representations for Speaker Verification.pdf
+- 2024-11-26-Text-independent speaker identification using modified SincNet with robust features from suitable acoustic region and appropriate optimizer for raw audio analysis.pdf
+- 2025-02-25-Convolutional neural network-based detection of audio replay attacks in speaker verification systems.pdf
+- 2025-01-01-Multiple Enrollments and Neural Back-End Modeling for Automatic Speaker Verification.pdf
+- 2025-02-13-SyntheticPop Attacking Speaker Verification Systems With Synthetic VoicePops.pdf
+- 2025-09-04-Enhancing Self-Supervised Speaker Verification Using Similarity-Connected Graphs and GCN.pdf
+- 2025-06-24-Vo-Ve An Explainable Voice-Vector for Speaker Identity Evaluation.pdf
+- 2024-06-04-Eres2netv2: Boosting short-duration speaker verification performance with computational efficiency.pdf
+- 2026-01-29-MK-SGC-SC Multiple Kernel Guided Sparse Graph Construction in Spectral Clustering for Unsupervised .pdf
+- 2026-03-05-Koopman Regularized Deep Speech Disentanglement for SpeakerVerification.pdf
+- 2025-08-22-Attention Enhanced Speaker Representation with Contrastive Learning.pdf
+- 2025-01-01-A Noisy Label Filter based on GMM Binary Classification for Speaker Verification.pdf
+- 2025-04-06-PNP-RKD- A Positive-Negative Pair based Relational Knowledge Distillation Method for Cross-Domain Speaker Verification.pdf
+- 2025-04-06-Trainable Adaptive Score Normalization for Automatic Speaker Verification.pdf
+- 2025-09-22-A review of speaker verification- Methods, network architectures, tasks and challenges.pdf
+- 2025-01-01-Novel Approach towards Speaker Identification in Meetings which will eventually lead to improved decision-making and teamwork in governmental and organizational.pdf
+- 2025-02-01-Towards Robust and Secure Speaker Verification Against Synthesis and Converted Speech Attacks.pdf
+- 2026-01-30-Over-the-Air Adversarial Attacks and Detection for Automatic Speaker Verification.pdf
+- 2025-04-07-Text-dependent Speaker Verification Challenge 2024- Exploring Shared and User-defined Passphrases.pdf
+- 2025-08-26-Closed-Set Speaker Identification using Few-Shot Transductive Learning.pdf
+- 2025-07-16-Meta-Learning Based Cross-Domain Few-Shot Speaker Recognition.pdf
+- 2025-01-20-Advancing Multilingual Speaker Identification and Verification for Indo-Aryan and Dravidian Languages.pdf
+- 2025-02-01-Speaker Identification Using Deep Learning Models for Enhanced Voice Biometrics.pdf
+- 2024-09-24-M-Vec Matryoshka Speaker Embeddings with Flexible Dimensions.pdf
+- 2025-12-26-Data-Efficient Semi-Supervised Few-Shot Speaker Verification via Prototype Space Optimization.pdf
+- 2025-03-27-Enhancing target speaker extraction with Hierarchical Speaker Representation Learning.pdf
+- 2025-06-26-Identifying Speaker Information in Feed-Forward Layers of Self-Supervised Speech Transformers.pdf
+- 2026-01-24-Spoofing-Aware Speaker Verification via Wavelet Prompt Tuning and Multi-Model Ensembles.pdf
+- 2025-10-03-ARTIFICIAL NEURAL NETWORK-BASED VOICEPRINT GENERATION MODELS FOR SPEAKER RECOGNITION.pdf
+- 2025-01-17-Speaker-IPL Unsupervised Learning of Speaker Characteristics with i-Vector based Pseudo-Labels.pdf
+- 2025-07-03-Multi-Branch Coordinate Attention With Channel Dynamic Difference for Speaker Verification.pdf
+- 2026-01-19-Adaptive Speaker Embedding Self-Augmentation for Personal Voice Activity Detection with Short Enrollment Speech.pdf
+- 2025-01-14-ExPO Explainable Phonetic Trait-Oriented Network for Speaker Verification.pdf
+- 2025-01-10-Global-Local Self-Attention-Based Long Short-Term Memory with Optimization Algorithm for Speaker Identification.pdf
+- 2025-03-14-Blended-emotional speech for Speaker Recognition by using the fusion of Mel-CQT spectrograms feature extraction.pdf
+- 2019-07-11-Discriminative Neural Embedding Learning for Short-Duration Text-Independent Speaker Verification.pdf
+- 2025-04-30-Quantifying prediction uncertainties in automatic speaker verification systems.pdf
+- 2025-02-28-Investigation of Text-Independent Speaker Verification by Support Vector Machine-Based Machine Learning Approaches.pdf
+- 2024-06-30-A Hybrid ANN-LSTM Speaker Identification Using Advanced Feature Extraction Techniques.pdf
+- 2026-01-27-Short-Segment Speaker Verification with Pre-trained Models and Multi-Resolution Encoder.pdf
+- 2025-01-01-Stable Extended U-Net for Noise-Robust Speaker Verification.pdf
+- 2025-01-12-Attacking Voice Anonymization Systems with Augmented Feature and Speaker Identity Difference.pdf
+- 2026-04-02-PhiNet: Speaker Verification with PhoneticInterpretability.pdf
+- 2025-02-11-EX-Vector- Emotional X-Vector Transfer Learning for Speaker Recognition With Emotion Domain Adaption.pdf
+- 2025-05-26-FT-Boosted SV Towards Noise Robust Speaker Verification for English Speaking Classroom Environments.pdf
+- 2025-06-19-Res2Former- Integrating Res2Net and Transformer for a Highly Efficient Speaker Verification System.pdf
+- 2025-04-07-Aligning Noisy-Clean Speech Pairs at Feature and Embedding Levels for Learning Noise-Invariant Speaker Representations.pdf
+- 2026-01-08-Symmetry and Asymmetry Principles in Deep Speaker Verification Systems- Balancing Robustness and Discrimination Through Hybrid Neural Architectures.pdf
+- 2024-10-12-Dual-Path Spectrogram Refinement Network for Robust Speaker Verification.pdf
+- 2020-01-01-Improving Deep CNN Networks with Long Temporal Context for Text-Independent Speaker Verification.pdf
+- 2025-01-01-Guided Speaker Embedding.pdf
+- 2025-05-23-ATMM-SAGA Alternating Training for Multi-Module with Score-Aware Gated Attention SASV system.pdf
+- 2025-05-31-Speaker Identification and Verification Using Convolutional Neural Network CNN Tikrit Journal of Engineering Sciences.pdf
+- 2026-01-18-A Stage-Wise Learning Strategy with Fixed Anchors for Robust Speaker Verification.pdf
+- 2025-08-17-A Simple-Yet-Effective Data Augmentation Method for Speaker Identification in Novels.pdf
+- 2025-06-07-Rhythm Features for Speaker Identification.pdf
+- 2025-04-07-Evidential Neural GPLDA- A Novel Approach to Quantify Prediction Uncertainty in Speaker Verification Systems.pdf
+- 2025-12-20-What Does the Speaker Embedding Encode.pdf
+- 2025-09-12-Effective Modeling of Critical Contextual Information for TDNN-based Speaker Verification.pdf
+- 2025-01-01-A Study of Multi-Scale Feature Learning From Pre-Trained Models on Speaker Verification.pdf
+- 2018-09-12-Frame-level speaker embeddings for text-independent speaker recognition and analysis of end-to-end m.pdf
+- 2024-04-12-A novel speaker verification approach featuring multidomain acoustics based on the weighted city block Minkowski distance.pdf
+- 2025-02-14-Enhancing Age-Related Robustness in Children Speaker Verification.pdf
+- 2025-04-16-Target sample mining with modified activation residual network for speaker verification.pdf
+- 2025-12-04-Self-Supervised Learning for Speaker Recognition- A study and review.pdf
+- 2025-03-03-Optimizing a-DCF for Spoofing-Robust Speaker Verification.pdf
+- 2025-01-30-Denoising Student Features with Diffusion Models for Knowledge Distillation in Speaker Verification.pdf
+- 2026-01-22-TidyVoice: A Curated Multilingual Dataset for Speaker Verification Derived from Common Voice.pdf
+- 2024-12-27-Self-Distillation Prototypes Network Learning Robust Speaker Representations without Supervision.pdf
+- 2025-08-29-SpeakerMatch- Matching reliable pseudo-labels in semi-supervised and self-supervised speaker recognition with confidence distribution.pdf
+- 2025-06-17-Investigation of Zero-shot Text-to-Speech Models for Enhancing Short-Utterance Speaker Verification.pdf
+- 2025-04-07-LAVViT- Latent Audio-Visual Vision Transformers for Speaker Verification.pdf
+- 2025-07-02-Analyzing and Improving Speaker Similarity Assessment for Speech Synthesis.pdf
+- 2018-06-03-ADVOSYNTH A Synthetic Multi-Advocate Dataset for Speaker Identification in Courtroom Scenarios.pdf
+- 2024-09-23-CA-MHFA A Context-Aware Multi-Head Factorized Attentive Pooling for SSL-Based Speaker Verification.pdf
+- 2025-09-29-MMFA- Masked Multi-Layer Feature Aggregation for Speaker Verification Using WavLM.pdf
+- 2025-08-08-Open-Set Speaker Identification Through Efficient Few-Shot Tuning With Speaker Reciprocal Points and Unknown Samples.pdf
+- 2025-06-24-SSPS Self-Supervised Positive Sampling for Robust Self-Supervised Speaker Verification.pdf
+- 2025-03-26-Speaker Recognition and Automatic Speech Recognition.pdf
+- 2025-05-20-Vox-Profile A Speech Foundation Model Benchmark for Characterizing Diverse Speaker and Speech Trait.pdf
+- 2025-02-01-Robust Speaker Recognition for Whispered Speech.pdf
+- 2025-01-01-Data-Centric Optimization of Enrollment Selection in Speaker Identification.pdf
+- 2025-04-07-Learning Strategy with Barlow Twins Objective for Emotion-Robust Speaker Verification System.pdf
+- 2025-06-16-MKD-FSV- Multi-Layer Knowledge Distillation for Far-Field Speaker Verification.pdf
+- 2025-01-16-Multi-Noise Representation Learning for Robust Speaker Recognition.pdf
+- 2018-09-02-Angular Softmax for Short-Duration Text-independent Speaker Verification.pdf
+- 2024-05-30-Neighborhood Attention Transformer with Progressive Channel Fusion for Speaker Verification.pdf
+- 2025-04-07-In Search of Optimal Pretraining Strategy for Robust Speaker Recognition.pdf
+- 2025-03-07-A Self-Supervised Method for Speaker Recognition in Real Sound Fields with Low SNR and Strong Reverberation.pdf
+- 2025-04-29-Speaker_recognition_by_ultrashort_utterances.pdf
+- 2025-03-13-Whisper Speaker Identification Leveraging Pre-Trained Multilingual Transformers for Robust Speaker .pdf
+- 2025-10-20-DELULU: Discriminative Embedding Learning Using Latent Units for Speaker-Aware Self-Supervised Speech Foundational Model.pdf
+- 2025-09-21-CAARMA Class Augmentation with Adversarial Mixup Regularization.pdf
+- 2025-03-11-Dimension-Specific Margins and Element-Wise Gradient Scaling for Enhanced Matryoshka Speaker Embedding.pdf
+- 2025-04-23-SoCov Semi-Orthogonal Parametric Pooling of Covariance Matrix for Speaker Recognition.pdf
+- 2025-01-01-Codec-ASV- Exploring Neural Audio Codec For Speaker Representation Learning.pdf
+- 2026-01-25-U3-xi Pushing the Boundaries of Speaker Recognition via Incorporating Uncertainty.pdf
+- 2025-06-21-SSAVSV Towards Unified Model for Self-Supervised Audio-Visual Speaker Verification.pdf
+- 2025-09-12-Model Optimization Methods for Short-duration Speaker Verification.pdf
+- 2025-07-26-Enhancing Domain Adaptation in Speaker Verification via Partially Shared Adversarial Network.pdf
+- 2025-03-17-Anti-spoofing Using ResNet50 with Linear Discriminant Analysis for Automatic Speaker Verification.pdf
+
+
+## 跨域检测/工作时间线（文件 420，归一标题 208）
+
+- 2026-04-13-Teaching the Teachers: Boosting unsupervised domain adaptation in speech recognition by ensemble update.pdf
+- 2026-01-12-DECDAF- Dual-Level Entropy-Aware Consensus Domain Adversarial Framework for Open-Set Fault Diagnosis.pdf
+- 2025-06-04-SHDA- Sinkhorn Domain Attention for Cross-Domain Audio Anti-Spoofing.pdf
+- 2023-12-18-Hierarchical_Metadata_Information_Constrained_Self_Supervised_Learning_for_Anomalous_Sound_Detection_Under_Domain_Shift.pdf
+- 2025-11-23-DHAuDS- A Dynamic and Heterogeneous Audio Benchmark for Test-Time Adaptation.pdf
+- 2025-04-07-Keeping_the_Balance_Anomaly_Score_Calculation_for_Domain_Generalization.pdf
+- 2023-06-30-SELF SUPERVISED REPRESENTATION LEARNING FOR FIRST SHOT UNSUPERVISED ANOMALOUS SOUND DETECTION.pdf
+- 2025-07-10-Adaptive single-source open domain generalization network- a novel physical information fusion framework for fault diagnosis based on physically embedded autoencoder and adaptive open-set feature separation.pdf
+- 2026-03-24-A review of acoustic systems for insect monitoring From recording technologies to species recognition performance.pdf
+- 2026-02-25-Mutual Information-Guided Style Augmentation for Single Domain Generalization.pdf
+- 2025-11-22-Semisupervised High-Order Graph Diffusion Network for Cross-Domain Fault Diagnosis of Rotating Machinery.pdf
+- 2024-06-30-Detection_and_Classification_of_Acoustic_Scenes_and_Events_2024_Challenge_ANOMALOUS_SOUND_DETECTION_BY_SELF_SUPERVISED_LEARNING_OF_VAE_WITH_DOMAIN_SHIFT_TECHNIQUES.pdf
+- 2025-07-21-An Investigation of Test-time Adaptation for Audio Classification under Background Noise.pdf
+- 2020-03-27-Invariant Risk Minimization.pdf
+- 2026-02-16-2026-02-13-Discovering_Hierarchy_Grounded_Domains_with_Adaptive_Granularity_for_Clinical_Domain_Generalization.pdf
+- 2025-05-23-Review on Sound-Based Industrial Predictive Maintenance From Feature Engineering to Deep Learning.pdf
+- 2024-12-18-Label smoothing regularization-based no hyperparameter domain generalization.pdf
+- 2025-05-12-Compact-sparse prototype calibration network for few-shot continual fault diagnosis of rotating machinery.pdf
+- 2025-11-24-Generalizable Dynamic Domain Adaptation for Speaker-Independent Speech Emotion Recognition.pdf
+- 2023-07-13-A Causal Framework to Unify Common Domain Generalization Approaches.pdf
+- 2025-03-21-When Domain Generalization meets Generalized Category Discovery An Adaptive Task-Arithmetic Driven Approach.pdf
+- 2026-02-20-2026-02-19-Anti_causal_domain_generalization_Leveraging_unlabeled_data.pdf
+- 2025-01-20-Anomaly Detection for Industrial Applications, Its Challenges, Solutions, and Future Directions A Review.pdf
+- 2025-09-01-A Lightweight Network With Dual-Mixup Data Augmentation for Fault Diagnosis of Rotating Machinery Under Unknown Operating Conditions.pdf
+- 2022-10-19-Towards Principled Disentanglement for Domain Generalization.pdf
+- 2021-11-03-SWAD- Domain Generalization by Seeking Flat Minima.pdf
+- 2025-10-17-Improving Novel Anomaly Detection with Domain-Invariant Latent Representations.pdf
+- 2023-07-18-Deep learning for unsupervised domain adaptation in medical imaging- Recent advancements and future perspectives.pdf
+- 2025-06-27-A physics-guided memory enhancement and causality-inspired generalization framework for continual fault diagnosis.pdf
+- 2021-04-12-Meta-Learning for Domain Generalization in Semantic Parsing.pdf
+- 2025-07-14-Semi-supervised dynamic generalization network with dual feature enhancement strategy for machinery fault diagnosis under unseen working conditions.pdf
+- 2020-08-18-Domain Generalizer- A Few-shot Meta Learning Framework for Domain Generalization in Medical Imaging.pdf
+- 2022-06-30-DISENTANGLED_SURROGATE_TASK_LEARNING_FOR_IMPROVED_DOMAIN_GENERALIZATION_IN_UNSUPERVISED_ANOMALOUS_SOUND_DETECTION.pdf
+- 2023-02-24-Meta-Generalization for Domain-Invariant Speaker Verification.pdf
+- 2025-08-06-Comprehensive review of automatic speaker verification with spoofing detection techniques attacks.pdf
+- 2021-09-27-MIMII DUE SOUND DATASET FOR MALFUNCTIONING INDUSTRIAL MACHINE INVESTIGATION AND INSPECTION WITH DOMAIN SHIFTS DUE TO CHANGES IN OPERATIONAL AND ENVIRONMENTAL CONDITIONS.pdf
+- 2025-08-26-DG_SED_Domain_Generalization_for_Sound_Event_Detection_with_Heterogeneous_Training_Data.pdf
+- 2025-09-19-Advances in Multimodal Adaptation and Generalization- From Traditional Approaches to Foundation Models.pdf
+- 2025-12-11-Multimodal Adaptive Signal Fusion for Domain Generalization in Imbalanced Few-Shot Rotating Machinery Fault Diagnosis.pdf
+- 2026-02-06-Single-source domain tool wear prediction based on generated feature generalization.pdf
+- 2026-02-21-Mind_the_Gap_Detecting_Cluster_Exits_for_Robust_Local_Density_Based_Score_Normalization_in_Anomalous_Sound_Detection.pdf
+- 2026-01-28-Domain-Invariant Representation Learning of Bird Sounds.pdf
+- 2020-10-13-The Risks of Invariant Risk Minimization.pdf
+- 2024-10-13-Prompt Tuning for Audio Deepfake Detection- Computationally Efficient Test-time Domain.pdf
+- 2025-08-06-Bridging Simulation and Experiment A Self-Supervised Domain Adaptation Framework for Concrete Damage Classification.pdf
+- 2025-11-28-Accent‑robust speech recognition for English in low‑resource settings using Manifold Mixup.pdf
+- 2022-11-22-MIMII DG Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection for Domain Generalization Task.pdf
+- 2026-01-30-DDSC Dynamic Dual-Signal Curriculum for Data-Efficient Acoustic Scene Classification under Domain Shift.pdf
+- 2025-03-31-Domain_Generalized_Open_Set_Fault_Detection_and_Diagnosis_for_Belt_Conveyor_Systems_With_Prototype_Learning.pdf
+- 2025-10-28-AdvBlur_Adversarial_Blur_for_Robust_Diabetic_Retinopathy_Classification_and_Cross_Domain_Generalization.pdf
+- 2025-09-18-Trade-offs in Cross-Domain Generalization of Foundation Model Fine-Tuned for Biometric Applications.pdf
+- 2024-04-02-Transformer_and_Graph_Convolution_Based_Unsupervised_Detection_of_Machine_Anomalous_Sound_Under_Domain_Shifts.pdf
+- 2026-01-28-CROSS-ATTENTIVE ADAPTER WITH REGULARIZED DOMAIN ADAPTATION FOR SPEAKER VERIFICATION.pdf
+- 2015-12-09-Return of frustratingly easy domain adaptation.pdf
+- 2021-11-15-ToyADMOS2 Another Dataset of Miniature-Machine Operating Sounds for Anomalous Sound Detection under Domain Shift Conditions.pdf
+- 2025-05-31-Numerical Simulation Data-Aided Domain-Adaptive Generalization Method for Fault Diagnosis.pdf
+- 2025-02-28-Domain Generalization Through Data Augmentation- A Survey of Methods, Applications, and Challenges.pdf
+- 2022-10-29-LEARNING INVARIANT REPRESENTATION AND RISK MINIMIZED FOR UNSUPERVISED ACCENT DOMAIN ADAPTATION.pdf
+- 2026-02-03-EMO-TTA- Improving Test-Time Adaptation of Audio-Language Models for Speech Emotion Recognition.pdf
+- 2023-02-23-A Comprehensive Survey on Source-free Domain Adaptation.pdf
+- 2024-03-16-Improving Domain Generalization with Domain Relations.pdf
+- 2026-02-24-Audio-Visual Continual Test-Time Adaptation without Forgetting.pdf
+- 2026-01-28-Modality-Balanced Collaborative Distillation for Multi-Modal Domain Generalization.pdf
+- 2025-09-27-Discrete Audio Tokens More Than a Survey!.pdf
+- 2025-10-27-Local_Density_Based_Anomaly_Score_Normalization_for_Domain_Generalization.pdf
+- 2026-02-06-Selective Adversarial Augmentation Network for Bearing Fault Diagnosis with Partial Domain Adaptation.pdf
+- 2024-06-17-Disentangled Prompt Representation for Domain Generalization.pdf
+- 2025-11-13-Adaptive Label Refinement Network for Domain Generalization in Compound Fault Diagnosis.pdf
+- 2025-07-10-… single-source open domain generalization network a novel physical information fusion framework for fault diagnosis based on physically embedded autoencoder ….pdf
+- 2024-08-04-Out-of-Distribution Detection A Task-Oriented Survey of Recent Advances.pdf
+- 2023-02-24-Domain augmentation generalization network for real-time fault diagnosis under unseen working conditions.pdf
+- 2025-06-30-Generalizing vision-language models to novel domains A comprehensive survey.pdf
+- 2025-03-29-A self-adaptive framework of reducing domain bias under distribution shift for semi-supervised domain generalization.pdf
+- 2022-06-30-AN_OUTLIER_EXPOSED_ANOMALOUS_SOUND_DETECTION_SYSTEM_FOR_DOMAIN_GENERALIZATION_IN_MACHINE_CONDITION_MONITORING.pdf
+- 2026-02-07-A device-invariant multi-modal learning framework for respiratory disease classification.pdf
+- 2025-06-07-Latent subdomain assignment based on pseudo domain labels for fault diagnosis of unseen data.pdf
+- 2024-01-29-A Self-Supervised Domain Adaptation Method for Speaker Verification Based on Total Coding Rate Loss by Chengli Sun, Jiahao Zhang, Jiayi Sun, Feilong Chen, Cairong Zou, Qiaosheng Guo  SSRN.pdf
+- 2025-07-04-Bridging domain generalization to multimodal domain generalization via unified representations.pdf
+- 2025-01-01-A multi-scale dual-decoder autoencoder model for domain-shift machine sound anomaly detection.pdf
+- 2025-10-13-A Novel Generative Domain Generalization Network for Intelligent Fault Diagnosis Under Unknown Operating Conditions.pdf
+- 2025-05-05-Adaptive expert ensembles for fault diagnosis A graph causal framework addressing distributional shifts.pdf
+- 2025-06-18-A new adaptive representation dual classifier residual network for continuous fault diagnosis of rotating machinery with domain increments.pdf
+- 2017-10-10-Learning to Generalize Meta-Learning for Domain Generalization.pdf
+- 2026-01-07-Domain Adaptation of the Pyannote Diarization Pipeline for Conversational Indonesian Audio.pdf
+- 2026-03-06-ImKWS- Test-Time Adaptation for Keyword Spotting with Class Imbalance.pdf
+- 2025-03-20-OSLoPrompt- Bridging Low-Supervision Challenges and Open-Set Domain Generalization in CLIP.pdf
+- 2025-09-12-Disentangled Causal and Non-Causal Feature Learning via Adversarial Networks for Cross-Domain Fault Diagnosis.pdf
+- 2025-05-20-AdaKWS- Towards Robust Keyword Spotting with Test-Time Adaptation.pdf
+- 2024-01-12-Acoustic Scene Classification Across Cities and Devices via Feature Disentanglement.pdf
+- 2026-02-04-Domain Generalization Under Posterior Drift.pdf
+- 2023-03-31-Simple Domain Generalization Methods are Strong Baselines for Open Domain Generalization.pdf
+- 2025-07-15-A comprehensive survey on domain adaptation for intelligent fault diagnosis.pdf
+- 2025-01-01-Ac-cdcn- A cross-subject eeg emotion recognition model with anti-collapse domain generalization.pdf
+- 2025-06-28-Episodic Training and Feature Orthogonality-Driven Domain Generalization for Rotating Machinery Fault Diagnosis Under Unseen Working Conditions.pdf
+- 2024-01-15-BRINGING THE DISCUSSION OF MINIMA SHARPNESS TO THE AUDIO DOMAIN- A FILTER-NORMALISED EVALUATION FOR ACOUSTIC SCENE CLASSIFICATION.pdf
+- 2025-09-25-MI-Fuse- Label Fusion for Unsupervised Domain Adaptation with Closed-Source Large-Audio Language Model.pdf
+- 2025-04-14-Seeking Consistent Flat Minima for Better Domain Generalization via Refining Loss Landscapes.pdf
+- 2023-03-01-Domain-aware Triplet loss in Domain Generalization.pdf
+- 2023-10-05-A Survey on Deep Learning Based Forest Environment Sound Classification at the Edge.pdf
+- 2026-02-06-PMSA-DGNet- A Physical Property-Guided Multiscale Spatial Attention Domain Generalization Network for Tool Wear Prediction.pdf
+- 2025-06-11-Domain Adaptation for Speaker Verification Using Optimal Transport with Pseudo Label.pdf
+- 2024-10-21-Towards Combating Frequency Simplicity-biased Learning for Domain Generalization.pdf
+- 2021-05-24-A Fourier-based Framework for Domain Generalization.pdf
+- 2025-11-17-A hybrid cross-domain few-shot bearing fault diagnosis method combining multi-scale feature association and physical information.pdf
+- 2025-01-03-Disentangling_Hierarchical_Features_for_Anomalous_Sound_Detection_Under_Domain_Shift.pdf
+- 2024-09-08-DEEP_GENERIC_REPRESENTATIONS_FOR_DOMAIN_GENERALIZED_ANOMALOUS_SOUND_DETECTION.pdf
+- 2025-07-23-Domain Generalization and Domain Adaptation Approaches for Face Anti-Spoofing- A Survey.pdf
+- 2025-07-10-Domain_Adaptation_of_Few_Shot_Bioacoustic_Event_Detection_in_Different_Environments.pdf
+- 2025-10-22-Towards_Single_Source_Domain_Generalized_Object_Detection_via_Causal_Visual_Prompts.pdf
+- 2025-04-07-Continual Unsupervised Domain Adaptation for Audio Deepfake Detection.pdf
+- 2026-03-05-Intelligent Diagnosis Method for Bearing Condition Changes Based on Domain Adaptation with Unlabeled Samples.pdf
+- 2025-11-06-A Novel Open-Set Domain Generalization Approach via Metalearning-Based Dual-Level Gradient Alignment for Intelligent Fault Diagnosis.pdf
+- 2025-08-04-Parameter-Efficient Target-Specialized Audio Spectrogram Transformers via Selective Cross-Domain Knowledge Distillation.pdf
+- 2025-08-17-Bayesian Learning for Domain-Invariant Speaker Verification and Anti-Spoofing.pdf
+- 2025-08-17-A Domain Robust Pre-Training Method with Local Prototypes for Speaker Verification.pdf
+- 2021-04-05-Domain Generalization with MixStyle.pdf
+- 2025-01-09-Unsupervised Anomalous Sound Detection for Mechanical Equipment Based on Domain Generalization Techniques.pdf
+- 2025-12-31-Multi-modal cross-domain mixed fusion model with dual disentanglement for fault diagnosis under unseen working conditions.pdf
+- 2025-12-26-Reframing Audio Data Annotation as Domain Adaptation Process- A Multi-Indicator Active Learning Framework.pdf
+- 2025-06-30-DGSAM- Domain Generalization via Individual Sharpness-Aware Minimization.pdf
+- 2025-09-19-Improving Anomalous Sound Detection with Attribute-aware Representation from Domain-adaptive Pre-training.pdf
+- 2020-09-30-Domain Generalization via Semi-supervised Meta Learning.pdf
+- 2024-10-03-Continual Test-time Adaptation for End-to-end Speech Recognition on Noisy Speech.pdf
+- 2025-10-27-Noise-Robust Feature Extraction for Keyword Spotting Based on Supervised Adversarial Domain Adaptation Training Strategies.pdf
+- 2025-04-06-PNP-RKD- A Positive-Negative Pair based Relational Knowledge Distillation Method for Cross-Domain Speaker Verification.pdf
+- 2020-06-02-A Comprehensive Review of Polyphonic Sound Event Detection.pdf
+- 2025-08-13-Domain-Generalization to Improve Learning in Meta-Learning Algorithms.pdf
+- 2026-03-11-VLM-Guided Causal Reasoning Framework for Cross-domain Source-Free Industrial Fault Diagnosis.pdf
+- 2025-08-17-Evaluating Deep Speaker Embedding Robustness to Domain, Sampling Rate, and Codec Variations.pdf
+- 2024-10-11-2025-01-01-A_multi_scale_dual_decoder_autoencoder_model_for_domain_shift_machine_sound_anomaly_detection.pdf
+- 2025-07-26-Enhancing Domain Adaptation in Speaker Verification via Partially Shared Adversarial Network.pdf
+- 2025-02-22-Single_Domain_Generalization_with_Model_aware_Parametric_Batch_wise_Mixup.pdf
+- 2025-07-21-Gradient-Guided Annealing for Domain Generalization.pdf
+- 2025-09-15-Improving Out-of-Domain Audio Deepfake Detection via Layer Selection and Fusion of SSL-Based Countermeasures.pdf
+- 2026-02-09-Causal Meta-Learning Framework- A Co-Evolutionary Approach to Disentanglement and Generalization for Fault Diagnosis of Rotating Machinery.pdf
+- 2025-07-01-A Gradient Alignment Federated Domain Generalization Framework for Rotating Machinery Fault Diagnosis.pdf
+- 2025-08-03-Examining Test-Time Adaptation for Personalized Child Speech Recognition.pdf
+- 2020-09-11-Heterogeneous Domain Generalization via Domain Mixup.pdf
+- 2026-02-23-Federated Domain Generalization Based on Gaussian Mapping and Constrained Quadratic Programming for Rotating Machinery Fault Diagnosis.pdf
+- 2025-12-31-SLM-TTA- A Framework for Test-Time Adaptation of Generative Spoken Language Models.pdf
+- 2024-01-01-Source-free unsupervised domain adaptation- A survey.pdf
+- 2025-09-05-Synthetic data enables context-aware bioacoustic sound event detection.pdf
+- 2025-12-01-Semantics-Consistent Representation Learning for Industrial Fault Diagnosis in Unseen Domains.pdf
+- 2021-01-01-Beyond_Seen_Bounds_Class_Centric_Polarization_for_Single_Domain_Generalized_Deep_Metric_Learning.pdf
+- 2016-04-16-Domain-Adversarial Training of Neural Networks.pdf
+- 2024-03-27-Mind_the_Domain_Gap_a_Systematic_Analysis_on_Bioacoustic_Sound_Event_Detection.pdf
+- 2025-07-04-Evaluating calibration of deep fault diagnostic models under distribution shift.pdf
+- 2023-01-01-Acoustic-Based Machine Condition Monitoring—Methods and Challenges.pdf
+- 2025-05-12-Sustainability Awareness in Manufacturing A Review of IoT Audio Sensor Applications in the Industry 5.0 Era.pdf
+- 2024-03-12-Unknown domain inconsistency minimization for domain generalization.pdf
+- 2023-09-01-Detection_and_Classification_of_Acoustic_Scenes_and_Events_2023_Challenge_ANOMALOUS_SOUND_DETECTION_BY_END_TO_END_TRAINING_OF_OUTLIER_EXPOSURE_AND_NORMALIZING_FLOW_WITH_DOMAIN_GENERALIZATION_TECHNIQUES.pdf
+- 2026-03-09-Unsupervised Domain Adaptation for Audio Deepfake Detection with Modular Statistical Transformations.pdf
+- 2020-02-05-Global Diversity-Based Entropy Minimization for Source-Free Unsupervised Domain Adaptation of Speaker Verification.pdf
+- 2023-10-16-Domain Generalization via Aggregation and Separation for Audio Deepfake Detection.pdf
+- 2025-02-08-A_Machine_Anomalous_Sound_Detection_Method_Based_on_Deep_Residual_Generative_Adversarial_Network.pdf
+- 2025-02-11-EX-Vector- Emotional X-Vector Transfer Learning for Speaker Recognition With Emotion Domain Adaption.pdf
+- 2025-10-18-Humanoid-inspired Causal Representation Learning for Domain Generalization.pdf
+- 2019-11-25-VOICe_A_Sound_Event_Detection_Dataset_For_Generalizable_Domain_Adaptation.pdf
+- 2025-12-02-Causality-Inspired Multiscale Deconfounder Network for Cross-Domain Fault Diagnosis.pdf
+- 2025-08-16-Graph structure learning guided multi-source-free domain adaptation for mechanical fault diagnosis.pdf
+- 2016-07-06-Deep CORAL- Correlation Alignment for Deep Domain Adaptation.pdf
+- 2025-10-30-Adjusting_Bias_in_Anomaly_Scores_via_Variance_Minimization_for_Domain_Generalized_Discriminative_Anomalous_Sound_Detection.pdf
+- 2024-02-22-XKD Cross-Modal Knowledge Distillation with Domain Alignment for Video Representation Learning.pdf
+- 2025-10-30-Assessing_a_Domain_Adaptive_Deployment_Workflow_for_Selective_Audio_Recording_in_Wildlife_Acoustic_Monitoring.pdf
+- 2025-09-10-E-DANN- An Enhanced Domain Adaptation Network for Audio-EEG Feature Decoupling in Explainable Depression Recognition.pdf
+- 2018-06-15-Scalable Factorized Hierarchical Variational Autoencoder Training.pdf
+- 2025-08-07-Adaptive Metadata-Guided Supervised Contrastive Learning for Domain Adaptation on Respiratory Sound Classification.pdf
+- 2024-12-01-Causality-inspired multi-source domain generalization method for intelligent fault diagnosis under unknown operating conditions.pdf
+- 2024-12-23-Multiple Consistency-guided Test-Time Adaptation for Contrastive Audio-Language Models with Unlabeled Audio.pdf
+- 2024-12-11-CAT- Class Aware Adaptive Thresholding for Semi-Supervised Domain Generalization.pdf
+- 2025-12-23-Low-Resource Domain Adaptation for Speech LLMs via Text-Only Fine-Tuning.pdf
+- 2025-12-29-Domain generalization for voice-based cognitive impairment detection.pdf
+- 2025-12-12-Parameter-Optimal Adaptive Layer Mapping- A Transferability-Guided View for Cross-Domain Fault Diagnosis.pdf
+- 2022-11-03-DG_MIX_DOMAIN_GENERALIZATION_FOR_ANOMALOUS_SOUND_DETECTION_BASED_ON_SELF_SUPERVISED_LEARNING.pdf
+- 2025-03-08-Single_Domain_Generalization_with_Adversarial_Memory.pdf
+- 2025-06-30-FIRST_SHOT_UNSUPERVISED_ANOMALOUS_SOUND_DETECTION_FOR_MACHINE_CONDITION_MONITORING_BASED_ON_ENSEMBLE_LEARNING_AND_DOMAIN_GENERALIZATION.pdf
+- 2025-11-17-Evolution of BA-LR and application to explainable cross-domain speaker verification.pdf
+- 2025-09-10-Discrete wavelet convolutional network with cross-contrast perturbation for single domain generalization in fault diagnosis.pdf
+- 2025-06-25-FixCLR_Negative_Class_Contrastive_Learning_for_Semi_Supervised_Domain_Generalization.pdf
+- 2023-02-27-A Tutorial on Domain Generalization.pdf
+- 2025-07-05-CLEP-DG- Contrastive Learning for Speech Emotion Domain Generalization via Soft Prompt Tuning.pdf
+- 2025-03-14-ASCDomain- Domain Invariant Device-Adversarial Isotropic Knowledge Distillation Convolutional Neural Architecture.pdf
+- 2025-03-04-Compressed Domain Invariant Adversarial Representation Learning for Robust Audio Deepfake Detection.pdf
+- 2024-09-15-Integrating Audio Narrations to Strengthen Domain Generalization in Multimodal First-Person Action Recognition.pdf
+- 2025-01-26-Variational Bayesian Adaptive Learning of Deep Latent Variables for Acoustic Knowledge Transfer.pdf
+- 2025-12-24-Trustworthy Open Set Domain Generalization Network for Unknown Fault Diagnosis Under Unseen Conditions.pdf
+- 2025-01-27-Dual-Domain Teacher for Unsupervised Domain Adaptation Detection.pdf
+- 2025-09-25-Domain-Aware Speaker Diarization On African-Accented English.pdf
+- 2025-10-29-RETAINING_MIXTURE_REPRESENTATIONS_FOR_DOMAIN_GENERALIZED_ANOMALOUS_SOUND_DETECTION.pdf
+- 2023-10-30-Domain generalization in computational pathology- survey and guidelines.pdf
+- 2025-12-15-Practical Test-Time Domain Adaptation for Industrial Condition Monitoring by Leveraging Normal-Class Data.pdf
+- 2025-03-26-Feature_Modulation_for_Semi_Supervised_Domain_Generalization_without_Domain_Labels.pdf
+- 2026-03-01-Universal Robust Speech Adaptation for Cross-Domain Speech Recognition and Enhancement.pdf
+- 2017-04-24-beta-VAE- Learning Basic Visual Concepts with a Constrained Variational Framework.pdf
+- 2021-11-12-DISENTANGLING_PHYSICAL_PARAMETERS_FOR_ANOMALOUS_SOUND_DETECTION_UNDER_DOMAIN_SHIFTS.pdf
+- 2026-02-15-DGNSCA- A Domain Generalized Network Leveraging Similarity and Class-Conditional Contrast for Robust Fault Diagnosis of Rotating Machinery Under Unseen Operating Conditions.pdf
+- 2025-04-27-Unlocking the Potential of Unlabeled Data in Semi-Supervised Domain Generalization.pdf
+- 2025-06-04-Domain Adaptation Method and Modality Gap Impact in Audio-Text Models for Prototypical Sound Classification.pdf
+- 2025-12-22-CFDNet- An Interpretable Causal Filtering Disentanglement Domain Generalization Network for Fault Diagnosis Under Unseen Conditions.pdf
+- 2024-12-30-Improving Generalization for AI-Synthesized Voice Detection.pdf
+- 2026-01-21-E-BATS Efficient Backpropagation-Free Test-Time Adaptation for Speech Foundation Models.pdf
+- 2022-12-06-FedSR- A Simple and Effective Domain Generalization Method for Federated Learning.pdf
+- 2025-08-07-Fault Diagnosis of Motors Under Varying Operating Conditions With Only Phase Current and Limited Samples.pdf
+- 2024-08-29-Mixstyle based Domain Generalization for Sound Event Detection with Heterogeneous Training Data.pdf
+- 2025-01-30-Deep_clustering_domain_adaptation_for_fault_diagnosis_of_rolling_bearings_in_mining_belt_conveyors.pdf
+- 2022-12-14-Dealing with Distribution Shift in Acoustic Mosquito Datasets.pdf
+- 2025-11-10-Meta-Learning Based Cross-Domain Few-Shot Speaker Recognition.pdf
+- 2025-10-19-Domain Generalization via Rationale Invariance.pdf
+
+
+## 半监督训练/工作时间线（文件 30，归一标题 15）
+
+- 2025-05-23-A Review of Pseudo Labeling for Semi-Supervised Learning in Computer Vision.pdf
+- 2022-01-29-FlexMatch- Boosting Semi-Supervised Learning with Curriculum Pseudo Labeling.pdf
+- 2023-01-31-FreeMatch- Self-adaptive Thresholding for Semi-supervised Learning.pdf
+- 2018-06-27-Virtual Adversarial Training- A Regularization Method for Supervised and Semi-Supervised Learning.pdf
+- 2022-03-17-SimMatch- Semi-supervised Learning with Similarity Matching.pdf
+- 2023-08-03-Pseudo Labels for Unsupervised Domain Adaptation A Review.pdf
+- 2024-10-23-SemiSAM- Enhancing Semi-Supervised Medical Image Segmentation via SAM-Assisted Consistency Regularization.pdf
+- 2025-11-30-TRiCo- Triadic Game-Theoretic Co-Training for Robust Semi-Supervised Learning.pdf
+- 2013-06-16-Pseudo-Label - The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks.pdf
+- 2024-12-11-CAT- Class Aware Adaptive Thresholding for Semi-Supervised Domain Generalization.pdf
+- 2019-10-23-MixMatch- A Holistic Approach to Semi-Supervised Learning.pdf
+- 2023-09-18-Towards Self-Adaptive Pseudo-Label Filtering for Semi-Supervised Learning.pdf
+- 2025-01-01-Iterative Foundation-Dedicated Learning- Optimized Key Frames, Prompts and Memories for Semi-Supervised Segmentation.pdf
+- 2025-02-28-SemiSAM+- Rethinking Semi-Supervised Medical Image Segmentation in the Era of Foundation Models.pdf
+- 2020-12-06-FixMatch- Simplifying Semi-Supervised Learning with Consistency and Confidence.pdf
+
+
+## 语音增强/工作时间线（文件 1，归一标题 1）
+
+- 2026-04-16-UniPASE: A Generative Model for Universal Speech Enhancement with High Fidelity and Low Hallucinations.pdf
+
+
+## 音频数据集/工作时间线（文件 2，归一标题 1）
+
+- 2026-04-05-AffectSpeech: A Large-Scale Emotional Speech Dataset withFine-Grained Textual Descriptions for Speech Emotion Captioningand Synthesis.pdf
+
+
+## 综述文章/工作时间线（文件 106，归一标题 52）
+
+- 2024-08-22-Domain Generalization through Meta-Learning- A Survey.pdf
+- 2022-11-08-Sound Classification and Processing of Urban Environments A Systematic Literature Review.pdf
+- 2024-11-06-Beyond Model Adaptation at Test Time- A Survey.pdf
+- 2023-11-16-Beyond the Status Quo A Contemporary Survey of Advances and Challenges in Audio Captioning.pdf
+- 2021-03-03-Domain Generalization- A Survey.pdf
+- 2022-03-02-Audio Self-supervised Learning A Survey.pdf
+- 2023-07-18-A survey of mechanical fault diagnosis based on audio signal analysis.pdf
+- 2020-03-09-Deep Neural Networks for Automatic Speech Processing A Survey from Large Corpora to Limited Data.pdf
+- 2023-11-29-A survey of domain generalization in AI-enabled semantic communication Architecture, challenges and future opportunities - Google 搜索.pdf
+- 2023-12-21-A Survey of Audio Enhancement Algorithms for Music, Speech, Bioacoustics, Biomedical, Industrial, and Environmental Sounds by Image U-Net.pdf
+- 2023-05-25-A survey on preprocessing and classification techniques for acoustic scene.pdf
+- 2022-05-24-Generalizing to Unseen Domains- A Survey on Domain Generalization.pdf
+- 2025-01-08-Audio-Language Datasets of Scenes and Events A Survey.pdf
+- 2024-12-08-Domain Generalization for Medical Image Analysis A Review.pdf
+- 2024-03-29-Domain Specialization as the Key to Make Large Language Models Disruptive- A Comprehensive Survey.pdf
+- 2024-07-18-In Search of Lost Online Test-time Adaptation- A Survey.pdf
+- 2025-08-01-Acoustic Sensors and Audio Signal Processing in Intelligent Transportation Systems- A Survey.pdf
+- 2024-01-01-Acoustic scene classification A comprehensive survey.pdf
+- 2025-10-03-Domain Generalization for Semantic Segmentation- A Survey.pdf
+- 2022-09-27-Automated Audio Captioning An Overview of Recent Progress and New Challenges.pdf
+- 2024-10-14-Navigating the Depths- A Comprehensive Survey of Deep Learning for Passive Underwater Acoustic Target Recognition.pdf
+- 2024-06-01-Domain Adaptation and Generalization of Functional Medical Data- A Systematic Survey of Brain Data.pdf
+- 2022-12-04-Domain Adaptation and Generalization on Functional Medical Images- A Systematic Survey.pdf
+- 2021-07-18-Domain Generalization in Vision- A Survey.pdf
+- 2022-10-27-Self-Supervised Speech Representation Learning A Review.pdf
+- 2024-12-12-A comprehensive survey on test-time adaptation under distribution shifts.pdf
+- 2022-11-06-On the Domain Adaptation and Generalization of Pretrained Language Models- A Survey.pdf
+- 2025-09-21-Handling Domain Shifts for Anomalous Sound Detection A Review of DCASE-Related Work.pdf
+- 2025-06-14-Domain Generalization for Person Re-identification- A Survey Towards Domain-Agnostic Person Matching.pdf
+- 2025-07-01-A Review on Sound Source Localization in Robotics Focusing on Deep Learning Methods.pdf
+- 2023-03-13-Domain Generalization in Machine Learning Models for Wireless Communications- Concepts, State-of-the-Art, and Open Issues.pdf
+- 2022-11-08-Domain Generalization -- A Causal Perspective.pdf
+- 2025-10-01-Applications of domain generalization to machine fault diagnosis- A survey.pdf
+- 2025-12-24-Privacy-Preserving Speaker Verification in End-to-End Encrypted Chats- A Feasibility Study.pdf
+- 2025-09-24-A survey of domain generalization in AI-enabled semantic communication- Architecture, challenges and future opportunities.pdf
+- 2025-03-22-A Survey of Data Augmentation in Domain Generalization.pdf
+- 2024-01-01-A review on speech emotion recognition A survey, recent advances, challenges, and the influence of noise.pdf
+- 2025-11-10-Explainable artificial intelligence based intelligent fault diagnosis A systematic review from applications to insights.pdf
+- 2025-04-19-CLIP-Powered Domain Generalization and Domain Adaptation- A Comprehensive Survey.pdf
+- 2023-07-27-Towards Out-Of-Distribution Generalization- A Survey.pdf
+- 2023-09-22-Sparks of Large Audio Models A Survey and Outlook.pdf
+- 2024-06-01-Federated Domain Generalization- A Survey.pdf
+- 2024-10-15-Vision Transformers in Domain Adaptation and Domain Generalization- A study of Robustness.pdf
+- 2025-01-28-Domain-Generalization-Study-of-Empirical-Risk-Minimization-from-Causal-Perspectives.pdf
+- 2024-05-11-A Comprehensive Survey on Heart Sound Analysis in the Deep Learning Era.pdf
+- 2020-03-16-A Review of Deep Learning Based Methods for Acoustic Scene Classification.pdf
+- 2020-02-06-A Survey of Unsupervised Deep Domain Adaptation.pdf
+- 2024-12-19-Domain generalization for rotating machinery fault diagnosis A survey.pdf
+- 2025-09-16-A Survey of Threats Against Voice Authentication and Anti-Spoofing Systems.pdf
+- 2023-04-02-A Survey on Audio Diffusion Models Text To Speech Synthesis and Enhancement in Generative AI.pdf
+- 2021-12-06-Unsupervised Domain Adaptation for Semantic Image Segmentation- a Comprehensive Survey.pdf
+- Continual Test-Time Adaptation- A Comprehensive Survey.pdf
+
+
+## 少数据量训练/工作时间线（文件 0，归一标题 0）
+
+
+
+
+## 可解释性分析/工作时间线（文件 23，归一标题 12）
+
+- 2020-01-01-Captum A uniﬁed and generic model interpretability library for PyTorch.pdf
+- 2021-03-29-Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers.pdf
+- 2017-11-25-A Unified Approach to Interpreting Model Predictions.pdf
+- 2017-06-13-Axiomatic Attribution for Deep Networks.pdf
+- 2018-06-07-Interpretability Beyond Feature Attribution Quantitative Testing with Concept Activation Vectors (TCAV).pdf
+- 2021-04-05-Transformer Interpretability Beyond Attention Visualization.pdf
+- 2026-01-26-A Framework for Evaluating Faithfulness in Explainable AI for Machine Anomalous Sound Detection Usin.pdf
+- 2020-04-13-Score-CAM Score-Weighted Visual Explanations for Convolutional Neural Networks.pdf
+- 2018-01-01-Anchors High-Precision Model-Agnostic Explanations.pdf
+- 2017-06-12-SmoothGrad removing noise by adding noise.pdf
+- 2016-11-17-Nothing Else Matters- Model-Agnostic Explanations By Identifying Prediction Invariance.pdf
+- 2022-03-08-In-context Learning and Induction Heads.pdf
+
+
+## 音频生成/工作时间线（文件 44，归一标题 26）
+
+- 2025-01-03-FlashAudio- Rectified Flows for Fast and High-Fidelity Text-to-Audio Generation.pdf
+- 2026-02-11-UniAudio 2.0: A Unified Audio Language Model with Text-Aligned Factorized Audio Tokenization
+- 2026-03-05-TW-Sound580K_A_Regional_Audio-Text_Dataset_with_Ve.pdf
+- 2025-08-05-AudioGenie: A Training-Free Multi-Agent Framework for Diverse Multimodality-to-Multiaudio Generation.pdf
+- 2025-12-23-QuarkAudio Technical Report.pdf
+- 2025-10-22-MeanAudio: Fast and Faithful Text-to-Audio Generation with Mean Flows.pdf
+- 2026-03-15-AUDIOX: A UNIFIED FRAMEWORK FOR ANYTHINGH50TO-AUDIO GENERATION.pdf
+- 2026-04-09-AudioMoG: Guiding Audio Generation with Mixture-of-Guidance
+- 2023-05-29-Make-An-Audio 2- Temporal-Enhanced Text-to-Audio Generation.pdf
+- 2023-03-05-AudioGen- Textually Guided Audio Generation.pdf
+- 2026-02-03-Synthetic Data Augmentation for Medical Audio Classification- A Preliminary Evaluation.pdf
+- 2026-03-10-Physics-Informed Neural Engine Sound Modeling with Differentiable Pulse-Train Synthesis.pdf
+- 2025-12-13-Generative AI-based data augmentation for improved bioacoustic classification in noisy environments.pdf
+- 2026-03-03-PrismAudio- Decomposed Chain-of-Thoughts and Multi-dimensional Rewards for Video-to-Audio Generation.pdf
+- 2025-03-12-Synthio- Augmenting Small-Scale Audio Classification Datasets with Synthetic Data.pdf
+- 2026-02-17-AudioRAG+- Feedback-driven Retrieval-augmented Audio Generation with Large Audio Language Models.pdf
+- 2025-04-04-Mind the Prompt- Prompting Strategies in Audio Generations for Improving Sound Classification.pdf
+- 2025-01-14-Audio-Agent- Leveraging LLMs For Audio Generation, Editing and Composition.pdf
+- 2023-07-26-AudioLM- a Language Modeling Approach to Audio Generation.pdf
+- 2024-09-27-MIMII-Gen Generative Modeling Approach for Simulated Evaluation of Anomalous Sound Detection System.pdf
+- 2024-05-11-AudioLDM 2- Learning Holistic Audio Generation with Self-supervised Pretraining.pdf
+- 2026-03-08-Analysis-Driven Procedural Generation of an Engine Sound Dataset with Embedded Control Annotations.pdf
+- 2025-09-23-SynSonic- Augmenting Sound Event Detection through Text-to-Audio Diffusion ControlNet and Effective Sample Filtering.pdf
+- 2023-01-30-Make-An-Audio- Text-To-Audio Generation with Prompt-Enhanced Diffusion Models.pdf
+- 2026-02-09-DegDiT- Controllable Audio Generation with Dynamic Event Graph Guided Diffusion Transformer.pdf
+- 2026-04-06-OmniSonic: Towards Universal and Holistic Audio Generationfrom Video and Text.pdf
+
