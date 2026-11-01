@@ -275,6 +275,59 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-e22a3d19",
+      "title": "Language-Based Audio Retrieval Task in DCASE 2022 Challenge",
+      "candidates": [
+        {
+          "id": "2206.06108",
+          "arxiv_title": "Language-based Audio Retrieval Task in DCASE 2022 Challenge",
+          "similarity": 1.0
+        },
+        {
+          "id": "2209.09967",
+          "arxiv_title": "Language-based Audio Retrieval Task in DCASE 2022 Challenge",
+          "similarity": 1.0
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-b142c4b0",
+      "title": "Leveraging Audio-Tagging Assisted Sound Event Detection using Weakified Strong Labels and Frequency",
+      "candidates": [
+        {
+          "id": "2304.12688",
+          "arxiv_title": "Leveraging Audio-Tagging Assisted Sound Event Detection using Weakified Strong Labels and Frequency Dynamic Convolutions",
+          "similarity": 0.9041
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-4c5434cd",
+      "title": "Leveraging Geometrical Acoustic Simulations of Spatial Room Impulse Responses for Improved Sound Eve",
+      "candidates": [
+        {
+          "id": "2309.03337",
+          "arxiv_title": "Leveraging Geometrical Acoustic Simulations of Spatial Room Impulse Responses for Improved Sound Event Detection and Localization",
+          "similarity": 0.8734
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-d63c02e5",
+      "title": "Leveraging Reverberation and Visual Depth Cues for Sound Event Localization and Detection with Dista",
+      "candidates": [
+        {
+          "id": "2410.22271",
+          "arxiv_title": "Leveraging Reverberation and Visual Depth Cues for Sound Event Localization and Detection with Distance Estimation",
+          "similarity": 0.9346
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
