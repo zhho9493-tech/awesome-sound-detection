@@ -239,6 +239,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-632f222c",
+      "title": "GuardReasoner-Omni A Reasoning-based Multi-modal Guardrail for Text, Image, and Video",
+      "candidates": [
+        {
+          "id": "2602.03328",
+          "arxiv_title": "GuardReasoner-Omni: A Reasoning-based Multi-modal Guardrail for Text, Image, Video, and Audio",
+          "similarity": 0.9186
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
