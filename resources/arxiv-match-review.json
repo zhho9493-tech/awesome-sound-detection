@@ -434,6 +434,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-0c0e33ea",
+      "title": "Multi-Iteration Multi-Stage Fine-Tuning of Transformers for Sound Event Detection with Heterogeneous",
+      "candidates": [
+        {
+          "id": "2407.12997",
+          "arxiv_title": "Multi-Iteration Multi-Stage Fine-Tuning of Transformers for Sound Event Detection with Heterogeneous Datasets",
+          "similarity": 0.9569
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
