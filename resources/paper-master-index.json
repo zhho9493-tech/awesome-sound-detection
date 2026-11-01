@@ -13730,11 +13730,11 @@
       "sources": [
         "声音分类/工作时间线"
       ],
-      "public_url": null,
-      "pdf_url": null,
+      "public_url": "https://arxiv.org/abs/2506.12785",
+      "pdf_url": "https://arxiv.org/pdf/2506.12785",
       "doi": null,
-      "arxiv_id": null,
-      "verification_status": "filename-only"
+      "arxiv_id": "2506.12785",
+      "verification_status": "official-url-verified"
     },
     {
       "id": "title-7d42d126",
@@ -24011,11 +24011,11 @@
       "sources": [
         "声纹识别/工作时间线"
       ],
-      "public_url": null,
-      "pdf_url": null,
+      "public_url": "https://arxiv.org/abs/2602.10829",
+      "pdf_url": "https://arxiv.org/pdf/2602.10829",
       "doi": null,
-      "arxiv_id": null,
-      "verification_status": "filename-only"
+      "arxiv_id": "2602.10829",
+      "verification_status": "official-url-verified"
     },
     {
       "id": "title-14556bd0",
