@@ -52,6 +52,7 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 来自 Google Drive「技术调研」的论文主索引现已整合为**一个文件名级去重的主数据库**，减少轮次索引碎片化：
 
 - [统一论文数据库（JSON）](resources/paper-master-index.json)
+- [论文下载覆盖情况：arXiv / Google Drive / 未匹配](resources/paper-download-coverage-2026-11-01.md)
 - [论文表格（CSV）](resources/paper-master-index.csv)
 - [字段说明、分类统计与核验限制](resources/paper-master-index-README.md)
 - [目录扫描覆盖报告](resources/technical-research-coverage-2026-11-01.md)
