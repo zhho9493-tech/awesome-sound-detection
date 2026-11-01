@@ -559,6 +559,30 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-c4f37ab8",
+      "title": "SynSonic Augmenting Sound Event Detection through Text-to-Audio Diffusion ControlNet and Effective",
+      "candidates": [
+        {
+          "id": "2509.18603",
+          "arxiv_title": "SynSonic: Augmenting Sound Event Detection through Text-to-Audio Diffusion ControlNet and Effective Sample Filtering",
+          "similarity": 0.9202
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-e052828b",
+      "title": "Temporal Pooling Strategies for Training-Free Anomalous Sound Detection with Self-Supervised Audio E",
+      "candidates": [
+        {
+          "id": "2603.04605",
+          "arxiv_title": "Temporal Pooling Strategies for Training-Free Anomalous Sound Detection with Self-Supervised Audio Embeddings",
+          "similarity": 0.9569
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
