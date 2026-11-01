@@ -2,7 +2,7 @@
 
 A curated repository for **sound detection, acoustic anomaly detection, industrial acoustics, audio foundation models, and cross-domain AI research**.
 
-中文 | [研究路线](roadmap.md) | [资源目录](resources/catalog.json) | [贡献指南](CONTRIBUTING.md)
+中文 | [研究路线](roadmap.md) | [资源目录](resources/catalog.json) | [历史论文总索引](resources/historical-paper-index.md) | [贡献指南](CONTRIBUTING.md)
 
 ## 资源导航
 
@@ -19,8 +19,10 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 
 ## 横向资源
 
+- [历史论文总索引](resources/historical-paper-index.md) · [Google Drive 统一扫描索引](resources/drive-unified-scanned-index.md)
+- [DAS 皮带机企业动态时间线](industry/das-conveyor-timeline.md) · [行业动态](industry/README.md)
 - [跨领域可迁移技术矩阵](cross-domain/transfer-matrix.md)
-- [开源代码](code/README.md) · [数据集](datasets/README.md) · [行业动态](industry/README.md)
+- [开源代码](code/README.md) · [数据集](datasets/README.md)
 - [实验复现记录](experiments/README.md)
 - [论文模板](templates/paper-template.md) · [行业信息模板](templates/industry-item-template.md) · [实验模板](templates/experiment-template.md)
 
