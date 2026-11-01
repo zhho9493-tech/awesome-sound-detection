@@ -3,6 +3,12 @@
 > 目标：记录与 **DAS / 分布式光纤传感 + 带式输送机 / 托辊监测** 直接相关的企业产品、项目招标、客户案例、商业化路径与技术路线变化。  
 > 仅记录公开信息；企业自报性能须与第三方验证区分。
 
+## 2025 时间线
+
+| 日期 | 企业/机构 | 事件 | DAS 皮带监测关联 | 技术及商业意义 | 原始来源 |
+|---|---|---|---|---|---|
+| 2025-06-23（媒体报道） | REMA TIP TOP × Terra15 | 联合推出 ARMS（Automated Roller Monitoring System）托辊监测方案 | Terra15 提供分布式光纤声学感知技术；REMA TIP TOP 承担系统供应、安装、调试和输送机维护集成 | 从定期人工巡检向沿线连续监测和故障早期识别转型；合作公告不等同于已确认规模商业部署 | [REMA TIP TOP 官方](https://www.rema-tiptop.com.au/terra15-partnership-conveyor-monitoring/) · [Terra15 官方](https://terra15.com.au/rema-tip-top-and-terra15-partner-to-enhance-conveyor-reliability-with-proven-monitoring-technology/) · [Bulk Handling Review（2025-06-23）](https://www.bulkhandlingreview.com.au/rema-tip-top-and-terra15-launch-monitoring-solution/) |
+
 ## 2026 时间线
 
 | 日期 | 企业/机构 | 事件 | 与 DAS 皮带机监测的关联 | 对算法/产品的启示 | 来源 |
@@ -10,7 +16,7 @@
 | 2026-03-20 | 华为 × 海螺水泥/海螺智质 | 发布托辊听诊光纤感知解决方案 | 分布式光纤 + AI 用于托辊 7×24h 异响监测；官方披露实际使用中告警准确率 >95% | 商业验收应关注误报/漏报，而非只看离线 Accuracy | https://e.huawei.com/cn/news/2026/solutions/enterprise-optical-network/conch-cement |
 | 2026-06-16 | 海康威视 | 发布“皮带托辊异常监测场景方案” | PDC φ-OTDR 解调 + 深度学习；异常后由人工复核 | “AI 自动召回 + 人工复核”是现实可行闭环；需要声音证据可回放 | https://partners.hikvision.com/solution/795219013142859776 |
 | 2026-07-10 | 国能北电胜利能源 | “基于光纤声呐的智能监测系统服务”公开招标 | 明确要求 DAS 对输煤胶带机异音识别、准确识别托辊故障，并融合 DTS、断纤/外破、巡检机器人 | 产品竞争从单一模型转向“DAS+DTS+定位+机器人+运维平台” | https://www.chnenergybidding.com.cn/bidweb/001/001002/001002003/20260710/f2bc34a6-0218-4ea6-ab3a-38f0a3545391.html |
-| 2026-08 | REMA TIP TOP × Terra15 | ARMS（Automated Roller Monitoring System）商业部署信息持续公开 | DAS 沿输送机连续采集声振，采用位置正常基线和多算法组合 | 位置级 normal baseline、位置自适应、长周期趋势比单一全局阈值更重要 | https://www.rema-tiptop.com/ |
+| 2026-08-05 | REMA TIP TOP × Terra15 | ARMS 深度技术报道：内部验证与运行试验后，企业称正在支持澳大利亚商业部署 | Treble DAS 解调器 + 沿线光纤 + AssureSrv 云端平台；位置级正常基线、现场校准、多算法融合、故障趋势跟踪 | 重点关注安装耦合/背景振动、跨站点工况适配、误报控制与设备级运维；报道未披露可独立核实的量化性能或具名部署清单 | [Australian Mining（2026-08-05）](https://www.australianmining.com.au/safe-and-sound-conveyor-monitoring/) · [REMA TIP TOP 技术介绍](https://www.rema-tiptop.com.au/acoustic-conveyor-monitoring-arms/) |
 | 2026-08 | 讯飞潮汐力 | 对外展示矿山/钢铁长距离 DAS 皮带监测案例 | 公开案例包含长距离皮带托辊声学异常监测、持续性异常判定 | “持续性异常 Precision”“设备级长期趋势”可作为项目级验收指标 | https://www.iflytek.com/ |
 | 2026-08 | 光格科技 | 半年报披露分布式光纤声波/振动/温度与 AI Agent PHM 路线 | 将带式运输机实时监测、故障预测、健康管理纳入核心技术 | 从异常检测向 PHM/健康状态/RUL 延伸；需要设备级状态建模 | https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12556007&stockid=688450 |
 | 2026-09 | Mining3 → PositioNXT / Vuuma | DAS 输送机状态监测达到 TRL8，并由 PositioNXT、Vuuma 商业化 | 标准光纤作为“虚拟麦克风”，输出位置、故障类型与严重度，并融合速度/负载工况 | severity + 工况条件 + 历史位置趋势，是从“异常”走向“预测维护”的关键 | https://www.mining3.com/portfolio/conveyor-condition-monitoring |
