@@ -21,13 +21,13 @@
 
 ## 技术趋势
 
-1. **任务专用 CNN → 通用预训练 Encoder**：训练重心从“从零训练分类器”转向“选择/适配基础表征”。
-2. **监督预训练 → Self-supervised / Multimodal pretraining**：未标注工业数据价值显著提升。
-3. **全量微调 → Adapter/LoRA/Linear Probe**：跨项目快速适配和防遗忘更易工程化。
-4. **单一 embedding → Retrieval-Augmented**：历史样本、相似案例和 prototype 可直接参与推理。
-5. **Audio-only → Audio-Text / Multimodal**：文本知识、维修记录和设备元数据可与音频联合。
-6. **预测模型 → Reasoning model / Agent**：模型开始输出“证据—判断—建议”，而不只是概率。
-7. **通用大模型 → 行业基础模型**：工业采样率、传感器、设备物理差异决定专用预训练仍然必要。
+1. **[任务专用 CNN → 通用预训练 Encoder](trends/trend-01.md)**：训练重心从“从零训练分类器”转向“选择/适配基础表征”。
+2. **[监督预训练 → Self-supervised / Multimodal pretraining](trends/trend-02.md)**：未标注工业数据价值显著提升。
+3. **[全量微调 → Adapter/LoRA/Linear Probe](trends/trend-03.md)**：跨项目快速适配和防遗忘更易工程化。
+4. **[单一 embedding → Retrieval-Augmented](trends/trend-04.md)**：历史样本、相似案例和 prototype 可直接参与推理。
+5. **[Audio-only → Audio-Text / Multimodal](trends/trend-05.md)**：文本知识、维修记录和设备元数据可与音频联合。
+6. **[预测模型 → Reasoning model / Agent](trends/trend-06.md)**：模型开始输出“证据—判断—建议”，而不只是概率。
+7. **[通用大模型 → 行业基础模型](trends/trend-07.md)**：工业采样率、传感器、设备物理差异决定专用预训练仍然必要。
 
 ## 当前判断 / 对工业声学迁移
 
