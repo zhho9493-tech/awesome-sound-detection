@@ -14,14 +14,14 @@ concurrency:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Verify next unprocessed papers
-        run: python scripts/verify_arxiv_index.py --batch 60 --delay 3.2
+      - name: Verify all remaining papers in this run
+        run: python scripts/verify_arxiv_index.py --batch 100000 --delay 3.2
       - name: Commit verified links and checkpoint
         run: |
           git config user.name "github-actions[bot]"
