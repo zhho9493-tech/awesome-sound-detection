@@ -607,6 +607,30 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-4a0b6288",
+      "title": "Vox-Profile A Speech Foundation Model Benchmark for Characterizing Diverse Speaker and Speech Trait",
+      "candidates": [
+        {
+          "id": "2505.14648",
+          "arxiv_title": "Vox-Profile: A Speech Foundation Model Benchmark for Characterizing Diverse Speaker Traits and Speech Properties",
+          "similarity": 0.9143
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-5a6a011a",
+      "title": "VoxAging Continuously Tracking Speaker Aging with a Large-Scale Longitudinal Dataset in English and",
+      "candidates": [
+        {
+          "id": "2505.21445",
+          "arxiv_title": "VoxAging: Continuously Tracking Speaker Aging with a Large-Scale Longitudinal Dataset in English and Mandarin",
+          "similarity": 0.9565
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
