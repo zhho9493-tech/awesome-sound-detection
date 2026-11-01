@@ -17,17 +17,35 @@ jobs:
     timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Verify all remaining papers in this run
-        run: python scripts/verify_arxiv_index.py --batch 100000 --delay 3.2
-      - name: Commit verified links and checkpoint
+      - name: Verify entire remaining index with incremental commits
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add resources/paper-master-index.json resources/paper-master-index.csv resources/arxiv-lookup-state.json resources/arxiv-match-review.json
-          if ! git diff --cached --quiet; then
-            git commit -m "data: incrementally verify arXiv paper PDF links"
-            git push
-          fi
+          for batch in $(seq 1 37); do
+            python scripts/verify_arxiv_index.py --batch 60 --delay 3.2
+            git add resources/paper-master-index.json resources/paper-master-index.csv resources/arxiv-lookup-state.json resources/arxiv-match-review.json
+            if ! git diff --cached --quiet; then
+              git commit -m "data: verify arXiv links (checkpoint ${batch})"
+              git push
+            fi
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          state=json.loads(Path("resources/arxiv-lookup-state.json").read_text())
+          total=state.get("total_records",2145)
+          checked=len(state.get("checked_ids",[]))
+          errors=len(state.get("errors",{}))
+          print(f"Progress: {checked}/{total}, transient errors: {errors}",flush=True)
+          PY
+            if [ "$(python -c 'import json; s=json.load(open("resources/arxiv-lookup-state.json")); print(int(len(s.get("checked_ids",[]))>=s.get("total_records",2145)))')" = "1" ]; then
+              echo "Full index checked."
+              break
+            fi
+          done
