@@ -143,6 +143,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-aeb94561",
+      "title": "CST-former Multidimensional Attention-based Transformer for Sound Event Localization and Detection",
+      "candidates": [
+        {
+          "id": "2504.12870",
+          "arxiv_title": "CST-former: Multidimensional Attention-based Transformer for Sound Event Localization and Detection in Real Scenes",
+          "similarity": 0.9289
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
