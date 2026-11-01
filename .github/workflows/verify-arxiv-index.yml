@@ -1,0 +1,30 @@
+name: Verify arXiv links in paper index
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 4 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: arxiv-paper-lookup
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify next unprocessed papers
+        run: python scripts/verify_arxiv_index.py --batch 60 --delay 3.2
+      - name: Commit verified links and checkpoint
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resources/paper-master-index.json resources/paper-master-index.csv resources/arxiv-lookup-state.json resources/arxiv-match-review.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: incrementally verify arXiv paper PDF links"
+            git push
+          fi
