@@ -446,6 +446,42 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-13f21080",
+      "title": "Prompt Tuning for Audio Deepfake Detection- Computationally Efficient Test-time Domain",
+      "candidates": [
+        {
+          "id": "2410.09869",
+          "arxiv_title": "Prompt Tuning for Audio Deepfake Detection: Computationally Efficient Test-time Domain Adaptation with Limited Target Dataset",
+          "similarity": 0.8134
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-db9407ab",
+      "title": "PSELDNets Pre-trained Neural Networks on a Large-scale Synthetic Dataset for Sound Event Localizati",
+      "candidates": [
+        {
+          "id": "2411.06399",
+          "arxiv_title": "PSELDNets: Pre-trained Neural Networks on a Large-scale Synthetic Dataset for Sound Event Localization and Detection",
+          "similarity": 0.9252
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-150c72b6",
+      "title": "Resnet-conformer network with shared weights and attention mechanism for sound event localization, d",
+      "candidates": [
+        {
+          "id": "2507.17941",
+          "arxiv_title": "Resnet-conformer network with shared weights and attention mechanism for sound event localization, detection, and distance estimation",
+          "similarity": 0.8609
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
