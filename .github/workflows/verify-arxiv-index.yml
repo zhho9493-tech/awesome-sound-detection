@@ -1,6 +1,9 @@
 name: Verify arXiv links in paper index
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/verify-arxiv-index.yml'
   schedule:
     - cron: '20 4 * * *'
 permissions:
