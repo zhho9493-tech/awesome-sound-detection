@@ -10,7 +10,8 @@
           "similarity": 0.9124
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-cfa90327",
@@ -22,7 +23,8 @@
           "similarity": 0.8734
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-8d5d8d60",
@@ -34,7 +36,8 @@
           "similarity": 0.9519
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-baac42dc",
@@ -58,7 +61,8 @@
           "similarity": 0.8534
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-06d87009",
@@ -70,7 +74,8 @@
           "similarity": 0.9302
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-02ebe032",
@@ -82,7 +87,8 @@
           "similarity": 0.9346
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-029c6738",
@@ -94,7 +100,8 @@
           "similarity": 0.9116
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-d2e932d4",
@@ -106,7 +113,8 @@
           "similarity": 0.9346
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-3d7263d7",
@@ -118,7 +126,8 @@
           "similarity": 0.9041
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-e66977a9",
@@ -130,7 +139,8 @@
           "similarity": 0.9474
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-6b8a9113",
@@ -142,7 +152,8 @@
           "similarity": 0.9009
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-aeb94561",
@@ -154,7 +165,8 @@
           "similarity": 0.9289
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-a46b396e",
@@ -166,7 +178,8 @@
           "similarity": 0.9259
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-e6cdcc3d",
@@ -178,7 +191,8 @@
           "similarity": 0.8734
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-ec763d89",
@@ -190,7 +204,8 @@
           "similarity": 0.9091
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-bd005873",
@@ -202,7 +217,8 @@
           "similarity": 0.9434
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-2b5c5ac6",
@@ -226,7 +242,8 @@
           "similarity": 0.9302
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-a8769269",
@@ -238,7 +255,8 @@
           "similarity": 0.8547
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-632f222c",
@@ -274,7 +292,8 @@
           "similarity": 0.827
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-e22a3d19",
@@ -303,7 +322,8 @@
           "similarity": 0.9041
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-4c5434cd",
@@ -315,7 +335,8 @@
           "similarity": 0.8734
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-d63c02e5",
@@ -327,7 +348,8 @@
           "similarity": 0.9346
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-9003c191",
@@ -356,7 +378,8 @@
           "similarity": 0.885
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-234360e1",
@@ -397,7 +420,8 @@
           "similarity": 0.8904
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-8e0cd562",
@@ -409,7 +433,8 @@
           "similarity": 0.9515
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-5ceac196",
@@ -421,7 +446,8 @@
           "similarity": 0.934
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-5c01cd39",
@@ -433,7 +459,8 @@
           "similarity": 0.9074
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-0c0e33ea",
@@ -445,7 +472,8 @@
           "similarity": 0.9569
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-13f21080",
@@ -457,7 +485,8 @@
           "similarity": 0.8134
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-db9407ab",
@@ -469,7 +498,8 @@
           "similarity": 0.9252
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-150c72b6",
@@ -481,7 +511,8 @@
           "similarity": 0.8609
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-59ad886a",
@@ -493,7 +524,8 @@
           "similarity": 0.934
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-ea9f6557",
@@ -505,7 +537,8 @@
           "similarity": 0.9132
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-4b5a913d",
@@ -534,7 +567,8 @@
           "similarity": 0.834
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-6f342f54",
@@ -546,7 +580,8 @@
           "similarity": 0.9524
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-1d210ccf",
@@ -558,7 +593,8 @@
           "similarity": 0.8959
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-c4f37ab8",
@@ -570,7 +606,8 @@
           "similarity": 0.9202
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-e052828b",
@@ -582,7 +619,8 @@
           "similarity": 0.9569
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-6d5967e8",
@@ -594,7 +632,8 @@
           "similarity": 0.8722
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-b20e4a07",
@@ -606,7 +645,8 @@
           "similarity": 0.8959
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-4a0b6288",
@@ -630,7 +670,8 @@
           "similarity": 0.9565
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     },
     {
       "id": "title-3676d800",
@@ -642,7 +683,8 @@
           "similarity": 0.9469
         }
       ],
-      "decision": "manual-review"
+      "decision": "resolved-by-unambiguous-prefix",
+      "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
     }
   ]
 }
