@@ -535,6 +535,30 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-6f342f54",
+      "title": "Spatial and Semantic Embedding Integration for Stereo Sound Event Localization and Detection in Regu",
+      "candidates": [
+        {
+          "id": "2507.04845",
+          "arxiv_title": "Spatial and Semantic Embedding Integration for Stereo Sound Event Localization and Detection in Regular Videos",
+          "similarity": 0.9524
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-1d210ccf",
+      "title": "Spatial Scaper A Library to Simulate and Augment Soundscapes for Sound Event Localization and Detec",
+      "candidates": [
+        {
+          "id": "2401.12238",
+          "arxiv_title": "Spatial Scaper: A Library to Simulate and Augment Soundscapes for Sound Event Localization and Detection in Realistic Rooms",
+          "similarity": 0.8959
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
