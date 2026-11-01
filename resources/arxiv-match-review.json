@@ -83,6 +83,54 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-029c6738",
+      "title": "AVMeme Exam A Multimodal Multilingual Multicultural Benchmark for LLMs' Contextual and Cultural Kno",
+      "candidates": [
+        {
+          "id": "2601.17645",
+          "arxiv_title": "AVMeme Exam: A Multimodal Multilingual Multicultural Benchmark for LLMs' Contextual and Cultural Knowledge and Thinking",
+          "similarity": 0.9116
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-d2e932d4",
+      "title": "Binaural Sound Event Localization and Detection Neural Network based on HRTF Localization Cues for H",
+      "candidates": [
+        {
+          "id": "2508.04333",
+          "arxiv_title": "Binaural Sound Event Localization and Detection Neural Network based on HRTF Localization Cues for Humanoid Robots",
+          "similarity": 0.9346
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-3d7263d7",
+      "title": "Bridging the gap A comparative exploration of Speech-LLM and end-to-end architecture for multilingu",
+      "candidates": [
+        {
+          "id": "2601.01461",
+          "arxiv_title": "Bridging the gap: A comparative exploration of Speech-LLM and end-to-end architecture for multilingual conversational ASR",
+          "similarity": 0.9041
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-e66977a9",
+      "title": "CBW Towards Dataset Ownership Verification for Speaker Verification via Clustering-based Backdoor W",
+      "candidates": [
+        {
+          "id": "2503.05794",
+          "arxiv_title": "CBW: Towards Dataset Ownership Verification for Speaker Verification via Clustering-based Backdoor Watermarking",
+          "similarity": 0.9474
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
