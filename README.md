@@ -39,3 +39,15 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 **verified-link** 链接经核查；**to-reproduce** 待复现；**reproduced** 已有复现记录；**applied** 已经在规定业务条件下验证；**hypothesis** 未验证的迁移假设。
 
 不要将论文作者报告的结果混同于本项目实测效果。资源内容按原作者许可使用；仓库本身遵循 [MIT](LICENSE)。
+
+
+## 统一论文知识库
+
+来自 Google Drive「技术调研」的论文主索引现已整合为**一个文件名级去重的主数据库**，减少轮次索引碎片化：
+
+- [统一论文数据库（JSON）](resources/paper-master-index.json)
+- [论文表格（CSV）](resources/paper-master-index.csv)
+- [字段说明、分类统计与核验限制](resources/paper-master-index-README.md)
+- [目录扫描覆盖报告](resources/technical-research-coverage-2026-11-01.md)
+
+目前共 2,145 条标题级候选，尚未完成逐篇 DOI/arXiv 身份核对和官方下载链接补全。公开仓库不包含私人 Google Drive 链接。
