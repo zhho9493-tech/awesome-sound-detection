@@ -1,0 +1,28 @@
+{
+  "manual_review": [
+    {
+      "id": "title-abcf8390",
+      "title": "6DoF SELD Sound Event Localization and Detection Using Microphones and Motion Tracking Sensors on s",
+      "candidates": [
+        {
+          "id": "2403.01670",
+          "arxiv_title": "6DoF SELD: Sound Event Localization and Detection Using Microphones and Motion Tracking Sensors on self-motioning human",
+          "similarity": 0.9124
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-cfa90327",
+      "title": "A Framework for Evaluating Faithfulness in Explainable AI for Machine Anomalous Sound Detection Usin",
+      "candidates": [
+        {
+          "id": "2601.19017",
+          "arxiv_title": "A Framework for Evaluating Faithfulness in Explainable AI for Machine Anomalous Sound Detection Using Frequency-Band Perturbation",
+          "similarity": 0.8734
+        }
+      ],
+      "decision": "manual-review"
+    }
+  ]
+}
