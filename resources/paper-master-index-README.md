@@ -24,3 +24,12 @@
 2. 使用规范 ID 替换临时标题哈希并维护旧 ID 映射。
 3. 编写自动增量同步和校验脚本；确保跨项目私人信息不进入公开仓库。
 4. 完成尚待检查的 Google Drive 文件及源目录中所有附件的内容核查。
+
+## arXiv 下载链接自动核验
+
+- [自动核验程序](../scripts/verify_arxiv_index.py)：以论文标题检索 arXiv Atom API，标准化标题相似度≥0.96 且不存在竞争候选才自动写入官方 abs / PDF 地址。
+- [GitHub Actions 工作流](../.github/workflows/verify-arxiv-index.yml)：可手动触发；配置了每日分批处理（60 条/次），失败会保留待重试状态。
+- [人工复核清单](arxiv-match-review.json)：仅工作流实际运行且产生疑似匹配后创建。
+- [检查进度状态](arxiv-lookup-state.json)：仅工作流实际运行后创建，不能将配置完成理解为已检查完毕。
+
+**最新实际写入（2026-11-01）：** 主库 2,145 条中已确认 2 条对应的 arXiv PDF。其余条目的 arXiv 存在性仍待查询；不把没有搜索到等同于“不存在”。此工作流是否实际成功运行须查看 GitHub Actions 页面。
