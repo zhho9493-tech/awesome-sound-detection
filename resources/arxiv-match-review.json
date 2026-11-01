@@ -251,6 +251,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-f7278836",
+      "title": "Improvements of Discriminative Feature Space Training for Anomalous Sound Detection in Unlabeled Con_1",
+      "candidates": [
+        {
+          "id": "2409.09332",
+          "arxiv_title": "Improvements of Discriminative Feature Space Training for Anomalous Sound Detection in Unlabeled Conditions",
+          "similarity": 0.9569
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
