@@ -482,6 +482,59 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-59ad886a",
+      "title": "SELD-Mamba Selective State-Space Model for Sound Event Localization and Detection with Source Dista",
+      "candidates": [
+        {
+          "id": "2408.05057",
+          "arxiv_title": "SELD-Mamba: Selective State-Space Model for Sound Event Localization and Detection with Source Distance Estimation",
+          "similarity": 0.934
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-ea9f6557",
+      "title": "Self Training and Ensembling Frequency Dependent Networks with Coarse Prediction Pooling and Sound E",
+      "candidates": [
+        {
+          "id": "2406.15725",
+          "arxiv_title": "Self Training and Ensembling Frequency Dependent Networks with Coarse Prediction Pooling and Sound Event Bounding Boxes",
+          "similarity": 0.9132
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-4b5a913d",
+      "title": "Self-Distillation Prototypes Network Learning Robust Speaker Representations without Supervision",
+      "candidates": [
+        {
+          "id": "2308.02774",
+          "arxiv_title": "Self-Distillation Prototypes Network: Learning Robust Speaker Representations without Supervision",
+          "similarity": 1.0
+        },
+        {
+          "id": "2406.11169",
+          "arxiv_title": "Self-Distillation Prototypes Network: Learning Robust Speaker Representations without Supervision",
+          "similarity": 1.0
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-3afde024",
+      "title": "SLAM-LLM A Modular, Open-Source Multimodal Large Language Model Framework and Best Practice for Spe",
+      "candidates": [
+        {
+          "id": "2601.09385",
+          "arxiv_title": "SLAM-LLM: A Modular, Open-Source Multimodal Large Language Model Framework and Best Practice for Speech, Language, Audio and Music Processing",
+          "similarity": 0.834
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
