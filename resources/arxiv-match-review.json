@@ -167,6 +167,42 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-e6cdcc3d",
+      "title": "Event Classification by Physics-informed Inpainting for Distributed Multichannel Acoustic Sensor wit",
+      "candidates": [
+        {
+          "id": "2601.13513",
+          "arxiv_title": "Event Classification by Physics-informed Inpainting for Distributed Multichannel Acoustic Sensor with Partially Degraded Channels",
+          "similarity": 0.8734
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-ec763d89",
+      "title": "Exploring Audio-Visual Information Fusion for Sound Event Localization and Detection In Low-Resource",
+      "candidates": [
+        {
+          "id": "2406.15160",
+          "arxiv_title": "Exploring Audio-Visual Information Fusion for Sound Event Localization and Detection In Low-Resource Realistic Scenarios",
+          "similarity": 0.9091
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-bd005873",
+      "title": "Exploring Fine-Tuning of Large Audio Language Models for Spoken Language Understanding under Limited",
+      "candidates": [
+        {
+          "id": "2509.15389",
+          "arxiv_title": "Exploring Fine-Tuning of Large Audio Language Models for Spoken Language Understanding under Limited Speech Data",
+          "similarity": 0.9434
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
