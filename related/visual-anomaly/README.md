@@ -22,12 +22,12 @@
 
 ## 技术趋势
 
-1. **重构 → 预训练特征空间检测**：异常判定更多依赖强 encoder，而非单独训练 decoder。
-2. **全局图像 → Patch / Region**：局部异常定位是视觉 AD 的核心优势，可迁移到谱图局部频带/时间块。
-3. **参数模型 → Memory Bank / Retrieval**：以正常样本库为参照，适合少异常标注场景。
-4. **同域 benchmark → Domain Shift / TTA**：真实部署需要处理设备、项目、光照/采集条件变化。
-5. **Closed-set → Zero-shot / Open-vocabulary**：基础模型帮助发现训练时未定义的异常类型。
-6. **单帧 → 时序/视频异常**：长期状态和事件持续性开始成为重要研究对象。
+1. **[重构 → 预训练特征空间检测](trends/trend-01.md)**：异常判定更多依赖强 encoder，而非单独训练 decoder。
+2. **[全局图像 → Patch / Region](trends/trend-02.md)**：局部异常定位是视觉 AD 的核心优势，可迁移到谱图局部频带/时间块。
+3. **[参数模型 → Memory Bank / Retrieval](trends/trend-03.md)**：以正常样本库为参照，适合少异常标注场景。
+4. **[同域 benchmark → Domain Shift / TTA](trends/trend-04.md)**：真实部署需要处理设备、项目、光照/采集条件变化。
+5. **[Closed-set → Zero-shot / Open-vocabulary](trends/trend-05.md)**：基础模型帮助发现训练时未定义的异常类型。
+6. **[单帧 → 时序/视频异常](trends/trend-06.md)**：长期状态和事件持续性开始成为重要研究对象。
 
 ## 当前判断 / 对声学迁移
 
