@@ -369,6 +369,71 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-5f12503c",
+      "title": "Massive Sound Embedding Benchmark",
+      "candidates": [
+        {
+          "id": "2602.07143",
+          "arxiv_title": "Massive Sound Embedding Benchmark (MSEB)",
+          "similarity": 0.9296
+        },
+        {
+          "id": "2605.04556",
+          "arxiv_title": "Benchmarking LLMs on the Massive Sound Embedding Benchmark (MSEB)",
+          "similarity": 0.6875
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-5b5d2034",
+      "title": "MedVoiceBias A Controlled Study of Audio LLM Behavior in Clinical",
+      "candidates": [
+        {
+          "id": "2511.06592",
+          "arxiv_title": "MedVoiceBias: A Controlled Study of Audio LLM Behavior in Clinical Decision-Making",
+          "similarity": 0.8904
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-8e0cd562",
+      "title": "META-SELD Meta-Learning for Fast Adaptation to the new environment in Sound Event Localization and",
+      "candidates": [
+        {
+          "id": "2308.08847",
+          "arxiv_title": "META-SELD: Meta-Learning for Fast Adaptation to the new environment in Sound Event Localization and Detection",
+          "similarity": 0.9515
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-5ceac196",
+      "title": "MGFF-TDNN A Multi-Granularity Feature Fusion TDNN Model with Depth-Wise Separable Module for Speake",
+      "candidates": [
+        {
+          "id": "2505.03228",
+          "arxiv_title": "MGFF-TDNN: A Multi-Granularity Feature Fusion TDNN Model with Depth-Wise Separable Module for Speaker Verification",
+          "similarity": 0.934
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-5c01cd39",
+      "title": "MK-SGC-SC Multiple Kernel Guided Sparse Graph Construction in Spectral Clustering for Unsupervised",
+      "candidates": [
+        {
+          "id": "2601.19946",
+          "arxiv_title": "MK-SGC-SC: Multiple Kernel Guided Sparse Graph Construction in Spectral Clustering for Unsupervised Speaker Diarization",
+          "similarity": 0.9074
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
