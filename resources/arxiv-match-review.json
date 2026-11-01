@@ -263,6 +263,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-8d1cbf70",
+      "title": "Improving Stereo 3D Sound Event Localization and Detection Perceptual Features, Stereo-specific Dat",
+      "candidates": [
+        {
+          "id": "2507.00874",
+          "arxiv_title": "Improving Stereo 3D Sound Event Localization and Detection: Perceptual Features, Stereo-specific Data Augmentation, and Distance Normalization",
+          "similarity": 0.827
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
