@@ -1,0 +1,583 @@
+# 技术调研子目录索引 B
+
+扫描日 2026-11-01；Google Drive 指定文件夹的直接子项；依据文件名合并 PDF 与 summary，不公开私人 ID。论文身份和公共下载待核验。
+
+## Omni/工作时间线（文件 364，归一标题 182）
+
+- 2026-04-13-Audio-Omni: Extending Multi-modal Understanding to Versatile Audio Generation and Editing.pdf
+- 2026-03-27-MoD-DPO Towards Mitigating Cross-modal Hallucinations in Omni LLMs using Modality Decoupled Preference Optimization.pdf
+- 2025-10-16-XModBench Benchmarking Cross-Modal Capabilities and Consistency in Omni-Language Models.pdf
+- 2026-03-16-Omni IIE Bench Benchmarking the Practical Capabilities of Image Editing Models.pdf
+- 2025-03-28-OmniVox Zero-Shot Emotion Recognition with Omni-LLMs.pdf
+- 2025-09-28-Omni-SafetyBench A Benchmark for Safety Evaluation of Audio-Visual Large Language Models.pdf
+- 2026-02-23-Tele-Omni a Unified Multimodal Framework for Video Generation and Editing.pdf
+- 2025-12-18-Kling-Omni Technical Report.pdf
+- 2026-03-10-More than the Sum Panorama-Language Models for Adverse Omni-Scenes.pdf
+- 2025-09-18-Omni-CLST- Error-aware Curriculum Learning with guided Selective chain-of-Thought for audio question answering.pdf
+- 2026-01-14-Omni-R1 Towards the Unified Generative Paradigm for Multimodal Reasoning.pdf
+- 2025-12-11-Omni-Attribute Open-vocabulary Attribute Encoder for Visual Concept Personalization.pdf
+- 2025-02-09-Fast Omni-Directional Image Super-Resolution Adapting the Implicit Image Function with Pixel and Semantic-Wise Spherical Geometric Priors.pdf
+- 2026-01-30-The Alignment Curse Cross-Modality Jailbreak Transfer in Omni-Models.pdf
+- 2025-02-19-Megrez-Omni Technical Report.pdf
+- 2026-03-12-DreamVideo-Omni Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning.pdf
+- 2026-03-10-Speech-Omni-Lite Portable Speech Interfaces for Vision-Language Models.pdf
+- 2025-11-17-You Only Look Omni Gradient Backpropagation for Moving Infrared Small Target Detection.pdf
+- 2025-10-16-Omni-QALAS Optimized Multiparametric Imaging for Simultaneous T1, T2 and Myelin Water Mapping.pdf
+- 2025-02-26-Omni-SILA Towards Omni-scene Driven Visual Sentiment Identifying, Locating and Attributing in Videos.pdf
+- 2025-08-07-AudioGen-Omni A Unified Multimodal Diffusion Transformer for Video-Synchronized Audio, Speech, and Song Generation.pdf
+- 2026-03-24-Efficient and High-Fidelity Omni Modality Retrieval.pdf
+- 2026-01-13-Omni-LIVO Robust RGB-Colored Multi-Camera Visual-Inertial-LiDAR Odometry via Photometric Migration and ESIKF Fusion.pdf
+- 2025-09-20-Mini-Omni-Reasoner Token-Level Thinking-in-Speaking in Large Speech Models.pdf
+- 2026-02-03-GuardReasoner-Omni A Reasoning-based Multi-modal Guardrail for Text, Image, and Video.pdf
+- 2025-06-02-ShapeLLM-Omni A Native Multimodal LLM for 3D Generation and Understanding.pdf
+- 2025-06-01-SkyReels-Audio Omni Audio-Conditioned Talking Portraits in Video Diffusion Transformers.pdf
+- 2025-08-01-Omni-Scan Creating Visually-Accurate Digital Twin Object Models Using a Bimanual Robot with Handover and Gaussian Splat Merging.pdf
+- 2025-11-03-Classification of motor faults based on transmission coefficient and reflection coefficient of omni-directional antenna using DCNN.pdf
+- 2025-10-30-Omni-Mol Multitask Molecular Model for Any-to-any Modalities.pdf
+- 2025-08-12-Omni Geometry Representation Learning vs Large Language Models for Geospatial Entity Resolution.pdf
+- 2025-10-05-UGC-VideoCaptioner An Omni UGC Video Detail Caption Model and New Benchmarks.pdf
+- 2025-01-26-Baichuan-Omni-1.5 Technical Report.pdf
+- 2026-03-11-Omni-Masked Gradient Descent Memory-Efficient Optimization via Mask Traversal with Improved Convergence.pdf
+- 2026-02-25-One Brain, Omni Modalities Towards Unified Non-Invasive Brain Decoding with Large Language Models.pdf
+- 2025-03-28-Omni-AD Learning to Reconstruct Global and Local Features for Multi-class Anomaly Detection.pdf
+- 2025-10-03-Omni-Embed-Nemotron A Unified Multimodal Retrieval Model for Text, Image, Audio, and Video.pdf
+- 2026-01-31-Omni-RRM Advancing Omni Reward Modeling via Automatic Rubric-Grounded Preference Synthesis.pdf
+- 2025-03-13-OmniSTVG Toward Spatio-Temporal Omni-Object Video Grounding.pdf
+- 2025-05-13-Mogao An Omni Foundation Model for Interleaved Multi-Modal Generation.pdf
+- 2025-08-28-Omni-Perception Omnidirectional Collision Avoidance for Legged Locomotion in Dynamic Environments.pdf
+- 2026-03-23-Omni-WorldBench Towards a Comprehensive Interaction-Centric Evaluation for World Models.pdf
+- 2026-03-17-MMOU A Massive Multi-Task Omni Understanding and Reasoning Benchmark for Long and Complex Real-World Videos.pdf
+- 2026-02-10-Omni-Safety under Cross-Modality Conflict Vulnerabilities, Dynamics Mechanisms and Efficient Alignment.pdf
+- 2026-01-15-AEQ-Bench Measuring Empathy of Omni-Modal Large Models.pdf
+- 2025-12-07-Omni-Referring Image Segmentation.pdf
+- 2025-12-18-A Benchmark and Agentic Framework for Omni-Modal Reasoning and Tool Use in Long Videos.pdf
+- 2025-12-10-ChronusOmni Improving Time Awareness of Omni Large Language Models.pdf
+- 2026-03-10-Daily-Omni Towards Audio-Visual Reasoning with Temporal Alignment across Modalities.pdf
+- 2025-06-02-Is Extending Modality The Right Path Towards Omni-Modality.pdf
+- 2025-11-05-Agent-Omni Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything.pdf
+- 2026-01-21-Multimodal RewardBench 2 Evaluating Omni Reward Models for Interleaved Text and Image.pdf
+- 2026-01-09-e5-omni Explicit Cross-modal Alignment for Omni-modal Embeddings.pdf
+- 2026-02-02-Omni-Judge Can Omni-LLMs Serve as Human-Aligned Judges for Text-Conditioned Audio-Video Generation.pdf
+- 2025-05-01-Omni-Dish Photorealistic and Faithful Image Generation and Editing for Arbitrary Chinese Dishes.pdf
+- 2026-01-15-ROMA Real-time Omni-Multimodal Assistant with Interactive Streaming Understanding.pdf
+- 2025-12-03-InteractiveOmni A Unified Omni-modal Model for Audio-Visual Multi-turn Dialogue.pdf
+- 2025-05-25-DriveX Omni Scene Modeling for Learning Generalizable World Knowledge in Autonomous Driving.pdf
+- 2026-03-17-SocialOmni Benchmarking Audio-Visual Social Interactivity in Omni Models.pdf
+- 2025-10-28-AnyCap Project A Unified Framework, Dataset, and Benchmark for Controllable Omni-modal Captioning.pdf
+- 2026-03-24-OmniDiT Extending Diffusion Transformer to Omni-VTON Framework.pdf
+- 2026-03-11-V2A-DPO Omni-Preference Optimization for Video-to-Audio Generation.pdf
+- 2025-05-26-Omni-R1 Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration.pdf
+- 2025-12-13-OMUDA Omni-level Masking for Unsupervised Domain Adaptation in Semantic Segmentation.pdf
+- 2025-11-10-Omni-AVSR- Towards Unified Multimodal Speech Recognition with Large Language Models.pdf
+- 2026-03-06-Omni-Diffusion Unified Multimodal Understanding and Generation with Masked Discrete Diffusion.pdf
+- 2026-01-15-OMHBench Benchmarking Balanced and Grounded Omni-Modal Multi-Hop Reasoning.pdf
+- 2025-12-04-Omni-AutoThink Adaptive Multimodal Reasoning via Reinforcement Learning.pdf
+- 2025-10-13-Bridging the gap between ultrafast optics and resonant photonics via omni-resonance.pdf
+- 2025-05-22-Omni TM-AE A Scalable and Interpretable Embedding Model Using the Full Tsetlin Machine State Space.pdf
+- 2025-06-02-Omni-R1 Do You Really Need Audio to Fine-Tune Your Audio LLM?.pdf
+- 2026-04-06-OmniSonic: Towards Universal and Holistic Audio Generationfrom Video and Text.pdf
+- 2025-12-11-O-Mem Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents.pdf
+- 2026-02-27-Teleoperated Omni-directional Dual Arm Mobile Manipulation Robotic System with Shared Control for Retail Store.pdf
+- 2025-06-29-OmniEval A Benchmark for Evaluating Omni-modal Models with Visual, Auditory, and Textual Inputs.pdf
+- 2025-10-07-Lumina-DiMOO An Omni Diffusion Large Language Model for Multi-Modal Generation and Understanding.pdf
+- 2025-10-21-ReID5o Achieving Omni Multi-modal Person Re-identification in a Single Model.pdf
+- 2026-03-21-Omni-I2C A Holistic Benchmark for High-Fidelity Image-to-Code Generation.pdf
+- 2025-10-27-Omni-Reward Towards Generalist Omni-Modal Reward Modeling with Free-Form Preferences.pdf
+- 2025-03-27-Qwen2.5-Omni Technical Report.pdf
+- 2025-10-17-NExT-OMNI Towards Any-to-Any Omnimodal Foundation Models with Discrete Flow Matching.pdf
+- 2025-12-17-Omni-Effects Unified and Spatially-Controllable Visual Effects Generation.pdf
+- 2026-03-12-Logics-Parsing-Omni Technical Report.pdf
+- 2026-03-01-LLaDA-o An Effective and Length-Adaptive Omni Diffusion Model.pdf
+- 2025-10-29-OmniVinci Enhancing Architecture and Data for Omni-Modal Understanding LLM.pdf
+- 2026-01-20-FutureOmni Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs.pdf
+- 2025-12-18-SFBD-OMNI Bridge models for lossy measurement restoration with limited clean samples.pdf
+- 2025-06-22-Stream-Omni Simultaneous Multimodal Interactions with Large Language-Vision-Speech Model.pdf
+- 2025-06-26-OneIG-Bench Omni-dimensional Nuanced Evaluation for Image Generation.pdf
+- 2026-03-31-Omni-NegCLIP Enhancing CLIP with Front-Layer Contrastive Fine-Tuning for Comprehensive Negation Understanding.pdf
+- 2025-09-26-Omni-Thinker Scaling Multi-Task RL in LLMs with Hybrid Reward and Task Scheduling.pdf
+- 2026-03-21-Enhancing Vision-Based Policies with Omni-View and Cross-Modality Knowledge Distillation for Mobile Robots.pdf
+- 2025-12-19-UmniBench Unified Understand and Generation Model Oriented Omni-dimensional Benchmark.pdf
+- 2026-01-06-S2ST-Omni Hierarchical Language-Aware SpeechLLM Adaptation for Multilingual Speech-to-Speech Translation.pdf
+- 2025-04-02-Towards Unified Referring Expression Segmentation Across Omni-Level Visual Target Granularities.pdf
+- 2025-11-18-OmniZip Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models.pdf
+- 2025-11-27-OralGPT-Omni A Versatile Dental Multimodal Large Language Model.pdf
+- 2026-02-13-DreamID-Omni Unified Framework for Controllable Human-Centric Audio-Video Generation.pdf
+- 2025-06-26-HumanOmniV2 From Understanding to Omni-Modal Reasoning with Context.pdf
+- 2025-08-31-OmniDPO A Preference Optimization Framework to Address Omni-Modal Hallucination.pdf
+- 2025-10-30-UNO-Bench A Unified Benchmark for Exploring the Compositional Law Between Uni-modal and Omni-modal in Omni Models.pdf
+- 2025-05-31-Towards Omni-RAG Comprehensive Retrieval-Augmented Generation for Large Language Models in Medical Applications.pdf
+- 2026-03-26-Ming-Flash-Omni A Sparse, Unified Architecture for Multimodal Perception and Generation.pdf
+- 2026-02-03-OMNI-Dent Towards an Accessible and Explainable AI Framework for Automated Dental Diagnosis.pdf
+- 2025-09-15-CogGuide Human-Like Guidance for Zero-Shot Omni-Modal Reasoning.pdf
+- 2026-02-06-Ex-Omni Enabling 3D Facial Animation Generation for Omni-modal Large Language Models.pdf
+- 2026-03-30-Omni-Weather A Unified Multimodal Model for Weather Radar Understanding and Generation.pdf
+- 2025-02-05-Omni-DNA A Unified Genomic Foundation Model for Cross-Modal and Multi-Task Learning.pdf
+- 2026-03-18-Omni-3DEdit Generalized Versatile 3D Editing in One-Pass.pdf
+- 2026-01-23-Omni-directional attention mechanism based on Mamba for speech separation.pdf
+- 2025-05-21-Oral Imaging for Malocclusion Issues Assessments OMNI Dataset, Deep Learning Baselines and Benchmarking.pdf
+- 2025-10-21-LongInsightBench A Comprehensive Benchmark for Evaluating Omni-Modal Models on Human-Centric Long-Video Understanding.pdf
+- 2026-01-14-Speech-Hands A Self-Reflection Voice Agentic Approach to Speech Recognition and Audio Reasoning with Omni Perception.pdf
+- 2026-03-25-OmniACBench A Benchmark for Evaluating Context-Grounded Acoustic Control in Omni-Modal Models.pdf
+- 2026-01-30-Omni-View Unlocking How Generation Facilitates Understanding in Unified 3D Model based on Multiview images.pdf
+- 2026-03-23-Nuanced Emotion Recognition Based on a Segment-based MLLM Framework Leveraging Qwen3-Omni for AH Detection.pdf
+- 2025-12-21-HOMIE Histopathology Omni-modal Embedding for Pathology Composed Retrieval.pdf
+- 2025-07-29-X-Omni Reinforcement Learning Makes Discrete Autoregressive Image Generative Models Great Again.pdf
+- 2026-03-05-OmniVideoBench Towards Audio-Visual Understanding Evaluation for Omni MLLMs.pdf
+- 2025-08-19-OmViD Omni-supervised active learning for video action detection.pdf
+- 2026-01-30-Omni-fMRI A Universal Atlas-Free fMRI Foundation Model.pdf
+- 2025-11-01-RoboOmni Proactive Robot Manipulation in Omni-modal Context.pdf
+- 2025-02-04-Simultaneous Beamforming and Anti-Jamming With Intelligent Omni-Surfaces.pdf
+- 2026-04-02-Omni-SimpleMem Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory.pdf
+- 2025-09-25-Hunyuan3D-Omni A Unified Framework for Controllable Generation of 3D Assets.pdf
+- 2026-02-19-Omni-iEEG A Large-Scale, Comprehensive iEEG Dataset and Benchmark for Epilepsy Research.pdf
+- 2025-09-23-Qwen3-Omni Technical Report.pdf
+- 2025-04-24-3D-LLaVA Towards Generalist 3D LMMs with Omni Superpoint Transformer.pdf
+- 2026-01-22-AR-Omni A Unified Autoregressive Model for Any-to-Any Generation.pdf
+- 2026-02-03-vLLM-Omni Fully Disaggregated Serving for Any-to-Any Multimodal Models.pdf
+- 2025-06-10-Ambient Diffusion Omni Training Good Models with Bad Data.pdf
+- 2025-11-04-SAIL-Embedding Technical Report Omni-modal Embedding Foundation Model.pdf
+- 2025-10-08-AV-EMO-Reasoning Benchmarking Emotional Reasoning Capabilities in Omni-modal LLMS with Audio-visual Cues.pdf
+- 2025-07-24-VideoMind An Omni-Modal Video Dataset with Intent Grounding for Deep-Cognitive Video Understanding.pdf
+- 2026-03-16-Omni-Captioner Data Pipeline, Models, and Benchmark for Omni Detailed Perception.pdf
+- 2026-01-05-HyperCLOVA X 8B Omni.pdf
+- 2026-02-27-Omni-C Compressing Heterogeneous Modalities into a Single Dense Encoder.pdf
+- 2025-12-10-AdaVideoRAG Omni-Contextual Adaptive Retrieval-Augmented Efficient Long Video Understanding.pdf
+- 2025-11-23-Uni-MoE-2.0-Omni Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data.pdf
+- 2025-11-14-OmniVGGT Omni-Modality Driven Visual Geometry Grounded Transformer.pdf
+- 2025-11-28-LongCat-Flash-Omni Technical Report.pdf
+- 2026-03-03-Wukong-Omni Design, Modeling and Control of a Multi-mode Robot for Air, Land, and Underwater Exploration with All-in-One Propulsion Unit.pdf
+- 2025-10-02-Broadband entangled-photon omni-resonance in a planar optical cavity.pdf
+- 2025-09-17-Empathy Omni Enabling Empathetic Speech Response Generation through Large Language Models.pdf
+- 2025-11-16-OmniVDiff Omni Controllable Video Diffusion for Generation and Understanding.pdf
+- 2025-12-11-AgriGPT-Omni A Unified Speech-Vision-Text Framework for Multilingual Agricultural Intelligence.pdf
+- 2025-04-10-Capybara-OMNI An Efficient Paradigm for Building Omni-Modal Language Models.pdf
+- 2025-05-23-Learning Generalized and Flexible Trajectory Models from Omni-Semantic Supervision.pdf
+- 2025-09-29-OmniPlay Benchmarking Omni-Modal Models on Omni-Modal Game Playing.pdf
+- 2025-10-27-Omni$^2$ Unifying Omnidirectional Image Generation and Editing in an Omni Model.pdf
+- 2026-02-05-OmniSIFT Modality-Asymmetric Token Compression for Efficient Omni-modal Large Language Models.pdf
+- 2025-12-02-OmniGuard Unified Omni-Modal Guardrails with Deliberate Reasoning.pdf
+- 2026-03-21-ThinkOmni Lifting Textual Reasoning to Omni-modal Scenarios via Guidance Decoding.pdf
+- 2025-09-23-OmniVLA An Omni-Modal Vision-Language-Action Model for Robot Navigation.pdf
+- 2025-11-21-Omni-R1 Do You Really Need Audio to Fine-Tune Your Audio LLM.pdf
+- 2025-09-29-MGM-Omni Scaling Omni LLMs to Personalized Long-Horizon Speech.pdf
+- 2026-03-09-Dynin-Omni Omnimodal Unified Large Diffusion Language Model.pdf
+- 2025-05-17-SALMONN-omni A Standalone Speech LLM without Codec Injection for Full-duplex Conversation.pdf
+- 2025-11-06-Omni-Router Sharing Routing Decisions in Sparse Mixture-of-Experts for Speech Recognition.pdf
+- 2025-10-27-Nexus An Omni-Perceptive And -Interactive Model for Language, Audio, And Vision.pdf
+- 2025-11-12-T-Rex-Omni Integrating Negative Visual Prompt in Generic Object Detection.pdf
+- 2026-03-28-Omni-Modal Dissonance Benchmark Systematically Breaking Modality Consensus to Probe Robustness and Calibrated Abstention.pdf
+- 2026-02-26-OMNI-LEAK Orchestrator Multi-Agent Network Induced Data Leakage.pdf
+- 2026-03-31-Omni-MMSI Toward Identity-attributed Social Interaction Understanding.pdf
+- 2025-03-10-R1-Omni Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning.pdf
+- 2025-04-21-Modality Unified Attack for Omni-Modality Person Re-Identification.pdf
+- 2025-10-10-HANDO Hierarchical Autonomous Navigation and Dexterous Omni-loco-manipulation.pdf
+- 2025-07-09-Omni-Fusion of Spatial and Spectral for Hyperspectral Image Segmentation.pdf
+- 2026-03-10-EmoOmni Bridging Emotional Understanding and Expression in Omni-Modal LLMs.pdf
+- 2026-03-16-Omni-Video 2 Scaling MLLM-Conditioned Diffusion for Unified Video Generation and Editing.pdf
+- 2026-02-10-Exploring Physical Intelligence Emergence via Omni-Modal Architecture and Physical Data Engine.pdf
+- 2025-09-07-DiffOSeg Omni Medical Image Segmentation via Multi-Expert Collaboration Diffusion Model.pdf
+- 2025-09-29-UniFlow-Audio Unified Flow Matching for Audio Generation from Omni-Modalities.pdf
+- 2026-02-28-OmniGAIA Towards Native Omni-Modal AI Agents.pdf
+- 2025-03-22-Omni-RGPT Unifying Image and Video Region-level Understanding via Token Marks.pdf
+- 2025-06-02-Ola Pushing the Frontiers of Omni-Modal Language Model.pdf
+- 2025-04-07-M2-omni Advancing Omni-MLLM for Comprehensive Modality Support with Competitive Performance.pdf
+- 2025-01-16-Omni-Emotion Extending Video MLLM with Detailed Face and Audio Modeling for Multimodal Emotion Analysis.pdf
+- 2026-03-13-Omni-Video Democratizing Unified Video Understanding and Generation.pdf
+- 2025-04-25-AllTact Fin Ray A Compliant Robot Gripper with Omni-Directional Tactile Sensing.pdf
+- 2025-10-07-AuxDet Auxiliary Metadata Matters for Omni-Domain Infrared Small Target Detection.pdf
+- 2026-03-17-Omni Survey for Multimodality Analysis in Visual Object Tracking.pdf
+
+
+## ALLM/技术时间线（文件 440，归一标题 211）
+
+- 2026-04-16-Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection.pdf
+- 2026-04-16-Listen, Pause, and Reason: Toward Perception-Grounded Hybrid Reasoning for Audio Understanding.pdf
+- 2026-04-14-MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex Speech Language Models.pdf
+- 2026-04-14-Audio-Cogito: Towards Deep Audio Reasoning in Large Audio Language Models.pdf
+- 2026-04-13-StableToken: A Noise-Robust Semantic Speech Tokenizer for Resilient SpeechLLMs.pdf
+- 2026-04-14-Beyond Transcription: Unified Audio Schema for Perception-Aware AudioLLMs.pdf
+- 2026-04-14-SpotSound: Enhancing Large Audio-Language Models with Fine-Grained Temporal Grounding.pdf
+- 2026-04-13-HumDial-EIBench: A Human-Recorded Multi-Turn Emotional Intelligence Benchmark for Audio Language Models.pdf
+- 2026-04-12-Whisper-AuT: Domain-Adapted Audio Encoder for EfficientAudio-LLM Training.pdf
+- 2026-04-13-Audio Flamingo Next: Next-Generation Open Audio-Language Models for Speech, Sound, and Music.pdf
+- 2026-04-10-Noise-Aware In-Context Learning for Hallucination Mitigation in ALLMs.pdf
+- 2026-02-15-MUKA Multi Kernel Audio Adaptation Of Audio-Language Models.pdf
+- 2025-10-15-Steer-MoE Efficient Audio-Language Alignment with a Mixture-of-Experts Steering Module.pdf
+- 2025-11-13-MiDashengLM- Efficient Audio Understanding with General Audio Captions.pdf
+- 2024-07-15-Qwen2-Audio Technical Report.pdf
+- 2026-02-02-Hearing is Believing Evaluating and Analyzing Audio Language Model Sycophancy with SYAUDIO.pdf
+- 2026-03-25-From Text to Talk Audio-Language Model Needs Non-Autoregressive Joint Training.pdf
+- 2026-01-19-Pardon Evaluating Conversational Repair in Large Audio-Language Models.pdf
+- 2025-09-09-The Model Hears You Audio Language Model Deployments Should Consider the Principle of Least Privilege.pdf
+- 2025-09-19-SightSound-R1 Cross-Modal Reasoning Distillation from Vision to Audio Language Models.pdf
+- 2025-07-28-Audio Flamingo 3 Advancing Audio Intelligence with Fully Open Large Audio Language Models.pdf
+- 2025-12-23-MMEDIT A Unified Framework for Multi-Type Audio Editing via Audio Language Model.pdf
+- 2025-10-17-Extending Audio Context for Long-Form Understanding in Large Audio-Language Models.pdf
+- 2026-03-12-Resonate Reinforcing Text-to-Audio Generation via Online Feedback from Large Audio Language Models.pdf
+- 2026-02-01-StethoLM Audio Language Model for Cardiopulmonary Analysis Across Clinical Tasks.pdf
+- 2026-03-12-Resurfacing Paralinguistic Awareness in Large Audio Language Models.pdf
+- 2025-10-20-SARSteer Safeguarding Large Audio Language Models via Safe-Ablated Refusal Steering.pdf
+- 2024-09-21-WavLLM Towards Robust and Adaptive Speech Large Language Model.pdf
+- 2025-02-20-MATS An Audio Language Model under Text-only Supervision.pdf
+- 2025-06-13-Step-Audio-AQAA a Fully End-to-End Expressive Large Audio Language Model.pdf
+- 2026-01-21-Unlocking Large Audio-Language Models for Interactive Language Learning.pdf
+- 2025-09-28-Enhancing XR Auditory Realism via Multimodal Scene-Aware Acoustic Rendering.pdf
+- 2025-07-10-Evaluating Robustness of Large Audio Language Models to Audio Injection An Empirical Study.pdf
+- 2025-12-29-MiMo-Audio Audio Language Models are Few-Shot Learners.pdf
+- 2025-03-11-Mellow a small audio language model for reasoning.pdf
+- 2025-10-01-When Silence Matters- The Impact of Irrelevant Audio on Text Reasoning in Large Audio-Language Models.pdf
+- 2024-10-18-SPIRIT LM- Interleaved Spoken and Written Language Model.pdf
+- 2026-01-08-Leveraging Prediction Entropy for Automatic Prompt Weighting in Zero-Shot Audio-Language Classification.pdf
+- 2026-02-14-Audiocards Structured Metadata Improves Audio Language Models For Sound Design.pdf
+- 2025-08-24-SAKURA On the Multi-hop Reasoning of Large Audio-Language Models Based on Speech and Audio Information.pdf
+- 2025-12-31-AzeroS Extending LLM to Speech with Self-Generated Instruction-Free Tuning.pdf
+- 2025-09-29-Reasoning Beyond Majority Vote- An Explainable SpeechLM Framework for Speech Emotion Recognition.pdf
+- 2025-09-12-Reducing Object Hallucination in Large Audio-Language Models via Audio-Aware Decoding.pdf
+- 2026-03-30-Membership Inference Attacks against Large Audio Language Models.pdf
+- 2026-02-05-LALM-as-a-Judge Benchmarking Large Audio-Language Models for Safety Evaluation in Multi-Turn Spoken Dialogues.pdf
+- 2026-02-02-Attention-weighted Centered Kernel Alignment for Knowledge Distillation in Large Audio-Language Models Applied to Speech Emotion Recognition.pdf
+- 2025-08-19-MMAU-Pro A Challenging and Comprehensive Benchmark for Holistic Evaluation of Audio General Intelligence.pdf
+- 2026-01-09-Closing the Modality Reasoning Gap for Speech Large Language Models.pdf
+- 2024-12-17-Modality-Inconsistent Continual Learning of Multimodal Large Language Models.pdf
+- 2026-03-15-Nudging Hidden States Training-Free Model Steering for Chain-of-Thought Reasoning in Large Audio-Language Models.pdf
+- 2026-03-17-SAKE Towards Editing Auditory Attribute Knowledge of Large Audio-Language Models.pdf
+- 2025-11-01-DSpAST Disentangled Representations for Spatial Audio Reasoning with Large Language Models.pdf
+- 2025-11-14-Speech-Audio Compositional Attacks on Multimodal LLMs and Their Mitigation with SALMONN-Guard.pdf
+- 2025-09-01-AHAMask Reliable Task Specification for Large Audio Language Models without Instructions.pdf
+- 2026-01-30-Now You Hear Me Audio Narrative Attacks Against Large Audio-Language Models.pdf
+- 2026-02-28-JALMBench Benchmarking Jailbreak Vulnerabilities in Audio Language Models.pdf
+- 2026-02-13-Can Large Audio Language Models Understand Audio Well Speech, Scene and Events Understanding Benchmark for LALMs.pdf
+- 2025-05-21-Audio Jailbreak An Open Comprehensive Benchmark for Jailbreaking Large Audio-Language Models.pdf
+- 2026-03-15-PARSA-Bench A Comprehensive Persian Audio-Language Model Benchmark.pdf
+- 2026-01-13-Continuous Audio Language Models.pdf
+- 2026-03-31-Audio Language Model for Deepfake Detection Grounded in Acoustic Chain-of-Thought.pdf
+- 2026-01-06-The World is Not Mono Enabling Spatial Understanding in Large Audio-Language Models.pdf
+- 2025-10-13-Audio-Maestro Enhancing Large Audio-Language Models with Tool-Augmented Reasoning.pdf
+- 2026-02-01-Decoding Ambiguous Emotions with Test-Time Scaling in Audio-Language Models.pdf
+- 2025-10-13-VCB Bench An Evaluation Benchmark for Audio-Grounded Large Language Model Conversational Agents.pdf
+- 2026-02-03-EMO-TTA Improving Test-Time Adaptation of Audio-Language Models for Speech Emotion Recognition.pdf
+- 2026-01-25-AVMeme Exam A Multimodal Multilingual Multicultural Benchmark for LLMs' Contextual and Cultural Kno.pdf
+- 2026-03-12-Audio-Language Models for Audio-Centric Tasks A Systematic Survey.pdf
+- 2024-05-28-Audio Flamingo- A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities.pdf
+- 2025-10-21-Can large audio language models understand child stuttering speech speech summarization, and source separation.pdf
+- 2025-10-25-Distinct social-linguistic processing between humans and large audio-language models Evidence from model-brain alignment.pdf
+- 2025-10-14-INVESTIGATING FAITHFULNESS IN LARGE AUDIO LANGUAGE MODELS.pdf
+- 2026-01-22-Competitive Audio-Language Models with Data-Efficient Single-Stage Training on Public Data.pdf
+- 2025-11-20-Train Short, Infer Long Speech-LLM Enables Zero-Shot Streamable Joint ASR and Diarization on Long Audio.pdf
+- 2025-08-15-Audio Flamingo Sound-CoT Technical Report Improving Chain-of-Thought Reasoning in Sound Understanding.pdf
+- 2025-09-30-OWL- Geometry-Aware Spatial Reasoning for Audio Large Language Models.pdf
+- 2025-07-17-Can Large Language Models Predict Audio Effects Parameters from Natural Language.pdf
+- 2025-11-03-SeaLLMs-Audio Large Audio-Language Models for Southeast Asia.pdf
+- 2025-11-04-Audio-Reasoner Improving Reasoning Capability in Large Audio Language Models.pdf
+- 2026-01-06-The Sonar Moment Benchmarking Audio-Language Models in Audio Geo-Localization.pdf
+- 2026-02-02-AudioJailbreak Jailbreak Attacks against End-to-End Large Audio-Language Models.pdf
+- 2025-10-19-Investigating Safety Vulnerabilities of Large Audio-Language Models Under Speaker Emotional Variations.pdf
+- 2025-08-09-Audio-Thinker- Guiding Audio Language Model When and How to Think via Reinforcement Learning.pdf
+- 2025-09-26-MDAR A Multi-scene Dynamic Audio Reasoning Benchmark.pdf
+- 2025-07-03-DeSTA2.5-Audio Toward General-Purpose Large Audio Language Model with Self-Generated Cross-Modal Alignment.pdf
+- 2025-09-20-SoundMind RL-Incentivized Logic Reasoning for Audio-Language Models.pdf
+- 2026-01-06-Generalizable Prompt Tuning for Audio-Language Models via Semantic Expansion.pdf
+- 2026-03-19-How Auditory Knowledge in LLM Backbones Shapes Audio Language Models A Holistic Evaluation.pdf
+- 2026-01-15-Bridging the gap A comparative exploration of Speech-LLM and end-to-end architecture for multilingu.pdf
+- 2026-01-21-Scaling Ambiguity Augmenting Human Annotation in Speech Emotion Recognition with Audio-Language Models.pdf
+- 2025-11-20-Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation.pdf
+- 2026-03-20-ALICE A Multifaceted Evaluation Framework of Large Audio-Language Models' In-Context Learning Ability.pdf
+- 2026-03-20-DEAF A Benchmark for Diagnostic Evaluation of Acoustic Faithfulness in Audio Language Models.pdf
+- 2026-03-12-Edge-Cloud Collaborative Speech Emotion Captioning via Token-Level Speculative Decoding in Audio-Language Models.pdf
+- 2025-09-18-Cross-Modal Knowledge Distillation for Speech Large Language Models.pdf
+- 2026-03-14-Causal Tracing of Audio-Text Fusion in Large Audio Language Models.pdf
+- 2025-11-13-Music Flamingo Scaling Music Understanding in Audio Language Models.pdf
+- 2025-08-28-WoW-Bench Evaluating Fine-Grained Acoustic Perception in Audio-Language Models via Marine Mammal Vocalizations.pdf
+- 2026-02-01-Bias in the Ear of the Listener Assessing Sensitivity in Audio Language Models Across Linguistic, Demographic, and Positional Variations.pdf
+- 2025-11-13-SPUR- A Plug-and-Play Framework for Integrating Spatial Audio Understanding and Reasoning into Large Audio-Language Models.pdf
+- 2026-03-04-LabelBuddy An Open Source Music and Audio Language Annotation Tagging Tool Using AI Assistance.pdf
+- 2025-09-25-MI-Fuse Label Fusion for Unsupervised Domain Adaptation with Closed-Source Large-Audio Language Model.pdf
+- 2025-11-09-SAR-LM Symbolic Audio Reasoning with Large Language Models.pdf
+- 2026-03-31-Audio Hallucination Attacks Probing the Reliability of Large Audio Language Models.pdf
+- 2026-02-24-Hearing the Order Investigating Position Bias in Large Audio-Language Models.pdf
+- 2025-12-19-Fine-Tuning Large Audio-Language Models with LoRA for Precise Temporal Localization of Prolonged Exposure Therapy Elements.pdf
+- 2026-01-07-PALM-Bench A Comprehensive Benchmark for Personalized Audio-Language Models.pdf
+- 2026-01-14-SLAM-LLM A Modular, Open-Source Multimodal Large Language Model Framework and Best Practice for Spe.pdf
+- 2025-07-27-Towards Reliable Large Audio Language Model.pdf
+- 2025-05-19-MMAR A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix.pdf
+- 2025-09-23-Teaching Audio Models to Reaso  A Unified Framework for Source- and Layer-wise Distillation.pdf
+- 2025-10-30-ALMGuard Safety Shortcuts and Where to Find Them as Guardrails for Audio-Language Models.pdf
+- 2025-10-17-VocalBench-DF A Benchmark for Evaluating Speech LLM Robustness to Disfluency.pdf
+- 2025-09-02-AHELM A Holistic Evaluation of Audio-Language Models.pdf
+- 2026-03-10-MUGEN Evaluating and Improving Multi-audio Understanding of Large Audio-Language Models.pdf
+- 2026-02-17-AudioRAG+ Feedback-driven Retrieval-augmented Audio Generation with Large Audio Language Models.pdf
+- 2025-09-23-Pay More Attention To Audio Mitigating Imbalance of Cross-Modal Attention in Large Audio Language Models.pdf
+- 2025-11-18-OmniZip Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models.pdf
+- 2026-01-04-AHA Aligning Large Audio-Language Models for Reasoning Hallucinations via Counterfactual Hard Negatives.pdf
+- 2025-10-15-AudioGenie-Reasoner A Training-Free Multi-Agent Framework for Coarse-to-Fine Audio Deep Reasoning.pdf
+- 2025-09-30-AudSemThinker Enhancing Audio-Language Models through Reasoning over Semantics of Sound.pdf
+- 2025-04-14-ALMTokenizer A Low-bitrate and Semantic-rich Audio Codec Tokenizer for Audio Language Modeling.pdf
+- 2025-11-10-SageLM A Multi-aspect and Explainable Large Language Model for Speech Judgement.pdf
+- 2026-01-21-Scaling Ambiguity Augmenting Human Annotation in Speech Emotion Recognition with Audio-Language Mod.pdf
+- 2025-09-19-Direct Simultaneous Translation Activation for Large Audio-Language Models.pdf
+- 2024-06-25-Enhancing Automated Audio Captioning via Large Language Models with Optimized Audio Encoding.pdf
+- 2025-09-22-EMO-RL Emotion-Rule-Based Reinforcement Learning Enhanced Audio-Language Model for Generalized Speech Emotion Recognition.pdf
+- 2026-02-05-When Good Sounds Go Adversarial Jailbreaking Audio-Language Models with Benign Inputs.pdf
+- 2026-03-09-Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion Prediction.pdf
+- 2025-12-11-It Hears, It Sees too Multi-Modal LLM for Depression Detection By Integrating Visual Understanding into Audio Language Models.pdf
+- 2025-10-03-AudioToolAgent- An Agentic Framework for Audio-Language Models.pdf
+- 2025-03-30-Scaling Auditory Cognition via Test-Time Compute in Audio Language Models.pdf
+- 2025-10-01-Hearing the Order Investigating Selection Bias in Large Audio-Language Models.pdf
+- 2025-07-08-MixAssist An Audio-Language Dataset for Co-Creative AI Assistance in Music Mixing.pdf
+- 2025-03-28-Make Some Noise Towards LLM audio reasoning and generation using sound tokens.pdf
+- 2026-03-06-Are Audio-Language Models Listening Audio-Specialist Heads for Adaptive Audio Steering.pdf
+- 2025-09-30-Voice Evaluation of Reasoning Ability- Diagnosing the Modality-Induced Performance Gap.pdf
+- 2025-10-27-Data-Centric Lessons To Improve Speech-Language Pretraining.pdf
+- 2026-01-10-From Alignment to Advancement Bootstrapping Audio-Language Alignment with Synthetic Data.pdf
+- 2025-05-27-U-SAM An audio language Model for Unified Speech, Audio, and Music Understanding.pdf
+- 2025-07-10-I am bad Interpreting Stealthy, Universal and Robust Audio Jailbreaks in Audio-Language Models.pdf
+- 2025-06-07-Can Quantized Audio Language Models Perform Zero-Shot Spoofing Detection.pdf
+- 2025-11-19-Think Smart, Not Hard Difficulty Adaptive Reasoning for Large Audio Language Models.pdf
+- 2026-03-24-The Interspeech 2026 Audio Encoder Capability Challenge for Large Audio Language Models.pdf
+- 2025-10-16-Ming-UniAudio Speech LLM for Joint Understanding, Generation and Editing with Unified Representation.pdf
+- 2025-09-26-Thinking with Sound Audio Chain-of-Thought Enables Multimodal Reasoning in Large Audio-Language Models.pdf
+- 2025-11-12-StyleBreak Revealing Alignment Vulnerabilities in Large Audio-Language Models via Style-Aware Audio Jailbreak.pdf
+- 2026-01-12-SEE Signal Embedding Energy for Quantifying Noise Interference in Large Audio Language Models.pdf
+- 2026-01-07-SpeakerSleuth Evaluating Large Audio-Language Models as Judges for Multi-turn Speaker Consistency.pdf
+- 2025-12-29-Breaking Audio Large Language Models by Attacking Only the Encoder A Universal Targeted Latent-Space Audio Attack.pdf
+- 2025-11-05-Step-Audio-EditX Technical Report.pdf
+- 2026-01-12-Jailbreak-AudioBench In-Depth Evaluation and Analysis of Jailbreak Threats for Large Audio Language Models.pdf
+- 2025-05-26-Reshaping Representation Space to Balance the Safety and Over-rejection in Large Audio Language Models.pdf
+- 2025-10-13-UALM- Unified Audio Language Model for Understanding, Generation and Reasoning.pdf
+- 2025-01-13-Audio-CoT Exploring Chain-of-Thought Reasoning in Large Audio Language Model.pdf
+- 2025-08-21-LLaSO A Foundational Framework for Reproducible Research in Large Language and Speech Model.pdf
+- 2026-01-21-Exploring Fine-Tuning of Large Audio Language Models for Spoken Language Understanding under Limited.pdf
+- 2025-10-22-M3-SLU Evaluating Speaker-Attributed Reasoning in Multimodal Large Language Models.pdf
+- 2025-09-15-M2D-CLAP Exploring General-purpose Audio-Language Representations Beyond CLAP.pdf
+- 2025-11-12-Rebellion- Noise-Robust Reasoning Training for Audio Reasoning Models.pdf
+- 2026-01-21-Exploring Fine-Tuning of Large Audio Language Models for Spoken Language Understanding under Limited Speech Data.pdf
+- 2026-01-23-Do Models Hear Like Us Probing the Representational Alignment of Audio LLMs and Naturalistic EEG.pdf
+- 2026-01-05-MoE Adapter for Large Audio Language Models Sparsity, Disentanglement, and Gradient-Conflict-Free.pdf
+- 2025-11-17-Spatial Blind Spot Auditory Motion Perception Deficits in Audio LLMs.pdf
+- 2026-03-19-Words at Play Benchmarking Audio Pun Understanding in Large Audio-Language Models.pdf
+- 2025-09-18-SALM Spatial Audio Language Model with Structured Embeddings for Understanding and Editing.pdf
+- 2025-11-18-Segmentwise Pruning in Audio-Language Models.pdf
+- 2025-10-01-Towards Holistic Evaluation of Large Audio-Language Models A Comprehensive Survey.pdf
+- 2025-12-12-Listening Between the Frames Bridging Temporal Gaps in Large Audio-Language Models.pdf
+- 2025-03-06-Audio Flamingo 2 An Audio-Language Model with Long-Audio Understanding and Expert Reasoning Abilities.pdf
+- 2025-08-27-Step-Audio 2 Technical Report.pdf
+- 2026-02-25-Evaluation of Audio Language Models for Fairness, Safety, and Security.pdf
+- 2025-08-04-SpeechR A Benchmark for Speech Reasoning in Large Audio-Language Models.pdf
+- 2026-03-05-SAM A Mamba-2 State-Space Audio-Language Model.pdf
+- 2025-08-21-When Audio and Text Disagree Revealing Text Bias in Large Audio-Language Models.pdf
+- 2025-12-04-Language Models as Semantic Teachers Post-Training Alignment for Medical Audio Understanding.pdf
+- 2026-01-16-SonicBench Dissecting the Physical Perception Bottleneck in Large Audio Language Models.pdf
+- 2025-03-24-SpeechVerse A Large-scale Generalizable Audio Language Model.pdf
+- 2026-03-18-Neuron-Level Emotion Control in Speech-Generative Large Audio-Language Models.pdf
+- 2025-06-08-FLAM- Frame-Wise Language-Audio Modeling.pdf
+- 2025-11-14-TimeAudio Bridging Temporal Gaps in Large Audio-Language Models.pdf
+- 2026-03-10-How Contrastive Decoding Enhances Large Audio Language Models.pdf
+- 2026-01-06-Discovering and Causally Validating Emotion-Sensitive Neurons in Large Audio-Language Models.pdf
+- 2025-11-26-Towards Audio Token Compression in Large Audio Language Models.pdf
+- 2025-09-26-Measuring Audio's Impact on Correctness Audio-Contribution-Aware Post-Training of Large Audio Language Models.pdf
+- 2025-10-17-AsyncVoice Agent Real-Time Explanation for LLM Planning and Reasoning.pdf
+- 2025-10-07-Sci-Phi- A Large Language Model Spatial Audio Descriptor.pdf
+- 2025-09-25-Guiding Audio Editing with Audio Language Model.pdf
+- 2025-01-16-MERaLiON-AudioLLM Bridging Audio and Language with Large Language Models.pdf
+- 2025-10-27-ISA-Bench Benchmarking Instruction Sensitivity for Large Audio Language Models.pdf
+- 2026-03-24-Prompt Amplification and Zero-Shot Late Fusion in Audio-Language Models for Speech Emotion Recognition.pdf
+- 2025-07-14-Generative Audio Language Modeling with Continuous-valued Tokens and Masked Next-Token Prediction.pdf
+- 2024-06-27-DeSTA Enhancing Speech Language Models through Descriptive Speech-Text Alignment.pdf
+- 2025-05-26-SepALM Audio Language Models Are Error Correctors for Robust Speech Separation.pdf
+- 2025-08-24-AudioLens A Closer Look at Auditory Attribute Perception of Large Audio-Language Models.pdf
+- 2025-09-24-SCORE Scaling audio generation using Standardized COmposite REwards.pdf
+- 2026-01-26-Omni-AVSR Towards Unified Multimodal Speech Recognition with Large Language Models.pdf
+- 2026-03-22-CALM Class-Conditional Sparse Attention Vectors for Large Audio-Language Models.pdf
+- 2025-11-17-DialogGraph-LLM Graph-Informed LLMs for End-to-End Audio Dialogue Intent Recognition.pdf
+- 2026-03-10-ALARM Audio-Language Alignment for Reasoning Models.pdf
+- 2026-03-07-Focus Then Listen Exploring Plug-and-Play Audio Enhancer for Noise-Robust Large Audio Language Models.pdf
+- 2026-01-31-The TMU System for the XACLE Challenge Training Large Audio Language Models with CLAP Pseudo-Labels.pdf
+- 2025-10-06-Robustness assessment of large audio language models in multiple-choice evaluation.pdf
+- 2024-06-17-GAMA A Large Audio-Language Model with Advanced Audio Understanding and Complex Reasoning Abilities.pdf
+- 2026-03-15-Localizing and Editing Knowledge in Large Audio-Language Models.pdf
+- 2025-05-07-Weakly-supervised Audio Temporal Forgery Localization via Progressive Audio-language Co-learning Network.pdf
+- 2026-02-12-UniAudio 2.0 A Unified Audio Language Model with Text-Aligned Factorized Audio Tokenization.pdf
+- 2025-11-11-MedVoiceBias A Controlled Study of Audio LLM Behavior in Clinical.pdf
+- 2025-11-20-FxSearcher gradient-free text-driven audio transformation.pdf
+- 2025-06-17-Vela Scalable Embeddings with Voice Large Language Models for Multimodal Retrieval.pdf
+- 2025-11-19-Auden-Voice General-Purpose Voice Encoder for Speech and Language Understanding Mingyue Huo , Wei-Cheng Tseng , Yiwen Shao , Hao Zhang , Dong Yu University of Illinois Urbana-Champaign University of Texas at Austin Tencent AI Lab, USA.pdf
+
+
+## ALLM/综述文章（文件 8，归一标题 4）
+
+- 2025-08-14-Empowering Multimodal LLMs with External Tools A Comprehensive Survey.pdf
+- 2025-07-22-A Survey on Speech Large Language Models for Understanding.pdf
+- 2025-01-25-Audio-Language Models for Audio-Centric Tasks A survey.pdf
+- 2025-11-03-Towards General Auditory Intelligence Large Multimodal Models for Machine Listening and Speaking.pdf
+
+
+## 设备运维/综述文章（文件 2，归一标题 1）
+
+- 2023-Acoustic-Based Machine Condition Monitoring—Methodsand Challenges.pdf
+
+
+## 音频基座/工作时间线（文件 203，归一标题 99）
+
+- 2026-04-11-Masked Contrastive Pre-Training Improves Music Audio Key Detection.pdf
+- 2026-04-08-ULTRAS -- Unified Learning of Transformer Representations for Audio and Speech Signals.pdf
+- 2026-03-25-Rethinking Masking Strategies for MaskedPrediction-based Audio Self-supervised Learning.pdf
+- 2026-04-01-FineLAP: Taming Heterogeneous Supervision for Fine-grainedLanguage-Audio Pretraining.pdf
+- 2026-03-26-Unlocking Strong Supervision: A Data-Centric Study of General-Purpose AudioPre-Training Methods.pdf
+- 2025-10-29-SPEAR A Unified SSL Framework for Learning Speech and Audio Representations_1.pdf
+- 2025-08-06-MT2KD_Toward_a_General-Purpose_Encoder_for_Speech_Speaker_and_Audio_Events.pdf
+- 2025-04-11-DASS DISTILLED AUDIO STATE SPACE MODELS ARE STRONGER AND MORE DURATION-SCALABLE LEARNERS_1.pdf
+- 2025-03-08-No Class Left Behind A Closer Look at Class Balancing for Audio Tagging.pdf
+- 2025-06-23-USAD Universal Speech and Audio Representation via Distillation_1.pdf
+- 2024-01-11-A-JEPA- Joint-Embedding Predictive Architecture Can Listen.pdf
+- 2025-04-11-DASS DISTILLED AUDIO STATE SPACE MODELS ARE STRONGER AND MORE DURATION-SCALABLE LEARNERS.pdf
+- 2025-06-13-SSLAM Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes.pdf
+- 2025-07-03-ASDA Audio Spectrogram Differential Attention Mechanism for Self-Supervised Representation Learning_1.pdf
+- 2025-05-09-Towards a Unified Representation Evaluation Framework Beyond Downstream Tasks.pdf
+- 2024-04-16-Masked modeling duo- Towards a universal audio pre-training framework.pdf
+- 2025-10-14-PAL Probing Audio Encoders via LLMs - Audio Information Transfer into LLMs_1.pdf
+- 2026-01-28-A Study of Data Selection Strategies for Pre-training Self-Supervised Speech Models.pdf
+- 2024-01-07-EAT Self-Supervised Pre-Training with Efficient Audio Transformer.pdf
+- 2024-03-10-ASiT- Local-Global Audio Spectrogram vIsion Transformer for Event Classification.pdf
+- 2024-09-01-Scaling up masked audio encoder learning for general audio classification_1.pdf
+- 2024-03-21-LARGE-SCALE CONTRASTIVE LANGUAGE-AUDIO PRETRAINING WITH FEATURE FUSION AND KEYWORD-TO-CAPTION AUGMENTATION.pdf
+- 2025-09-24-Thinking While Listening Simple Test Time Scaling For Audio Classification.pdf
+- 2021-11-17-PSLA- Improving Audio Tagging with Pretraining, Sampling, Labeling, and Aggregation.pdf
+- 2025-12-03-AaPE- Aliasing-aware Patch Embedding for Self-Supervised Audio Representation Learning.pdf
+- 2026-03-24-MSR-HuBERT- Self-supervised Pre-training for Adaptation to Multiple Sampling Rates.pdf
+- 2026-01-22-The CMU-AIST submission for the ICME 2025 Audio Encoder Challenge.pdf
+- 2026-01-18-SLAP Scalable Language-Audio Pretraining with Variable-Duration Audio and Multi-Objective Training.pdf
+- 2026-03-25-Adaptive Federated Fine-Tuning of Self-Supervised Speech Representations.pdf
+- 2024-10-10-Scaling Up Your Kernels Large Kernel Design in ConvNets towards Universal Representations.pdf
+- 2026-02-19-MAEB- Massive Audio Embedding Benchmark.pdf
+- 2026-02-06-Massive Sound Embedding Benchmark.pdf
+- 2025-10-02-Unmute the Patch Tokens Rethinking Probing in Multi-Label Audio Classification.pdf
+- 2024-01-07-EAT Self-Supervised Pre-Training with Efficient Audio Transformer_1.pdf
+- 2020-08-23-PANNs- Large-scale pretrained audio neural networks for audio pattern recognition.pdf
+- 2025-10-22-AMAuT A Flexible and Efficient Multiview Audio Transformer Framework Trained from Scratch_1.pdf
+- 2022-12-18-BEATS - Audio Pre-Training with Acoustic Tokenizers.pdf
+- 2026-01-27-Residual Tokens Enhance Masked Autoencoders for Speech Modeling.pdf
+- 2025-08-06-MT2KD_Toward_a_General-Purpose_Encoder_for_Speech_Speaker_and_Audio_Events_1.pdf
+- 2026-01-29-Representation-Regularized Convolutional Audio Transformer for Audio Understanding.pdf
+- 2026-02-27-DashengTokenizer- One layer is enough for unified audio understanding and generation.pdf
+- 2022-01-01-data2vec- A General Framework for Self-supervised Learning in Speech, Vision and Language.pdf
+- 2025-09-12-Improving Audio Event Recognition with Consistency Regularization.pdf
+- 2024-09-01-Scaling up masked audio encoder learning for general audio classification.pdf
+- 2025-10-22-AMAuT A Flexible and Efficient Multiview Audio Transformer Framework Trained from Scratch.pdf
+- 2025-10-14-PAL Probing Audio Encoders via LLMs - Audio Information Transfer into LLMs.pdf
+- 2021-12-06-Attention Bottlenecks for Multimodal Fusion.pdf
+- 2025-11-20-Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation.pdf
+- 2023-01-12-Masked Autoencoders that Listen_1.pdf
+- 2025-09-27-ECHO Frequency-aware Hierarchical Encoding for Variable-length Signals_1.pdf
+- 2025-07-18-OpenBEATs A Fully Open-Source General-Purpose Audio Encoder_1.pdf
+- 2026-01-19-GLAP General contrastive audio-text pretraining across domains and languages.pdf
+- 2024-06-04-M2D-CLAP- Masked Modeling Duo Meets CLAP for Learning General-purpose Audio-Language Representation.pdf
+- 2023-09-08-CED CONSISTENT ENSEMBLE DISTILLATION FOR AUDIO TAGGING Heinrich Dinkel, Yongqing Wang, Zhiyong Yan, Junbo Zhang, Yujun Wang Xiaomi Corporation, Beijing, China_1.pdf
+- 2022-01-01-SSAST Self-Supervised Audio Spectrogram Transformer.pdf
+- 2026-02-02-Masked Autoencoders as Universal Speech Enhancer.pdf
+- 2025-06-13-SSLAM Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes_1.pdf
+- 2026-02-19-BAT Better Audio Transformer Guided by Convex Gated Probing.pdf
+- 2022-04-27-Masked Spectrogram Prediction For Self-Supervised Audio Pre-Training.pdf
+- 2025-07-18-OpenBEATs A Fully Open-Source General-Purpose Audio Encoder.pdf
+- 2025-06-23-USAD Universal Speech and Audio Representation via Distillation.pdf
+- 2025-07-03-ASDA Audio Spectrogram Differential Attention Mechanism for Self-Supervised Representation Learning.pdf
+- 2025-09-23-An overview of neural architectures for self-supervised audio representation learning from masked spectrograms.pdf
+- 2025-09-27-ECHO Frequency-aware Hierarchical Encoding for Variable-length Signals.pdf
+- 2026-01-31-The TMU System for the XACLE Challenge- Training Large Audio Language Models with CLAP Pseudo-Labels.pdf
+- 2026-03-12-Audio-language models for audio-centric tasks- A survey.pdf
+- 2025-10-29-SPEAR A Unified SSL Framework for Learning Speech and Audio Representations.pdf
+- 2026-03-24-The Interspeech 2026 Audio Encoder Capability Challenge for Large Audio Language Models.pdf
+- 2025-06-30-Generalizing vision-language models to novel domains- A comprehensive survey.pdf
+- 2025-07-22-FISHER A Foundation Model for Multi-Modal Industrial Signal Comprehensive Representation_1.pdf
+- 2025-07-14-AUDIOMAE++ LEARNING BETTER MASKED AUDIO REPRESENTATIONS WITH SWIGLU FFNS.pdf
+- 2026-02-17-What Do Neurons Listen To? A Neuron-level Dissection of a General-purpose Audio Model.pdf
+- 2022-03-29-Efficient Training of Audio Transformers with Patchout.pdf
+- 2025-08-18-MATPAC++ Enhanced Masked Latent Prediction for Self-Supervised Audio Representation Learning_1.pdf
+- 2025-07-14-AUDIOMAE++ LEARNING BETTER MASKED AUDIO REPRESENTATIONS WITH SWIGLU FFNS_1.pdf
+- 2025-08-13-Revisiting SSL for sound event detection complementary fusion and adaptive post-processing_1.pdf
+- 2023-11-07-Self-supervised Audio Teacher-Student Transformer for Both Clip-level and Frame-level Tasks.pdf
+- 2026-02-05-GRAM Spatial general-purpose audio representation models for real-world applications.pdf
+- 2021-06-24-AudioCLIP- Extending CLIP to Image, Text and Audio.pdf
+- 2026-01-23-SONAR Self-Distilled Continual Pre-training for Domain Adaptive Audio Representation.pdf
+- 2025-09-19-SONAR Self-Distilled Continual Pre-training for Domain Adaptive Audio Representation_1.pdf
+- 2022-01-07-CONFORMER-BASED SELF-SUPERVISED LEARNING FOR NON-SPEECH AUDIO TASKS.pdf
+- 2022-02-15-WAV2CLIP- LEARNING ROBUST AUDIO REPRESENTATIONS FROM CLIP.pdf
+- 2023-01-12-Masked Autoencoders that Listen.pdf
+- 2025-08-03-Token pruning in audio transformers- Optimizing performance and decoding patch importance.pdf
+- 2022-02-02-HTS-AT- A HIERARCHICAL TOKEN-SEMANTIC AUDIO TRANSFORMER FOR SOUND CLASSIFICATION AND DETECTION.pdf
+- 2025-09-19-SONAR Self-Distilled Continual Pre-training for Domain Adaptive Audio Representation_2.pdf
+- 2025-10-13-Unify Variables in Neural Scaling Laws for General Audio Representations via Embedding Effective Rank.pdf
+- 2026-02-04-AudioSAE Towards Understanding of Audio-Processing Models with Sparse AutoEncoders.pdf
+- 2026-02-03-PACE Pretrained Audio Continual Learning.pdf
+- 2023-09-08-CED CONSISTENT ENSEMBLE DISTILLATION FOR AUDIO TAGGING Heinrich Dinkel, Yongqing Wang, Zhiyong Yan, Junbo Zhang, Yujun Wang Xiaomi Corporation, Beijing, China.pdf
+- 2025-08-13-Revisiting SSL for sound event detection complementary fusion and adaptive post-processing.pdf
+- 2025-07-22-FISHER A Foundation Model for Multi-Modal Industrial Signal Comprehensive Representation.pdf
+- 2025-08-17-AxLSTMs learning self-supervised audio representations with xLSTMs.pdf
+- 2023-03-02-MASKED MODELING DUO- LEARNING REPRESENTATIONS BY ENCOURAGING BOTH NETWORKS TO MODEL THE INPUT.pdf
+- 2026-01-21-E-BATS Efficient Backpropagation-Free Test-Time Adaptation for Speech Foundation Models.pdf
+- 2025-08-18-MATPAC++ Enhanced Masked Latent Prediction for Self-Supervised Audio Representation Learning.pdf
+- 2021-07-08-AST- Audio Spectrogram Transformer.pdf
+- 2026-01-18-SmoothCLAP Soft-Target Enhanced Contrastive Language--Audio Pretraining for Affective Computing.pdf
+
+
+## 音频基座/核心技术点（文件 0，归一标题 0）
+
+
+
+
+## 数据扩增/核心技术点（文件 6，归一标题 3）
+
+- 2019-12-03-SpecAugment: A Simple Data Augmentation Methodfor Automatic Speech Recognition.pdf
+- 2018-03-27-mixup: BEYOND EMPIRICAL RISK MINIMIZATION.pdf
+- 2015-03-20-EXPLAINING AND HARNESSINGADVERSARIAL EXAMPLES.pdf
+
+
+## 数据扩增/综述文章（文件 0，归一标题 0）
+
+
+
+
+## 跨域检测/综述文章（文件 72，归一标题 36）
+
+- 2023-07-13-A Causal Framework to Unify Common Domain Generalization Approaches.pdf
+- 2024-08-22-Domain Generalization through Meta-Learning- A Survey.pdf
+- 2024-11-06-Beyond Model Adaptation at Test Time- A Survey.pdf
+- 2021-03-03-Domain Generalization- A Survey.pdf
+- 2023-07-18-Deep learning for unsupervised domain adaptation in medical imaging- Recent advancements and future perspectives.pdf
+- 2025-09-19-Advances in Multimodal Adaptation and Generalization- From Traditional Approaches to Foundation Models.pdf
+- 2022-05-24-Generalizing to Unseen Domains- A Survey on Domain Generalization.pdf
+- 2024-03-29-Domain Specialization as the Key to Make Large Language Models Disruptive- A Comprehensive Survey.pdf
+- 2022-11-06-On the Domain Adaptation and Generalization of Pretrained Language Models- A Survey.pdf
+- 2025-06-14-Domain Generalization for Person Re-identification- A Survey Towards Domain-Agnostic Person Matching.pdf
+- 2023-03-13-Domain Generalization in Machine Learning Models for Wireless Communications- Concepts, State-of-the-Art, and Open Issues.pdf
+- 2025-08-13-Domain-Generalization to Improve Learning in Meta-Learning Algorithms.pdf
+- 2022-11-08-Domain Generalization -- A Causal Perspective.pdf
+- 2024-01-01-Source-free unsupervised domain adaptation- A survey.pdf
+- 2025-10-01-Applications of domain generalization to machine fault diagnosis- A survey.pdf
+- 2025-09-24-A survey of domain generalization in AI-enabled semantic communication- Architecture, challenges and future opportunities.pdf
+- 2025-03-22-A Survey of Data Augmentation in Domain Generalization.pdf
+- 2025-04-19-CLIP-Powered Domain Generalization and Domain Adaptation- A Comprehensive Survey.pdf
+- 2023-07-27-Towards Out-Of-Distribution Generalization- A Survey.pdf
+- 2023-02-27-A Tutorial on Domain Generalization.pdf
+- 2024-06-01-Federated Domain Generalization- A Survey.pdf
+- 2024-10-15-Vision Transformers in Domain Adaptation and Domain Generalization- A study of Robustness.pdf
+- 2023-10-30-Domain generalization in computational pathology- survey and guidelines.pdf
+- 2024-12-19-Domain generalization for rotating machinery fault diagnosis A survey.pdf
+- 2021-12-06-Unsupervised Domain Adaptation for Semantic Image Segmentation- a Comprehensive Survey.pdf
+- Continual Test-Time Adaptation- A Comprehensive Survey.pdf
+- 2025-02-28-Domain Generalization Through Data Augmentation- A Survey of Methods, Applications, and Challenges.pdf
+- 2023-02-23-A Comprehensive Survey on Source-free Domain Adaptation.pdf
+- 2024-07-18-In Search of Lost Online Test-time Adaptation- A Survey.pdf
+- 2025-10-03-Domain Generalization for Semantic Segmentation- A Survey.pdf
+- 2025-07-15-A comprehensive survey on domain adaptation for intelligent fault diagnosis.pdf
+- 2024-06-01-Domain Adaptation and Generalization of Functional Medical Data- A Systematic Survey of Brain Data.pdf
+- 2022-12-04-Domain Adaptation and Generalization on Functional Medical Images- A Systematic Survey.pdf
+- 2021-07-18-Domain Generalization in Vision- A Survey.pdf
+- 2025-07-23-Domain Generalization and Domain Adaptation Approaches for Face Anti-Spoofing- A Survey.pdf
+- 2024-12-12-A comprehensive survey on test-time adaptation under distribution shifts.pdf
+
+
+## 跨域检测/核心技术点（文件 1，归一标题 0）
+
+
+
+尚有子文件夹：平坦最小值
