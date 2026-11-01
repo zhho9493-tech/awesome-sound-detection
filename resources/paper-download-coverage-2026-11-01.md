@@ -41,3 +41,27 @@
 | 6DoF SELD: Sound Event Localization and Detection Using Microphones and Motion Tracking Sensors on self-motioning human | https://arxiv.org/abs/2403.01670 | https://arxiv.org/pdf/2403.01670 | 标题一致；原索引未填写 arXiv PDF，待主索引补写 |
 
 **注意**：本次只完成以上三篇的外部 arXiv 标题验证和核查报告写入，未修改 2,145 条主索引记录；其余尚不能被标为“不在 arXiv”。Google Drive 下载入口已按上述覆盖报告预先回填；链接访问仍取决于文件权限。仓库中的自动 arXiv 工作流尚未发现 `resources/arxiv-lookup-state.json` 进度文件，因此不能据此认定自动批量核验已经执行成功。
+
+## 全量 arXiv 自动查询完成后的最新状态（2026-11-01）
+
+本节为完成工作流后直接读取 `resources/arxiv-lookup-state.json` 和 `resources/arxiv-match-review.json` 所得；**覆盖本文前面的初始统计**。
+
+| 统计项 | 当前数量 |
+|---|---:|
+| 标题级候选记录 | 2,145 |
+| 已完成 arXiv API 查询并记为 checked | 2,145 |
+| 已记录官方 arXiv PDF | 1,061 |
+| 未确认 arXiv PDF | 1,084 |
+| 需要人工复核的近似候选 | 52 |
+| 当前查询错误记录 | 0 |
+| 最后一批查询尝试 | 41 |
+| 最后一批新增匹配 | 27 |
+
+**解释**：`checked` 只表明自动标题检索已处理过该条，不表示论文一定不存在于 arXiv。尤其对于被截断的标题、作者版本差异或非 arXiv 发表论文，自动检索可能漏检。52 条人工复核项见 [arxiv-match-review.json](arxiv-match-review.json)，不应未经人工确认便当作官方匹配。主数据库中的 `download_url` 优先指向确认的 arXiv PDF；未确认者继续保留已有 Google Drive 入口（能否下载取决于现有文件权限）。
+
+### 下一步核验重点
+
+1. 逐条检查 52 条相似候选，标题截断的条目特别需要确认 DOI、作者或原 PDF 首页，防止误配。
+2. 对其余没有 arXiv 匹配的条目补充 DOI、出版社、OpenReview 等官方来源检索；没有 arXiv 不等于没有合法下载来源。
+3. 对 Google Drive 下载链接单独进行登录/权限校验，不能以链接字段非空替代可下载性验证。
+
