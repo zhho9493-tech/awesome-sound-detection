@@ -583,6 +583,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-6d5967e8",
+      "title": "ToS A Team of Specialists ensemble framework for Stereo Sound Event Localization and Detection with",
+      "candidates": [
+        {
+          "id": "2601.17611",
+          "arxiv_title": "ToS: A Team of Specialists ensemble framework for Stereo Sound Event Localization and Detection with distance estimation in Video",
+          "similarity": 0.8722
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
