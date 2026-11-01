@@ -59,6 +59,30 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-06d87009",
+      "title": "An Effective Energy Mask-based Adversarial Evasion Attacks against Misclassification in Speaker Reco",
+      "candidates": [
+        {
+          "id": "2601.22390",
+          "arxiv_title": "An Effective Energy Mask-based Adversarial Evasion Attacks against Misclassification in Speaker Recognition Systems",
+          "similarity": 0.9302
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-02ebe032",
+      "title": "An Experimental Study on Joint Modeling for Sound Event Localization and Detection with Source Dista",
+      "candidates": [
+        {
+          "id": "2501.10755",
+          "arxiv_title": "An Experimental Study on Joint Modeling for Sound Event Localization and Detection with Source Distance Estimation",
+          "similarity": 0.9346
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
