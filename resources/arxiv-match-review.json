@@ -328,6 +328,47 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-9003c191",
+      "title": "Low-Complexity CNNs for Acoustic Scene Classification",
+      "candidates": [
+        {
+          "id": "2208.01555",
+          "arxiv_title": "Low-complexity CNNs for Acoustic Scene Classification",
+          "similarity": 1.0
+        },
+        {
+          "id": "2207.11529",
+          "arxiv_title": "Low-complexity CNNs for Acoustic Scene Classification",
+          "similarity": 1.0
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-82bd122e",
+      "title": "Machine Anomalous Sound Detection Using Spectral-temporal Modulation Representations Derived from Ma",
+      "candidates": [
+        {
+          "id": "2409.05319",
+          "arxiv_title": "Machine Anomalous Sound Detection Using Spectral-temporal Modulation Representations Derived from Machine-specific Filterbanks",
+          "similarity": 0.885
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-234360e1",
+      "title": "Machine Anomalous Sound Detection Using Spectral-temporal Modulation Representations Derived from Ma_1",
+      "candidates": [
+        {
+          "id": "2409.05319",
+          "arxiv_title": "Machine Anomalous Sound Detection Using Spectral-temporal Modulation Representations Derived from Machine-specific Filterbanks",
+          "similarity": 0.886
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
