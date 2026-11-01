@@ -31,13 +31,13 @@
 
 ## 技术趋势
 
-1. **封闭集分类 → 通用 Embedding + 后端判别**：更适合新增类别、检索和开放集识别。
-2. **单原型 → 多原型/Sub-center/MoE**：同一类别存在多工况/多模式时，单中心假设越来越弱。
-3. **监督训练 → 自监督预训练 + 轻量适配**：无标签数据规模成为重要资产。
-4. **统一域 → Domain-invariant / Domain-specific Experts 并存**：一类方法消除域信息，另一类显式建模不同域。
-5. **点估计分数 → Uncertainty-aware calibration**：置信度、拒识阈值和低误报报警更受重视。
-6. **不可解释 embedding → 可解释/可听表征**：有利于诊断错误、标签噪声和异常模式。
-7. **Embedding matching → Audio-LLM reasoning**：大模型开始承担证据组织、解释和复核，但尚未替代高效 embedding 检索。
+1. **[封闭集分类 → 通用 Embedding + 后端判别](trends/trend-01.md)**：更适合新增类别、检索和开放集识别。
+2. **[单原型 → 多原型/Sub-center/MoE](trends/trend-02.md)**：同一类别存在多工况/多模式时，单中心假设越来越弱。
+3. **[监督训练 → 自监督预训练 + 轻量适配](trends/trend-03.md)**：无标签数据规模成为重要资产。
+4. **[统一域 → Domain-invariant / Domain-specific Experts 并存](trends/trend-04.md)**：一类方法消除域信息，另一类显式建模不同域。
+5. **[点估计分数 → Uncertainty-aware calibration](trends/trend-05.md)**：置信度、拒识阈值和低误报报警更受重视。
+6. **[不可解释 embedding → 可解释/可听表征](trends/trend-06.md)**：有利于诊断错误、标签噪声和异常模式。
+7. **[Embedding matching → Audio-LLM reasoning](trends/trend-07.md)**：大模型开始承担证据组织、解释和复核，但尚未替代高效 embedding 检索。
 
 ## 当前判断 / 对工业声学迁移
 
