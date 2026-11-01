@@ -36,10 +36,10 @@ def query(title):
         out.append({"id":ident,"arxiv_title":name,"similarity":round(sim,4)})
     return sorted(out,key=lambda x:-x["similarity"])
 def export_csv(rows):
-    names=["id","title","primary_category","related_categories","source_sections","public_url","pdf_url","doi","arxiv_id","verification_status"]
+    names=["id","title","primary_category","related_categories","source_sections","public_url","pdf_url","doi","arxiv_id","drive_file_url","drive_download_url","download_url","download_source","download_access","verification_status"]
     with CSV.open("w",encoding="utf-8",newline="") as f:
         w=csv.DictWriter(f,fieldnames=names);w.writeheader()
-        for v in rows:w.writerow({"id":v["id"],"title":v["title"],"primary_category":v["primary_category"],"related_categories":";".join(v.get("related_categories",[])),"source_sections":";".join(v.get("sources",[])),"public_url":v.get("public_url"),"pdf_url":v.get("pdf_url"),"doi":v.get("doi"),"arxiv_id":v.get("arxiv_id"),"verification_status":v.get("verification_status")})
+        for v in rows:w.writerow({"id":v["id"],"title":v["title"],"primary_category":v["primary_category"],"related_categories":";".join(v.get("related_categories",[])),"source_sections":";".join(v.get("sources",[])),"public_url":v.get("public_url"),"pdf_url":v.get("pdf_url"),"doi":v.get("doi"),"arxiv_id":v.get("arxiv_id"),"drive_file_url":v.get("drive_file_url"),"drive_download_url":v.get("drive_download_url"),"download_url":v.get("download_url"),"download_source":v.get("download_source"),"download_access":v.get("download_access"),"verification_status":v.get("verification_status")})
 def main():
     a=argparse.ArgumentParser();a.add_argument("--batch",type=int,default=60);a.add_argument("--delay",type=float,default=3.2);args=a.parse_args()
     data=json.loads(DB.read_text(encoding="utf-8"));rows=data["records"]
@@ -63,6 +63,8 @@ def main():
                 row["public_url"]="https://arxiv.org/abs/"+ident
                 row["pdf_url"]="https://arxiv.org/pdf/"+ident
                 row["verification_status"]="official-url-verified"
+                row["download_url"]=row["pdf_url"]
+                row["download_source"]="arxiv"
                 matched+=1
             elif top and top["similarity"]>=0.80:
                 review.append({"id":rid,"title":row["title"],"candidates":cand[:3],"decision":"manual-review"})
