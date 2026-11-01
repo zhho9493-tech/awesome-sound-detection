@@ -203,6 +203,42 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-2b5c5ac6",
+      "title": "FEW-SHOT BIOACOUSTIC EVENT DETECTION WITH FRAME-LEVEL EMBEDDING LEARNING SYSTEM-Rank 2",
+      "candidates": [
+        {
+          "id": "2407.10182",
+          "arxiv_title": "Few-Shot Bioacoustic Event Detection with Frame-Level Embedding Learning System",
+          "similarity": 0.9576
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-d36976e4",
+      "title": "First-of-its-kind AI model for bioacoustic detection using a lightweight associative memory Hopfield",
+      "candidates": [
+        {
+          "id": "2507.10642",
+          "arxiv_title": "First-of-its-kind AI model for bioacoustic detection using a lightweight associative memory Hopfield neural network",
+          "similarity": 0.9302
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-a8769269",
+      "title": "FMSG-JLESS Submission for DCASE 2024 Task4 on Sound Event Detection with Heterogeneous Training Data",
+      "candidates": [
+        {
+          "id": "2407.00291",
+          "arxiv_title": "FMSG-JLESS Submission for DCASE 2024 Task4 on Sound Event Detection with Heterogeneous Training Dataset and Potentially Missing Labels",
+          "similarity": 0.8547
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
