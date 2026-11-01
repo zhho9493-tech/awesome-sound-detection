@@ -29,3 +29,15 @@
 ## 后续校验
 
 保留使用 arXiv API 的逐条精确比对工作流，对新匹配到 arXiv 的论文优先写官方 PDF，同时保留已验证的原始 Drive 文件页面，不要将未匹配视为不在 arXiv。
+
+## 2026-11-01 补充人工抽样核验（实时查询）
+
+以下为对主索引中具体论文标题进行的独立 arXiv 标题核查，不代表对全库完成核验：
+
+| 主索引论文标题 | arXiv 论文页 | 官方 PDF | 核验结论 |
+|---|---|---|---|
+| 3D-LLaVA: Towards Generalist 3D LMMs with Omni Superpoint Transformer | https://arxiv.org/abs/2501.01163 | https://arxiv.org/pdf/2501.01163 | 标题一致；原索引已有链接 |
+| A Causal Framework to Unify Common Domain Generalization Approaches | https://arxiv.org/abs/2307.06825 | https://arxiv.org/pdf/2307.06825 | 标题一致；原索引未填写 arXiv PDF，待主索引补写 |
+| 6DoF SELD: Sound Event Localization and Detection Using Microphones and Motion Tracking Sensors on self-motioning human | https://arxiv.org/abs/2403.01670 | https://arxiv.org/pdf/2403.01670 | 标题一致；原索引未填写 arXiv PDF，待主索引补写 |
+
+**注意**：本次只完成以上三篇的外部 arXiv 标题验证和核查报告写入，未修改 2,145 条主索引记录；其余尚不能被标为“不在 arXiv”。Google Drive 下载入口已按上述覆盖报告预先回填；链接访问仍取决于文件权限。仓库中的自动 arXiv 工作流尚未发现 `resources/arxiv-lookup-state.json` 进度文件，因此不能据此认定自动批量核验已经执行成功。
