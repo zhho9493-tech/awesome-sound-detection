@@ -23,6 +23,30 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-8d5d8d60",
+      "title": "A Multi-Task Learning Framework for Sound Event Detection using High-level Acoustic Characteristics",
+      "candidates": [
+        {
+          "id": "2305.10729",
+          "arxiv_title": "A Multi-Task Learning Framework for Sound Event Detection using High-level Acoustic Characteristics of Sounds",
+          "similarity": 0.9519
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "title-baac42dc",
+      "title": "A ROBUST FRAMEWORK FOR SOUND EVENT LOCALIZATION AND DETECTION ON REAL RECORDINGS-Rank 3",
+      "candidates": [
+        {
+          "id": "2512.22156",
+          "arxiv_title": "A Robust framework for sound event localization and detection on real recordings",
+          "similarity": 0.9581
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
