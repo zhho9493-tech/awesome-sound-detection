@@ -131,6 +131,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-6b8a9113",
+      "title": "Comparing Self-Supervised Learning Models Pre-Trained on Human Speech and Animal Vocalizations for B",
+      "candidates": [
+        {
+          "id": "2501.05987",
+          "arxiv_title": "Comparing Self-Supervised Learning Models Pre-Trained on Human Speech and Animal Vocalizations for Bioacoustics Processing",
+          "similarity": 0.9009
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
