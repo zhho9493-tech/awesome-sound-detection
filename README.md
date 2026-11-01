@@ -17,6 +17,12 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 | 图像异常检测 | [Vision AD](related/visual-anomaly/README.md) | PatchCore、PaDiM、异常定位 |
 | 基础模型 | [Foundation](related/foundation-models/README.md) | CLAP、BEATs、DINOv2 |
 
+## 技术趋势与证据链
+
+- **[技术趋势总地图：8 个研究方向 / 51 个可点击详情页](resources/technology-trend-map.md)**
+- 每个方向的「技术趋势」条目均可打开独立页面，查看判断依据、分析链路、适用边界与验证实验。
+- 注意：部分证据仅支持方法背景，未构成系统文献计量或在 DAS 工业现场的实证结论。
+
 ## 横向资源
 
 - [历史论文总索引](resources/historical-paper-index.md) · [Google Drive 统一扫描索引](resources/drive-unified-scanned-index.md)
