@@ -370,7 +370,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1o_gKiOSyJ_RFQhY9dGLy2N1wvkhv_RRq/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1o_gKiOSyJ_RFQhY9dGLy2N1wvkhv_RRq/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-5bab3c9d",
@@ -1065,7 +1069,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1avQ6mJQOwXYyWZT3vtPjEUUZjB4Z7FYe/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1avQ6mJQOwXYyWZT3vtPjEUUZjB4Z7FYe/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-87c70321",
@@ -1621,7 +1629,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1MVybiPovAdkEPL-nwnpYpsTmeGg76bp5/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1MVybiPovAdkEPL-nwnpYpsTmeGg76bp5/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-5cf19bdc",
@@ -2194,7 +2206,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/139jQPyEQQCvJ3cvM_1Jnvwm9CuVHr9TK/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/139jQPyEQQCvJ3cvM_1Jnvwm9CuVHr9TK/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-f48b0ade",
@@ -2312,7 +2328,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/10Nez50RvXg85Sbuk75CP08PS3pI_YZDi/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/10Nez50RvXg85Sbuk75CP08PS3pI_YZDi/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-4c4da873",
@@ -2326,7 +2346,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1JuUlY7DgloxfrRGGfoiFg0EnDc2nu_Tb/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1JuUlY7DgloxfrRGGfoiFg0EnDc2nu_Tb/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-a92f9e27",
@@ -2430,7 +2454,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1IUBAvGgs9N_6ixjzjCn0qqXCkdKlZ6EA/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1IUBAvGgs9N_6ixjzjCn0qqXCkdKlZ6EA/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-e867594e",
@@ -3586,7 +3614,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1WXQ4CV9iP0WY9SCrtgHPpSJj44tev6qV/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1WXQ4CV9iP0WY9SCrtgHPpSJj44tev6qV/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-c6640c42",
@@ -3600,7 +3632,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1J37ntYLMsyFCzolmr5uelE-2I9CBzo2U/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1J37ntYLMsyFCzolmr5uelE-2I9CBzo2U/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-32438642",
@@ -3959,7 +3995,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1BXEWuNeHgxA5YPBQYrc1zy8_WxX2wuCU/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1BXEWuNeHgxA5YPBQYrc1zy8_WxX2wuCU/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-6fe118b5",
@@ -3973,7 +4013,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1GxLNmlsax9BZE3FRCm_-kgKyR9HdlHvg/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1GxLNmlsax9BZE3FRCm_-kgKyR9HdlHvg/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-d3b66919",
@@ -4005,7 +4049,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1od2MrY6vck8kaCgwiiqm1D-pEPyzqXWV/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1od2MrY6vck8kaCgwiiqm1D-pEPyzqXWV/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-0eff0e7d",
@@ -4019,7 +4067,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1boS9yaAIQ5SCfRpJBqAyaJHNbmkCO4MQ/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1boS9yaAIQ5SCfRpJBqAyaJHNbmkCO4MQ/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-7b0337c0",
@@ -4472,7 +4524,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1tMAwS6Mbn2JtVmPJCxXUpYH0l7GidbAr/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1tMAwS6Mbn2JtVmPJCxXUpYH0l7GidbAr/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-706426be",
@@ -4504,7 +4560,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1z77tu2wE5ytKCCX5EAZiUYU8o1ameI--/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1z77tu2wE5ytKCCX5EAZiUYU8o1ameI--/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-a7a12ab5",
@@ -4593,7 +4653,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/11cr5sBjUbeiZw2HwaVkYVpcB7xVFKBPC/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/11cr5sBjUbeiZw2HwaVkYVpcB7xVFKBPC/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-bc7238a8",
@@ -4607,7 +4671,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1Nfv3gNdRiTnUCTAViwb3LMIbf2Zot_vj/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1Nfv3gNdRiTnUCTAViwb3LMIbf2Zot_vj/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-d060d3f3",
@@ -4658,7 +4726,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1_DD4Xik_KMMzjfxlggwhb3bi7CLdZElp/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1_DD4Xik_KMMzjfxlggwhb3bi7CLdZElp/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-c55fd39d",
@@ -4709,7 +4781,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1tT3YFQpGsBvJuFtYUiJi9rXQGBJlwFrm/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1tT3YFQpGsBvJuFtYUiJi9rXQGBJlwFrm/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-3fcdfbf3",
@@ -4742,7 +4818,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1M8lMUU59LwQZA4CTpVoJh3PVCsNxQKkv/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1M8lMUU59LwQZA4CTpVoJh3PVCsNxQKkv/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-d5fecf4c",
@@ -4794,7 +4874,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1-EAPZjtvocEpBtyRY2Q6Y1kC9I0a8Ip6/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1-EAPZjtvocEpBtyRY2Q6Y1kC9I0a8Ip6/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-9ac1679c",
@@ -4827,7 +4911,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1_0aYKa8RJXMPubsyFKUoTC07XkLOywt3/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1_0aYKa8RJXMPubsyFKUoTC07XkLOywt3/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-12294480",
@@ -5007,7 +5095,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1tuyaSV1y34ERqXW472CkTuobgbnqROCw/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1tuyaSV1y34ERqXW472CkTuobgbnqROCw/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-bfe42d55",
@@ -5021,7 +5113,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1-XeeHbpHBxyYFsw58rBpAh_-VAVsmO6f/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1-XeeHbpHBxyYFsw58rBpAh_-VAVsmO6f/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-c3781d67",
@@ -5035,7 +5131,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1HsOToxTSLzl4Le8ArT-s4A_UZUUISGHv/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1HsOToxTSLzl4Le8ArT-s4A_UZUUISGHv/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-2f3a794d",
@@ -5049,7 +5149,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1rGPxTLfW3WE_KrVmYOnBbdirGlKJrw12/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1rGPxTLfW3WE_KrVmYOnBbdirGlKJrw12/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-57b981cc",
@@ -5063,7 +5167,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/189AUV6wCwT0ZLMpgNpzKywABqt2z6r36/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/189AUV6wCwT0ZLMpgNpzKywABqt2z6r36/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-db58213a",
@@ -5078,7 +5186,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1vg-O630zfYBLihoQai-Iw4TaDFdRXDKu/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1vg-O630zfYBLihoQai-Iw4TaDFdRXDKu/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-2314865c",
@@ -5130,7 +5242,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1t2vWX5eM6l5o59jzIlqPZanDRfMAoeWw/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1t2vWX5eM6l5o59jzIlqPZanDRfMAoeWw/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-e3b939df",
@@ -5144,7 +5260,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/10NYkwXJ0NQHRofHANZiUlKlrokZgFL9U/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/10NYkwXJ0NQHRofHANZiUlKlrokZgFL9U/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-47ff65d9",
@@ -5158,7 +5278,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1aR3U2L2weZ5wx4dSQNugMmIRGBF1JwBA/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1aR3U2L2weZ5wx4dSQNugMmIRGBF1JwBA/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-7e62f0f7",
@@ -5226,7 +5350,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1XouQ1P4iRn-ONcVyCJXNK6t-PO-PvsO2/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1XouQ1P4iRn-ONcVyCJXNK6t-PO-PvsO2/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-20247969",
@@ -5240,7 +5368,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1u_YEhLbGbNn07cML5dWqzIHFua_PPGD2/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1u_YEhLbGbNn07cML5dWqzIHFua_PPGD2/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-df0b4d20",
@@ -5254,7 +5386,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1GtEgQAfdtGV2ftPdP8IRe5MLf946Fox-/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1GtEgQAfdtGV2ftPdP8IRe5MLf946Fox-/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-61019541",
@@ -5268,7 +5404,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1t8ZEH4dVBJKExARpY9-wClSooeGm97Vq/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1t8ZEH4dVBJKExARpY9-wClSooeGm97Vq/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-98f6e7ea",
@@ -5300,7 +5440,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1eM_e8hUorXjoUQ3ZfAfteeouXc7pF8Te/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1eM_e8hUorXjoUQ3ZfAfteeouXc7pF8Te/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-74c32f09",
@@ -5314,7 +5458,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1sMFEP8RdKz_7JuBRlDoOI7Cq_0gHtOxI/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1sMFEP8RdKz_7JuBRlDoOI7Cq_0gHtOxI/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-ea9ca1a1",
@@ -5328,7 +5476,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1MZhDsElsG6KsxS4ZZX8iKvrl2Lb9T38H/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1MZhDsElsG6KsxS4ZZX8iKvrl2Lb9T38H/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-87be687d",
@@ -5450,7 +5602,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1tXDvb1Sw8gxIMI26Xr-cmjjQCadSx2XO/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1tXDvb1Sw8gxIMI26Xr-cmjjQCadSx2XO/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-7c183fa3",
@@ -5519,7 +5675,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1X70PfazttMESHtcsOjwBKKWN0CDe3pza/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1X70PfazttMESHtcsOjwBKKWN0CDe3pza/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-e391b918",
@@ -6032,7 +6192,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1UM9QIxR_GOSmYGRk_xnQ6ZyXtEALoiCr/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1UM9QIxR_GOSmYGRk_xnQ6ZyXtEALoiCr/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-76e5ee7f",
@@ -6186,7 +6350,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1RZgrPZlCkfqIv8Z4YqGEhC49vMuGQcuq/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1RZgrPZlCkfqIv8Z4YqGEhC49vMuGQcuq/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-15918627",
@@ -7113,7 +7281,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1-cHLi567XxJ2SY3j6Dk88qr7km5KQmo3/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1-cHLi567XxJ2SY3j6Dk88qr7km5KQmo3/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-39f4f150",
@@ -8754,7 +8926,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1K5m2L8TpD4mleE3qNkfOaJZ28tYT6T5H/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1K5m2L8TpD4mleE3qNkfOaJZ28tYT6T5H/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-30de3398",
@@ -8876,7 +9052,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1HkyJ4a48MBWzBKli5kGmV7e47iuKpVNc/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1HkyJ4a48MBWzBKli5kGmV7e47iuKpVNc/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-30c5eef8",
@@ -8944,7 +9124,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1xc70TZM8QNisT87TfGJqEnvTKzB3_dhe/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1xc70TZM8QNisT87TfGJqEnvTKzB3_dhe/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-a1626852",
@@ -9170,7 +9354,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1E3UhH7oQxOCOUsEkjAzEUYcfgIAPCoBE/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1E3UhH7oQxOCOUsEkjAzEUYcfgIAPCoBE/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-1012d235",
@@ -9473,7 +9661,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1cObgs6OiOXUnHop0mCsIhrcBnbWafiXE/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1cObgs6OiOXUnHop0mCsIhrcBnbWafiXE/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-9218f2f3",
@@ -9749,7 +9941,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1QMkTj_PfGcXld03rVdObfphmHGogjBJD/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1QMkTj_PfGcXld03rVdObfphmHGogjBJD/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-27ed191c",
@@ -10137,7 +10333,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/11sQRCFR2y0XkLP2O9wbDycJScoOVqGUv/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/11sQRCFR2y0XkLP2O9wbDycJScoOVqGUv/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-f2acbc4f",
@@ -10151,7 +10351,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1MhElftru9DfEI4_ZetsK0r5cgsReplM8/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1MhElftru9DfEI4_ZetsK0r5cgsReplM8/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-bbaec889",
@@ -10165,7 +10369,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1AHTr1oQmopXSt86WZ8vnatjqwSY9JjLT/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1AHTr1oQmopXSt86WZ8vnatjqwSY9JjLT/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-2fea7331",
@@ -10197,7 +10405,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/175IRUGULcUbOCaRdaKe59NGSSgFQut6e/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/175IRUGULcUbOCaRdaKe59NGSSgFQut6e/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-c697ef59",
@@ -10211,7 +10423,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1bLvtZ8X08WnoqkfZOpmfqbHm2pBpML8e/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1bLvtZ8X08WnoqkfZOpmfqbHm2pBpML8e/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-a0e879bf",
@@ -10327,7 +10543,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1UpFw-4SEr5Oym6kLWEQudEjmxubYSrx9/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1UpFw-4SEr5Oym6kLWEQudEjmxubYSrx9/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-06be724b",
@@ -10341,7 +10561,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1fHxWMnY7PNJrMUh73o4JfuTLKFqRRl5l/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1fHxWMnY7PNJrMUh73o4JfuTLKFqRRl5l/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-1e910526",
@@ -10355,7 +10579,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1NnpET-FgTtxtvDOk6oNkRpN2J1g1_exW/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1NnpET-FgTtxtvDOk6oNkRpN2J1g1_exW/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-f60a7639",
@@ -10434,7 +10662,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1xTEih3NeeX1GxKqgmEEAM8xpqggFfDxt/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1xTEih3NeeX1GxKqgmEEAM8xpqggFfDxt/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-6e5bfc52",
@@ -10729,7 +10961,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/16_e0N1uriphDW55yDcG5aJEM2ifYIuc5/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/16_e0N1uriphDW55yDcG5aJEM2ifYIuc5/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-5bf2e8a8",
@@ -12095,7 +12331,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1wX69vydyESxKzK4BNztdBAO2l4-WKW-D/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1wX69vydyESxKzK4BNztdBAO2l4-WKW-D/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-edbb0f0c",
@@ -13189,7 +13429,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1MiSPtVl82uDROTRyavQcl_WqkzBETXfv/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1MiSPtVl82uDROTRyavQcl_WqkzBETXfv/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-0ddace2c",
@@ -14145,7 +14389,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1spP-cDUvaadJO_co9hwIeyQ5-1MDTbNF/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1spP-cDUvaadJO_co9hwIeyQ5-1MDTbNF/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-d4f64f0d",
@@ -14342,7 +14590,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1BtXG8cPhzOZYBzpMfmjvY4r7EmXQHUbZ/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1BtXG8cPhzOZYBzpMfmjvY4r7EmXQHUbZ/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-682ad444",
@@ -14554,7 +14806,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1mC96j9n7DRvP6Db1yzV9RA7pXcXxHi44/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1mC96j9n7DRvP6Db1yzV9RA7pXcXxHi44/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-e8b180ce",
@@ -14586,7 +14842,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1oNz6IHwB2t7XkMCCYVck2Dlw-ew-Wl3d/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1oNz6IHwB2t7XkMCCYVck2Dlw-ew-Wl3d/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-6a75e711",
@@ -14600,7 +14860,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1NvC3GiuewZ5wyLimcuCuBHECUxEhKLJ3/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1NvC3GiuewZ5wyLimcuCuBHECUxEhKLJ3/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-47efabcc",
@@ -14651,7 +14915,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1NmNc5Q7kD0oTWMoWwcXUsUPMILomeJrG/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1NmNc5Q7kD0oTWMoWwcXUsUPMILomeJrG/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-fb932bab",
@@ -14715,7 +14983,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1tsfsbS-47zLgYNgneb1NRy_DNsU57_Ib/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1tsfsbS-47zLgYNgneb1NRy_DNsU57_Ib/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-4bb29f76",
@@ -15715,7 +15987,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/10YJSTbKOd-yqs-m4fiTr30TtXIFj8M1o/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/10YJSTbKOd-yqs-m4fiTr30TtXIFj8M1o/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-e821c060",
@@ -15838,7 +16114,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1Lhy8Zr4wQV-nQ4qx4Xc7M5krqsFL0q_5/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1Lhy8Zr4wQV-nQ4qx4Xc7M5krqsFL0q_5/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-b334ea14",
@@ -15996,7 +16276,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1iclCCvO8lbnUGferVLEJErddyC-rKfRA/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1iclCCvO8lbnUGferVLEJErddyC-rKfRA/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-2a685c90",
@@ -16028,7 +16312,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1OiOaO0Sm6AJNHRYmpOqZVJGVSOxyIZB3/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1OiOaO0Sm6AJNHRYmpOqZVJGVSOxyIZB3/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-26caaa32",
@@ -16114,7 +16402,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/15xJsDi7MDPJo4mfSAjNWkSFgTwDrGqhN/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/15xJsDi7MDPJo4mfSAjNWkSFgTwDrGqhN/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-09d3b8b1",
@@ -16364,7 +16656,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1UKGWj8VOSA4AttmMH8Tx04q-ZAhHihlL/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1UKGWj8VOSA4AttmMH8Tx04q-ZAhHihlL/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-896f4305",
@@ -16378,7 +16674,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1tEvjwvqaEo_G6ngig4fE2Oqkjv9XJxTX/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1tEvjwvqaEo_G6ngig4fE2Oqkjv9XJxTX/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-bcc05e9d",
@@ -16429,7 +16729,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1hGSB_tFo-b-Sy0UcedBZF9S5mWznqoz3/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1hGSB_tFo-b-Sy0UcedBZF9S5mWznqoz3/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-2c7f1dc4",
@@ -16519,7 +16823,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1lpb3bopNNmB6Cm91ImZdklJz1s7WQLdq/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1lpb3bopNNmB6Cm91ImZdklJz1s7WQLdq/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-6cdb3bc9",
@@ -16533,7 +16841,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1JWnuKYuZEEOS2sqjrB-reElXfwSdxLa_/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1JWnuKYuZEEOS2sqjrB-reElXfwSdxLa_/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-8896df92",
@@ -17027,7 +17339,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1FEliMqSpng_e6a21_hTmgrZGZI0jMRup/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1FEliMqSpng_e6a21_hTmgrZGZI0jMRup/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-8e84e246",
@@ -17059,7 +17375,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1HZXIZnN4VrUPscjXM_vi0ck2IJhYTdMt/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1HZXIZnN4VrUPscjXM_vi0ck2IJhYTdMt/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-dea33ff4",
@@ -17408,7 +17728,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1yKQJQpFjpiXbSejcSsiLi7ge3VzvFoa7/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1yKQJQpFjpiXbSejcSsiLi7ge3VzvFoa7/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-f1790529",
@@ -17695,7 +18019,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1hk-U793UO_ZXHv5v_xYuAjYAtLQktvBH/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1hk-U793UO_ZXHv5v_xYuAjYAtLQktvBH/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-d7a826f1",
@@ -18365,7 +18693,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1Z4LAwy3HCNaOS_bbfMK_dsR5jBi4fjmY/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1Z4LAwy3HCNaOS_bbfMK_dsR5jBi4fjmY/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-c080820d",
@@ -18623,7 +18955,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1FNOVyCLaGDcOZnyXFFDPLUMYekgNs5P_/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1FNOVyCLaGDcOZnyXFFDPLUMYekgNs5P_/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-032cdcdb",
@@ -20141,7 +20477,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/16EntWvl45OqQyiGN2h6v-ok6Td6o8crX/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/16EntWvl45OqQyiGN2h6v-ok6Td6o8crX/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-b6974f4d",
@@ -21892,7 +22232,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1SEfkQiq7vmRsxKls9ixJWzNL_xuxKLaE/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1SEfkQiq7vmRsxKls9ixJWzNL_xuxKLaE/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-82bd122e",
@@ -21980,7 +22324,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1NtWMi6I8Fw6grG0toBFFT3uvV_W5ACF7/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1NtWMi6I8Fw6grG0toBFFT3uvV_W5ACF7/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-31ed2d18",
@@ -23507,7 +23855,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1raa1TfJlY-y-okc9xSyp4O4LU5x6dQqz/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1raa1TfJlY-y-okc9xSyp4O4LU5x6dQqz/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-9c0a4123",
@@ -23900,7 +24252,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/10Zu4WsVz1qi2cirrztqiZyLgz4TqKIPY/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/10Zu4WsVz1qi2cirrztqiZyLgz4TqKIPY/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-1a070f8e",
@@ -24113,7 +24469,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1kPxKpaCbY2AVv_IY6n6AFHBuMXDF7IPf/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1kPxKpaCbY2AVv_IY6n6AFHBuMXDF7IPf/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-6a89df23",
@@ -24128,7 +24488,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1XlGs2SLd2sejFvtLGb3qe48oRzGYj4ZJ/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1XlGs2SLd2sejFvtLGb3qe48oRzGYj4ZJ/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-ff2268e1",
@@ -24449,7 +24813,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1hU-U-t2oIqfRRNoVNSfO_fB-uxFs7jBr/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1hU-U-t2oIqfRRNoVNSfO_fB-uxFs7jBr/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-d5c7473d",
@@ -26732,7 +27100,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1QIpm93n72c6dxZWenMw4dLQ3cIV-LolK/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1QIpm93n72c6dxZWenMw4dLQ3cIV-LolK/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-04687c62",
@@ -27066,7 +27438,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1ocC_-glVOo8KiRr4YATCUQ4j_0K_DyqA/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1ocC_-glVOo8KiRr4YATCUQ4j_0K_DyqA/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-f480581e",
@@ -28315,7 +28691,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1gMvXOp_0EWey3Z72kkLWDEd98g_F8L8R/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1gMvXOp_0EWey3Z72kkLWDEd98g_F8L8R/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-ca7150de",
@@ -28967,7 +29347,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1XwwtptBLmU9K-8iDDRL0mFEvzcRZ0erD/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1XwwtptBLmU9K-8iDDRL0mFEvzcRZ0erD/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-21a235d6",
@@ -29702,7 +30086,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1YjInIRkRVAre0y7HunTLKi_b-hf4-ctu/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1YjInIRkRVAre0y7HunTLKi_b-hf4-ctu/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-660f759b",
@@ -29716,7 +30104,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1lbvG0hjpU_xPHVirawf4ViJeR29j7qfq/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1lbvG0hjpU_xPHVirawf4ViJeR29j7qfq/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-098c88e6",
@@ -30163,7 +30555,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1EFLDxeriWXXvJFRoQmWK2pekzaIUS5M5/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1EFLDxeriWXXvJFRoQmWK2pekzaIUS5M5/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-b1525b88",
@@ -30483,7 +30879,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1CWWn59xx_-LeJC4lwVohMvP_4l-Hxc5V/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1CWWn59xx_-LeJC4lwVohMvP_4l-Hxc5V/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-e597f8f6",
@@ -30767,7 +31167,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1E9Ke1KInqiGe7XJvZZXinOhcCniMwFue/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1E9Ke1KInqiGe7XJvZZXinOhcCniMwFue/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-14ef6298",
@@ -31196,7 +31600,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1lolW_Z-Ru24H9Jp488Ra17OFUoDlbCyY/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1lolW_Z-Ru24H9Jp488Ra17OFUoDlbCyY/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-8d345a8f",
@@ -31282,7 +31690,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/17hlD6BJpk0nJ09VYM-4PA9VikIt3v0vG/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/17hlD6BJpk0nJ09VYM-4PA9VikIt3v0vG/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-1d42e4d6",
@@ -31368,7 +31780,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1p1aR9H2KfeXFfxMgZIwZaiJzuPI5g7lI/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1p1aR9H2KfeXFfxMgZIwZaiJzuPI5g7lI/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-b46790c4",
@@ -31487,7 +31903,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1fCwXFA2ywFUboNR2raz_iWv5YWG8h8WU/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1fCwXFA2ywFUboNR2raz_iWv5YWG8h8WU/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-b1aaa048",
@@ -31519,7 +31939,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1j6n2leKFewKIgkvHGP89bEZXVgPA_Aue/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1j6n2leKFewKIgkvHGP89bEZXVgPA_Aue/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-8c87182f",
@@ -33099,7 +33523,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1hzB6Sz8cz41x1khJBb7oZWZYJ-7--gtS/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1hzB6Sz8cz41x1khJBb7oZWZYJ-7--gtS/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-d9bfbc05",
@@ -33159,7 +33587,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1QuZFDk2eNvdSw4m13DzjNaU5LbdF6MX9/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1QuZFDk2eNvdSw4m13DzjNaU5LbdF6MX9/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-c700ee40",
@@ -33173,7 +33605,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1Nju8pqZFC3Sl6kN7OWbtsHVP3GVZcRQ0/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1Nju8pqZFC3Sl6kN7OWbtsHVP3GVZcRQ0/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-b27b11b9",
@@ -33205,7 +33641,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1-3082-n6orXDs4Puc33-QUiEY0at_FPB/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1-3082-n6orXDs4Puc33-QUiEY0at_FPB/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-f329db5c",
@@ -33237,7 +33677,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/11RmKMmbSDvbHsFIEp80p4NC_7F2zFyGQ/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/11RmKMmbSDvbHsFIEp80p4NC_7F2zFyGQ/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-ff5afd47",
@@ -33892,7 +34336,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1RvCdj4dFGwdGQEwipTCvSYGeqoHRE0gT/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1RvCdj4dFGwdGQEwipTCvSYGeqoHRE0gT/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-fd261ce5",
@@ -33960,7 +34408,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1CiXU0un1dNfISKs9wv1lSBoDDd6T-MAm/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1CiXU0un1dNfISKs9wv1lSBoDDd6T-MAm/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-ba2775e9",
@@ -34097,7 +34549,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1CabL9u1syFRUVhNJmg9L15tpOKXDQLix/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1CabL9u1syFRUVhNJmg9L15tpOKXDQLix/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-6af43a99",
@@ -34193,7 +34649,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1n03KM4RGyNIZWEV3vjvyLYSgpLlnUrG_/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1n03KM4RGyNIZWEV3vjvyLYSgpLlnUrG_/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-9b33cbbe",
@@ -34262,7 +34722,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1HqkSNMyYrCt7EYdYxf8_f_v2BfH2LDPx/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1HqkSNMyYrCt7EYdYxf8_f_v2BfH2LDPx/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-8d9ccac1",
@@ -34312,7 +34776,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1Bixw2IrsmkfRnisJjSPfYYUrtizU-5O2/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1Bixw2IrsmkfRnisJjSPfYYUrtizU-5O2/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-74a42873",
@@ -34363,7 +34831,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1wB-f8ogcP_S7ZDQsT4GkfHH-nxMe88qx/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1wB-f8ogcP_S7ZDQsT4GkfHH-nxMe88qx/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-947076dc",
@@ -34519,7 +34991,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1MKNB9jRd01eK1ka2XiByvlPjAMivPzk7/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1MKNB9jRd01eK1ka2XiByvlPjAMivPzk7/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-3fe807e8",
@@ -35556,7 +36032,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1vLinhCv5-tJaCPXHVQV1jtJUmiSW1gVr/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1vLinhCv5-tJaCPXHVQV1jtJUmiSW1gVr/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-0ce1c56b",
@@ -35570,7 +36050,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1e3sQrTzCcjIV32G1KvBQyL0e5nzAq0hZ/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1e3sQrTzCcjIV32G1KvBQyL0e5nzAq0hZ/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-10c9d545",
@@ -36031,7 +36515,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1NjfCAadYuw9uwZFrWuGFIAGdI9VRFHtT/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1NjfCAadYuw9uwZFrWuGFIAGdI9VRFHtT/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-fa898e1d",
@@ -36045,7 +36533,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1wfiZmzOXIydcKueceJpw3_EAd1vl7iVn/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1wfiZmzOXIydcKueceJpw3_EAd1vl7iVn/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-60c4fee0",
@@ -36059,7 +36551,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1P9_WRXlfnfXIaKAgARSI2UW3rtcJiRNB/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1P9_WRXlfnfXIaKAgARSI2UW3rtcJiRNB/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-b5a904c4",
@@ -36073,7 +36569,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1mNWw4AMBqzf0-cSQKdEht7O8J4qDjNCK/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1mNWw4AMBqzf0-cSQKdEht7O8J4qDjNCK/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-42496d22",
@@ -36087,7 +36587,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1dM1fLl7Kh_qwu7E2O3lzTUy_RCTGLzsF/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1dM1fLl7Kh_qwu7E2O3lzTUy_RCTGLzsF/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-7d92a3cf",
@@ -36101,7 +36605,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1JXC2_fo0Y8qNSC-ouF0JFke0ECvOohUr/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1JXC2_fo0Y8qNSC-ouF0JFke0ECvOohUr/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-0bec702a",
@@ -36115,7 +36623,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1fvfLoVhpVMIdhtWvTD_L6CpJ6HW0ooZ7/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1fvfLoVhpVMIdhtWvTD_L6CpJ6HW0ooZ7/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-6f2882ea",
@@ -36129,7 +36641,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1btsEgQvcLV2InOLmrfsleKPGMwGQnVB8/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1btsEgQvcLV2InOLmrfsleKPGMwGQnVB8/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-6c73430f",
@@ -36143,7 +36659,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/16ldrgsNuMlZM1IjiUUduzdbbJUfVAmI6/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/16ldrgsNuMlZM1IjiUUduzdbbJUfVAmI6/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-7c08eb15",
@@ -36157,7 +36677,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1GdFAVmY84iBZbb3e1eOQabVkaEnIVfn_/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1GdFAVmY84iBZbb3e1eOQabVkaEnIVfn_/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-05ec676e",
@@ -36229,7 +36753,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1xIzc9tIFZsXrZFyOtqEAWX7kiStaRB3M/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1xIzc9tIFZsXrZFyOtqEAWX7kiStaRB3M/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-1c70bea2",
@@ -36243,7 +36771,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/10zHfiB6Mi7Jw7Navrf44iaGCKpLk3L5p/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/10zHfiB6Mi7Jw7Navrf44iaGCKpLk3L5p/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-d8031489",
@@ -36257,7 +36789,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1-seZHRGkeaS9z3nKo7Udypiv8G1-eWcu/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1-seZHRGkeaS9z3nKo7Udypiv8G1-eWcu/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-4d55f7cc",
@@ -36271,7 +36807,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1bIDYcQtqGsYBVdtyh16PL-Rb998YYkJC/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1bIDYcQtqGsYBVdtyh16PL-Rb998YYkJC/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-14dbac2e",
@@ -36285,7 +36825,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1jBPa_t8kqpij0sR9H5TpcvmjW8333a4_/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1jBPa_t8kqpij0sR9H5TpcvmjW8333a4_/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-291a1ead",
@@ -36299,7 +36843,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/16zo8SUMuBQxjGAjuYwNQHwzffCr0gwju/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/16zo8SUMuBQxjGAjuYwNQHwzffCr0gwju/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-e3341366",
@@ -36313,7 +36861,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1bykktP5Ia_3Y5CrACrI63KJAoPe2gjsR/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1bykktP5Ia_3Y5CrACrI63KJAoPe2gjsR/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-b64d7c6d",
@@ -36327,7 +36879,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/13_1ByUaj0tWmIiCMUFA2pDs_gWQnmWAM/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/13_1ByUaj0tWmIiCMUFA2pDs_gWQnmWAM/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-f2342b86",
@@ -36377,7 +36933,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1zS8x7a0V2FWGo6990FRY2UJS8SBYw7hX/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1zS8x7a0V2FWGo6990FRY2UJS8SBYw7hX/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-1eda25df",
@@ -36391,7 +36951,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1Fl-QNF3G-nKYgAcM6nAprNg5zBobAkvY/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1Fl-QNF3G-nKYgAcM6nAprNg5zBobAkvY/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-db070256",
@@ -36405,7 +36969,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1XFLUZnEphxQ3ZWbz6azn1mubRN7Q7GbZ/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1XFLUZnEphxQ3ZWbz6azn1mubRN7Q7GbZ/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-a0011d49",
@@ -36419,7 +36987,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1uoFRcHY9f_e0UaHUPnsgdlHkUF_Jfu1m/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1uoFRcHY9f_e0UaHUPnsgdlHkUF_Jfu1m/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-774478b0",
@@ -36433,7 +37005,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1Y9mDZnfBB_BHlMBSfIL7n_MW8jOpUXFd/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1Y9mDZnfBB_BHlMBSfIL7n_MW8jOpUXFd/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-fe784167",
@@ -36447,7 +37023,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1RiWnf_5JNx5myubtkC6qHaD_EEeyZIWa/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1RiWnf_5JNx5myubtkC6qHaD_EEeyZIWa/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-51b7e7e4",
@@ -36461,7 +37041,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1pbggtVUWsOZa0M3JQKFcz2Plb-_DwuMy/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1pbggtVUWsOZa0M3JQKFcz2Plb-_DwuMy/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-d8f1545f",
@@ -36530,7 +37114,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1vG0pXBNjzBBzgFn-ypYcGUbgfDQ0vFiZ/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1vG0pXBNjzBBzgFn-ypYcGUbgfDQ0vFiZ/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-504b68e4",
@@ -36706,7 +37294,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/1-K_rR6sHynjqNoGgZ97lmX31HSWthxIB/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/1-K_rR6sHynjqNoGgZ97lmX31HSWthxIB/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-e1e4a8af",
@@ -36738,7 +37330,11 @@
       "pdf_url": null,
       "doi": null,
       "arxiv_id": null,
-      "verification_status": "filename-only"
+      "verification_status": "drive-file-matched",
+      "drive_file_url": "https://drive.google.com/file/d/12ipezN1RT4TCnpzj-bo9YwCrRCRdFSdG/view?usp=drivesdk",
+      "download_url": "https://drive.google.com/file/d/12ipezN1RT4TCnpzj-bo9YwCrRCRdFSdG/view?usp=drivesdk",
+      "download_source": "google-drive",
+      "download_access": "requires Drive permissions"
     },
     {
       "id": "title-8a61317a",
