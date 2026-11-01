@@ -155,6 +155,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-a46b396e",
+      "title": "Divided spectro-temporal attention for sound event localization and detection in real scenes for DCA",
+      "candidates": [
+        {
+          "id": "2306.02591",
+          "arxiv_title": "Divided spectro-temporal attention for sound event localization and detection in real scenes for DCASE2023 challenge",
+          "similarity": 0.9259
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
