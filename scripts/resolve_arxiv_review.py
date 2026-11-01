@@ -8,8 +8,8 @@ ROOT=Path(__file__).resolve().parents[1]
 DB=ROOT/"resources/paper-master-index.json"
 REPORT=ROOT/"resources/arxiv-match-review.json"
 def norm(s):
-    s=re.sub(r"^20\\d\\d[-_/]\\d\\d[-_/]\\d\\d[-\\s]*","",s)
-    return re.sub(r"\\s+"," ",re.sub(r"[^a-z0-9]+"," ",s.casefold())).strip()
+    s=re.sub(r"^20\d\d[-_/]\d\d[-_/]\d\d[-\s]*","",s)
+    return re.sub(r"\s+"," ",re.sub(r"[^a-z0-9]+"," ",s.casefold())).strip()
 def main():
     db=json.loads(DB.read_text(encoding="utf-8"))
     report=json.loads(REPORT.read_text(encoding="utf-8"))
@@ -24,7 +24,7 @@ def main():
         # Minimum substantial clean title-prefix match; exclude rankings/suffixes.
         if len(title)<52 or len(title.split())<8:continue
         if not full.startswith(title):continue
-        if not re.fullmatch(r"(?:\\d{4}\\.\\d{4,5}|[a-z.\\-]+/\\d{7})",candidate["id"]):continue
+        if not re.fullmatch(r"(?:\d{4}\.\d{4,5}|[a-z.\-]+/\d{7})",candidate["id"]):continue
         row=rows.get(item["id"])
         if not row or row.get("arxiv_id"):continue
         aid=candidate["id"]
@@ -40,8 +40,8 @@ def main():
     if changed:
         spec=importlib.util.spec_from_file_location("verify",ROOT/"scripts/verify_arxiv_index.py")
         module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
-        DB.write_text(json.dumps(db,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
-        REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+        DB.write_text(json.dumps(db,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+        REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
         module.export_csv(db["records"])
     print(json.dumps({"new_matches":len(changed),"records":changed},ensure_ascii=False))
 if __name__=="__main__":main()
