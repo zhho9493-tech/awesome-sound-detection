@@ -595,6 +595,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-b20e4a07",
+      "title": "UniPET-SPK A Unified Framework for Parameter-Efficient Tuning of Pre-trained Speech Models for Robu",
+      "candidates": [
+        {
+          "id": "2501.16542",
+          "arxiv_title": "UniPET-SPK: A Unified Framework for Parameter-Efficient Tuning of Pre-trained Speech Models for Robust Speaker Verification",
+          "similarity": 0.8959
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
