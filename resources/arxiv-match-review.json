@@ -47,6 +47,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-0c5dc8a3",
+      "title": "Advancing Marine Bioacoustics with Deep Generative Models A Hybrid Augmentation Strategy for Southe",
+      "candidates": [
+        {
+          "id": "2511.21872",
+          "arxiv_title": "Advancing Marine Bioacoustics with Deep Generative Models: A Hybrid Augmentation Strategy for Southern Resident Killer Whale Detection",
+          "similarity": 0.8534
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
