@@ -17,6 +17,7 @@
 ## 论文与资料
 
 - [近一年 arXiv DAS 论文（2025-2026）](arxiv-2025-2026.md)
+- [2025–2026 DAS 皮带机监测论文及可迁移方法（12篇）](conveyor-papers-2025-2026.md)
 - [结构化 JSON 论文元数据](arxiv-2025-2026.json)
 - [Google Drive DAS 历史论文索引](drive-library-index.md)
 - [全仓历史论文总索引](../../resources/historical-paper-index.md)
