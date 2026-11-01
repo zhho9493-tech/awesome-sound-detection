@@ -631,6 +631,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "title-3676d800",
+      "title": "Whisper Speaker Identification Leveraging Pre-Trained Multilingual Transformers for Robust Speaker",
+      "candidates": [
+        {
+          "id": "2503.10446",
+          "arxiv_title": "Whisper Speaker Identification: Leveraging Pre-Trained Multilingual Transformers for Robust Speaker Embeddings",
+          "similarity": 0.9469
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
