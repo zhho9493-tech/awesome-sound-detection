@@ -34,3 +34,8 @@
 - 建议长期基线：专用 ResNet vs 冻结预训练 encoder vs 全量微调 vs Adapter/LoRA vs DAS/工业音频自监督预训练。
 - 对海量未标注工业数据，最值得投入的是 **domain-specific self-supervised pretraining**。
 - 新增论文后，应判断是否改变“预训练底座 / 轻量适配 / 检索增强 / 推理智能体”四条趋势。
+
+## 2026-11-02 cs.SD 周度论文更新
+
+- [本周新收录论文、分类关联及 arXiv PDF](arxiv-cs-sd-week-2026-11-02.md)
+- 收录按现有研究方向筛选，属于待复现/待全文分析资料；相关结论不代表已在工业现场验证。
