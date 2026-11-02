@@ -36,3 +36,8 @@
 - 近期最值得跟踪：Noise-aware ASD、跨域 First-shot、开放集拒识、异常严重度/健康演化。
 - 对工业声学建议长期同时报告：pAUC、Precision/Recall、设备级误报率、跨项目性能下降幅度。
 - 新增论文后，需要检查：是否改变“Domain Shift / Noise-aware / Health-state”三条主趋势的优先级。
+
+## 2026-11-02 cs.SD 周度论文更新
+
+- [本周新收录论文、分类关联及 arXiv PDF](arxiv-cs-sd-week-2026-11-02.md)
+- 收录按现有研究方向筛选，属于待复现/待全文分析资料；相关结论不代表已在工业现场验证。
