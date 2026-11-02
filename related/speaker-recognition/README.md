@@ -44,3 +44,8 @@
 - 最值得迁移：SSL encoder、Sub-center/Prototype、uncertainty calibration、parameter-efficient adaptation、MoE。
 - 对跨项目工业分类，建议优先验证“共享 encoder + 项目/工况专家 + 校准后端”。
 - 新增论文后，检查是否改变“预训练、域适应、不确定性、多中心”四条趋势。
+
+## 2026-11-02 cs.SD 周度论文更新
+
+- [本周新收录论文、分类关联及 arXiv PDF](arxiv-cs-sd-week-2026-11-02.md)
+- 收录按现有研究方向筛选，属于待复现/待全文分析资料；相关结论不代表已在工业现场验证。
