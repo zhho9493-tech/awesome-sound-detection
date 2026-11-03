@@ -1,14 +1,14 @@
 # 安防与危险事件
 
-[声音事件检测总导航](../README.md) · [主库](../../../resources/paper-master-index-README.md)
+[返回 SED 分类总导航](../TOPICS.md)
 
-本领域按声音事件对象细分，论文仅进行标题级候选映射，不等于最终分类核验。一个论文可能进入多个专题。
+本页按具体声音事件对象组织研究，不等同于通用算法类别。下面数量为旧论文主索引的**标题级候选命中数**，未经过逐篇全文确认，可能存在跨专题重复。
 
-| 专题 | 命中候选数 | 目录 |
-|---|---:|---|
-| [枪声检测](gunshot/README.md) | 0 | gunshot |
-| [爆炸声检测](explosion/README.md) | 0 | explosion |
-| [玻璃破碎检测](glass-breaking/README.md) | 0 | glass-breaking |
-| [警报与警笛](alarm/README.md) | 0 | alarm |
+| 具体声音事件 | 候选论文条目 | 
+|---|---:|
+| [枪声检测](gunshot/README.md) | 9 |
+| [爆炸检测](explosion/README.md) | 0 |
+| [玻璃破碎](glass-breaking/README.md) | 0 |
+| [警报与警笛](alarm/README.md) | 3 |
 
-> 此领域共 0 条去重后候选与至少一个子专题关联。数量来自标题初筛，不能作为领域完整文献统计。
+至少一个子专题命中的去重候选：**12**。无命中不表示该领域没有相关论文，只表示现有标题索引缺少可明确关联的条目。

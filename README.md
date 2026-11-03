@@ -9,7 +9,7 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 | 方向 | 入口 | 重点 |
 |---|---|---|
 | 声学异常检测 | [ASD](papers/acoustic-anomaly/README.md) | DCASE、跨域泛化、Noise-aware |
-| 声音事件检测 | [SED](papers/sound-event/README.md) | 分类、定位、弱监督 |
+| 声音事件检测 | [SED](papers/sound-event/README.md) · [事件专题](papers/sound-event/TOPICS.md) | 12 领域、具体声源事件、分类与定位 |
 | DAS 光纤听诊 | [DAS](domains/das/README.md) | 皮带机托辊、时空一致性 |
 | 听漏及泄漏 | [Leakage](domains/leakage/README.md) | 水管、气体泄漏、定位 |
 | 声纹识别 | [Speaker](related/speaker-recognition/README.md) | ECAPA、Embedding、域适应 |

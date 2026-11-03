@@ -1,19 +1,13 @@
 # 尖叫与呼救
 
-[返回 人类非语言声音](../README.md) · [SED 总入口](../../README.md)
+[返回 人类非语言声音](../README.md) · [SED 事件总导航](../../TOPICS.md)
 
-## 研究任务与论文清单
+**分类状态：标题关键词初筛，未逐篇全文确认。** 来源为现有统一论文主索引，跨研究领域关联，不移动原始文件。一个论文可同时属于多个具体声音专题。
 
-本目录是**声音事件的专题视图**，从现有论文主索引（标题级候选）及 2026 年 10 月 SED 增量表中按标题关键词初步关联。**命中不代表已经阅读全文或证明技术属于该场景**；与 ASD、DAS、Leakage 等其他方向允许交叉引用，不复制论文 PDF。使用 arXiv ID 优先、标题规范化兜底去重；不同标题变体仍可能需要人工合并。
-
-| 论文 | arXiv ID / 主库 ID | 官方 PDF | 原状态 |
+| 论文 | arXiv / 主库 ID | 官方 PDF | 原有核验状态 |
 |---|---|---|---|
-| 暂未找到标题可直接判定的论文 | — | — | 待补充 |
+| 暂无可明确匹配的标题级候选 | — | — | 待补充 |
 
-## 建议任务标签
+## 未来研究任务维度
 
-`detection` · `classification` · `localization` · `open-set` · `domain-generalization` · `few-shot` · `noise-robustness` · `event-level`。以上为供未来进一步标注的候选标签，不代表每篇论文已验证这些任务。
-
-## 后续整理
-
-新增论文应优先补 DOI / arXiv ID、实测指标、数据集、代码与研究趋势证据链；没有核实的信息保持空缺。
+检测 detection · 分类 classification · 定位 localization · 时序分割 segmentation · 噪声鲁棒 robustness · 领域泛化 generalization · 开集 open-set · 少样本 few-shot。任务标签须依据论文摘要/全文再赋值。

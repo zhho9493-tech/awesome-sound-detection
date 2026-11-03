@@ -1,0 +1,303 @@
+{
+  "version": "2026-11-03",
+  "scope": "event-object taxonomy for SED",
+  "source": "resources/paper-master-index.csv",
+  "task_tags": [
+    "detection",
+    "classification",
+    "localization",
+    "segmentation",
+    "source-separation",
+    "few-shot",
+    "open-set",
+    "domain-generalization",
+    "noise-robustness",
+    "severity"
+  ],
+  "groups": [
+    {
+      "slug": "security",
+      "title": "安防与危险事件",
+      "topics": [
+        {
+          "slug": "gunshot",
+          "title": "枪声检测",
+          "count": 9
+        },
+        {
+          "slug": "explosion",
+          "title": "爆炸检测",
+          "count": 0
+        },
+        {
+          "slug": "glass-breaking",
+          "title": "玻璃破碎",
+          "count": 0
+        },
+        {
+          "slug": "alarm",
+          "title": "警报与警笛",
+          "count": 3
+        }
+      ],
+      "candidate_count": 12
+    },
+    {
+      "slug": "human",
+      "title": "人类非语言声音",
+      "topics": [
+        {
+          "slug": "baby-crying",
+          "title": "婴儿哭声",
+          "count": 1
+        },
+        {
+          "slug": "crying",
+          "title": "哭声",
+          "count": 0
+        },
+        {
+          "slug": "screaming",
+          "title": "尖叫与呼救",
+          "count": 0
+        },
+        {
+          "slug": "coughing",
+          "title": "咳嗽",
+          "count": 0
+        },
+        {
+          "slug": "snoring",
+          "title": "鼾声",
+          "count": 0
+        }
+      ],
+      "candidate_count": 1
+    },
+    {
+      "slug": "animal",
+      "title": "动物声音",
+      "topics": [
+        {
+          "slug": "bird-sound",
+          "title": "鸟鸣与鸟类识别",
+          "count": 36
+        },
+        {
+          "slug": "dog-barking",
+          "title": "犬吠",
+          "count": 0
+        },
+        {
+          "slug": "insect-sound",
+          "title": "昆虫鸣叫",
+          "count": 4
+        },
+        {
+          "slug": "marine-mammal",
+          "title": "海洋哺乳动物",
+          "count": 5
+        }
+      ],
+      "candidate_count": 45
+    },
+    {
+      "slug": "industrial",
+      "title": "工业机械声音",
+      "topics": [
+        {
+          "slug": "bearing",
+          "title": "轴承与旋转设备",
+          "count": 15
+        },
+        {
+          "slug": "motor",
+          "title": "电机与齿轮",
+          "count": 3
+        },
+        {
+          "slug": "conveyor",
+          "title": "皮带机与托辊",
+          "count": 1
+        },
+        {
+          "slug": "mechanical-impact",
+          "title": "机械异响与冲击",
+          "count": 56
+        }
+      ],
+      "candidate_count": 75
+    },
+    {
+      "slug": "transportation",
+      "title": "交通与运输",
+      "topics": [
+        {
+          "slug": "road-vehicle",
+          "title": "道路与车辆",
+          "count": 8
+        },
+        {
+          "slug": "railway",
+          "title": "轨道与列车",
+          "count": 1
+        },
+        {
+          "slug": "aircraft-drone",
+          "title": "飞机与无人机",
+          "count": 5
+        },
+        {
+          "slug": "vessel",
+          "title": "船舶",
+          "count": 0
+        }
+      ],
+      "candidate_count": 14
+    },
+    {
+      "slug": "environmental",
+      "title": "自然环境声",
+      "topics": [
+        {
+          "slug": "rain-wind",
+          "title": "风雨声",
+          "count": 1
+        },
+        {
+          "slug": "thunder",
+          "title": "雷声",
+          "count": 0
+        },
+        {
+          "slug": "water-flow",
+          "title": "流水与海浪",
+          "count": 0
+        }
+      ],
+      "candidate_count": 1
+    },
+    {
+      "slug": "medical",
+      "title": "医疗与生理声",
+      "topics": [
+        {
+          "slug": "respiratory",
+          "title": "呼吸与肺音",
+          "count": 11
+        },
+        {
+          "slug": "heart-sound",
+          "title": "心音",
+          "count": 9
+        },
+        {
+          "slug": "sleep-sound",
+          "title": "睡眠声音",
+          "count": 0
+        }
+      ],
+      "candidate_count": 20
+    },
+    {
+      "slug": "urban",
+      "title": "城市公共场所",
+      "topics": [
+        {
+          "slug": "construction",
+          "title": "施工声",
+          "count": 0
+        },
+        {
+          "slug": "public-warning",
+          "title": "公共警报广播",
+          "count": 1
+        },
+        {
+          "slug": "crowd",
+          "title": "人群声音",
+          "count": 0
+        }
+      ],
+      "candidate_count": 1
+    },
+    {
+      "slug": "domestic",
+      "title": "家居与生活",
+      "topics": [
+        {
+          "slug": "door-event",
+          "title": "门与门铃",
+          "count": 0
+        },
+        {
+          "slug": "footstep-fall",
+          "title": "脚步与跌倒",
+          "count": 0
+        },
+        {
+          "slug": "appliance",
+          "title": "家电声音",
+          "count": 0
+        }
+      ],
+      "candidate_count": 0
+    },
+    {
+      "slug": "agriculture",
+      "title": "农业与生态",
+      "topics": [
+        {
+          "slug": "livestock",
+          "title": "畜禽声音",
+          "count": 0
+        },
+        {
+          "slug": "ecoacoustics",
+          "title": "生态声学",
+          "count": 85
+        }
+      ],
+      "candidate_count": 85
+    },
+    {
+      "slug": "underwater",
+      "title": "水下与海洋",
+      "topics": [
+        {
+          "slug": "underwater-target",
+          "title": "水下目标检测",
+          "count": 8
+        },
+        {
+          "slug": "marine-life",
+          "title": "海洋生物",
+          "count": 3
+        }
+      ],
+      "candidate_count": 11
+    },
+    {
+      "slug": "infrastructure",
+      "title": "基础设施",
+      "topics": [
+        {
+          "slug": "water-leakage",
+          "title": "水管听漏",
+          "count": 0
+        },
+        {
+          "slug": "gas-leakage",
+          "title": "气体泄漏",
+          "count": 0
+        },
+        {
+          "slug": "structure",
+          "title": "结构声振",
+          "count": 10
+        }
+      ],
+      "candidate_count": 10
+    }
+  ]
+}

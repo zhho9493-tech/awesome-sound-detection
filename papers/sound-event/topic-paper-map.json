@@ -1,0 +1,5080 @@
+{
+  "version": "2026-11-03",
+  "status": "title-keyword candidate mapping; not fulltext verified",
+  "source_record_count": 2145,
+  "deduped_records": 2061,
+  "records": [
+    {
+      "id": "title-a47b9359",
+      "arxiv_id": null,
+      "title": "2023-Acoustic-Based Machine Condition Monitoring—Methodsand Challenges",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-abcf8390",
+      "arxiv_id": "2403.01670",
+      "title": "6DoF SELD Sound Event Localization and Detection Using Microphones and Motion Tracking Sensors on s",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-536342e9",
+      "arxiv_id": "2503.15576",
+      "title": "A Bird Song Detector for improving bird identification through Deep Learning- a case study from Donana",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-0405fb7c",
+      "arxiv_id": null,
+      "title": "A Comprehensive Review of Polyphonic Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-80a44c34",
+      "arxiv_id": "2301.09362",
+      "title": "A Comprehensive Survey on Heart Sound Analysis in the Deep Learning Era",
+      "source_category": "other",
+      "topics": [
+        "medical/heart-sound"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-5bab3c9d",
+      "arxiv_id": null,
+      "title": "A DATA GENERATION METHOD FOR SOUND EVENT LOCALIZATION AND DETECTION IN REAL SPATIAL SOUND SCENES",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-3dbe4024",
+      "arxiv_id": null,
+      "title": "A DATA GENERATION METHOD FOR SOUND EVENT LOCALIZATION AND DETECTION IN REAL SPATIAL SOUND SCENES-Rank 3",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d157e5df",
+      "arxiv_id": "2302.07315",
+      "title": "A dataset for Audio-Visual Sound Event Detection in Movies",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-250760b8",
+      "arxiv_id": "2106.06999",
+      "title": "A Dataset of Dynamic Reverberant Sound Scenes with Directional Interferers for Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-621b365a",
+      "arxiv_id": "2006.01919",
+      "title": "A Dataset of Reverberant Spatial Sound Scenes with Moving Sources for Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-8a1d47c1",
+      "arxiv_id": null,
+      "title": "A Device Classification-Aided Multi-Task Framework for Low-Complexity Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e3a3c2a3",
+      "arxiv_id": null,
+      "title": "A device-invariant multi-modal learning framework for respiratory disease classification",
+      "source_category": "other",
+      "topics": [
+        "medical/respiratory"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-cfa90327",
+      "arxiv_id": "2601.19017",
+      "title": "A Framework for Evaluating Faithfulness in Explainable AI for Machine Anomalous Sound Detection Usin",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-85669093",
+      "arxiv_id": null,
+      "title": "A Gradient Alignment Federated Domain Generalization Framework for Rotating Machinery Fault Diagnosis",
+      "source_category": "cross-domain",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c62718b8",
+      "arxiv_id": null,
+      "title": "A hybrid cross-domain few-shot bearing fault diagnosis method combining multi-scale feature association and physical information",
+      "source_category": "cross-domain",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d6bef0b8",
+      "arxiv_id": null,
+      "title": "A hybrid framework for classifying and detecting aircraft cabin anomalous sounds under heavy background noise",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "transportation/aircraft-drone"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-b5296b7b",
+      "arxiv_id": null,
+      "title": "A hybrid framework for classifying and detecting aircraft cabin anomalous sounds under heavy background noise_1",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "transportation/aircraft-drone"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-3d349262",
+      "arxiv_id": null,
+      "title": "A Lightweight Approach for Semi-Supervised Sound Event Detection with Unsupervised Data Augmentation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-49f50d51",
+      "arxiv_id": null,
+      "title": "A Lightweight Network With Dual-Mixup Data Augmentation for Fault Diagnosis of Rotating Machinery Under Unknown Operating Conditions",
+      "source_category": "other",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-07ea465c",
+      "arxiv_id": null,
+      "title": "A Lightweight Temporal Attention Module for Frequency Dynamic Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-3437746e",
+      "arxiv_id": null,
+      "title": "A Machine Anomalous Sound Detection Method Based on Deep Residual Generative Adversarial Network",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-8d5d8d60",
+      "arxiv_id": "2305.10729",
+      "title": "A Multi-Task Learning Framework for Sound Event Detection using High-level Acoustic Characteristics",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-cff64ec0",
+      "arxiv_id": null,
+      "title": "A multimodal AI framework for automated multiclass lung disease diagnosis from respiratory sounds with simulated biomarker fusion and personalized medication recommendation",
+      "source_category": "other",
+      "topics": [
+        "medical/respiratory"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-49531c99",
+      "arxiv_id": null,
+      "title": "A new adaptive representation dual classifier residual network for continuous fault diagnosis of rotating machinery with domain increments",
+      "source_category": "other",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-fe599680",
+      "arxiv_id": null,
+      "title": "A Novel Bird Sound Recognition Method Based on Multifeature Fusion and a Transformer Encoder",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-04cb19f8",
+      "arxiv_id": null,
+      "title": "A Novel Unsupervised Sound Based Vehicle Fault Anomalous Detection Method with Adversarial Defense Mechanisms",
+      "source_category": "other",
+      "topics": [
+        "transportation/road-vehicle"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-98e353ce",
+      "arxiv_id": null,
+      "title": "A parametric survey on polyphonic sound event detection and localization Multimedia Tools and Applications",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c658f542",
+      "arxiv_id": null,
+      "title": "A review of acoustic systems for insect monitoring From recording technologies to species recognition performance",
+      "source_category": "other",
+      "topics": [
+        "animal/insect-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-9442e2c6",
+      "arxiv_id": null,
+      "title": "A Review of Deep Learning Based Methods for Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-ae2b35d1",
+      "arxiv_id": null,
+      "title": "A review of distributed acoustic sensing applications for railroad condition monitoring",
+      "source_category": "das",
+      "topics": [
+        "transportation/railway",
+        "infrastructure/structure"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f17d4205",
+      "arxiv_id": "2512.22156",
+      "title": "A robust framework for sound event localization and detection on real recordings",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-baac42dc",
+      "arxiv_id": null,
+      "title": "A ROBUST FRAMEWORK FOR SOUND EVENT LOCALIZATION AND DETECTION ON REAL RECORDINGS-Rank 3",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5cf19bdc",
+      "arxiv_id": null,
+      "title": "A safety-oriented framework for sound event detection in driving scenarios",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-3b0ecea8",
+      "arxiv_id": null,
+      "title": "A Secure and Robust Multimodal Framework for In-Vehicle Voice Control- Integrating Bilingual Wake-Up, Speaker Verification, and Fuzzy Command Understanding",
+      "source_category": "speaker-recognition",
+      "topics": [
+        "transportation/road-vehicle"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-dc81e429",
+      "arxiv_id": null,
+      "title": "A Semi-Supervised Acoustic Scene Classification Network Based on Multi-Modal Information Fusion",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-60f32d33",
+      "arxiv_id": "2409.13676",
+      "title": "A Sound Description Exploring Prompt Templates and Class Descriptions to Enhance Zero-Shot Audio Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-c6271726",
+      "arxiv_id": null,
+      "title": "A Study of Improved Two-Stage Dual-Conv Coordinate Attention Model for Sound Event Detection and Localization",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e9b3bdce",
+      "arxiv_id": null,
+      "title": "A Survey of Audio Enhancement Algorithms for Music, Speech, Bioacoustics, Biomedical, Industrial, and Environmental Sounds by Image U-Net",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e4f2932d",
+      "arxiv_id": null,
+      "title": "A survey of mechanical fault diagnosis based on audio signal analysis",
+      "source_category": "other",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7015c10f",
+      "arxiv_id": null,
+      "title": "A survey on preprocessing and classification techniques for acoustic scene",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-678905e3",
+      "arxiv_id": null,
+      "title": "A Systematic Review of Heart Sound Detection Algorithms- Experimental Results and Insights",
+      "source_category": "other",
+      "topics": [
+        "medical/heart-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-ea2bb1d4",
+      "arxiv_id": null,
+      "title": "A Three-Level Evaluation Protocol for Acoustic Scene Understanding of Large Language Audio Models",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-6feea67a",
+      "arxiv_id": null,
+      "title": "A trio-based feature extraction framework for bird sounds classification",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f48b0ade",
+      "arxiv_id": "2507.22322",
+      "title": "A Two-Step Learning Framework for Enhancing Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-a3af9650",
+      "arxiv_id": "2501.17841",
+      "title": "acoupi An Open-Source Python Framework for Deploying Bioacoustic AI Models on Edge Devices",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-9a4d2834",
+      "arxiv_id": null,
+      "title": "Acoustic Analysis of Fish Tanks for Marine Bioacoustics Research",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e867594e",
+      "arxiv_id": null,
+      "title": "Acoustic Anomaly Detection for Propeller Crack Defects- A Drone-Based Surrogate Dataset for UAM",
+      "source_category": "other",
+      "topics": [
+        "transportation/aircraft-drone"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-113b0685",
+      "arxiv_id": null,
+      "title": "Acoustic Event Detection in Vehicles- A Multi-Label Classification Approach",
+      "source_category": "other",
+      "topics": [
+        "transportation/road-vehicle"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d54a0359",
+      "arxiv_id": null,
+      "title": "Acoustic scene classification A comprehensive survey",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-97051932",
+      "arxiv_id": null,
+      "title": "Acoustic Scene Classification Across Cities and Devices via Feature Disentanglement",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-0952a993",
+      "arxiv_id": null,
+      "title": "Acoustic Scene Classification Across Multiple Devices Through Incremental Learning of Device-Specific Domains",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-05f43cc9",
+      "arxiv_id": null,
+      "title": "ACOUSTIC SCENE CLASSIFICATION BASED ON MULTI-TEACHER KNOWLEDGE DISTILLATION AND SERFR-CNN",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7398b460",
+      "arxiv_id": null,
+      "title": "ACOUSTIC SCENE CLASSIFICATION BASED ON PRUNED_ GHOSTNET AND FHR_MOBILENET",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-910efe1f",
+      "arxiv_id": null,
+      "title": "ACOUSTIC SCENE CLASSIFICATION USING CONVOLUTION NEURAL NETWORK WITH LIMITED DATA",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-327131cb",
+      "arxiv_id": "2007.03781",
+      "title": "Acoustic Scene Classification with Spectrogram Processing Strategies",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-cd391ef0",
+      "arxiv_id": null,
+      "title": "Acoustic-Based Machine Condition Monitoring—Methods and Challenges",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5c90b937",
+      "arxiv_id": null,
+      "title": "Active learning for sound event classification using Bayesian neural networks with Gaussian variational posterior",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-b616085a",
+      "arxiv_id": null,
+      "title": "Active Learning for Sound Event Classification using Monte-Carlo Dropout and PANN Embeddings",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-446200cb",
+      "arxiv_id": null,
+      "title": "Active Learning in Sound-Based Bearing Fault Detection",
+      "source_category": "other",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c263d9bf",
+      "arxiv_id": "2303.15703",
+      "title": "AD-YOLO You Look Only Once in Training Multiple Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-db7d5d82",
+      "arxiv_id": null,
+      "title": "Adapting Single-Channel Pre-trained Transformer Models for Multi-Channel Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-dc0baa08",
+      "arxiv_id": null,
+      "title": "Adaptive Metadata-Guided Supervised Contrastive Learning for Domain Adaptation on Respiratory Sound Classification",
+      "source_category": "cross-domain",
+      "topics": [
+        "medical/respiratory"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-855aa2d0",
+      "arxiv_id": "2604.12647",
+      "title": "Adaptive Test-Time Scaling for Zero-Shot Respiratory Audio Classification",
+      "source_category": "sound-event",
+      "topics": [
+        "medical/respiratory"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-2adf65f4",
+      "arxiv_id": null,
+      "title": "Advanced Deep Learning Techniques for Lung Sound Classification- Binary, Multi-Class, and Ensemble Approach",
+      "source_category": "other",
+      "topics": [
+        "medical/respiratory"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-58dd18f3",
+      "arxiv_id": null,
+      "title": "Advancing Environmental Surveillance- A Comprehensive Review of Sound Event Classification Techniques and Applications",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-0c5dc8a3",
+      "arxiv_id": "2511.21872",
+      "title": "Advancing Marine Bioacoustics with Deep Generative Models A Hybrid Augmentation Strategy for Southe",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-ab0c4987",
+      "arxiv_id": null,
+      "title": "Adversarial attacks and robustness in deep neural networks for sound event detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d81c089f",
+      "arxiv_id": "2503.02422",
+      "title": "Aggregation Strategies for Efficient Annotation of Bioacoustic Sound Events Using Active Learning",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-5e5bc51d",
+      "arxiv_id": null,
+      "title": "AISTAT LAB SYSTEM FOR DCASE 2025 TASK 2- FIRST-SHOT UNSUPERVISED ANOMALOUS SOUND DETECTION FOR MACHINE CONDITION MONITORING",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-32438642",
+      "arxiv_id": "2603.09556",
+      "title": "ALARM Audio-Language Alignment for Reasoning Models",
+      "source_category": "foundation-models",
+      "topics": [
+        "security/alarm"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-cea75788",
+      "arxiv_id": null,
+      "title": "AMResNet- An automatic recognition model of bird sounds in real environment",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7b0337c0",
+      "arxiv_id": "2509.11168",
+      "title": "An Entropy-Guided Curriculum Learning Strategy for Data-Efficient Acoustic Scene Classification under Domain Shift",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-02ebe032",
+      "arxiv_id": "2501.10755",
+      "title": "An Experimental Study on Joint Modeling for Sound Event Localization and Detection with Source Dista",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-d38a6554",
+      "arxiv_id": "2507.15523",
+      "title": "An Investigation of Test-time Adaptation for Audio Classification under Background Noise",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-05aaf2eb",
+      "arxiv_id": null,
+      "title": "Analyzing the Effect of Equal-Angle Spatial Discretization on Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7612d818",
+      "arxiv_id": "2411.00153",
+      "title": "Angular Distance Distribution Loss for Audio Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b5fbf1d4",
+      "arxiv_id": "2406.11364",
+      "title": "AnoPatch- Towards Better Consistency in Machine Anomalous Sound Detection",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-d35d200d",
+      "arxiv_id": null,
+      "title": "Anuran call synthesis with diffusion models for enhanced bioacoustic classification under data scarcity",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-87be8aab",
+      "arxiv_id": null,
+      "title": "Anylogic and Python-Based Gunshot Detection System Using CNN and Trilateration",
+      "source_category": "other",
+      "topics": [
+        "security/gunshot"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-9ba7d31b",
+      "arxiv_id": null,
+      "title": "APPLICATION OF SPECTRO-TEMPORAL RECEPTIVE FIELD ON SOFT LABELED SOUND EVENT DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7c183fa3",
+      "arxiv_id": null,
+      "title": "Applications of domain generalization to machine fault diagnosis- A survey",
+      "source_category": "cross-domain",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e391b918",
+      "arxiv_id": null,
+      "title": "ArcticSoundsNET- BirdNET embeddings facilitate improved bioacoustic classification of Arctic species",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c6271c16",
+      "arxiv_id": null,
+      "title": "Artificial Intelligence in Respiratory Health: A Review of AI-Driven Analysis of Oral and Nasal Breathing Sounds for Pulmonary Assessment",
+      "source_category": "other",
+      "topics": [
+        "medical/respiratory"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-9ddf318b",
+      "arxiv_id": null,
+      "title": "ASiT-CRNN A method for sound event detection with fine-tuning of self-supervised pre-trained ASiT-based model",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5485c714",
+      "arxiv_id": "2107.09388",
+      "title": "Assessment of Self-Attention on Learned Features For Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-2b93fc94",
+      "arxiv_id": "2303.03689",
+      "title": "AST-SED An Effective Sound Event Detection Method Based on Audio Spectrogram Transformer",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-fe0a10e0",
+      "arxiv_id": null,
+      "title": "ATTENTION MECHANISM NETWORK AND DATA AUGMENTATIONFOR SOUND EVENT LOCALIZATION AND DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-fbe0ddb8",
+      "arxiv_id": null,
+      "title": "ATTENTION MECHANISM NETWORK AND DATA AUGMENTATIONFOR SOUND EVENT LOCALIZATION AND DETECTION-Rank 2",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c72b2de2",
+      "arxiv_id": null,
+      "title": "Audio Tag Representation Guided Dual Attention Network for Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-a16846a0",
+      "arxiv_id": null,
+      "title": "AUDIO-VISUAL SOUND EVENT LOCALIZATION AND DETECTIONBASEDONCRNNUSING DEPTH-WISE SEPARABLE CONVOLUTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-0461304e",
+      "arxiv_id": "2404.10420",
+      "title": "AudioProtoPNet An interpretable deep learning model for bird sound classification",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-24b2dba1",
+      "arxiv_id": "2306.11427",
+      "title": "Auditory Neural Response Inspired Sound Event Detection Based on Spectro-Temporal Receptive Field",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-7e7bcadc",
+      "arxiv_id": null,
+      "title": "Autoencoder-Based Classifier and Anomaly Detector for Underwater Sounds",
+      "source_category": "other",
+      "topics": [
+        "underwater/underwater-target"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d51526cc",
+      "arxiv_id": null,
+      "title": "Automated Audio Data Augmentation Network Using Bi-Level Optimization for Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-853aa3a1",
+      "arxiv_id": null,
+      "title": "Automated note annotation after bioacoustic classification- Unsupervised clustering of extracted acoustic features improves detection of a cryptic owl",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d29a2fc2",
+      "arxiv_id": null,
+      "title": "Automatic Animal Specie Identification Using Bioacoustics Characterization and Modeling",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-8772ff26",
+      "arxiv_id": null,
+      "title": "Automatic synthesis of insects bioacoustics using machine learning a systematic review",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/insect-sound",
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5003407e",
+      "arxiv_id": null,
+      "title": "Auxiliary Decoder-Based Learning of Sound Event Detection using Multi-Channel Features and Maximum Probability Aggregation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d2e932d4",
+      "arxiv_id": "2508.04333",
+      "title": "Binaural Sound Event Localization and Detection Neural Network based on HRTF Localization Cues for H",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b091e329",
+      "arxiv_id": null,
+      "title": "Bioacoustic detection of four Bruchid species in bulk red and green bulk-stored beans",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-3374be53",
+      "arxiv_id": null,
+      "title": "Bioacoustics as a Measure of Population Size and Breeding Success of European Storm Petrels Hydrobates pelagicus",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-9396c6a4",
+      "arxiv_id": null,
+      "title": "Bioacoustics on Tiny Hardware at the BioDCASE 2025 Challenge",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5304d1c7",
+      "arxiv_id": null,
+      "title": "BioSoundSCape A bioacoustic dataset for the Fynbos Biome",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-2f98b395",
+      "arxiv_id": null,
+      "title": "Bird sound classification based on ECOC-SVM",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c2a3a807",
+      "arxiv_id": null,
+      "title": "Bird Sounds Recognition Based on Optoelectric Reservoir Computing",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-523613f8",
+      "arxiv_id": null,
+      "title": "Bird-sound-detection-based-on-sub-band-features-and-the-p_2024_Applied-Acous",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c14d669f",
+      "arxiv_id": null,
+      "title": "BirdDenoiser a bird sound denoising network based on optimized modern convolution Signal, Image and Video Processing Springer Nature Link",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-194f4712",
+      "arxiv_id": null,
+      "title": "Birds bats and beyond evaluating generalization in bioacoustics models",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound",
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-71e346a0",
+      "arxiv_id": "2210.10196",
+      "title": "BirdSoundsDenoising Deep Visual Audio Denoising for Bird Sounds",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-0be15f8c",
+      "arxiv_id": "2309.16369",
+      "title": "BRINGING THE DISCUSSION OF MINIMA SHARPNESS TO THE AUDIO DOMAIN- A FILTER-NORMALISED EVALUATION FOR ACOUSTIC SCENE CLASSIFICATION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-1c092b52",
+      "arxiv_id": null,
+      "title": "Causal Meta-Learning Framework- A Co-Evolutionary Approach to Disentanglement and Generalization for Fault Diagnosis of Rotating Machinery",
+      "source_category": "other",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-4392380a",
+      "arxiv_id": "2306.10499",
+      "title": "Channel-Spatial-Based Few-Shot Bird Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-0a41417b",
+      "arxiv_id": null,
+      "title": "CLAP4SED Training-Free Multimodal Few-Shot Retrieval for Real-Time Sound Event Detection on Embedded Devices",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-0dcd12d2",
+      "arxiv_id": "2411.12830",
+      "title": "Class-Incremental Learning for Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-e3dd204a",
+      "arxiv_id": "2511.01371",
+      "title": "Classification of motor faults based on transmission coefficient and reflection coefficient of omni-directional antenna using DCNN",
+      "source_category": "foundation-models",
+      "topics": [
+        "industrial/motor"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-45cf3147",
+      "arxiv_id": "2504.06710",
+      "title": "Clustering and novel class recognition evaluating bioacoustic deep learning feature extractors",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-1ccac746",
+      "arxiv_id": null,
+      "title": "CochlScene Pre-Training and Device-Aware Distillation for Low-Complexity Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5ead50ad",
+      "arxiv_id": "2210.13932",
+      "title": "CoLoC Conditioned Localizer and Classifier for Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-adaac8e0",
+      "arxiv_id": null,
+      "title": "Compact-sparse prototype calibration network for few-shot continual fault diagnosis of rotating machinery",
+      "source_category": "cross-domain",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e07b46dc",
+      "arxiv_id": "2604.13567",
+      "title": "Comparison of window shapes and lengths in short-time feature extraction for classification of heart sound signals",
+      "source_category": "other",
+      "topics": [
+        "medical/heart-sound"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-f45f1cc7",
+      "arxiv_id": "2510.21388",
+      "title": "Compressing Quaternion Convolutional Neural Networks for Audio Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-ef9db938",
+      "arxiv_id": null,
+      "title": "Confidence Regularized Entropy for Polyphonic Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-89eb819a",
+      "arxiv_id": null,
+      "title": "Conformer-Based Sound Event Detection with Semi-Supervised Learning and Data Augmentation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f654ee9f",
+      "arxiv_id": null,
+      "title": "Continuous Real-Time Acoustic Monitoring of endangered bird species in Hawai‘i",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-17eeef50",
+      "arxiv_id": "2401.05850",
+      "title": "Contrastive Loss Based Frame-wise Feature disentanglement for Polyphonic Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-490eba8a",
+      "arxiv_id": null,
+      "title": "Convolutional Neural Network for Audibility Assessment of Acoustic Alarms",
+      "source_category": "other",
+      "topics": [
+        "security/alarm"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f321416c",
+      "arxiv_id": "2408.14753",
+      "title": "CoopASD- Cooperative Machine Anomalous Sound Detection with Privacy Concerns",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-eb4fc9ff",
+      "arxiv_id": null,
+      "title": "CP-JKU SUBMISSION TO DCASE’21 IMPROVING OUT-OF-DISTRIBUTION DETECTORS FOR MACHINE CONDITION MONITORING WITH PROXY OUTLIERS & DOMAIN ADAPTATION VIA SEMANTIC ALIGNMENT",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f601d711",
+      "arxiv_id": "2503.11363",
+      "title": "Creating a Good Teacher for Knowledge Distillation in Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-826d4f33",
+      "arxiv_id": null,
+      "title": "Cross-Dimensional Interaction with Inverted Residual Triplet Attention for Low-Complexity Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-aeb94561",
+      "arxiv_id": "2504.12870",
+      "title": "CST-former Multidimensional Attention-based Transformer for Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-05ecf4f5",
+      "arxiv_id": "2312.12821",
+      "title": "CST-FORMER TRANSFORMER WITH CHANNEL-SPECTRO-TEMPORAL ATTENTION FOR SOUND EVENT LOCALIZATION AND DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-bc997cfc",
+      "arxiv_id": null,
+      "title": "Data Augmentation and Cross-Fusion for Audiovisual Sound Event Localization and Detection with Source Distance Estimation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f6c55990",
+      "arxiv_id": null,
+      "title": "DATA AUGMENTATION, NEURAL NETWORKS, AND ENSEMBLE METHODS FOR SOUND EVENT LOCALIZATION AND DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-6c2ad2a5",
+      "arxiv_id": "2409.11964",
+      "title": "DATA EFFICIENT ACOUSTIC SCENE CLASSIFICATION USING TEACHER-INFORMED CONFUSING CLASS INSTRUCTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-1eb9ba49",
+      "arxiv_id": null,
+      "title": "DATA-EFFICIENT ACOUSTIC SCENE CLASSIFICATION VIA ENSEMBLE TEACHERS DISTILLATION AND PRUNING",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d337ed10",
+      "arxiv_id": null,
+      "title": "DATA-EFFICIENT ACOUSTIC SCENE CLASSIFICATION WITH PRE-TRAINED CP-MOBILE",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-a7a61118",
+      "arxiv_id": null,
+      "title": "Data-Efficient Acoustic Scene Classification with Pre-Training, Bayesian Ensemble Averaging, and Extensive Augmentations",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-17080ec9",
+      "arxiv_id": null,
+      "title": "DATA-EFFICIENT LOW-COMPLEXITY ACOUSTIC SCENE CLASSIFICATION USING MOBILENET VARIANT",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-31110012",
+      "arxiv_id": null,
+      "title": "Data-Efficient Low-Complexity Acoustic Scene Classification Using Parallel Attention Broadcast-Residual Network",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5f41ffde",
+      "arxiv_id": null,
+      "title": "DATA-EFFICIENT LOW-COMPLEXITY ACOUSTIC SCENE CLASSIFICATION WITH CURRICULUM LEARNING AND SE-LAYER",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f2acbc4f",
+      "arxiv_id": null,
+      "title": "DCASE 2020 TASK 2 UNSUPERVISED DETECTION OF ANOMALOUS SOUNDS FOR MACHINE CONDITION MONITORING",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-a6e23f4c",
+      "arxiv_id": "2510.17345",
+      "title": "DDSC Dynamic Dual-Signal Curriculum for Data-Efficient Acoustic Scene Classification under Domain Shift",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-70930769",
+      "arxiv_id": null,
+      "title": "Dealing with Distribution Shift in Acoustic Mosquito Datasets",
+      "source_category": "other",
+      "topics": [
+        "animal/insect-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-19abdb07",
+      "arxiv_id": null,
+      "title": "Debiased Training For Semi-supervised Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-9b88d818",
+      "arxiv_id": null,
+      "title": "Decodable but not structured linear probing enables Underwater Acoustic Target Recognition with pre",
+      "source_category": "other",
+      "topics": [
+        "underwater/underwater-target"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e04285e5",
+      "arxiv_id": null,
+      "title": "Decodable but not structured linear probing enables Underwater Acoustic Target Recognition with pretrained audio embeddings",
+      "source_category": "other",
+      "topics": [
+        "underwater/underwater-target"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-2fdeba57",
+      "arxiv_id": null,
+      "title": "Deep Acoustic Vehicle Counting Model with Short-Time Homomorphic Deconvolution",
+      "source_category": "other",
+      "topics": [
+        "transportation/road-vehicle"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-a8977c1f",
+      "arxiv_id": "2006.10417",
+      "title": "DEEP DENSE AND CONVOLUTIONAL AUTOENCODERS FOR UNSUPERVISED ANOMALY DETECTION IN MACHINE CONDITION SOUNDS",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-dcebe96b",
+      "arxiv_id": null,
+      "title": "Deep Learning Models for Acoustic Monitoring of the Himalayan Monal and Other Elusive Bird",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-576d3720",
+      "arxiv_id": null,
+      "title": "Deep Learning Models for Gunshot Detection in the Albufera Natural Park",
+      "source_category": "other",
+      "topics": [
+        "security/gunshot"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-75d31fc2",
+      "arxiv_id": null,
+      "title": "Deep Learning-based drone acoustic event detection system for microphone arrays",
+      "source_category": "other",
+      "topics": [
+        "transportation/aircraft-drone"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-978446b7",
+      "arxiv_id": "2106.04492",
+      "title": "Description and Discussion on DCASE 2021 Challenge Task 2 Unsupervised Anomalous Detection for Machine Condition Monitoring Under Domain Shifted Conditions",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-92707bb1",
+      "arxiv_id": "2206.05876",
+      "title": "DESCRIPTION AND DISCUSSION ON DCASE 2022 CHALLENGE TASK 2 UNSUPERVISED ANOMALOUS SOUND DETECTION FOR MACHINE CONDITION MONITORING APPLYING DOMAIN GENERALIZATION TECHNIQUES",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-f3307d99",
+      "arxiv_id": "2305.07828",
+      "title": "DESCRIPTION AND DISCUSSION ON DCASE 2023 CHALLENGE TASK 2- FIRST-SHOT UNSUPERVISED ANOMALOUS SOUND DETECTION FOR MACHINE CONDITION MONITORING",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-ce2b9f28",
+      "arxiv_id": "2406.07250",
+      "title": "Description and Discussion on DCASE 2024 Challenge Task 2 First-Shot Unsupervised Anomalous Sound Detection for Machine Condition Monitoring",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-6b088227",
+      "arxiv_id": "2506.10097",
+      "title": "Description and Discussion on DCASE 2025 Challenge Task 2_ First-Shot Unsupervised Anomalous Sound Detection for Machine Condition Monitoring",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-d5fbc2b8",
+      "arxiv_id": "2006.05822",
+      "title": "Description and Discussion on DCASE2020 Challenge Task2 Unsupervised Anomalous Sound Detection for Machine Condition Monitoring",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-bfad710a",
+      "arxiv_id": null,
+      "title": "Design of Bird Sound Recognition Model Based on Lightweight",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d1ced9a1",
+      "arxiv_id": null,
+      "title": "Designing a Bioacoustics Gun for the Prevention of Bird Attacks in Farms, Fields & Buildings",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound",
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-cf729665",
+      "arxiv_id": "2507.16343",
+      "title": "Detect Any Sound Open-Vocabulary Sound Event Detection with Multi-Modal Queries",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-e560e99a",
+      "arxiv_id": null,
+      "title": "Detecting gas pipeline leaks in sandy soil with fiber-optic distributed acoustic sensing",
+      "source_category": "das",
+      "topics": [
+        "infrastructure/structure"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-47421135",
+      "arxiv_id": null,
+      "title": "Detection of Anomalous Sounds for Machine Condition Monitoring using Classification Confidence",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-91151378",
+      "arxiv_id": null,
+      "title": "Determining the Distribution of Red Deer (Cervus elaphus L.) in the Kopački Rit Nature Park Using Bioacoustic Monitoring",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f48d2c3b",
+      "arxiv_id": null,
+      "title": "Determining the Distribution of Red Deer (Cervus elaphus L.) in the Kopački Rit Nature Park Using Bioacoustic Monitoring_1",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-42eb8ab8",
+      "arxiv_id": "2407.03654",
+      "title": "DG-SED Domain Generalization for Sound Event Detection with Heterogeneous Training Data",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-a932bc17",
+      "arxiv_id": null,
+      "title": "DGNSCA- A Domain Generalized Network Leveraging Similarity and Class-Conditional Contrast for Robust Fault Diagnosis of Rotating Machinery Under Unseen Operating Conditions",
+      "source_category": "other",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-63987499",
+      "arxiv_id": "2308.07293",
+      "title": "DiffSED Sound Event Detection with Denoising Diffusion",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-edbb0f0c",
+      "arxiv_id": "2507.08236",
+      "title": "Distilling Spectrograms into Tokens Fast and Lightweight Bioacoustic Classification for BirdCLEF+ 2",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-ebb3be60",
+      "arxiv_id": null,
+      "title": "Distributed acoustic sensing for monitoring linear infrastructures: Current status and trends",
+      "source_category": "das",
+      "topics": [
+        "infrastructure/structure"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c8733375",
+      "arxiv_id": "2603.13903",
+      "title": "Distributed Acoustic Sensing for Urban Traffic Monitoring- Spatio-Temporal Attention in Recurrent Neural Networks",
+      "source_category": "das",
+      "topics": [
+        "infrastructure/structure"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-89d8d77a",
+      "arxiv_id": null,
+      "title": "Distributed Acoustic Sensing With Sensitivity-Enhanced Optical Cable",
+      "source_category": "das",
+      "topics": [
+        "infrastructure/structure"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-fa2f7482",
+      "arxiv_id": "2406.05341",
+      "title": "Diversifying and Expanding Frequency-Adaptive Convolution Kernels for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-a46b396e",
+      "arxiv_id": "2306.02591",
+      "title": "Divided spectro-temporal attention for sound event localization and detection in real scenes for DCA",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-768019ab",
+      "arxiv_id": null,
+      "title": "DOA AND EVENT GUIDANCE SYSTEM FOR SOUND EVENT LOCALIZATION AND DETECTION WITH SOURCE DISTANCE ESTIMATION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f3b9cf69",
+      "arxiv_id": null,
+      "title": "DOA AND EVENT GUIDANCE SYSTEM FOR SOUND EVENT LOCALIZATION AND DETECTION WITH SOURCE DISTANCE ESTIMATION-Rank 2",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c8abe420",
+      "arxiv_id": "2410.22803",
+      "title": "DOA-Aware Audio-Visual Self-Supervised Learning for Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-89e1516d",
+      "arxiv_id": null,
+      "title": "Domain Adaptation of Few-Shot Bioacoustic Event Detection in Different Environments",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-bb1e8178",
+      "arxiv_id": null,
+      "title": "Domain generalization for rotating machinery fault diagnosis A survey",
+      "source_category": "cross-domain",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e85313e0",
+      "arxiv_id": "2111.06531",
+      "title": "Domain Generalization on Efficient Acoustic Scene Classification Using Residual Normalization",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-654b5ba8",
+      "arxiv_id": "2409.08589",
+      "title": "Domain-Invariant Representation Learning of Bird Sounds",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-128ff862",
+      "arxiv_id": null,
+      "title": "DPTRANS DUAL-PATH TRANSFORMER FOR MACHINE CONDITION MONITORING",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7ff192d6",
+      "arxiv_id": null,
+      "title": "Drone Detection and Localization Using Enhanced Fiber-Optic Acoustic Sensor and Distributed Acoustic Sensing Technology",
+      "source_category": "das",
+      "topics": [
+        "transportation/aircraft-drone",
+        "infrastructure/structure"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-ff538221",
+      "arxiv_id": "2402.02781",
+      "title": "DUAL KNOWLEDGE DISTILLATION FOR EFFICIENT SOUND EVENT DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-a2d840a6",
+      "arxiv_id": null,
+      "title": "DUAL-MODE FRAMEWORK FOR FIRST-SHOT UNSUPERVISED ANOMALOUS SOUND DETECTION IN MACHINE CONDITION MONITORING",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c409ee08",
+      "arxiv_id": null,
+      "title": "DUAL-STRATEGY ENHANCEMENT OF ACOUSTIC SCENE AND EVENT CLASSIFICATION- INTEGRATING RES2NET, GHOSTNET, AND MOBILEFORMER ARCHITECTURES",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f5fb291e",
+      "arxiv_id": null,
+      "title": "Duration-Aware Sound Event Detection on Ultra-Low-Power Sensor Devices",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e572a6cf",
+      "arxiv_id": "2307.08239",
+      "title": "Dynamic Kernel Convolution Network with Scene-dedicate Training for Sound Event Localization and Det",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b6b46364",
+      "arxiv_id": null,
+      "title": "Ecologically Valid Benchmarking and Adaptive Attention Scalable Marine Bioacoustic Monitoring",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-21005029",
+      "arxiv_id": null,
+      "title": "EDANSA-2019 The Ecoacoustic Dataset from Arctic North Slope Alaska",
+      "source_category": "other",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7e1f2824",
+      "arxiv_id": "2211.14073",
+      "title": "EDGAR Embedded Detection of Gunshots by AI in Real-time",
+      "source_category": "other",
+      "topics": [
+        "security/gunshot"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-9d5fd961",
+      "arxiv_id": "2409.09546",
+      "title": "Effective Pre-Training of Audio Transformers for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-05cf6fc3",
+      "arxiv_id": null,
+      "title": "EFFICIENT ACOUSTIC SCENE CLASSIFICATION USING MEAN-TEACHER AND KNOWLEDGE DISTILLATION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-8d845c9d",
+      "arxiv_id": null,
+      "title": "Efficient Anomaly Detection Algorithm for Heart Sound Signal",
+      "source_category": "other",
+      "topics": [
+        "medical/heart-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f9120523",
+      "arxiv_id": null,
+      "title": "Efficient Evaluation Algorithms for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-b7328c11",
+      "arxiv_id": "2604.12483",
+      "title": "Elastic Net Regularization and Gabor Dictionary for Classification of Heart Sound Signals using Deep Learning",
+      "source_category": "other",
+      "topics": [
+        "medical/heart-sound"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-ceab6241",
+      "arxiv_id": null,
+      "title": "Embedded Acoustic Scene Classification for Low Power Microcontroller Devices",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-4466eeeb",
+      "arxiv_id": "2509.20103",
+      "title": "Enabling Multi-Species Bird Classification on Low-Power Bioacoustic Loggers",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound",
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-97dc25e0",
+      "arxiv_id": "2502.16914",
+      "title": "ENACT-Heart -- ENsemble-based Assessment Using CNN and Transformer on Heart Sounds",
+      "source_category": "other",
+      "topics": [
+        "medical/heart-sound"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-34eee627",
+      "arxiv_id": "2210.05917",
+      "title": "Enemy Spotted- In-game Gun Sound Dataset for Gunshot Classification and Localization",
+      "source_category": "other",
+      "topics": [
+        "security/gunshot"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-4c118b47",
+      "arxiv_id": "2409.08763",
+      "title": "Energy Consumption Trends in Sound Event Detection Systems",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-be3a8c0f",
+      "arxiv_id": "2306.01533",
+      "title": "Enhance Temporal Relations in Audio Captioning with Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-d4f64f0d",
+      "arxiv_id": null,
+      "title": "Enhanced Gunshot Sound Detection using AlexNet and XGBoost from Fourier Spectrograms",
+      "source_category": "other",
+      "topics": [
+        "security/gunshot"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e9e94207",
+      "arxiv_id": null,
+      "title": "Enhanced heart sound anomaly detection via WCOS a semi-supervised framework integrating wavelet, autoencoder and SVM",
+      "source_category": "cross-domain",
+      "topics": [
+        "medical/heart-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-39075a51",
+      "arxiv_id": "2401.17129",
+      "title": "ENHANCED SOUND EVENT LOCALIZATION AND DETECTION IN REAL 360 AUDIO-VISUAL SOUNDSCAPES",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-84cdc1cd",
+      "arxiv_id": null,
+      "title": "ENHANCED UNSUPERVISED ANOMALOUS SOUND DETECTION USING CONDITIONAL AUTOENCODER FOR MACHINE CONDITION MONITORING",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-482ffbba",
+      "arxiv_id": null,
+      "title": "Enhancing conformer-based sound event detection using frequency dynamic convolutions and BEATs audio embeddings",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-682ad444",
+      "arxiv_id": null,
+      "title": "Enhancing Multiscale Features for Efficient Acoustic Scene Classification with One-Dimensional Separate CNN",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-0ef261a9",
+      "arxiv_id": "2507.09606",
+      "title": "Ensemble Confidence Calibration for Sound Event Detection in Open-environment",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-e8b180ce",
+      "arxiv_id": "2106.10806",
+      "title": "ENSEMBLE OF ACCDOA- AND EINV2-BASED SYSTEMS WITH D3NETS AND IMPULSE RESPONSE SIMULATION FOR SOUND EVENT LOCALIZATION AND DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-fb932bab",
+      "arxiv_id": null,
+      "title": "Ensemble of Pruned Low-Complexity Models for Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f8dab7af",
+      "arxiv_id": null,
+      "title": "Ensemble of Sequence Matching Networks for Dynamic Sound Event Localization, Detection, and Tracking",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-539e9266",
+      "arxiv_id": null,
+      "title": "Episodic Training and Feature Orthogonality-Driven Domain Generalization for Rotating Machinery Fault Diagnosis Under Unseen Working Conditions",
+      "source_category": "cross-domain",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-fb5368bf",
+      "arxiv_id": null,
+      "title": "Evaluation Metric of Sound Event Detection Considering Severe Misdetection by Scenes",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-207b3f77",
+      "arxiv_id": "2010.00140",
+      "title": "Event-Independent Network for Polyphonic Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-5a44ae08",
+      "arxiv_id": null,
+      "title": "Exploiting Stereo Spatial Properties with ReCoOP Framework for Joint Sound Event Detection and Localization",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-ec763d89",
+      "arxiv_id": "2406.15160",
+      "title": "Exploring Audio-Visual Information Fusion for Sound Event Localization and Detection In Low-Resource",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-cac25200",
+      "arxiv_id": null,
+      "title": "Exploring current research trends in sound event detection a systematic literature review",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-539a5c28",
+      "arxiv_id": null,
+      "title": "Exploring Large Scale Pre-Trained Models for Robust Machine Anomalous Sound Detection",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-34562e3b",
+      "arxiv_id": null,
+      "title": "Exploring Multi-Task Learning with Weighted Soft Label Loss for Sound Event Detection with Soft Labels",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5ad88e2a",
+      "arxiv_id": "2503.11373",
+      "title": "Exploring Performance-Complexity Trade-Offs in Sound Event Detection Models",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-423e5ea4",
+      "arxiv_id": "2409.13292",
+      "title": "Exploring Text-Queried Sound Event Detection with Audio Source Separation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-d2dba53f",
+      "arxiv_id": null,
+      "title": "EZhouNetA framework based on graph neural network and anchor interval for the respiratory sound eve",
+      "source_category": "other",
+      "topics": [
+        "medical/respiratory"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e25f1d9a",
+      "arxiv_id": null,
+      "title": "FA3-Net feature aggregation and augmentation with attention network for sound event localization and detection Applied Intelligence",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-22c8ff30",
+      "arxiv_id": null,
+      "title": "FAF-Filt- Frequency-aware Fourier Filter for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-fdab4662",
+      "arxiv_id": "2110.01506",
+      "title": "Fairness and Underspecification in Acoustic Scene Classification The Case for Disaggregated Evaluations",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-6e8d9bb4",
+      "arxiv_id": null,
+      "title": "Fault Diagnosis of Motors Under Varying Operating Conditions With Only Phase Current and Limited Samples",
+      "source_category": "other",
+      "topics": [
+        "industrial/motor"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e821c060",
+      "arxiv_id": null,
+      "title": "FEATURE FUSION BASED ON CROSS-FEATURE TRANSFORMER FOR SOUND EVENT LOCALIZATION AND DETECTION WITH SOURCE DISTANCE ESTIMATION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-b7609b72",
+      "arxiv_id": null,
+      "title": "Feature Selection Using Alternating Direction Method of Multiplier for Low-Complexity Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-a3a60434",
+      "arxiv_id": null,
+      "title": "Federated Domain Generalization Based on Gaussian Mapping and Constrained Quadratic Programming for Rotating Machinery Fault Diagnosis",
+      "source_category": "cross-domain",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5db9a640",
+      "arxiv_id": null,
+      "title": "FEW SHOT BIOACOUSTIC DETECTION BOOSTING WITH FINE TUNING STRATEGY USING NEGATIVE-BASED PROTOTYPICAL LEARNING",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-2c06f541",
+      "arxiv_id": null,
+      "title": "Few-Shot Bioacoustic Event Detection A New Task at the DCASE 2021 Challenge",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-290f252c",
+      "arxiv_id": "2207.07911",
+      "title": "Few-Shot Bioacoustic Event Detection at the DCASE 2022 Challenge",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-222acb5b",
+      "arxiv_id": "2306.09223",
+      "title": "Few-Shot Bioacoustic Event Detection at the DCASE 2023 Challenge",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-29e4734e",
+      "arxiv_id": null,
+      "title": "FEW-SHOT BIOACOUSTIC EVENT DETECTION AT THE DCASE 2024 CHALLENGE",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-87df9abf",
+      "arxiv_id": null,
+      "title": "FEW-SHOT BIOACOUSTIC EVENT DETECTION AT THE DCASE 2024 CHALLENGE-Rank 1",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-3f9adc21",
+      "arxiv_id": null,
+      "title": "Few-Shot Bioacoustic Event Detection Enhanced Classifiers for Prototypical Networks",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-eb6a6126",
+      "arxiv_id": null,
+      "title": "FEW-SHOT BIOACOUSTIC EVENT DETECTION USING A PROTOTYPICAL NETWORK ENSEMBLE WITH ADAPTIVE EMBEDDING FUNCTIONS-Rank 3",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-2a685c90",
+      "arxiv_id": null,
+      "title": "Few-Shot Bioacoustic Event Detection Using an Event-Length Adapted Ensemble of Prototypical Networks",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-3aada648",
+      "arxiv_id": null,
+      "title": "FEW-SHOT BIOACOUSTIC EVENT DETECTION USING BEATS",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-26caaa32",
+      "arxiv_id": "2407.10182",
+      "title": "FEW-SHOT BIOACOUSTIC EVENT DETECTION WITH FRAME-LEVEL EMBEDDING LEARNING SYSTEM",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-2b5c5ac6",
+      "arxiv_id": null,
+      "title": "FEW-SHOT BIOACOUSTIC EVENT DETECTION WITH FRAME-LEVEL EMBEDDING LEARNING SYSTEM-Rank 2",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-40990805",
+      "arxiv_id": null,
+      "title": "Few-Shot Bioacoustics Event Detection Using Transductive Inference With Data Augmentation",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-0bbfbf7b",
+      "arxiv_id": null,
+      "title": "FEW-SHOT EMBEDDING LEARNING AND EVENT FILTERING FOR BIOACOUSTIC EVENT DETECTION-Rank 1",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-09d3b8b1",
+      "arxiv_id": null,
+      "title": "Few-Shot_Bioacoustics_Event_Detection_using_Transudative_Inference_with_Data_Augmentation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-68eeb5a6",
+      "arxiv_id": "2403.11037",
+      "title": "Fine-Grained Engine Fault Sound Event Detection Using Multimodal Signals",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-8c4b0fb2",
+      "arxiv_id": "2309.08153",
+      "title": "FINE-TUNE THE PRETRAINED ATST MODEL FOR SOUND EVENT DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-69a3ad48",
+      "arxiv_id": null,
+      "title": "Fine-tuning audio spectrogram transformer with task-aware adapters for sound event detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d36976e4",
+      "arxiv_id": "2507.10642",
+      "title": "First-of-its-kind AI model for bioacoustic detection using a lightweight associative memory Hopfield",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-896f4305",
+      "arxiv_id": "2303.00455",
+      "title": "First-shot anomaly sound detection for machine condition monitoring- A domain generalization baseline",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-bcc05e9d",
+      "arxiv_id": null,
+      "title": "First-Shot Machine Anomalous Sound Detection- Exploring the Impact of Limited Target Dataset Size on Model Performance",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-caa37e90",
+      "arxiv_id": null,
+      "title": "FIRST-SHOT UNSUPERVISED ANOMALOUS SOUND DETECTION FOR MACHINE CONDITION MONITORING BASED ON ENSEMBLE LEARNING AND DOMAIN GENERALIZATION",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7532e5d2",
+      "arxiv_id": null,
+      "title": "FKIE-VUB SYSTEM FOR DCASE2024 CHALLENGE TASK 2- FIRST-SHOT UNSUPERVISED ANOMALOUS SOUND DETECTION FOR MACHINE CONDITION MONITORING",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7d5b3caa",
+      "arxiv_id": "2509.18606",
+      "title": "FlexSED Towards Open-Vocabulary Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-5a9082da",
+      "arxiv_id": "2504.04428",
+      "title": "Formula-Supervised Sound Event Detection Pre-Training Without Real Data",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-c06adb19",
+      "arxiv_id": "2103.06581",
+      "title": "Forward-Backward Convolutional Recurrent Neural Networks and Tag-Conditioned Convolutional Neural Networks for Weakly Labeled Semi-Supervised Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-8fa49329",
+      "arxiv_id": "2508.01277",
+      "title": "Foundation Models for Bioacoustics -- a Comparative Review",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-0d22be64",
+      "arxiv_id": "2309.11783",
+      "title": "Frame Pairwise Distance Loss for Weakly-supervised Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-74b34661",
+      "arxiv_id": null,
+      "title": "FRAUNHOFER FKIE SUBMISSION FOR TASK 2- FIRST-SHOT UNSUPERVISED ANOMALOUS SOUND DETECTION FOR MACHINE CONDITION MONITORING",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-8e84e246",
+      "arxiv_id": null,
+      "title": "Fraunhofer fkie submission for task 2- First-shot unsupervised anomalous sound detection for machine condition monitoring_1",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-dad18075",
+      "arxiv_id": null,
+      "title": "FRAUNHOFER FKIE SUBMISSION FOR TASK 5- FEW-SHOT BIOACOUSTIC EVENT DETECTION",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-299c5095",
+      "arxiv_id": "2306.11277",
+      "title": "Frequency & Channel Attention for Computationally Efficient Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-15c00444",
+      "arxiv_id": "2203.15296",
+      "title": "Frequency Dynamic Convolution Frequency-Adaptive Pattern Recognition for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-0e38d0a8",
+      "arxiv_id": "2506.12785",
+      "title": "Frequency Dynamic Convolutions for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-7d42d126",
+      "arxiv_id": "2409.08587",
+      "title": "Frequency Tracking Features for Data-Efficient Deep Siren Identification",
+      "source_category": "other",
+      "topics": [
+        "security/alarm",
+        "urban/public-warning"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-bece928a",
+      "arxiv_id": "2403.13252",
+      "title": "Frequency-aware convolution for sound event detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-bf004939",
+      "arxiv_id": "2403.08525",
+      "title": "From Weak to Strong Sound Event Labels using Adaptive Change-Point Detection and Active Learning",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-2a4c792d",
+      "arxiv_id": "2401.04976",
+      "title": "Full-frequency dynamic convolution a physical frequency-dependent convolution for sound event detec",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-cac48176",
+      "arxiv_id": "2312.09034",
+      "title": "FUSION OF AUDIO AND VISUAL EMBEDDINGS FOR SOUND EVENT LOCALIZATION AND DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-1544ce2a",
+      "arxiv_id": null,
+      "title": "FUSION SYSTEM FOR FIRST-SHOT UNSUPERVISED ANOMALOUS SOUND DETECTION FOR MACHINE CONDITION",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-97f66228",
+      "arxiv_id": null,
+      "title": "FUSION SYSTEM FOR FIRST-SHOT UNSUPERVISED ANOMALOUS SOUND DETECTION FOR MACHINE CONDITION MONITORING",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-6434e4fe",
+      "arxiv_id": null,
+      "title": "FUSION SYSTEM FOR FIRST-SHOT UNSUPERVISED ANOMALOUS SOUND DETECTION FOR MACHINE CONDITION MONITORING Technical Report Zhe Cao , Jichao Zhang , Xiao-Lei Zhang , Chi Zhang , Xuelong Li Northwestern Polytechnical University, Xi’an, China China Telecom,",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-1e27de85",
+      "arxiv_id": "2504.02988",
+      "title": "Generating Diverse Audio-Visual 360 Soundscapes for Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-50fa2a30",
+      "arxiv_id": null,
+      "title": "Generative adversarial network augmented data for improved heart sound abnormality detection",
+      "source_category": "other",
+      "topics": [
+        "medical/heart-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-bbef2121",
+      "arxiv_id": "2412.01530",
+      "title": "Generative AI-based data augmentation for improved bioacoustic classification in noisy environments",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-3a63ea95",
+      "arxiv_id": null,
+      "title": "Global Enhanced Frame Prompt Tuning for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-86b21a28",
+      "arxiv_id": null,
+      "title": "Graph structure learning guided multi-source-free domain adaptation for mechanical fault diagnosis",
+      "source_category": "cross-domain",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-1f455406",
+      "arxiv_id": "2007.10638",
+      "title": "Guided Multi-Branch Learning Systems for Sound Event Detection with Sound Separation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-465cdaab",
+      "arxiv_id": null,
+      "title": "Gunshot Detection Using Convolutional Neural Networks",
+      "source_category": "other",
+      "topics": [
+        "security/gunshot"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d71af705",
+      "arxiv_id": null,
+      "title": "Hand-Grip Strength Estimation through Bioacoustic Sensing",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f7e0bdde",
+      "arxiv_id": "2508.12334",
+      "title": "HDA-SELD Hierarchical Cross-Modal Distillation with Multi-Level Data Augmentation for Low-Resource Audio-Visual Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-5ab32a92",
+      "arxiv_id": "2502.04464",
+      "title": "Hidden assumptions of integer ratio analyses in bioacoustics and music",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-374a44ba",
+      "arxiv_id": null,
+      "title": "HIERARCHICAL ACOUSTIC SCENE CLASSIFICATION WITH KNOWLEDGE DISTILLATION AND PRE-TRAINED DYNAMIC NETWORKS",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-14c94cf1",
+      "arxiv_id": null,
+      "title": "HOW INFORMATION ON SOFT LABELS AND HARD LABELS MUTUALLY BENEFITS SOUND EVENT DETECTION TASKS",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-47887382",
+      "arxiv_id": null,
+      "title": "Hybrid Approach for Machine Anomaly Detection Across Diverse Operating Conditions- Combining Self-Supervised Learning With Vibration Statistics",
+      "source_category": "other",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-740519c0",
+      "arxiv_id": "2505.20956",
+      "title": "Hybrid Disagreement-Diversity Active Learning for Bioacoustic Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-6dedd0da",
+      "arxiv_id": null,
+      "title": "Ifap-Net An Interactive Feature Aggregation and Perception Network for 3D Sound Event Localization and Detection by Yongbo Li, Qinghua Huang, Kai Liu",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-1d560bfb",
+      "arxiv_id": "2408.14771",
+      "title": "Impact of Noisy Labels on Sound Event Detection Deletion Errors Are More Detrimental Than Insertion",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-5672569c",
+      "arxiv_id": "2209.12843",
+      "title": "Impact of Temporal Resolution on Convolutional Recurrent Networks for Audio Tagging and Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b0fafeb8",
+      "arxiv_id": null,
+      "title": "Implementing transfer learning for sound event classification using the realised audio database",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-bb4f7bcf",
+      "arxiv_id": null,
+      "title": "Improved detection of bird vocalisations using BirdNET embeddings and machine learning",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-de633a4e",
+      "arxiv_id": "2408.00791",
+      "title": "Improving Audio Spectrogram Transformers for Sound Event Detection Through Multi-Stage Training",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-c96f8206",
+      "arxiv_id": "2007.03932",
+      "title": "Improving Sound Event Detection in Domestic Environments using Sound Separation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-1e53b62d",
+      "arxiv_id": null,
+      "title": "Improving Sound Event Detection with Foreground-Background Classification and Domain Adaptation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-8d1cbf70",
+      "arxiv_id": "2507.00874",
+      "title": "Improving Stereo 3D Sound Event Localization and Detection Perceptual Features, Stereo-specific Dat",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-846654cb",
+      "arxiv_id": "2303.05678",
+      "title": "Improving Weakly Supervised Sound Event Detection with Causal Intervention",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b09297b8",
+      "arxiv_id": null,
+      "title": "Increased avian bioacoustic diversity without lost profit after planting perennial vegetation in marginal cropland",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound",
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-0971b6cf",
+      "arxiv_id": "2302.14815",
+      "title": "Incremental Learning of Acoustic Scenes and Sound Events",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-c2815d10",
+      "arxiv_id": null,
+      "title": "Influence of recording devices and environmental noise on acoustic index scores- Implications for bird sound-based assessments",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-a05682ba",
+      "arxiv_id": "2503.15074",
+      "title": "InsectSet459 an open dataset of insect sounds for bioacoustic machine learning",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/insect-sound",
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-540db06d",
+      "arxiv_id": null,
+      "title": "Insights into Corncrake (Crex crex) movements in a fragmented agricultural landscape using bioacoustics with implications for nature conservation strategies",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-1d017586",
+      "arxiv_id": "2509.06598",
+      "title": "Integrating Spatial and Semantic Embeddings for Stereo Sound Event Localization in Videos",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-4031876f",
+      "arxiv_id": null,
+      "title": "Intelligent Diagnosis Method for Bearing Condition Changes Based on Domain Adaptation with Unlabeled Samples",
+      "source_category": "cross-domain",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c2186fde",
+      "arxiv_id": "2403.02791",
+      "title": "Intelligent Traffic Monitoring with Distributed Acoustic Sensing",
+      "source_category": "das",
+      "topics": [
+        "infrastructure/structure"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-16f83d0d",
+      "arxiv_id": "2311.14068",
+      "title": "Interactive Dual-Conformer with Scene-Inspired Mask for Soft Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-e3eb8ba8",
+      "arxiv_id": null,
+      "title": "Investigating the drivers of temporal and spatial dynamics in urban forest bird acoustic patterns",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d9164168",
+      "arxiv_id": null,
+      "title": "IOT AUDIO SENSOR NETWORKS AND DECISION TREES FOR ENHANCED RAIN SOUND CLASSIFICATION",
+      "source_category": "other",
+      "topics": [
+        "environmental/rain-wind"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-8e0094d2",
+      "arxiv_id": "2502.20857",
+      "title": "JiTTER Jigsaw Temporal Transformer for Event Reconstruction for Self-Supervised Sound Event Detecti",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-038f2d8b",
+      "arxiv_id": null,
+      "title": "Joint Training of Guided Learning and Mean Teacher Models for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-04fcfd75",
+      "arxiv_id": "2308.15090",
+      "title": "Killing Two Birds with One Stone Can an Audio Captioning System Also Be Used for Audio-Text Retrieval",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b8f7e301",
+      "arxiv_id": null,
+      "title": "Knowledge Distillation from Transformers for Low-Complexity Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-b9ee93e5",
+      "arxiv_id": null,
+      "title": "KT SUBMISSION- PERIODIC ACTIVATION AND KNOWLEDGE DISTILLATION FOR DATA-EFFICIENT LOW-COMPLEXITY ACOUSTIC SCENE CLASSIFICATION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-645e8008",
+      "arxiv_id": null,
+      "title": "Label Filtering-Based Self-Learning for Sound Event Detection Using Frequency Dynamic Convolution with Large Kernel Attention",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-1ca6d4ed",
+      "arxiv_id": null,
+      "title": "Latent and Adversarial Data Augmentations for Sound Event Detection and Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-298663bb",
+      "arxiv_id": "2410.09778",
+      "title": "LEAD Dataset How Can Labels for Sound Event Detection Vary Depending on Annotators",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-5de65ac6",
+      "arxiv_id": null,
+      "title": "Learning in the Wild Bioacoustics Few Shot Learning Without Using a Training Set",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d9eb307f",
+      "arxiv_id": "2408.17166",
+      "title": "Learning Multi-Target TDOA Features for Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b142c4b0",
+      "arxiv_id": "2304.12688",
+      "title": "Leveraging Audio-Tagging Assisted Sound Event Detection using Weakified Strong Labels and Frequency",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-453336d1",
+      "arxiv_id": "2308.11530",
+      "title": "Leveraging Language Model Capabilities for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b8d40d41",
+      "arxiv_id": "2411.01174",
+      "title": "Leveraging LLM and Text-Queried Separation for Noise-Robust Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-c99c2391",
+      "arxiv_id": null,
+      "title": "Leveraging Multi-Level Features of ATST with Conformer-Based Dual-Branch Network for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d63c02e5",
+      "arxiv_id": "2410.22271",
+      "title": "Leveraging Reverberation and Visual Depth Cues for Sound Event Localization and Detection with Dista",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-2adbea6c",
+      "arxiv_id": "2408.14862",
+      "title": "Leveraging Self-Supervised Audio Representations for Data-Efficient Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-6632e585",
+      "arxiv_id": null,
+      "title": "LIF-PROTONET- PROTOTYPICAL NETWORK WITH LEAKY INTEGRATE-AND-FIRE NEURON AND SQUEEZE-AND-EXCITATION BLOCKS FOR BIOACOUSTIC EVENT DETECTION",
+      "source_category": "leakage",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-b8058fc9",
+      "arxiv_id": null,
+      "title": "LIF-PROTONET- PROTOTYPICAL NETWORK WITH LEAKY INTEGRATE-AND-FIRE NEURON AND SQUEEZE-AND-EXCITATION BLOCKS FOR BIOACOUSTIC EVENT DETECTION-Rank 4",
+      "source_category": "leakage",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5133a66f",
+      "arxiv_id": null,
+      "title": "Lightweight Convolutional Neural Networks on Binaural Waveforms for Low Complexity Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f7fa7d94",
+      "arxiv_id": "2511.11615",
+      "title": "Lightweight Hopfield Neural Networks for Bioacoustic Detection and Call Monitoring of Captive Primat",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-3c510bc8",
+      "arxiv_id": null,
+      "title": "LOCAL AND GLOBAL FEATURES FUSION FOR SOUND EVENT DETECTION WITH HETEROGENEOUS TRAINING DATASET AND POTENTIALLY MISSING LABELS",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-78d2aecc",
+      "arxiv_id": "2504.08365",
+      "title": "Location-Oriented Sound Event Localization and Detection with Spatial Mapping and Regression Localiz",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-f11013d6",
+      "arxiv_id": null,
+      "title": "LOW COMPLEXITY ACOUSTIC SCENE CLASSIFICATION WITH MOFLENET",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-0e4a3a6f",
+      "arxiv_id": null,
+      "title": "Low-Complexity Acoustic Scene Classification Base on Depthwise separable CNN",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-13c56267",
+      "arxiv_id": null,
+      "title": "LOW-COMPLEXITY ACOUSTIC SCENE CLASSIFICATION USING BLUEPRINT SEPARABLE CONVOLUTION AND KNOWLEDGE DISTILLATION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-b7b9b01d",
+      "arxiv_id": null,
+      "title": "LOW-COMPLEXITY ACOUSTIC SCENE CLASSIFICATION USING CONVOLUTION NEURAL NETWORK",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-52592ac4",
+      "arxiv_id": null,
+      "title": "Low-Complexity Acoustic Scene Classification Using Deep Mutual Learning and Knowledge Distillation Fine-Tuning",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-59870ece",
+      "arxiv_id": null,
+      "title": "LOW-COMPLEXITY ACOUSTIC SCENE CLASSIFICATION USING DEEP SPACE SEPARABLE DISTILLATION AND MULTI-TASK LEARNING",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-3fc60282",
+      "arxiv_id": null,
+      "title": "LOW-COMPLEXITY ACOUSTIC SCENE CLASSIFICATION WITH LIMITED TRAINING DATA",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-9003c191",
+      "arxiv_id": null,
+      "title": "Low-Complexity CNNs for Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e15bc3b5",
+      "arxiv_id": null,
+      "title": "LOW-COMPLEXITY DEEP LEARNING SYSTEM FOR ACOUSTIC SCENE CLASSIFICATION USING TEACHER-STUDENT SCHEME AND MULTIPLE SPECTROGRAMS",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c0393d0b",
+      "arxiv_id": "2011.02955",
+      "title": "Low-Complexity Models for Acoustic Scene Classification Based on Receptive Field Regularization and Frequency Damping",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-201cf1b7",
+      "arxiv_id": null,
+      "title": "MACHINE ANOMALOUS SOUND DETECTION COMBINING CONVOLUTIONAL AUTO-ENCODER AND CONTRASTIVE LEARNING Technical Report",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e061e2ae",
+      "arxiv_id": null,
+      "title": "MACHINE ANOMALOUS SOUND DETECTION COMBINING CONVOLUTIONAL AUTO-ENCODER AND CONTRASTIVE LEARNING Technical Report Qing Zhou, Sai Wu Xi’an University of Architecture and Technology College of Information and Control Engineering, Xi’an, China",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-82bd122e",
+      "arxiv_id": "2409.05319",
+      "title": "Machine Anomalous Sound Detection Using Spectral-temporal Modulation Representations Derived from Ma",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-234360e1",
+      "arxiv_id": null,
+      "title": "Machine Anomalous Sound Detection Using Spectral-temporal Modulation Representations Derived from Ma_1",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e9c8752f",
+      "arxiv_id": null,
+      "title": "Machine Condition Monitoring from Acoustic Signatures using Auto-Encoders",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-516d64bf",
+      "arxiv_id": null,
+      "title": "MAGENTA Magnitude and Geometry-ENhanced Training Approach for Robust Long-Tailed Sound Event Locali",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e083f5f6",
+      "arxiv_id": null,
+      "title": "MAGENTA Magnitude and Geometry-ENhanced Training Approach for Robust Long-Tailed Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d3dde9e4",
+      "arxiv_id": null,
+      "title": "Many-to-Many Audio Spectrogram Tansformer Transformer for Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d02aad32",
+      "arxiv_id": null,
+      "title": "Masked Modeling Duo Vision Transformer with Multi-Layer Feature Fusion on Respiratory Sound Classification",
+      "source_category": "other",
+      "topics": [
+        "medical/respiratory"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-bf03270e",
+      "arxiv_id": "2408.08673",
+      "title": "MAT-SED A Masked Audio Transformer with Masked-Reconstruction Based Pre-training for Sound Event De",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-8e0cd562",
+      "arxiv_id": "2308.08847",
+      "title": "META-SELD Meta-Learning for Fast Adaptation to the new environment in Sound Event Localization and",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-40def616",
+      "arxiv_id": "2406.08771",
+      "title": "MFF-EINV2 Multi-scale Feature Fusion across Spectral-Spatial-Temporal Domains for Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-c36ca2c2",
+      "arxiv_id": null,
+      "title": "Microphone Array Optimization for Autonomous-Vehicle Audio Localization Based on the Radon Transform",
+      "source_category": "other",
+      "topics": [
+        "transportation/road-vehicle"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c7ac9ce0",
+      "arxiv_id": "2401.06913",
+      "title": "MICROPHONE CONVERSION MITIGATING DEVICE VARIABILITY IN SOUND EVENT CLASSIFICATION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-568b0289",
+      "arxiv_id": "2403.18638",
+      "title": "Mind the Domain Gap a Systematic Analysis on Bioacoustic Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-af232d38",
+      "arxiv_id": null,
+      "title": "Mini-SegNet and Low-Complexity MobileNet for Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-040252f3",
+      "arxiv_id": null,
+      "title": "Mixstyle based Domain Generalization for Sound Event Detection with Heterogeneous Training Data",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-4495e3c3",
+      "arxiv_id": "2511.05171",
+      "title": "Model Merging Improves Zero-Shot Generalization in Bioacoustic Foundation Models",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-a023cd6c",
+      "arxiv_id": null,
+      "title": "Model Training that Prioritizes Rare Overlapped Labels for Polyphonic Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-29629c9b",
+      "arxiv_id": null,
+      "title": "Modelling Spatio-Temporal Dynamics by Graph Attention Network for Distributed Multi-Microphone Sound Event Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-91f9fc0b",
+      "arxiv_id": null,
+      "title": "Moflenet A Low Complexity Model for Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-63dc6e6b",
+      "arxiv_id": null,
+      "title": "MSANet- Multi-Stage attention network for anomalous sound detection in machine condition monitoring",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-ea2199e9",
+      "arxiv_id": "2409.06196",
+      "title": "MTDA-HSED Mutual-Assistance Tuning and Dual-Branch Aggregating for Heterogeneous Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-35ce9468",
+      "arxiv_id": "2302.09256",
+      "title": "Multi-dimensional frequency dynamic convolution with confident mean teacher for sound event detectio",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-73f7e29a",
+      "arxiv_id": null,
+      "title": "Multi-granularity acoustic information fusion for sound event detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-0c0e33ea",
+      "arxiv_id": "2407.12997",
+      "title": "Multi-Iteration Multi-Stage Fine-Tuning of Transformers for Sound Event Detection with Heterogeneous",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-3e7053be",
+      "arxiv_id": "2310.13759",
+      "title": "Multi-Label Open-Set Audio Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-da66537f",
+      "arxiv_id": null,
+      "title": "Multi-modal Language models in bioacoustics with zero-shot transfer a case study Scientific Reports",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-988b5c5c",
+      "arxiv_id": "2510.26838",
+      "title": "Multi-Representation Attention Framework for Underwater Bioacoustic Denoising and Recognition",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics",
+        "underwater/underwater-target"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-867347e6",
+      "arxiv_id": null,
+      "title": "Multi-Resolution Conformer for Sound Event Detection Analysis and Optimization",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-49e86c37",
+      "arxiv_id": null,
+      "title": "Multi-Scale Architecture and Device-Aware Data-Random-Drop Based Fine-Tuning Method for Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5347403d",
+      "arxiv_id": null,
+      "title": "MULTI-SCALE FEATURE FUSION FOR SOUND EVENT LOCALIZATION AND DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-04c06a07",
+      "arxiv_id": null,
+      "title": "Multi-Scale Network based on Split Attention for Semi-supervised Sound event detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-aab99f60",
+      "arxiv_id": "2508.17194",
+      "title": "Multi-scale Scanning Network for Machine Anomalous Sound Detection",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b957ac02",
+      "arxiv_id": null,
+      "title": "MULTI-TASK FRAME LEVEL SYSTEM FOR FEW-SHOT BIOACOUSTIC EVENT DETECTION",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-6a89df23",
+      "arxiv_id": null,
+      "title": "MULTI-TASK FRAME LEVEL SYSTEM FOR FEW-SHOT BIOACOUSTIC EVENT DETECTION-Rank 1",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f87adbbc",
+      "arxiv_id": null,
+      "title": "Multichannel feature fusion network-based technique for heart sound signal classification and recognition",
+      "source_category": "other",
+      "topics": [
+        "medical/heart-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-bb49cb44",
+      "arxiv_id": null,
+      "title": "Multimodal Adaptive Signal Fusion for Domain Generalization in Imbalanced Few-Shot Rotating Machinery Fault Diagnosis",
+      "source_category": "cross-domain",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d308bb7d",
+      "arxiv_id": "2403.11091",
+      "title": "Multitask frame-level learning for few-shot sound event detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-434c27d0",
+      "arxiv_id": "2411.14153",
+      "title": "MVANet Multi-Stage Video Attention Network for Sound Event Localization and Detection with Source Distance Estimation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-f8152944",
+      "arxiv_id": null,
+      "title": "Navigating the Depths- A Comprehensive Survey of Deep Learning for Passive Underwater Acoustic Target Recognition",
+      "source_category": "other",
+      "topics": [
+        "underwater/underwater-target"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-445d2c86",
+      "arxiv_id": "2508.10230",
+      "title": "No Free Lunch from Audio Pretraining in Bioacoustics A Benchmark Study of Embeddings",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-6a57eddc",
+      "arxiv_id": "2508.07176",
+      "title": "Noise-Robust Sound Event Detection and Counting via Language-Queried Sound Separation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-f7675635",
+      "arxiv_id": null,
+      "title": "NoisenseDB- An Urban Sound Event Database to Develop Neural Classification Systems for Noise-Monitoring Applications",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-931a716c",
+      "arxiv_id": null,
+      "title": "Novel sound event and sound activity detection framework based on intrinsic mode functions and deep learning",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f3ff564a",
+      "arxiv_id": "2112.04841",
+      "title": "On the Effect of Coding Artifacts on Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-22f4c0b8",
+      "arxiv_id": null,
+      "title": "On the Effectiveness of Spatial and Multi-Channel Features for Multi-Channel Polyphonic Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-2b75a757",
+      "arxiv_id": null,
+      "title": "On the Role of Training Class Distribution in Zero-Shot Audio Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-bea35bc5",
+      "arxiv_id": null,
+      "title": "One-Class Bioacoustic Detector for Monitoring the Critically Endangered Pied Tamarin",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-4eaa8ebd",
+      "arxiv_id": "2309.14460",
+      "title": "Online Active Learning For Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-f5c0d31b",
+      "arxiv_id": "2403.13254",
+      "title": "Onset and offset weighted loss function for sound event detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-4e889b1e",
+      "arxiv_id": null,
+      "title": "Onset-and-offset-aware sound event detection via differentiable frame-to-event mapping",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-4437d94b",
+      "arxiv_id": null,
+      "title": "Open set classification of sound event",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-13a31f0c",
+      "arxiv_id": null,
+      "title": "Open-Window A Sound Event Dataset for Window State Detection and Recognition",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-60f617f4",
+      "arxiv_id": null,
+      "title": "Optimized Network Combining Depthwise Separable Convolutional with Multi-scale Dilated Convolution Used for Polyphonic Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-be6cb3d6",
+      "arxiv_id": null,
+      "title": "Papafil A Low Complexity Sound Event Localization and Detection Method with Parametric Particle Filtering and Gradient Boosting",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-8bd84a49",
+      "arxiv_id": "2512.01626",
+      "title": "Parallel Delayed Memory Units for Enhanced Temporal Modeling in Biomedical and Bioacoustic Signal An",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-832c2936",
+      "arxiv_id": "2601.17080",
+      "title": "PC-MCL PATIENT-CONSISTENT MULTI-CYCLE LEARNING WITH MULTI-LABEL BIAS CORRECTION FOR RESPIRATORY SOUND CLASSIFICATION",
+      "source_category": "other",
+      "topics": [
+        "medical/respiratory"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-37f05409",
+      "arxiv_id": null,
+      "title": "Perch 2.0 The Bittern Lesson for Bioacoustics",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d4c027b0",
+      "arxiv_id": "2310.03455",
+      "title": "Performance and energy balance a comprehensive study of state-of-the-art sound event detection syst",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-39999dd6",
+      "arxiv_id": null,
+      "title": "Performance Comparison of Overlapping Sound Event Detection Methods",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-6ea690f8",
+      "arxiv_id": null,
+      "title": "PLCST- PROBABILISTIC LOCALIZATION AND CLASSIFICATION OF SOUNDS WITH TRANSFORMERS FOR SOUND EVENT LOCALIZATION AND DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c794133d",
+      "arxiv_id": null,
+      "title": "PLDISET Probabilistic Localization and Detection of Independent Sound Events with Transformers",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-58d7443c",
+      "arxiv_id": "2207.06349",
+      "title": "Polyphonic Sound Event Detection for Highly Dense Birdsong Scenes",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-2551ff53",
+      "arxiv_id": null,
+      "title": "Polyphonic sound event localization and detection based on Multiple Attention Fusion ResNet",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-9de075de",
+      "arxiv_id": null,
+      "title": "Polyphonic sound event localization and detection using channel-wise FusionNet",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d3c9aff5",
+      "arxiv_id": "2306.15440",
+      "title": "Post-Processing Independent Evaluation of Sound Event Detection Systems",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-28b7807b",
+      "arxiv_id": "2108.07377",
+      "title": "Precision and accuracy of acoustic gunshot location in an urban environment",
+      "source_category": "other",
+      "topics": [
+        "security/gunshot"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-78149c19",
+      "arxiv_id": null,
+      "title": "Precision and accuracy of acoustic gunshot location in an urban environment more complicated (Figure 1, bottom.) (Hornikx 2016)",
+      "source_category": "other",
+      "topics": [
+        "security/gunshot"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-da043fc5",
+      "arxiv_id": "2309.00878",
+      "title": "Pretraining Representations for Bioacoustic Few-Shot Detection Using Supervised Contrastive Learning",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b0e7db2a",
+      "arxiv_id": null,
+      "title": "Preventing Crimes Through Gunshots Recognition Using Novel Feature Engineering and Meta-Learning Approach",
+      "source_category": "other",
+      "topics": [
+        "security/gunshot"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5dcf2e28",
+      "arxiv_id": "2409.17656",
+      "title": "Prototype based Masked Audio Model for Self-Supervised Learning of Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-c184754d",
+      "arxiv_id": null,
+      "title": "Prototyping an internet-of-things-based bioacoustics system to support research and surveillance of avian-associated infectious diseases",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound",
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-db9407ab",
+      "arxiv_id": "2411.06399",
+      "title": "PSELDNets Pre-trained Neural Networks on a Large-scale Synthetic Dataset for Sound Event Localizati",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-632d63be",
+      "arxiv_id": "2501.03740",
+      "title": "Pseudo Strong Labels from Frame-Level Predictions for Weakly Supervised Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-60e7865d",
+      "arxiv_id": "2406.13312",
+      "title": "Pushing the Limit of Sound Event Detection with Multi-Dilated Frequency Dynamic Convolution",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-8f757bad",
+      "arxiv_id": null,
+      "title": "Quantity Over Quality Investigating the Effects of Volume and Strength of Training Data in Marine Bioacoustics",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-50a4e646",
+      "arxiv_id": "2409.11700",
+      "title": "Real-Time Sound Event Localization and Detection Deployment Challenges on Edge Devices",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-02bfce89",
+      "arxiv_id": null,
+      "title": "REFRAMING UNSUPERVISED MACHINE CONDITION MONITORING AS A SUPERVISED CLASSIFICATION TASK WITH OUTLIER-EXPOSED CLASSIFIERS",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-aaa5f5f0",
+      "arxiv_id": "2309.08971",
+      "title": "REGULARIZED CONTRASTIVE PRE-TRAINING FOR FEW-SHOT BIOACOUSTIC SOUND DETECTION",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-86232f8c",
+      "arxiv_id": null,
+      "title": "Research and Implementation of Bird Species Identification Method Around Overhead Transmission Lines Based on Voiceprint Recognition",
+      "source_category": "speaker-recognition",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d770ad94",
+      "arxiv_id": null,
+      "title": "Research progress in bird sounds recognition based on acoustic monitoring technology- A systematic review",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-de03c99e",
+      "arxiv_id": null,
+      "title": "Research progress in distributed acoustic sensing techniques",
+      "source_category": "das",
+      "topics": [
+        "infrastructure/structure"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-150c72b6",
+      "arxiv_id": "2507.17941",
+      "title": "Resnet-conformer network with shared weights and attention mechanism for sound event localization, d",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-e3e6e600",
+      "arxiv_id": "2504.08644",
+      "title": "Reverberation-based Features for Sound Event Localization and Detection with Distance Estimation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-77649156",
+      "arxiv_id": "2505.11889",
+      "title": "Revisiting SSL for sound event detection complementary fusion and adaptive post-processing",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-42c4d810",
+      "arxiv_id": null,
+      "title": "ROBUST ANOMALY SOUND DETECTION FRAMEWORK FOR MACHINE CONDITION MONITORING",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-21a235d6",
+      "arxiv_id": "2503.02389",
+      "title": "Robust Detection of Overlapping Bioacoustic Sound Events",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-5c2016ee",
+      "arxiv_id": null,
+      "title": "Same data, different results? Machine learning approaches in bioacoustics",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c48c7af0",
+      "arxiv_id": null,
+      "title": "Scalable and low-power edge architecture with Wi-Fi HaLow and on-device spectrograms generation for flexible urban bioacoustics monitoring",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e749cfe2",
+      "arxiv_id": null,
+      "title": "Scaling Bioacoustic Signal Pre-training with Million Samples Via Mask-Modeling",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-42225ef3",
+      "arxiv_id": "2406.06992",
+      "title": "Scaling up masked audio encoder learning for general audio classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-ca8cdbd2",
+      "arxiv_id": null,
+      "title": "ScaloAdaptAlert, a novel framework for supervised anomaly detection in industrial acoustic data, integrating power scalograms, adaptive filter banks, and convolutional neural networks — A case study",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-66ff96f5",
+      "arxiv_id": null,
+      "title": "Scene-dependent sound event detection based on multitask learning with deformable large kernel attention convolution",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7151b5b6",
+      "arxiv_id": null,
+      "title": "Scientific applications of distributed acoustic sensing: State-of-the-art review and perspective",
+      "source_category": "das",
+      "topics": [
+        "infrastructure/structure"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-0a1d9750",
+      "arxiv_id": null,
+      "title": "SE-PROTONET- PROTOTYPICAL NETWORK WITH SQUEEZE-AND-EXCITATION BLOCKS FOR BIOACOUSTIC EVENT DETECTION",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-660f759b",
+      "arxiv_id": null,
+      "title": "SE-PROTONET- PROTOTYPICAL NETWORK WITH SQUEEZE-AND-EXCITATION BLOCKS FOR BIOACOUSTIC EVENT DETECTION-Rank 3",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-662d0f07",
+      "arxiv_id": null,
+      "title": "Searching for Efficient Network Architectures for Acoustic Scene Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-63858eb3",
+      "arxiv_id": "2207.07773",
+      "title": "Segment-Level Metric Learning for Few-Shot Bioacoustic Event Detection",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-59ad886a",
+      "arxiv_id": "2408.05057",
+      "title": "SELD-Mamba Selective State-Space Model for Sound Event Localization and Detection with Source Dista",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-0cdcec85",
+      "arxiv_id": null,
+      "title": "Selective Adversarial Augmentation Network for Bearing Fault Diagnosis with Partial Domain Adaptation",
+      "source_category": "cross-domain",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7ab156f1",
+      "arxiv_id": "2312.16422",
+      "title": "Selective-Memory Meta-Learning with Environment Representations for Sound Event Localization and Det",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-ff05624d",
+      "arxiv_id": null,
+      "title": "Self-Trained Audio Tagging and Sound Event Detection in Domestic Environments",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-2fb0cd42",
+      "arxiv_id": null,
+      "title": "Semi-Supervised Sound Event Detection System Based on Complex Convolutional Recurrent Neural Network",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-2456e55e",
+      "arxiv_id": null,
+      "title": "Semi-supervised Sound Event Detection Using Multiscale Channel Attention and Multiple Consistency Training",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-2d27fee6",
+      "arxiv_id": null,
+      "title": "Semi-supervised sound event detection with dynamic convolution and confidence-aware mean teacher",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-59dc29de",
+      "arxiv_id": "2309.08355",
+      "title": "SEMI-SUPERVISED SOUND EVENT DETECTION WITH LOCAL AND GLOBAL CONSISTENCY REGULARIZATION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-2a4c865a",
+      "arxiv_id": null,
+      "title": "Semi-Supervised Sound Event Detection with Pre-Trained Model",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7946e3d9",
+      "arxiv_id": null,
+      "title": "Semisupervised High-Order Graph Diffusion Network for Cross-Domain Fault Diagnosis of Rotating Machinery",
+      "source_category": "other",
+      "topics": [
+        "industrial/bearing"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e597f8f6",
+      "arxiv_id": "2511.16848",
+      "title": "Sex and age determination in European lobsters using AI-Enhanced bioacoustics",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b9f22b93",
+      "arxiv_id": null,
+      "title": "SIAlex Species identification and monitoring based on bird sound features",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-bfc8c345",
+      "arxiv_id": "2604.12455",
+      "title": "Sky-Ear: An Unmanned Aerial Vehicle-Enabled Victim Sound Detection and Localization System",
+      "source_category": "other",
+      "topics": [
+        "transportation/road-vehicle"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-1834127c",
+      "arxiv_id": "2509.15703",
+      "title": "SONAR Self-Distilled Continual Pre-training for Domain Adaptive Audio Representation",
+      "source_category": "other",
+      "topics": [
+        "underwater/underwater-target"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-bb121c31",
+      "arxiv_id": "2406.04212",
+      "title": "Sound Event Bounding Boxes",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-0649e397",
+      "arxiv_id": null,
+      "title": "Sound Event Classification with Object-Based Labels",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-570d4d87",
+      "arxiv_id": "2403.11827",
+      "title": "Sound Event Detection and Localization with Distance Estimation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-de1bdde1",
+      "arxiv_id": null,
+      "title": "Sound event detection based on soft label",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-0d5f76b5",
+      "arxiv_id": null,
+      "title": "SOUND EVENT DETECTION BY AGGREGATING PRE-TRAINED EMBEDDINGS FROM DIFFERENT LAYERS",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d86f5d02",
+      "arxiv_id": null,
+      "title": "Sound event detection in domestic environment using frequency-dynamic convolution and local attention",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-fe4fa0e9",
+      "arxiv_id": null,
+      "title": "Sound event detection in traffic scenes based on graph convolutional network to obtain multi-modal information",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-34029d58",
+      "arxiv_id": "2102.03468",
+      "title": "SOUND EVENT DETECTION IN URBAN AUDIO WITH SINGLE AND MULTI-RATE PCEN",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-1d42e4d6",
+      "arxiv_id": null,
+      "title": "Sound Event Detection using Time-frequency Bounding Boxes with a Self-Supervised Audio Spectrogram Transformer",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-07a260f6",
+      "arxiv_id": "2508.20703",
+      "title": "Sound event detection with audio-text models and heterogeneous temporal annotations",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-761ab726",
+      "arxiv_id": "2601.04178",
+      "title": "Sound Event Detection with Boundary-Aware Optimization and Inference",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-6ee6fd2d",
+      "arxiv_id": null,
+      "title": "SOUND EVENT DETECTION WITH SOFT LABELS USING SELF-ATTENTION MECHANISMS FOR GLOBAL SCENE FEATURE EXTRACTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-b46790c4",
+      "arxiv_id": null,
+      "title": "Sound event detection with soft labels- a new perspective on evaluation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-78d0ccc9",
+      "arxiv_id": "2403.20130",
+      "title": "Sound event localization and classification using WASN in Outdoor Environment",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-9df28e77",
+      "arxiv_id": null,
+      "title": "Sound Event Localization and Detection Based on Adaptive Hybrid Convolution and Multi-scale Feature Extractor",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-a88fb79f",
+      "arxiv_id": "2010.06422",
+      "title": "Sound Event Localization and Detection Based on CRNN using Rectangular Filters and Channel Rotation Data Augmentation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-3cef84a3",
+      "arxiv_id": null,
+      "title": "SOUND EVENT LOCALIZATION AND DETECTION BASED ON OMI-DIMENSIONAL DYNAMIC CONVOLUTION AND FEATURE PYRAMID ATTENTION MODULE",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-ba5d0ea1",
+      "arxiv_id": "2209.01802",
+      "title": "Sound Event Localization and Detection for Real Spatial Sound Scenes Event-Independent Network and Data Augmentation Chains",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b1aaa048",
+      "arxiv_id": null,
+      "title": "Sound event localization and detection using a spatial omni-dimensional dynamic interactions network",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-eb54c949",
+      "arxiv_id": "2006.12014",
+      "title": "SOUND EVENT LOCALIZATION AND DETECTION USING ACTIVITY-COUPLED CARTESIAN DOA VECTOR AND RD3NET-Rank 3",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-8c87182f",
+      "arxiv_id": null,
+      "title": "Sound Event Localization and Detection Using Parallel Multi-attention Enhancement",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-23aecba4",
+      "arxiv_id": null,
+      "title": "Sound Event Localization and Detection with Pre-Trained Audio Spectrogram Transformer and Multichannel Seperation Network",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-645035ab",
+      "arxiv_id": "1910.12369",
+      "title": "SOUND EVENT RECOGNITION IN A SMART CITY SURVEILLANCE CONTEXT",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-a4723dfe",
+      "arxiv_id": null,
+      "title": "Sound Events Localization and Detection Using Bio-inspired Gammatone Filters and Temporal Convolutional Neural Networks",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-87767941",
+      "arxiv_id": null,
+      "title": "Soundscape Identification of Endangered Bird Species using Bidirectional Long Short Term Memory",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f1046a5a",
+      "arxiv_id": null,
+      "title": "Source-Aware Spatial Self-Supervision for Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-6f342f54",
+      "arxiv_id": "2507.04845",
+      "title": "Spatial and Semantic Embedding Integration for Stereo Sound Event Localization and Detection in Regu",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b890d16d",
+      "arxiv_id": null,
+      "title": "Spatial Annotation-Free Sound Event Localization and Detection via Spatial Instance Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d89aaaf7",
+      "arxiv_id": null,
+      "title": "Spatial Annotation-free Training for Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-059a3fd0",
+      "arxiv_id": "2110.06501",
+      "title": "SPATIAL DATA AUGMENTATION WITH SIMULATED ROOM IMPULSE RESPONSES FOR SOUND EVENT LOCALIZATION AND DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-1d210ccf",
+      "arxiv_id": "2401.12238",
+      "title": "Spatial Scaper A Library to Simulate and Augment Soundscapes for Sound Event Localization and Detec",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-1d760888",
+      "arxiv_id": null,
+      "title": "Speech Obfuscation in Mel Spectra That Allows for Centralised Annotation and Classification of Sound Events",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-525387a4",
+      "arxiv_id": "2206.01948",
+      "title": "STARSS22 A Dataset of Spatial Recordings of Real Scenes with Spatiotemporal Annotations of Sound Events",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-f2d3c309",
+      "arxiv_id": "2306.09126",
+      "title": "STARSS23- An Audio-Visual Dataset of Spatial Recordings of Real Scenes with Spatiotemporal Annotations of Sound Events",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-c0f0d0af",
+      "arxiv_id": "2512.03563",
+      "title": "State Space Models for Bioacoustics A comparative Evaluation with Transformers",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-08fba329",
+      "arxiv_id": null,
+      "title": "State-of-The-Art application and challenges of optical fibre distributed acoustic sensing in civil engineering",
+      "source_category": "das",
+      "topics": [
+        "infrastructure/structure"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-28a9d30f",
+      "arxiv_id": null,
+      "title": "Static Sound Event Localization and Detection Using Bipartite Matching Loss for Emergency Monitoring",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-fa301e0f",
+      "arxiv_id": "2506.13455",
+      "title": "Stereo sound event localization and detection based on PSELDnet pretraining and BiMamba sequence modeling",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-7c39c7cf",
+      "arxiv_id": "2507.12042",
+      "title": "Stereo Sound Event Localization and Detection with Onscreen_Offscreen Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-82d11b07",
+      "arxiv_id": null,
+      "title": "Stereo Sound Event Localization and Detection with OnscreenOffscreen Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-3e029e3c",
+      "arxiv_id": null,
+      "title": "Stereo Sound Event Localization and Detection with Onscreenoffscreen Classification_1",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-4102a2f5",
+      "arxiv_id": null,
+      "title": "Stereo Sound Event Localization and Detection with Onscreenoffscreen Classification_2",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-39ce951d",
+      "arxiv_id": "2408.05493",
+      "title": "Stream-based Active Learning for Anomalous Sound Detection in Machine Condition Monitoring",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-697fc992",
+      "arxiv_id": null,
+      "title": "STUDY OF THE EFFECTIVENESS OF BIOACOUSTIC CORRECTION (BAC) THERAPY IN CHILDREN WITH FEBRILE SEIZURES",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5804d6f0",
+      "arxiv_id": null,
+      "title": "SUB-CLUSTER ADACOS BASED UNSUPERVISED ANOMALOUS SOUND DETECTION FOR MACHINE CONDITION MONITORING UNDER DOMAIN SHIFT CONDITIONS",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-9d458938",
+      "arxiv_id": null,
+      "title": "SUPERVISED CONTRASTIVE LEARNING FOR PRE-TRAINING BIOACOUSTIC FEW-SHOT SYSTEMS",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c700ee40",
+      "arxiv_id": null,
+      "title": "SUPERVISED CONTRASTIVE LEARNING FOR PRE-TRAINING BIOACOUSTIC FEW-SHOT SYSTEMS-Rank 2",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-b27b11b9",
+      "arxiv_id": null,
+      "title": "Supervised Detection of Baleen Whale Calls on Edge-Compute",
+      "source_category": "other",
+      "topics": [
+        "animal/marine-mammal",
+        "underwater/marine-life"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-1691752a",
+      "arxiv_id": "2207.10547",
+      "title": "SURREY SYSTEM FOR DCASE 2022 TASK 5- FEW-SHOT BIOACOUSTIC EVENT DETECTION WITH SEGMENT-LEVEL METRIC LEARNING-Rank 2",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-89eb102d",
+      "arxiv_id": "2310.14016",
+      "title": "SwG-former A Sliding-Window Graph Convolutional Network for Simultaneous Spatial-Temporal INFORMATION EXTRACTION IN SOUND EVENT LOCALIZATION AND DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-c4f37ab8",
+      "arxiv_id": "2509.18603",
+      "title": "SynSonic Augmenting Sound Event Detection through Text-to-Audio Diffusion ControlNet and Effective",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-8ef64531",
+      "arxiv_id": "2602.02955",
+      "title": "Synthetic Data Augmentation for Medical Audio Classification A Preliminary Evaluation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-a5accfc4",
+      "arxiv_id": "2503.00296",
+      "title": "Synthetic data enables context-aware bioacoustic sound event detection",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-fd2967ed",
+      "arxiv_id": "2410.02056",
+      "title": "Synthio- Augmenting Small-Scale Audio Classification Datasets with Synthetic Data",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-0cac8a39",
+      "arxiv_id": null,
+      "title": "TD-CLNet a time-distributed CNN-LSTM network for fault detection in belt conveyor idlers",
+      "source_category": "other",
+      "topics": [
+        "industrial/conveyor"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-62189de8",
+      "arxiv_id": null,
+      "title": "Techniques for distinguishing between impulsive and non-impulsive sound in the context of regulating sound exposure for marine mammals",
+      "source_category": "other",
+      "topics": [
+        "animal/marine-mammal"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-27e47c20",
+      "arxiv_id": null,
+      "title": "TEFFDConv An Improved Approach to Enhance Temporal Localization in Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-90756904",
+      "arxiv_id": "2504.12670",
+      "title": "Temporal Attention Pooling for Frequency Dynamic Convolution in Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-eab410de",
+      "arxiv_id": null,
+      "title": "Text-guided Device-realistic Sound Generation for Fiber-based Sound Event Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-fd261ce5",
+      "arxiv_id": null,
+      "title": "The APSIPA ASC 2025 Grand Challenge on City and Time-Aware Semi-Supervised Acoustic Scene Classification- Summary and Results",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-6458bf29",
+      "arxiv_id": null,
+      "title": "The Characterization of the Installation Effects on the Flow and Sound Field of Automotive Cooling Modules",
+      "source_category": "other",
+      "topics": [
+        "transportation/road-vehicle"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-184ba30d",
+      "arxiv_id": "2109.14061",
+      "title": "The Impact of Non-Target Events in Synthetic Soundscapes for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-89cb737f",
+      "arxiv_id": "2505.03071",
+      "title": "The Search for Squawk Agile Modeling in Bioacoustics",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-8d9ccac1",
+      "arxiv_id": "2601.03227",
+      "title": "The Sonar Moment Benchmarking Audio-Language Models in Audio Geo-Localization",
+      "source_category": "foundation-models",
+      "topics": [
+        "underwater/underwater-target"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-0d6762cc",
+      "arxiv_id": "2409.11262",
+      "title": "The Sounds of Home A Speech-Removed Residential Audio Dataset for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-74a42873",
+      "arxiv_id": null,
+      "title": "THE SYSTEM USING CONVNEXT, CONFORMER, AND DATA AUGMENTATION FOR SOUND EVENT LOCALIZATION AND DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-d8691918",
+      "arxiv_id": "2509.19676",
+      "title": "Thinking While Listening Simple Test Time Scaling For Audio Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-78bf0d93",
+      "arxiv_id": null,
+      "title": "THUEE SYSTEM FOR FIRST-SHOT UNSUPERVISED ANOMALOUS SOUND DETECTION FOR MACHINE CONDITION MONITORING",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-75c2495b",
+      "arxiv_id": null,
+      "title": "TINY AUDIO SPECTROGRAM TRANSFORMER- MOBILEVIT FOR LOW-COMPLEXITY ACOUSTIC SCENE CLASSIFICATION WITH DECOUPLED KNOWLEDGE DISTILLATION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-6d5967e8",
+      "arxiv_id": "2601.17611",
+      "title": "ToS A Team of Specialists ensemble framework for Stereo Sound Event Localization and Detection with",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-6dadd007",
+      "arxiv_id": null,
+      "title": "Toward in-context bioacoustic sound event detection",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-42e226f0",
+      "arxiv_id": null,
+      "title": "Toward Inclusive Smart Cities: Sound-Based Vehicle Diagnostics, Emergency Signal Recognition, and Beyond",
+      "source_category": "other",
+      "topics": [
+        "transportation/road-vehicle"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-630602e9",
+      "arxiv_id": null,
+      "title": "Toward Interpretable Polyphonic Sound Event Detection with Attention Maps Based on Local Prototypes",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-6a639d89",
+      "arxiv_id": "2509.00318",
+      "title": "Towards High-Fidelity and Controllable Bioacoustic Generation via Enhanced Diffusion Learning",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-cb03271d",
+      "arxiv_id": null,
+      "title": "ToyADMOS2025 The Evaluation Dataset for the DCASE2025T2 First-Shot Unsupervised Anomalous Sound Detection for Machine Condition Monitoring",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-376e2094",
+      "arxiv_id": "2301.06078",
+      "title": "Training one model to detect heart and lung sound events from single point auscultations",
+      "source_category": "sound-event",
+      "topics": [
+        "medical/respiratory"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-f4ce811a",
+      "arxiv_id": null,
+      "title": "Training Onset-and-Offset-Aware Sound Event Detection on a Heterogeneous Dataset via Probabilistic Sequential Modeling",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-83ed3e20",
+      "arxiv_id": "2007.03931",
+      "title": "Training Sound Event Detection on a Heterogeneous Dataset",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-cc501278",
+      "arxiv_id": "2302.14572",
+      "title": "Training sound event detection with soft labels from crowdsourced annotations",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-fb484b1d",
+      "arxiv_id": null,
+      "title": "Transformer and Graph Convolution-Based Unsupervised Detection of Machine Anomalous Sound Under Domain Shifts",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-a96f18c1",
+      "arxiv_id": "2604.12733",
+      "title": "Transformer Based Machine Fault Detection From Audio Input",
+      "source_category": "other",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-6758ad0f",
+      "arxiv_id": "2309.13343",
+      "title": "Two vs. Four-Channel Sound Event Localization and Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-10c9d545",
+      "arxiv_id": null,
+      "title": "Two-Stage Domain Adaptation for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f62343d9",
+      "arxiv_id": "2407.03657",
+      "title": "UCIL An Unsupervised Class Incremental Learning Approach for Sound Event Detection",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-6742b293",
+      "arxiv_id": null,
+      "title": "Unified Anomaly Detection for Machine Condition Monitoring- Handling Attribute-Rich and Attribute-Free Scenarios",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-1aebe41b",
+      "arxiv_id": null,
+      "title": "Universal Incremental Learning for Few-Shot Bird Sound Classification",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7760762a",
+      "arxiv_id": "2509.24901",
+      "title": "Unmute the Patch Tokens Rethinking Probing in Multi-Label Audio Classification",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-7d92a3cf",
+      "arxiv_id": null,
+      "title": "UNSUPERVISED ADVERSARIAL DOMAIN ADAPTIVE ABNORMAL SOUND DETECTION FOR MACHINE CONDITION MONITORING UNDER DOMAIN SHIFT CONDITIONS",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e3029f2c",
+      "arxiv_id": null,
+      "title": "Unsupervised Anomalous Sound Detection for Machine Condition Monitoring Using Temporal Modulation Features on Gammatone Auditory Filterbank",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-1eda25df",
+      "arxiv_id": null,
+      "title": "UNSUPERVISED DETECTION OF ANOMALOUS SOUND FOR MACHINE CONDITION MONITORING USING DIFFERENT AUTO-ENCODER METHODS",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-a07022d4",
+      "arxiv_id": null,
+      "title": "Unsupervised Domain Adaptation for the Cross-Dataset Detection of Humpback Whale Calls",
+      "source_category": "cross-domain",
+      "topics": [
+        "animal/marine-mammal",
+        "underwater/marine-life"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-504b68e4",
+      "arxiv_id": null,
+      "title": "Unsupervised Multi-View Reconstruction Autoencoder and Liquid Time Constant Model-Based First-Shot Anomaly Detection For Machine Condition Monitoring",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-5d8e9160",
+      "arxiv_id": "2504.18650",
+      "title": "Unsupervised outlier detection to improve bird audio dataset labels",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-cf78029c",
+      "arxiv_id": null,
+      "title": "Using Look, Listen, and Learn Embeddings for Detecting Anomalous Sounds in Machine Condition Monitoring",
+      "source_category": "acoustic-anomaly",
+      "topics": [
+        "industrial/mechanical-impact"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-e0a9eaeb",
+      "arxiv_id": null,
+      "title": "Vibration-Based Anomaly Detection for Induction Motors Using Machine Learning",
+      "source_category": "other",
+      "topics": [
+        "industrial/motor"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-7509b687",
+      "arxiv_id": "2406.09167",
+      "title": "Vision Transformer Segmentation for Visual Bird Sound Denoising",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-c85565bc",
+      "arxiv_id": null,
+      "title": "Vision Transformer Segmentation for Visual Bird Sound Denoising_1",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-cb556a75",
+      "arxiv_id": null,
+      "title": "Vision Transformer Segmentation for Visual Bird Sound Denoising_2",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-52a93883",
+      "arxiv_id": "1911.07098",
+      "title": "VOICe A Sound Event Detection Dataset For Generalizable Domain Adaptation",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-946a3e35",
+      "arxiv_id": "2312.06907",
+      "title": "w2v-SELD A Sound Event Localization and Detection Framework for Self-Supervised Spatial Audio Pre-TRAINING",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-c0d59379",
+      "arxiv_id": null,
+      "title": "WABAD A World Annotated Bird Acoustic Dataset",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-3d852f9a",
+      "arxiv_id": "2504.17156",
+      "title": "Waveform-Logmel Audio Neural Networks for Respiratory Sound Classification",
+      "source_category": "other",
+      "topics": [
+        "medical/respiratory"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-b0e88060",
+      "arxiv_id": null,
+      "title": "Waveforms and Spectrograms Enhancing Acoustic Scene Classification Using Multimodal Feature Fusion",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-2b9d43f9",
+      "arxiv_id": null,
+      "title": "Weakly Labeled Environmental Sound Event Detection Based on Dynamic Multi-scale Convolution Attention",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-3a103850",
+      "arxiv_id": "2304.10001",
+      "title": "Weakly Supervised Detection of Baby Cry",
+      "source_category": "other",
+      "topics": [
+        "human/baby-crying"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-ffa77cc4",
+      "arxiv_id": null,
+      "title": "Whale-VAD Whale Vocalisation Activity Detection",
+      "source_category": "other",
+      "topics": [
+        "animal/marine-mammal",
+        "underwater/marine-life"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-6a06c51d",
+      "arxiv_id": "2107.10469",
+      "title": "What Makes Sound Event Localization and Detection Difficult Insights from Error Analysis",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-75abb088",
+      "arxiv_id": null,
+      "title": "What Matters for Bioacoustic Encoding",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-51b323ae",
+      "arxiv_id": null,
+      "title": "Whombat- An open‐source audio annotation tool for machine learning assisted bioacoustics",
+      "source_category": "sound-event",
+      "topics": [
+        "agriculture/ecoacoustics"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-c6cbea5f",
+      "arxiv_id": null,
+      "title": "Wild bird species identification based on a lightweight model with frequency dynamic convolution",
+      "source_category": "sound-event",
+      "topics": [
+        "animal/bird-sound"
+      ],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-f5a73bc9",
+      "arxiv_id": "2407.03656",
+      "title": "WildDESED An LLM-Powered Dataset for Wild Domestic Environment Sound Event Detection System",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-ff9753cc",
+      "arxiv_id": "2508.20976",
+      "title": "WoW-Bench Evaluating Fine-Grained Acoustic Perception in Audio-Language Models via Marine Mammal Vocalizations",
+      "source_category": "foundation-models",
+      "topics": [
+        "animal/marine-mammal"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-574e627e",
+      "arxiv_id": "2603.02602",
+      "title": "Wukong-Omni Design, Modeling and Control of a Multi-mode Robot for Air, Land, and Underwater Exploration with All-in-One Propulsion Unit",
+      "source_category": "foundation-models",
+      "topics": [
+        "underwater/underwater-target"
+      ],
+      "verification_status": "official-url-verified"
+    },
+    {
+      "id": "title-af0914ca",
+      "arxiv_id": null,
+      "title": "YOLO-Based Transfer Learning for Sound Event Detection Using Visual Object Detection Techniques",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "drive-file-matched"
+    },
+    {
+      "id": "title-0937da12",
+      "arxiv_id": "2309.09223",
+      "title": "ZERO- AND FEW-SHOT SOUND EVENT LOCALIZATION AND DETECTION",
+      "source_category": "sound-event",
+      "topics": [],
+      "verification_status": "official-url-verified"
+    }
+  ]
+}
