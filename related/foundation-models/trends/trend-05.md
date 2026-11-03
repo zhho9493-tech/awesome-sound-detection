@@ -4,7 +4,7 @@
 
 ## 趋势结论
 
-文本知识、维修记录和设备元数据可与音频联合。
+文本知识、维修记录和设备元数据可与音频联合；**但模态间证据冲突可能导致 Audio-LLM 退化**，融合需要可靠性门控和可退化机制。
 
 ## 分析链路与逻辑依据
 
@@ -23,6 +23,8 @@
 - [E3 原始论文/官方项目](https://github.com/facebookresearch/dinov2)。用于核验该技术家族的基础方法和 benchmark。并不意味其所有结论都直接证明本趋势。
 
 - [本领域主目录](../README.md)；[全仓统一论文候选索引](../../../resources/paper-master-index.json)。
+
+- **E4（直接反例/可靠性约束）**：[Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models](https://arxiv.org/abs/2610.40883)，2026-10-29。论文在三个语音情绪语料中发现音频-文本证据不一致与模型错误概率增加相关；这是语音任务证据，不能直接等同工业声学结果。
 
 ## 支持、反例和限制
 
@@ -43,3 +45,8 @@
 ## 更新日志
 
 - 2026-11-01：由研究方向 README 中已有技术趋势建立独立证据链页面。后续新增论文应追加直接支持/反驳及实验记录。
+
+## 2026-11-03 增量判断
+
+- 原“多模态融合可增强模型”应改为**条件性趋势**：首先测量模态一致性与校准误差，再决定加权、拒识或回退。
+- 建议对照：audio-only / naive fusion / conflict-aware gated fusion，并报告跨项目错误率与 ECE。
