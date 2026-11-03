@@ -67,3 +67,7 @@
 - 近期优先级最高：**跨项目泛化、位置级正常基线、DAS 自监督预训练、事件级时空建模、健康状态推理**。
 - 工业皮带机建议统一输出：clip score + baseline deviation + temporal persistence + spatial consistency + operating condition → equipment health state。
 - 新论文加入后，需检查它是否改变“时空事件化 / 跨项目预训练 / 物理约束 / 健康状态”四条主趋势。
+
+## 2026-10 arXiv cs.SD 月度候选整理
+
+- [10 月论文分类索引（已知候选，非 505 条全量核验）](arxiv-cs-sd-2026-10.md)
