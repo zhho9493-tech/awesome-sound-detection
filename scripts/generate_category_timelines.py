@@ -142,6 +142,58 @@ EVOLUTION_STORIES = {
     ],
 }
 
+# Evidence terms are intentionally independent of publication year.  A paper is
+# linked to an evolution narrative only when its title or abstract contains a
+# method/task signal that can substantively support that narrative.  Papers may
+# support more than one transition.
+EVOLUTION_EVIDENCE_TERMS = {
+    "sound-event": [
+        ["spectrogram", "time-frequency", "acoustic feature", "mfcc", "event detection", "sound event detection", "localization", "spatial audio", "direction of arrival", "doa", "seld", "onset", "offset", "polyphonic"],
+        ["weakly supervised", "weak supervision", "semi-supervised", "pseudo-label", "few-shot", "active learning", "domain adaptation", "domain generalization", "cross-domain", "robust", "noise", "multi-source", "polyphonic", "data augmentation", "real scene"],
+        ["foundation model", "self-supervised", "pretrained", "pre-trained", "audio-language", "audio language", "large audio", "lalm", "open-set", "open set", "open-vocabulary", "open vocabulary", "zero-shot", "reasoning", "long audio", "instruction", "lightweight", "edge deployment", "on-device", "multi-task"],
+    ],
+    "acoustic-anomaly": [
+        ["threshold", "reconstruction error", "autoencoder", "unsupervised", "normal data", "representation learning"],
+        ["domain adaptation", "domain generalization", "domain shift", "cross-domain", "robust", "noise", "pseudo-label"],
+        ["physics-informed", "physical constraint", "health state", "severity", "open-set", "unknown anomaly", "fault diagnosis", "prognostic"],
+    ],
+    "das": [
+        ["visualization", "event detection", "localization", "location", "distributed acoustic sensing"],
+        ["spatial", "multi-channel", "adjacent channel", "propagation", "denoising", "classification"],
+        ["physics-informed", "edge", "real-time", "lightweight", "fault", "health monitoring", "diagnosis"],
+    ],
+    "leakage": [
+        ["threshold", "spectral", "classification", "leak detection", "acoustic emission"],
+        ["localization", "time difference", "cross-correlation", "propagation", "pipeline", "source location"],
+        ["domain adaptation", "robust", "weak leak", "sensor fusion", "leak rate", "uncertainty", "field"],
+    ],
+    "speaker-recognition": [
+        ["i-vector", "x-vector", "embedding", "speaker verification", "metric learning"],
+        ["cross-lingual", "multilingual", "cross-device", "domain adaptation", "diarization", "online", "continual"],
+        ["self-supervised", "pretrained", "pre-trained", "spoof", "deepfake", "privacy", "on-device", "foundation model"],
+    ],
+    "foundation-models": [
+        ["self-supervised", "pretraining", "pre-training", "masked modeling", "representation learning"],
+        ["audio-text", "audio text", "contrastive language-audio", "clap", "zero-shot", "retrieval", "open-vocabulary"],
+        ["audio-language", "audio language", "instruction", "reasoning", "agent", "long audio", "adapter", "lora", "retrieval augmented"],
+    ],
+    "face-recognition": [
+        ["arcface", "angular margin", "cosine margin", "metric learning"],
+        ["sub-center", "subcenter", "noisy label", "multiple prototype", "intra-class"],
+        ["long-tail", "domain adaptation", "domain generalization", "open-set", "unknown identity", "privacy", "low quality"],
+    ],
+    "visual-anomaly": [
+        ["reconstruction", "pretrained feature", "feature space", "anomaly score"],
+        ["memory bank", "patchcore", "padim", "nearest neighbor", "pixel-level", "localization"],
+        ["foundation model", "dinov2", "clip", "few-shot", "zero-shot", "open-vocabulary", "cross-domain"],
+    ],
+    "cross-domain": [
+        ["transfer learning", "feature alignment", "shared representation", "domain adaptation"],
+        ["domain generalization", "unseen domain", "open-set", "out-of-distribution", "uncertainty", "meta-learning"],
+        ["multimodal", "cross-modal", "foundation model", "continual", "class-incremental", "adapter", "parameter-efficient"],
+    ],
+}
+
 
 def normalize_title(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value.casefold()).strip()
@@ -381,27 +433,37 @@ def escape_json(value) -> str:
     return json.dumps(value, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 
+def attach_evolution_evidence(papers: list[dict], category: str, phases: list[dict]) -> None:
+    rules = EVOLUTION_EVIDENCE_TERMS.get(category, [])
+    for paper in papers:
+        text = " ".join((paper.get("title", ""), paper.get("abstract", ""))).casefold()
+        paper["evolution_trends"] = [
+            phase["transition_title"]
+            for index, phase in enumerate(phases)
+            if index < len(rules) and any(term in text for term in rules[index])
+        ]
+    for index, phase in enumerate(phases):
+        title = phase["transition_title"]
+        evidence_count = sum(title in paper["evolution_trends"] for paper in papers)
+        phase["evidence_count"] = evidence_count
+        phase["narrative"] = re.sub(
+            r" 本阶段由 \d+ 篇可定年论文提供证据。$",
+            f" 共有 {evidence_count} 篇论文在标题或摘要中直接体现这一技术变化。",
+            phase["narrative"],
+        )
+
+
 def build_html(category: str, title: str, papers: list[dict]) -> str:
     classify_themes(papers, category)
     phases, annual, overall = build_evolution(papers, category)
-    # The timeline filter follows the evolution narratives shown above it.  The
-    # lower-level keyword clusters remain on each paper for evidence summaries,
-    # but exposing those clusters here would make the dropdown disagree with the
-    # three visible technology transitions.
-    for paper in papers:
-        year = int(paper["date"][:4])
-        paper["evolution_trends"] = [
-            phase["transition_title"]
-            for phase in phases
-            if phase["start"] <= year <= phase["end"]
-        ]
+    attach_evolution_evidence(papers, category, phases)
     evolution_trends = list(dict.fromkeys(phase["transition_title"] for phase in phases))
     years = sorted({paper["date"][:4] for paper in papers})
     min_date = papers[0]["date"] if papers else "—"
     max_date = papers[-1]["date"] if papers else "—"
     phase_parts = []
     for index, phase in enumerate(phases):
-        card = f'<article class="phase"><div class="phase-top"><span>{html.escape(phase["label"])}</span><b>{phase["count"]} 篇证据论文</b></div><h3>{html.escape(phase["transition_title"])}</h3><p>{html.escape(phase["narrative"])}</p></article>'
+        card = f'<article class="phase"><div class="phase-top"><span>{html.escape(phase["label"])}</span><b>{phase["evidence_count"]} 篇支撑论文</b></div><h3>{html.escape(phase["transition_title"])}</h3><p>{html.escape(phase["narrative"])}</p></article>'
         if index:
             phase_parts.append('<div class="transition" aria-hidden="true"><span>→</span><small>研究重点过渡</small></div>')
         phase_parts.append(card)
