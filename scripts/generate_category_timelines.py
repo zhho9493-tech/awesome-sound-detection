@@ -384,7 +384,18 @@ def escape_json(value) -> str:
 def build_html(category: str, title: str, papers: list[dict]) -> str:
     classify_themes(papers, category)
     phases, annual, overall = build_evolution(papers, category)
-    themes = sorted({theme for paper in papers for theme in paper["themes"]})
+    # The timeline filter follows the evolution narratives shown above it.  The
+    # lower-level keyword clusters remain on each paper for evidence summaries,
+    # but exposing those clusters here would make the dropdown disagree with the
+    # three visible technology transitions.
+    for paper in papers:
+        year = int(paper["date"][:4])
+        paper["evolution_trends"] = [
+            phase["transition_title"]
+            for phase in phases
+            if phase["start"] <= year <= phase["end"]
+        ]
+    evolution_trends = list(dict.fromkeys(phase["transition_title"] for phase in phases))
     years = sorted({paper["date"][:4] for paper in papers})
     min_date = papers[0]["date"] if papers else "—"
     max_date = papers[-1]["date"] if papers else "—"
@@ -398,7 +409,9 @@ def build_html(category: str, title: str, papers: list[dict]) -> str:
     annual_keys = list(annual)
     default_annual = "2025–2026" if "2025–2026" in annual else (annual_keys[-1] if annual_keys else "")
     year_buttons = "".join(f'<button type="button" class="year-chip{" active" if key == default_annual else ""}" data-insight="{html.escape(key)}">{html.escape(key)}</button>' for key in annual_keys)
-    options_theme = '<option value="">全部技术趋势</option>' + "".join(f'<option value="{html.escape(t)}">{html.escape(t)}</option>' for t in themes if t != "其他")
+    options_theme = '<option value="">全部技术趋势</option>' + "".join(
+        f'<option value="{html.escape(t)}">{html.escape(t)}</option>' for t in evolution_trends
+    )
     data = escape_json(papers)
     annual_data = escape_json(annual)
     template = '''<!doctype html>
@@ -422,13 +435,13 @@ main{margin-top:22px;background:var(--panel);border:1px solid var(--line);border
 <script>
 const papers=__PAPER_DATA__, annualInsights=__ANNUAL_DATA__, defaultInsight='__DEFAULT_ANNUAL__'; const svg=document.getElementById('timeline'), tip=document.getElementById('tooltip'), detail=document.getElementById('detail'), search=document.getElementById('search'), theme=document.getElementById('theme'), startDate=document.getElementById('start-date'), endDate=document.getElementById('end-date'), count=document.getElementById('count');
 const NS='http://www.w3.org/2000/svg'; const E=(name,attrs={})=>{const e=document.createElementNS(NS,name);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));return e};
-function filtered(){const q=search.value.trim().toLowerCase();return papers.filter(p=>(!theme.value||p.themes.includes(theme.value))&&(!startDate.value||p.date>=startDate.value)&&(!endDate.value||p.date<=endDate.value)&&(!q||[p.title,p.brief,p.abstract,(p.authors||[]).join(' ')].join(' ').toLowerCase().includes(q)))}
+function filtered(){const q=search.value.trim().toLowerCase();return papers.filter(p=>(!theme.value||(p.evolution_trends||[]).includes(theme.value))&&(!startDate.value||p.date>=startDate.value)&&(!endDate.value||p.date<=endDate.value)&&(!q||[p.title,p.brief,p.abstract,(p.authors||[]).join(' ')].join(' ').toLowerCase().includes(q)))}
 function render(){const rows=filtered(); count.textContent=`显示 ${rows.length} / ${papers.length} 篇`; svg.replaceChildren(); if(!rows.length){const t=E('text',{x:600,y:210,'text-anchor':'middle',class:'axis-text'});t.textContent='没有匹配论文';svg.append(t);return} const W=1200,H=440,L=58,R=30,T=40,B=58; const ts=rows.map(p=>Date.parse(p.date)), lo=Math.min(...ts),hi=Math.max(...ts),span=Math.max(86400000,hi-lo); const x=t=>L+(t-lo)/span*(W-L-R); const y=t=>220+70*Math.sin(((t-lo)/span)*Math.PI*4); let path=''; for(let i=0;i<220;i++){const t=lo+span*i/219;path+=(i?' L':'M')+x(t).toFixed(1)+' '+y(t).toFixed(1)} svg.setAttribute('viewBox','0 0 1200 440');svg.append(E('path',{d:path,class:'curve'})); svg.append(E('line',{x1:L,y1:H-B,x2:W-R,y2:H-B,class:'axis'})); const startY=new Date(lo).getUTCFullYear(),endY=new Date(hi).getUTCFullYear(); for(let yr=startY;yr<=endY;yr++){const t=Date.parse(yr+'-01-01');if(t<lo||t>hi)continue;const xx=x(t);svg.append(E('line',{x1:xx,y1:H-B,x2:xx,y2:H-B+7,class:'axis'}));const tx=E('text',{x:xx,y:H-B+24,'text-anchor':'middle',class:'axis-text'});tx.textContent=yr;svg.append(tx)} const occupied={}, labelIds=new Set(); const labelCount=rows.length<=30?rows.length:7; for(let n=0;n<labelCount;n++){const target=lo+span*(n+.35)/labelCount;let best=0,dist=Infinity;ts.forEach((t,i)=>{const d=Math.abs(t-target);if(d<dist){dist=d;best=i}});labelIds.add(best)} rows.forEach((p,i)=>{const t=Date.parse(p.date),xx=x(t),bucket=Math.round(xx/7),stack=occupied[bucket]||0;occupied[bucket]=stack+1;const yy=y(t)+(stack%2?1:-1)*Math.ceil(stack/2)*5;const c=E('circle',{cx:xx,cy:yy,r:4,class:'point','aria-label':p.date+' '+p.title+'。'+p.brief});c.addEventListener('mouseenter',ev=>showTip(ev,p));c.addEventListener('mousemove',moveTip);c.addEventListener('mouseleave',()=>tip.style.display='none');c.addEventListener('click',()=>selectPaper(p,c));svg.append(c);if(labelIds.has(i)){const labelX=Math.min(W-R-205,xx+7),labelY=yy+(i%2?-22:19),tx=E('text',{x:labelX,y:labelY,class:'node-label'}),name=E('tspan',{x:labelX,dy:0}),brief=E('tspan',{x:labelX,dy:13,class:'node-summary'});name.textContent=p.date.slice(0,7)+' · '+p.title.slice(0,20);brief.textContent=p.brief.slice(0,30);tx.append(name,brief);svg.append(tx)}})}
 function showTip(ev,p){tip.innerHTML='<b>'+escapeHtml(p.date+' · '+p.title)+'</b><em>'+escapeHtml(p.brief)+'</em>';tip.style.display='block';moveTip(ev)} function moveTip(ev){const box=svg.parentElement.getBoundingClientRect();tip.style.left=Math.min(box.width-400,Math.max(0,ev.clientX-box.left+12))+'px';tip.style.top=Math.max(0,ev.clientY-box.top-85)+'px'}
 function selectPaper(p,node){svg.querySelectorAll('.active').forEach(n=>n.classList.remove('active'));node.classList.add('active');const links=[];if(p.abs)links.push('<a href="'+attr(p.abs)+'" target="_blank" rel="noopener">论文页</a>');if(p.pdf)links.push('<a href="'+attr(p.pdf)+'" target="_blank" rel="noopener" download>下载 PDF</a>');detail.innerHTML='<div><h2>'+escapeHtml(p.title)+'</h2><p>'+escapeHtml(p.date+' · '+(p.authors||[]).join(', '))+'</p><p class="brief">'+escapeHtml(p.brief)+'</p><p>'+escapeHtml((p.abstract||'暂无摘要').slice(0,900))+'</p></div><div class="actions">'+links.join('')+'</div>'}
 function renderInsight(key){const d=annualInsights[key];if(!d)return;document.querySelectorAll('.year-chip').forEach(b=>b.classList.toggle('active',b.dataset.insight===key));const evidence=(d.examples||[]).map(p=>'<a href="'+attr(p.url)+'" target="_blank" rel="noopener"><b>'+escapeHtml(p.title)+'</b> — '+escapeHtml(p.brief)+'</a>').join('');document.getElementById('year-insight').innerHTML='<h3>'+escapeHtml(d.transition_title)+'</h3><p>'+escapeHtml(d.narrative)+'</p><div class="year-evidence">'+evidence+'</div>'}
 function escapeHtml(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))} function attr(s){return escapeHtml(s)}
-[search,theme,startDate,endDate].forEach(el=>el.addEventListener(el===search?'input':'change',render));document.getElementById('clear-range').addEventListener('click',()=>{startDate.value='';endDate.value='';render()});document.querySelectorAll('.year-chip').forEach(b=>b.addEventListener('click',()=>renderInsight(b.dataset.insight)));document.getElementById('export').addEventListener('click',()=>{const rows=filtered(),cols=['date','id','title','brief','authors','themes','abs','pdf'];const csv=[cols.join(',')].concat(rows.map(p=>cols.map(k=>'"'+String(Array.isArray(p[k])?p[k].join('; '):(p[k]||'')).replace(/"/g,'""')+'"').join(','))).join('\\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv'}));a.download='__CATEGORY__-papers.csv';a.click();URL.revokeObjectURL(a.href)});renderInsight(defaultInsight);render();
+[search,theme,startDate,endDate].forEach(el=>el.addEventListener(el===search?'input':'change',render));document.getElementById('clear-range').addEventListener('click',()=>{startDate.value='';endDate.value='';render()});document.querySelectorAll('.year-chip').forEach(b=>b.addEventListener('click',()=>renderInsight(b.dataset.insight)));document.getElementById('export').addEventListener('click',()=>{const rows=filtered(),cols=['date','id','title','brief','authors','evolution_trends','themes','abs','pdf'];const csv=[cols.join(',')].concat(rows.map(p=>cols.map(k=>'"'+String(Array.isArray(p[k])?p[k].join('; '):(p[k]||'')).replace(/"/g,'""')+'"').join(','))).join('\\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv'}));a.download='__CATEGORY__-papers.csv';a.click();URL.revokeObjectURL(a.href)});renderInsight(defaultInsight);render();
 </script></body></html>'''
     replacements = {
         "__TITLE__": html.escape(title), "__COUNT__": str(len(papers)),
