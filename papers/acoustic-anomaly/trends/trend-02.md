@@ -22,6 +22,8 @@
 - **证据 E2（官方资源）**：[研究/任务原始页面](https://dcase.community/challenge2020/task-unsupervised-detection-of-anomalous-sounds)。用于核对方法背景、benchmark 设置与任务是否真实存在；不代表直接支持本页全部结论。
 - **证据 E3（官方资源）**：[研究/任务原始页面](https://arxiv.org/abs/2604.16459)。用于核对方法背景、benchmark 设置与任务是否真实存在；不代表直接支持本页全部结论。
 
+- **证据 E4（跨领域分组验证反例）**：[Acoustic Biodiversity Index: classifier benchmarking and false-positive control](https://arxiv.org/abs/2610.42042)，2026-10-30。生态声学中随机帧划分相较按录音分组划分可显著高估性能，支持在工业音频中严格审计划分方式；**并非 DAS 实测**。
+
 - **仓库内文献证据池**：[统一论文主数据库](../../../resources/paper-master-index.json)（目前大部分属于文件名级候选，不能当作已核验引用）。
 
 ## 四、建议复核和实验链路
@@ -37,3 +39,7 @@
 - 尚未做系统性论文计量或逐篇 DOI 级证据映射。
 - 上述依据是**领域参考**而非每项趋势的直接因果证明，后续应补齐支持、反驳与时间线证据。
 - 未核实的 Google Drive 文献不提供推测的 PDF 下载地址。
+
+## 2026-11-03 增量判断
+
+- 固定测试集时，训练/验证仍须按项目、通道、探测器与时间块做隔离；对高置信误报需增加上下文合理性审计。
