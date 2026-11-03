@@ -91,6 +91,16 @@ def normalize_title(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value.casefold()).strip()
 
 
+def brief_summary(value: str, fallback: str, limit: int = 50) -> str:
+    text = " ".join((value or "").split())
+    if text:
+        text = re.split(r"(?<=[.!?。！？])\s+", text, maxsplit=1)[0]
+        text = re.sub(r"^(we (?:present|propose|introduce|develop|study|investigate)\s+)", "", text, flags=re.I)
+    if not text:
+        text = f"聚焦{fallback}相关方法与实验验证"
+    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
+
+
 def date_for(row: dict) -> str | None:
     for key in ("published", "updated"):
         if re.match(r"20\d\d-\d\d-\d\d", row.get(key, "")):
@@ -114,9 +124,10 @@ def paper_from(row: dict, category: str, source: str) -> dict | None:
     ident = row.get("arxiv_id") or (row.get("id") if re.fullmatch(r"\d{4}\.\d{4,5}", row.get("id", "")) else None)
     abs_url = row.get("abs_url") or row.get("public_url") or (f"https://arxiv.org/abs/{ident}" if ident else None)
     pdf_url = row.get("pdf_url") or (f"https://arxiv.org/pdf/{ident}" if ident else row.get("download_url"))
+    title = row.get("title", "Untitled")
     return {
         "id": ident or row.get("id") or normalize_title(row.get("title", ""))[:60],
-        "title": row.get("title", "Untitled"),
+        "title": title,
         "date": date,
         "authors": row.get("authors", []) if isinstance(row.get("authors"), list) else [],
         "abstract": row.get("abstract", ""),
@@ -124,6 +135,8 @@ def paper_from(row: dict, category: str, source: str) -> dict | None:
         "pdf": pdf_url,
         "source": source,
         "category": category,
+        "brief": brief_summary(row.get("abstract", ""), title),
+        "has_abstract": bool(row.get("abstract")),
     }
 
 
@@ -178,34 +191,78 @@ def classify_themes(papers: list[dict], category: str) -> None:
     for paper in papers:
         text = (paper["title"] + " " + paper.get("abstract", "")).casefold()
         paper["themes"] = [name for name, terms in clusters.items() if any(term in text for term in terms)] or ["其他"]
+        if not paper.get("has_abstract"):
+            focus = paper["themes"][0] if paper["themes"][0] != "其他" else "该方向"
+            paper["brief"] = brief_summary("", f"{focus}，研究{paper['title'][:24]}")
 
 
-def trend_findings(papers: list[dict], category: str) -> list[dict]:
-    counts = Counter(theme for paper in papers for theme in paper["themes"] if theme != "其他")
-    recent = Counter(theme for paper in papers if paper["date"] >= "2026-01-01" for theme in paper["themes"] if theme != "其他")
-    older = Counter(theme for paper in papers if paper["date"] < "2026-01-01" for theme in paper["themes"] if theme != "其他")
-    findings = []
-    if counts:
-        top, count = counts.most_common(1)[0]
-        examples = [p for p in reversed(papers) if top in p["themes"]][:3]
-        findings.append({"title": f"{top}是当前最密集的方法主线", "text": f"在可定年论文中命中 {count} 篇，占 {count / max(1, len(papers)):.1%}；这说明该方向的工作重心持续围绕这一问题展开。", "evidence": examples})
-        growth = []
-        n_recent = sum(p["date"] >= "2026-01-01" for p in papers)
-        n_older = len(papers) - n_recent
-        for theme in counts:
-            if counts[theme] >= 3:
-                delta = recent[theme] / max(1, n_recent) - older[theme] / max(1, n_older)
-                growth.append((delta, theme))
-        if growth:
-            delta, theme = max(growth)
-            examples = [p for p in reversed(papers) if theme in p["themes"] and p["date"] >= "2026-01-01"][:3]
-            findings.append({"title": f"{theme}在近期论文中的相对占比上升", "text": f"2026 年以来命中 {recent[theme]} 篇；相对 2025 年及以前的集合占比变化为 {delta:+.1%}。这是集合内趋势，不等同于全领域文献计量结论。", "evidence": examples})
-    monthly = Counter(p["date"][:7] for p in papers)
-    if monthly:
-        month, count = monthly.most_common(1)[0]
-        examples = [p for p in papers if p["date"].startswith(month)][:3]
-        findings.append({"title": f"{month} 是当前收录的论文高峰月", "text": f"该月收录 {count} 篇。时间线中的密集节点可用于进一步核对数据集、任务或会议周期是否造成集中发布。", "evidence": examples})
-    return findings[:3]
+def insight_for(label: str, subset: list[dict], previous: list[dict] | None = None) -> dict:
+    counts = Counter(theme for paper in subset for theme in paper["themes"] if theme != "其他")
+    leaders = counts.most_common(3)
+    themes = [name for name, _ in leaders]
+    previous_counts = Counter(theme for paper in (previous or []) for theme in paper["themes"] if theme != "其他")
+    rising = None
+    if counts and previous:
+        current_n, previous_n = max(1, len(subset)), max(1, len(previous))
+        candidates = [(counts[t] / current_n - previous_counts[t] / previous_n, t) for t in counts if counts[t] >= 2]
+        if candidates:
+            delta, name = max(candidates)
+            if delta > 0:
+                rising = {"name": name, "delta": delta}
+    examples = []
+    for paper in reversed(subset):
+        if not themes or any(theme in paper["themes"] for theme in themes[:2]):
+            examples.append({"title": paper["title"], "brief": paper["brief"], "url": paper.get("abs") or paper.get("pdf") or "#"})
+        if len(examples) == 3:
+            break
+    if themes:
+        narrative = f"{label} 的工作主要集中在{'、'.join(themes[:2])}"
+        if rising:
+            narrative += f"；其中{rising['name']}相对上一阶段上升 {rising['delta']:+.1%}"
+        narrative += "。"
+    else:
+        narrative = f"{label} 当前可识别主题样本较少，建议结合代表论文人工复核。"
+    return {"label": label, "count": len(subset), "themes": leaders, "narrative": narrative, "examples": examples}
+
+
+def build_evolution(papers: list[dict]) -> tuple[list[dict], dict, str]:
+    years = sorted({int(p["date"][:4]) for p in papers})
+    if not years:
+        return [], {}, "当前没有可定年的论文记录。"
+    phase_ranges = []
+    if years[-1] - years[0] >= 5:
+        phase_ranges = [(years[0], min(2021, years[-1])), (max(years[0], 2022), min(2024, years[-1])), (max(years[0], 2025), years[-1])]
+        phase_ranges = [(a, b) for a, b in phase_ranges if a <= b]
+    else:
+        chunk = max(1, (len(years) + 2) // 3)
+        for i in range(0, len(years), chunk):
+            phase_ranges.append((years[i], years[min(len(years) - 1, i + chunk - 1)]))
+    phases, previous = [], None
+    for start, end in phase_ranges:
+        subset = [p for p in papers if start <= int(p["date"][:4]) <= end]
+        label = str(start) if start == end else f"{start}–{end}"
+        info = insight_for(label, subset, previous)
+        info["start"], info["end"] = start, end
+        phases.append(info)
+        previous = subset
+    annual = {}
+    previous = None
+    for year in years:
+        subset = [p for p in papers if int(p["date"][:4]) == year]
+        annual[str(year)] = insight_for(str(year), subset, previous)
+        previous = subset
+    recent = [p for p in papers if p["date"][:4] in {"2025", "2026"}]
+    before_recent = [p for p in papers if p["date"][:4] == "2024"]
+    if recent:
+        annual["2025–2026"] = insight_for("2025–2026", recent, before_recent)
+    overall_counts = Counter(theme for paper in papers for theme in paper["themes"] if theme != "其他")
+    leaders = [name for name, _ in overall_counts.most_common(3)]
+    if phases and len(phases) > 1:
+        overall = f"整体上，研究从{('、'.join(t for t, _ in phases[0]['themes'][:2]) or '基础任务探索')}逐步过渡到{('、'.join(t for t, _ in phases[-1]['themes'][:2]) or '多样化应用')}。"
+    else:
+        overall = f"当前论文主要围绕{'、'.join(leaders) if leaders else '多类研究任务'}展开。"
+    overall += " 该判断由本页论文的标题、摘要与年份聚合得到。"
+    return phases, annual, overall
 
 
 def escape_json(value) -> str:
@@ -214,48 +271,67 @@ def escape_json(value) -> str:
 
 def build_html(category: str, title: str, papers: list[dict]) -> str:
     classify_themes(papers, category)
-    findings = trend_findings(papers, category)
+    phases, annual, overall = build_evolution(papers)
     themes = sorted({theme for paper in papers for theme in paper["themes"]})
     years = sorted({paper["date"][:4] for paper in papers})
     min_date = papers[0]["date"] if papers else "—"
     max_date = papers[-1]["date"] if papers else "—"
-    finding_html = "".join(
-        f'<article class="finding"><h3>{html.escape(f["title"])}</h3><p>{html.escape(f["text"])}</p><div class="evidence">证据：' + " · ".join(f'<a href="{html.escape(p.get("abs") or p.get("pdf") or "#")}" target="_blank" rel="noopener">{html.escape(p["title"][:62])}</a>' for p in f["evidence"]) + "</div></article>"
-        for f in findings
-    )
+    phase_parts = []
+    for index, phase in enumerate(phases):
+        top = phase["themes"][0][1] if phase["themes"] else 1
+        bars = "".join(
+            f'<div class="theme-bar"><span>{html.escape(name)}</span><i style="--w:{max(8, round(count / max(1, top) * 100))}%"></i><b>{count}</b></div>'
+            for name, count in phase["themes"][:3]
+        ) or '<div class="theme-bar"><span>样本待扩充</span><i style="--w:12%"></i><b>—</b></div>'
+        card = f'<article class="phase"><div class="phase-top"><span>{html.escape(phase["label"])}</span><b>{phase["count"]} 篇</b></div><h3>{html.escape("、".join(t for t, _ in phase["themes"][:2]) or "主题探索")}</h3><p>{html.escape(phase["narrative"])}</p><div class="theme-bars">{bars}</div></article>'
+        if index:
+            phase_parts.append('<div class="transition" aria-hidden="true"><span>→</span><small>研究重点过渡</small></div>')
+        phase_parts.append(card)
+    phase_html = "".join(phase_parts)
+    annual_keys = list(annual)
+    default_annual = "2025–2026" if "2025–2026" in annual else (annual_keys[-1] if annual_keys else "")
+    year_buttons = "".join(f'<button type="button" class="year-chip{" active" if key == default_annual else ""}" data-insight="{html.escape(key)}">{html.escape(key)}</button>' for key in annual_keys)
     options_year = '<option value="">全部年份</option>' + "".join(f'<option value="{y}">{y}</option>' for y in years)
     options_theme = '<option value="">全部主题</option>' + "".join(f'<option value="{html.escape(t)}">{html.escape(t)}</option>' for t in themes)
     data = escape_json(papers)
+    annual_data = escape_json(annual)
     template = '''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>__TITLE__论文时间线</title>
 <style>
 :root{--bg:#f6f8fb;--panel:#fff;--text:#172033;--muted:#647085;--line:#d8deea;--accent:#1667d9;--accent2:#14a38b;--soft:#eaf2ff;--shadow:0 12px 30px rgba(23,32,51,.08)}
 @media(prefers-color-scheme:dark){:root{--bg:#10141d;--panel:#171d28;--text:#edf2ff;--muted:#a9b3c7;--line:#303a4c;--accent:#6aa6ff;--accent2:#5fd1bc;--soft:#1b2c48;--shadow:none}}
-*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:15px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif} a{color:var(--accent)} .wrap{max-width:1380px;margin:auto;padding:28px 24px 60px} header{display:grid;gap:18px} h1{font-size:clamp(28px,4vw,48px);line-height:1.1;margin:0} .subtitle{color:var(--muted);max-width:900px} .stats{display:flex;gap:12px;flex-wrap:wrap} .stat{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 16px;box-shadow:var(--shadow)} .stat b{font-size:22px;display:block} .findings{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px} .finding{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow)} .finding h3{margin:0 0 8px;font-size:17px} .finding p{margin:0 0 10px} .evidence{font-size:12px;color:var(--muted)} .evidence a{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis} main{margin-top:22px;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:var(--shadow)} .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center} input,select,button{font:inherit;color:var(--text);background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:9px 11px} input{min-width:260px;flex:1} button{cursor:pointer;background:var(--soft)} .count{margin-left:auto;color:var(--muted)} .chart{position:relative;margin-top:16px} svg{display:block;width:100%;height:auto;min-height:360px} .axis,.curve{fill:none;stroke:var(--line)} .curve{stroke:var(--accent);stroke-width:2.2;opacity:.65} .axis-text,.node-label{fill:var(--muted);font-size:11px} .point{fill:var(--accent2);stroke:var(--panel);stroke-width:1.5;cursor:pointer} .point:hover,.point.active{fill:var(--accent);stroke-width:3} .tooltip{position:absolute;display:none;max-width:340px;background:var(--text);color:var(--bg);border-radius:9px;padding:9px 11px;font-size:12px;pointer-events:none;z-index:4} .detail{display:grid;grid-template-columns:1fr auto;gap:12px;margin-top:8px;padding:14px;border-top:1px solid var(--line)} .detail h2{font-size:18px;margin:0 0 4px} .detail p{margin:0;color:var(--muted)} .actions{display:flex;gap:8px;align-items:start} .actions a{text-decoration:none;border:1px solid var(--line);border-radius:8px;padding:7px 10px;white-space:nowrap} .empty{padding:80px 20px;text-align:center;color:var(--muted)}
-@media(max-width:850px){.findings{grid-template-columns:1fr}.count{width:100%;margin:0}.detail{grid-template-columns:1fr}.wrap{padding:20px 12px 40px}}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:15px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif} a{color:var(--accent)} .wrap{max-width:1380px;margin:auto;padding:28px 24px 60px} header{display:grid;gap:18px} h1{font-size:clamp(28px,4vw,48px);line-height:1.1;margin:0} .subtitle{color:var(--muted);max-width:920px} .stats{display:flex;gap:12px;flex-wrap:wrap}.stat{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 16px;box-shadow:var(--shadow)}.stat b{font-size:22px;display:block}
+.trend-shell{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--panel),var(--soft));border:1px solid var(--line);border-radius:24px;padding:26px;box-shadow:var(--shadow)}.trend-shell:before{content:"";position:absolute;width:280px;height:280px;border-radius:50%;right:-110px;top:-150px;background:var(--accent);opacity:.07}.trend-head{position:relative;display:grid;grid-template-columns:minmax(0,1.6fr) minmax(250px,.7fr);gap:28px;align-items:end}.eyebrow{display:block;color:var(--accent);font-weight:700;letter-spacing:.12em;font-size:12px}.trend-head h2{margin:4px 0 7px;font-size:clamp(23px,3vw,34px);line-height:1.25}.trend-head p{margin:0;color:var(--muted)}.trend-note{border-left:3px solid var(--accent2);padding-left:15px;color:var(--muted)}
+.phase-flow{position:relative;display:flex;align-items:stretch;gap:10px;margin-top:24px}.phase{flex:1;min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:17px;position:relative}.phase-top{display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:12px}.phase-top span{color:var(--accent);font-weight:700}.phase h3{margin:7px 0 5px;font-size:17px}.phase p{margin:0 0 13px;color:var(--muted);font-size:13px;min-height:42px}.transition{width:72px;display:flex;flex-direction:column;justify-content:center;align-items:center;color:var(--accent)}.transition span{font-size:25px}.transition small{color:var(--muted);white-space:nowrap;font-size:10px}.theme-bars{display:grid;gap:7px}.theme-bar{display:grid;grid-template-columns:92px 1fr 28px;gap:7px;align-items:center;font-size:11px;color:var(--muted)}.theme-bar span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.theme-bar i{display:block;height:5px;border-radius:99px;background:linear-gradient(90deg,var(--accent),var(--accent2));width:var(--w)}.theme-bar b{text-align:right}
+.year-explorer{margin-top:18px;display:grid;grid-template-columns:minmax(250px,.55fr) minmax(0,1.45fr);gap:16px}.year-nav{display:flex;gap:7px;align-content:flex-start;flex-wrap:wrap}.year-chip{font:inherit;color:var(--text);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:7px 12px;cursor:pointer}.year-chip.active{background:var(--accent);border-color:var(--accent);color:#fff}.year-insight{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;min-height:150px}.year-insight h3{margin:0 0 5px}.year-insight p{margin:0 0 10px;color:var(--muted)}.year-tags{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:10px}.year-tags span{background:var(--soft);border-radius:99px;padding:4px 9px;font-size:12px}.year-evidence{display:grid;gap:5px}.year-evidence a{text-decoration:none;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+main{margin-top:22px;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:var(--shadow)}.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}input,select,button{font:inherit;color:var(--text);background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:9px 11px}input{min-width:260px;flex:1}button{cursor:pointer;background:var(--soft)}.count{margin-left:auto;color:var(--muted)}.chart{position:relative;margin-top:16px}svg{display:block;width:100%;height:auto;min-height:400px}.axis,.curve{fill:none;stroke:var(--line)}.curve{stroke:var(--accent);stroke-width:2.2;opacity:.65}.axis-text,.node-label{fill:var(--muted);font-size:11px}.node-summary{fill:var(--muted);font-size:9px}.point{fill:var(--accent2);stroke:var(--panel);stroke-width:1.5;cursor:pointer}.point:hover,.point.active{fill:var(--accent);stroke-width:3}.tooltip{position:absolute;display:none;max-width:390px;background:var(--text);color:var(--bg);border-radius:11px;padding:11px 13px;font-size:12px;pointer-events:none;z-index:4}.tooltip em{display:block;margin-top:5px;opacity:.78;font-style:normal}.detail{display:grid;grid-template-columns:1fr auto;gap:12px;margin-top:8px;padding:14px;border-top:1px solid var(--line)}.detail h2{font-size:18px;margin:0 0 4px}.detail p{margin:0;color:var(--muted)}.detail .brief{color:var(--text);font-weight:600;margin:5px 0}.actions{display:flex;gap:8px;align-items:start}.actions a{text-decoration:none;border:1px solid var(--line);border-radius:8px;padding:7px 10px;white-space:nowrap}.empty{padding:80px 20px;text-align:center;color:var(--muted)}
+@media(max-width:900px){.trend-head,.year-explorer{grid-template-columns:1fr}.phase-flow{display:grid}.transition{width:auto;height:38px}.transition span{transform:rotate(90deg)}.phase p{min-height:0}.count{width:100%;margin:0}.detail{grid-template-columns:1fr}.wrap{padding:20px 12px 40px}}
 </style></head><body><div class="wrap">
 <header><div><h1>__TITLE__论文时间线</h1><p class="subtitle">基于仓库当前论文索引生成。曲线按发表时间排列；节点可悬停查看、点击展开摘要并打开官方页面或下载 PDF。趋势结论只依赖本页收录论文及其标题、摘要和时间，不外推为完整学科计量。</p></div>
 <div class="stats"><div class="stat"><b>__COUNT__</b>可定年论文</div><div class="stat"><b>__MIN_DATE__</b>最早记录</div><div class="stat"><b>__MAX_DATE__</b>最新记录</div><div class="stat"><b>__PDF_COUNT__</b>可下载记录</div></div>
-<section class="findings" aria-label="技术趋势总结">__FINDINGS__</section></header>
+<section class="trend-shell" aria-label="技术趋势演进"><div class="trend-head"><div><span class="eyebrow">TECHNOLOGY EVOLUTION</span><h2>从整体脉络到年度过渡</h2><p>__OVERALL__</p></div><div class="trend-note">先阅读三个阶段的研究重心迁移，再选择具体年份查看当年主线、相对上一年的变化与代表论文。默认突出 2025—2026 的最新过渡。</div></div><div class="phase-flow">__PHASES__</div><div class="year-explorer"><nav class="year-nav" aria-label="选择年度趋势">__YEAR_BUTTONS__</nav><article id="year-insight" class="year-insight" aria-live="polite"></article></div></section></header>
 <main><div class="controls"><input id="search" type="search" placeholder="搜索标题、摘要或作者" aria-label="搜索论文"><select id="year" aria-label="筛选年份">__YEAR_OPTIONS__</select><select id="theme" aria-label="筛选主题">__THEME_OPTIONS__</select><button id="export" type="button">导出当前 CSV</button><span id="count" class="count"></span></div>
 <div class="chart"><svg id="timeline" viewBox="0 0 1200 420" role="img" aria-label="可交互论文时间线"></svg><div id="tooltip" class="tooltip"></div></div>
 <section id="detail" class="detail" aria-live="polite"><div><h2>选择曲线上的论文节点</h2><p>悬停可快速查看，点击节点显示摘要与下载入口。</p></div></section></main></div>
 <script>
-const papers=__PAPER_DATA__; const svg=document.getElementById('timeline'), tip=document.getElementById('tooltip'), detail=document.getElementById('detail'), search=document.getElementById('search'), year=document.getElementById('year'), theme=document.getElementById('theme'), count=document.getElementById('count');
+const papers=__PAPER_DATA__, annualInsights=__ANNUAL_DATA__, defaultInsight='__DEFAULT_ANNUAL__'; const svg=document.getElementById('timeline'), tip=document.getElementById('tooltip'), detail=document.getElementById('detail'), search=document.getElementById('search'), year=document.getElementById('year'), theme=document.getElementById('theme'), count=document.getElementById('count');
 const NS='http://www.w3.org/2000/svg'; const E=(name,attrs={})=>{const e=document.createElementNS(NS,name);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));return e};
 function filtered(){const q=search.value.trim().toLowerCase();return papers.filter(p=>(!year.value||p.date.startsWith(year.value))&&(!theme.value||p.themes.includes(theme.value))&&(!q||[p.title,p.abstract,(p.authors||[]).join(' ')].join(' ').toLowerCase().includes(q)))}
-function render(){const rows=filtered(); count.textContent=`显示 ${rows.length} / ${papers.length} 篇`; svg.replaceChildren(); if(!rows.length){const t=E('text',{x:600,y:210,'text-anchor':'middle',class:'axis-text'});t.textContent='没有匹配论文';svg.append(t);return} const W=1200,H=420,L=58,R=30,T=40,B=58; const ts=rows.map(p=>Date.parse(p.date)), lo=Math.min(...ts),hi=Math.max(...ts),span=Math.max(86400000,hi-lo); const x=t=>L+(t-lo)/span*(W-L-R); const y=t=>210+70*Math.sin(((t-lo)/span)*Math.PI*4); let path=''; for(let i=0;i<220;i++){const t=lo+span*i/219;path+=(i?' L':'M')+x(t).toFixed(1)+' '+y(t).toFixed(1)} svg.append(E('path',{d:path,class:'curve'})); svg.append(E('line',{x1:L,y1:H-B,x2:W-R,y2:H-B,class:'axis'})); const startY=new Date(lo).getUTCFullYear(),endY=new Date(hi).getUTCFullYear(); for(let yr=startY;yr<=endY;yr++){const t=Date.parse(yr+'-01-01');if(t<lo||t>hi)continue;const xx=x(t);svg.append(E('line',{x1:xx,y1:H-B,x2:xx,y2:H-B+7,class:'axis'}));const tx=E('text',{x:xx,y:H-B+24,'text-anchor':'middle',class:'axis-text'});tx.textContent=yr;svg.append(tx)} const occupied={}, labelIds=new Set(); const labelCount=rows.length<=40?rows.length:8; for(let n=0;n<labelCount;n++){const target=lo+span*(n+.35)/labelCount;let best=0,dist=Infinity;ts.forEach((t,i)=>{const d=Math.abs(t-target);if(d<dist){dist=d;best=i}});labelIds.add(best)} rows.forEach((p,i)=>{const t=Date.parse(p.date),xx=x(t),bucket=Math.round(xx/7),stack=occupied[bucket]||0;occupied[bucket]=stack+1;const yy=y(t)+(stack%2?1:-1)*Math.ceil(stack/2)*5;const c=E('circle',{cx:xx,cy:yy,r:4,class:'point','aria-label':p.date+' '+p.title});c.addEventListener('mouseenter',ev=>showTip(ev,p));c.addEventListener('mousemove',moveTip);c.addEventListener('mouseleave',()=>tip.style.display='none');c.addEventListener('click',()=>selectPaper(p,c));svg.append(c);if(labelIds.has(i)){const tx=E('text',{x:Math.min(W-R-180,xx+6),y:yy+(i%2?-10:17),class:'node-label'});tx.textContent=p.date.slice(0,7)+' · '+p.title.slice(0,22);svg.append(tx)}})}
-function showTip(ev,p){tip.innerHTML='<b>'+escapeHtml(p.date+' · '+p.title)+'</b><br>'+escapeHtml((p.authors||[]).slice(0,3).join(', '));tip.style.display='block';moveTip(ev)} function moveTip(ev){const box=svg.parentElement.getBoundingClientRect();tip.style.left=Math.min(box.width-350,Math.max(0,ev.clientX-box.left+12))+'px';tip.style.top=Math.max(0,ev.clientY-box.top-70)+'px'}
-function selectPaper(p,node){svg.querySelectorAll('.active').forEach(n=>n.classList.remove('active'));node.classList.add('active');const links=[];if(p.abs)links.push('<a href="'+attr(p.abs)+'" target="_blank" rel="noopener">论文页</a>');if(p.pdf)links.push('<a href="'+attr(p.pdf)+'" target="_blank" rel="noopener" download>下载 PDF</a>');detail.innerHTML='<div><h2>'+escapeHtml(p.title)+'</h2><p>'+escapeHtml(p.date+' · '+(p.authors||[]).join(', '))+'</p><p>'+escapeHtml((p.abstract||'暂无摘要').slice(0,900))+'</p></div><div class="actions">'+links.join('')+'</div>'}
+function render(){const rows=filtered(); count.textContent=`显示 ${rows.length} / ${papers.length} 篇`; svg.replaceChildren(); if(!rows.length){const t=E('text',{x:600,y:210,'text-anchor':'middle',class:'axis-text'});t.textContent='没有匹配论文';svg.append(t);return} const W=1200,H=440,L=58,R=30,T=40,B=58; const ts=rows.map(p=>Date.parse(p.date)), lo=Math.min(...ts),hi=Math.max(...ts),span=Math.max(86400000,hi-lo); const x=t=>L+(t-lo)/span*(W-L-R); const y=t=>220+70*Math.sin(((t-lo)/span)*Math.PI*4); let path=''; for(let i=0;i<220;i++){const t=lo+span*i/219;path+=(i?' L':'M')+x(t).toFixed(1)+' '+y(t).toFixed(1)} svg.setAttribute('viewBox','0 0 1200 440');svg.append(E('path',{d:path,class:'curve'})); svg.append(E('line',{x1:L,y1:H-B,x2:W-R,y2:H-B,class:'axis'})); const startY=new Date(lo).getUTCFullYear(),endY=new Date(hi).getUTCFullYear(); for(let yr=startY;yr<=endY;yr++){const t=Date.parse(yr+'-01-01');if(t<lo||t>hi)continue;const xx=x(t);svg.append(E('line',{x1:xx,y1:H-B,x2:xx,y2:H-B+7,class:'axis'}));const tx=E('text',{x:xx,y:H-B+24,'text-anchor':'middle',class:'axis-text'});tx.textContent=yr;svg.append(tx)} const occupied={}, labelIds=new Set(); const labelCount=rows.length<=30?rows.length:7; for(let n=0;n<labelCount;n++){const target=lo+span*(n+.35)/labelCount;let best=0,dist=Infinity;ts.forEach((t,i)=>{const d=Math.abs(t-target);if(d<dist){dist=d;best=i}});labelIds.add(best)} rows.forEach((p,i)=>{const t=Date.parse(p.date),xx=x(t),bucket=Math.round(xx/7),stack=occupied[bucket]||0;occupied[bucket]=stack+1;const yy=y(t)+(stack%2?1:-1)*Math.ceil(stack/2)*5;const c=E('circle',{cx:xx,cy:yy,r:4,class:'point','aria-label':p.date+' '+p.title+'。'+p.brief});c.addEventListener('mouseenter',ev=>showTip(ev,p));c.addEventListener('mousemove',moveTip);c.addEventListener('mouseleave',()=>tip.style.display='none');c.addEventListener('click',()=>selectPaper(p,c));svg.append(c);if(labelIds.has(i)){const labelX=Math.min(W-R-205,xx+7),labelY=yy+(i%2?-22:19),tx=E('text',{x:labelX,y:labelY,class:'node-label'}),name=E('tspan',{x:labelX,dy:0}),brief=E('tspan',{x:labelX,dy:13,class:'node-summary'});name.textContent=p.date.slice(0,7)+' · '+p.title.slice(0,20);brief.textContent=p.brief.slice(0,30);tx.append(name,brief);svg.append(tx)}})}
+function showTip(ev,p){tip.innerHTML='<b>'+escapeHtml(p.date+' · '+p.title)+'</b><em>'+escapeHtml(p.brief)+'</em>';tip.style.display='block';moveTip(ev)} function moveTip(ev){const box=svg.parentElement.getBoundingClientRect();tip.style.left=Math.min(box.width-400,Math.max(0,ev.clientX-box.left+12))+'px';tip.style.top=Math.max(0,ev.clientY-box.top-85)+'px'}
+function selectPaper(p,node){svg.querySelectorAll('.active').forEach(n=>n.classList.remove('active'));node.classList.add('active');const links=[];if(p.abs)links.push('<a href="'+attr(p.abs)+'" target="_blank" rel="noopener">论文页</a>');if(p.pdf)links.push('<a href="'+attr(p.pdf)+'" target="_blank" rel="noopener" download>下载 PDF</a>');detail.innerHTML='<div><h2>'+escapeHtml(p.title)+'</h2><p>'+escapeHtml(p.date+' · '+(p.authors||[]).join(', '))+'</p><p class="brief">'+escapeHtml(p.brief)+'</p><p>'+escapeHtml((p.abstract||'暂无摘要').slice(0,900))+'</p></div><div class="actions">'+links.join('')+'</div>'}
+function renderInsight(key){const d=annualInsights[key];if(!d)return;document.querySelectorAll('.year-chip').forEach(b=>b.classList.toggle('active',b.dataset.insight===key));const tags=(d.themes||[]).map(([name,n])=>'<span>'+escapeHtml(name)+' · '+n+'</span>').join('');const evidence=(d.examples||[]).map(p=>'<a href="'+attr(p.url)+'" target="_blank" rel="noopener"><b>'+escapeHtml(p.title)+'</b> — '+escapeHtml(p.brief)+'</a>').join('');document.getElementById('year-insight').innerHTML='<h3>'+escapeHtml(d.label)+' · '+d.count+' 篇论文</h3><p>'+escapeHtml(d.narrative)+'</p><div class="year-tags">'+tags+'</div><div class="year-evidence">'+evidence+'</div>'}
 function escapeHtml(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))} function attr(s){return escapeHtml(s)}
-[search,year,theme].forEach(el=>el.addEventListener(el===search?'input':'change',render));document.getElementById('export').addEventListener('click',()=>{const rows=filtered(),cols=['date','id','title','authors','themes','abs','pdf'];const csv=[cols.join(',')].concat(rows.map(p=>cols.map(k=>'"'+String(Array.isArray(p[k])?p[k].join('; '):(p[k]||'')).replace(/"/g,'""')+'"').join(','))).join('\\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv'}));a.download='__CATEGORY__-papers.csv';a.click();URL.revokeObjectURL(a.href)});render();
+[search,year,theme].forEach(el=>el.addEventListener(el===search?'input':'change',render));document.querySelectorAll('.year-chip').forEach(b=>b.addEventListener('click',()=>renderInsight(b.dataset.insight)));document.getElementById('export').addEventListener('click',()=>{const rows=filtered(),cols=['date','id','title','brief','authors','themes','abs','pdf'];const csv=[cols.join(',')].concat(rows.map(p=>cols.map(k=>'"'+String(Array.isArray(p[k])?p[k].join('; '):(p[k]||'')).replace(/"/g,'""')+'"').join(','))).join('\\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv'}));a.download='__CATEGORY__-papers.csv';a.click();URL.revokeObjectURL(a.href)});renderInsight(defaultInsight);render();
 </script></body></html>'''
     replacements = {
         "__TITLE__": html.escape(title), "__COUNT__": str(len(papers)),
         "__MIN_DATE__": min_date, "__MAX_DATE__": max_date,
         "__PDF_COUNT__": str(sum(bool(p.get("pdf")) for p in papers)),
-        "__FINDINGS__": finding_html, "__YEAR_OPTIONS__": options_year,
+        "__OVERALL__": html.escape(overall), "__PHASES__": phase_html,
+        "__YEAR_BUTTONS__": year_buttons, "__ANNUAL_DATA__": annual_data,
+        "__DEFAULT_ANNUAL__": default_annual, "__YEAR_OPTIONS__": options_year,
         "__THEME_OPTIONS__": options_theme, "__PAPER_DATA__": data,
         "__CATEGORY__": category,
     }
