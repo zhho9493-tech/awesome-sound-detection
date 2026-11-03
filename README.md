@@ -63,3 +63,5 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 
 - [10 月分类候选总表（31 篇已知候选；官方月目录 505 条，尚非全量核验）](resources/arxiv-cs-sd-2026-10-audit.md)
 - 六个音频方向已建立对应专题索引；同一论文以 arXiv ID 去重，已有精选论文保留原条目。
+
+- [十月 cs.SD 逐条核验进度与新增候选](resources/arxiv-cs-sd-2026-10-verification-progress.md)：已审查目录序号 1–150、201–250，共 200/505；40 篇额外候选已分方向推送。尚不是全量审查。
