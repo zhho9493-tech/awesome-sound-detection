@@ -4,6 +4,12 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 
 中文 | [研究路线](roadmap.md) | [资源目录](resources/catalog.json) | [历史论文总索引](resources/historical-paper-index.md) | [arXiv cs.SD 2025–2026 全量索引](resources/arxiv-cs-sd/README.md) | [PDF 链接审计](resources/arxiv-pdf-link-audit.md) | [贡献指南](CONTRIBUTING.md)
 
+## 一键本地查看交互页面
+
+- macOS：双击 [`查看论文时间线.command`](查看论文时间线.command)，将自动启动本地服务并打开全部类别的预览导航。
+- 命令行：运行 `python3 scripts/preview_timelines.py`。
+- 默认地址为 `http://127.0.0.1:8765/`；若端口被占用会自动选择下一个可用端口。关闭启动预览的终端窗口即可停止服务。
+
 ## 资源导航
 
 | 方向 | 入口 | 重点 |
