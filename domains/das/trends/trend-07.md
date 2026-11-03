@@ -44,3 +44,8 @@
 - **迁移假设**：在本仓库用户场景尚未复现，标记 `hypothesis`。
 - **不确定性**：尚未形成逐篇“直接支持/间接支持/反驳”的证据矩阵，不能声称趋势已被严格验证。
 - 后续每次新增论文，按“研究问题→方法→公开实验→反例→本页判断”记录新增证据及更新日期。
+
+## 2026-11-03 新证据：DAS 皮带机实时检测
+
+- [Luo 等，Distributed Acoustic Sensor for Real-Time Fault Detection in Belt Conveyors: A Signal Processing Approach](https://doi.org/10.1109/JSEN.2026.3701460)，IEEE Sensors Journal（2026）。该论文题名与 DOI 可核查，直接对应“实时故障检测”场景；**仅作为问题定义和研究方向证据**，并未在本次核查中验证任何具体时延、计算量、检准率或定位指标。
+- 工程验证建议：在固定独立项目测试集上同时报告端到端时延、CPU/GPU 资源、FP/km/day、事件召回率与定位误差；与当前片段分类+事件聚合基线比较。
