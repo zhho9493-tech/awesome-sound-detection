@@ -614,7 +614,7 @@ def build_html(category: str, title: str, papers: list[dict]) -> str:
             f'<article class="direction-card"><div class="direction-top"><span>{html.escape(direction_title)}</span><b>{len(subset)} 篇</b></div><h3>{html.escape(trend_title)}</h3><p>{html.escape(narrative)}</p><div class="direction-tags">{tags}</div>{action}</article>'
         )
     direction_html = "".join(direction_cards)
-    direction_options = '<option value="">全部仓库方向</option>' + "".join(
+    direction_options = '<option value="">全部方向类别</option>' + "".join(
         f'<option value="{html.escape(slug)}">{html.escape(direction_titles[slug])}</option>'
         for slug in direction_titles if any(slug in paper["directions"] for paper in papers)
     )
@@ -641,7 +641,7 @@ main{margin-top:22px;background:var(--panel);border:1px solid var(--line);border
 </style></head><body><div class="wrap">
 <header><div><h1>__TITLE__论文时间线</h1><p class="subtitle">基于仓库当前论文索引生成。曲线按发表时间排列；节点可悬停查看、点击展开摘要并打开官方页面或下载 PDF。趋势结论只依赖本页收录论文及其标题、摘要和时间，不外推为完整学科计量。</p></div>
 <section class="trend-shell" aria-label="技术趋势演进"><div class="trend-head"><div><span class="eyebrow">WHOLE · 声音事件检测整体</span><h2>从整体脉络到年度过渡</h2><p>__OVERALL__</p></div><div class="trend-note">先阅读大类的整体演进，再向下查看仓库各细分方向的技术变化与支撑论文，最后回到跨方向总结。</div></div><div class="phase-flow">__PHASES__</div><div class="year-explorer"><nav class="year-nav" aria-label="选择年度趋势">__YEAR_BUTTONS__</nav><article id="year-insight" class="year-insight" aria-live="polite"></article></div></section>__DIRECTION_SECTION__</header>
-<main><div class="controls"><input id="search" type="search" placeholder="搜索标题、中文简述、摘要或作者" aria-label="搜索论文"><label class="filter-label">仓库方向<select id="direction" aria-label="选择仓库方向">__DIRECTION_OPTIONS__</select></label><label class="filter-label">技术趋势<select id="theme" aria-label="选择技术趋势">__THEME_OPTIONS__</select></label><label class="filter-label">细分技术趋势<select id="subtrend" aria-label="选择细分技术趋势"><option value="">全部细分趋势</option></select></label><label class="filter-label">开始日期<input id="start-date" type="date" min="__MIN_DATE__" max="__MAX_DATE__"></label><label class="filter-label">结束日期<input id="end-date" type="date" min="__MIN_DATE__" max="__MAX_DATE__"></label><button id="clear-range" type="button">清除时间段</button><button id="export" type="button">导出当前 CSV</button><span id="count" class="count"></span></div>
+<main><div class="controls"><input id="search" type="search" placeholder="搜索标题、中文简述、摘要或作者" aria-label="搜索论文"><label class="filter-label">方向类别<select id="direction" aria-label="选择方向类别">__DIRECTION_OPTIONS__</select></label><label class="filter-label">技术趋势<select id="theme" aria-label="选择技术趋势">__THEME_OPTIONS__</select></label><label class="filter-label">细分技术趋势<select id="subtrend" aria-label="选择细分技术趋势"><option value="">全部细分趋势</option></select></label><label class="filter-label">开始日期<input id="start-date" type="date" min="__MIN_DATE__" max="__MAX_DATE__"></label><label class="filter-label">结束日期<input id="end-date" type="date" min="__MIN_DATE__" max="__MAX_DATE__"></label><button id="clear-range" type="button">清除时间段</button><button id="export" type="button">导出当前 CSV</button><span id="count" class="count"></span></div>
 <div class="chart"><svg id="timeline" viewBox="0 0 1200 420" role="img" aria-label="可交互论文时间线"></svg><div id="tooltip" class="tooltip"></div></div>
 <section id="detail" class="detail" aria-live="polite"><div><h2>选择曲线上的论文节点</h2><p>悬停可快速查看，点击节点显示摘要与下载入口。</p></div></section></main></div>
 <script>
