@@ -47,3 +47,7 @@
 
 - [新增：分组验证、误报控制与生态声学跨领域证据](arxiv-cs-sd-2026-11-02.md)。
 - **趋势复核**：强化已有跨项目泛化/误报治理判断，尚不足以新增 ASD 算法范式或技术时间线节点。
+
+## 2026-11-03 工业托辊异常检测可迁移论文
+
+- [MIRA: A Transformer-Based Framework for Idler Roller Anomaly Detection and Localization](https://doi.org/10.3390/s25247469)（Sensors 2025；Younho Nam 等）：采用分布式布置的**麦克风+加速度计**、masked Transformer autoencoder、正常样本重构误差与空间映射，在试验台架报告异常检测准确率 98.70% 和故障定位准确率 96.09%。**该论文不是 DAS 研究**，需在 DAS 跨项目独立测试集验证后才能推断迁移效果。详见 [DAS 皮带机专题的可迁移方法部分](../../domains/das/conveyor-papers-2025-2026.md)。
