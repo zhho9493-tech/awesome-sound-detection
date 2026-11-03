@@ -94,6 +94,54 @@ CLUSTERS = {
     },
 }
 
+EVOLUTION_STORIES = {
+    "sound-event": [
+        ("从手工声学特征与监督分类，走向事件级检测与时空定位", "早期工作从频谱、时频纹理和监督分类器出发，逐步把任务从整段声音标签扩展到事件起止时间、声源方向与多事件共存条件下的联合检测。"),
+        ("从封闭集事件识别，迈向弱监督、跨域鲁棒与多声源联合建模", "研究开始减少对强时间标注的依赖，引入弱监督、伪标签和域泛化；同时处理噪声干扰、设备差异与复调场景，使模型从标准数据集识别走向真实声景适配。"),
+        ("从专用检测器，迈向基础模型驱动的开放世界感知与音频推理", "近期方法利用自监督预训练和音频语言模型统一表征检测、定位与语义理解，并进一步关注开放集事件、长音频推理、端侧部署和跨任务迁移。"),
+    ],
+    "acoustic-anomaly": [
+        ("从固定声学阈值与重构误差，走向无监督机器状态表征", "研究由人工阈值和单一频谱指标转向自编码器与表征学习，在只有正常样本的条件下建立设备健康基线。"),
+        ("从单设备异常分数，迈向跨域泛化与噪声鲁棒诊断", "方法开始显式处理机器型号、采集环境和运行工况造成的域偏移，并通过域适应、伪标签和噪声建模降低现场误报。"),
+        ("从异常判别，迈向物理约束的健康状态推理与开放集诊断", "近期工作把周期性、结构先验和工况信息引入模型，从二元异常检测扩展到故障类型、严重度、未知异常拒识与健康演化推理。"),
+    ],
+    "das": [
+        ("从光纤振动可视化，走向时空事件检测与位置识别", "早期研究侧重从长距离光纤信号中恢复可解释振动模式，并建立事件发生位置与时间的基础检测能力。"),
+        ("从单点信号分类，迈向空间一致性与多通道联合建模", "方法开始利用相邻通道、传播结构与周期规律，抑制环境干扰并提升交通、管线和工业设备事件的定位稳定性。"),
+        ("从离线识别，迈向物理约束的边缘诊断与健康状态推理", "近期工作强调轻量网络、实时推理和工况约束，将DAS从事件告警扩展到故障类型、未知状态和连续健康评估。"),
+    ],
+    "leakage": [
+        ("从声压阈值告警，走向泄漏声纹识别", "研究由简单能量变化判断转向频谱特征和监督分类，以区分泄漏声与泵机、交通及环境背景噪声。"),
+        ("从是否泄漏，迈向传播建模与声源定位", "方法进一步结合互相关、到达时差和管网传播特性，在不同材质、压力与传感器布设条件下估计泄漏位置。"),
+        ("从实验室检测，迈向复杂现场的鲁棒定位与泄漏状态推理", "近期工作关注域偏移、弱泄漏、混合噪声和多传感器融合，并尝试同时判断位置、泄漏率与可信度。"),
+    ],
+    "speaker-recognition": [
+        ("从人工声纹特征与概率模型，走向深度说话人嵌入", "研究由声学统计特征转向端到端嵌入学习，使验证和识别能够在统一度量空间中完成。"),
+        ("从单语封闭集验证，迈向跨语言、跨设备与在线说话人建模", "方法开始处理语言、信道和场景偏移，并把验证扩展到说话人分离、连续注册与多用户记忆。"),
+        ("从专用声纹网络，迈向自监督基础表征与隐私安全联合优化", "近期工作利用大规模语音预训练提升低资源泛化，同时强化反欺骗、深度伪造检测、隐私保护和端侧适配。"),
+    ],
+    "foundation-models": [
+        ("从单任务音频编码器，走向大规模自监督预训练", "模型由针对分类或识别的专用网络，转向利用海量无标签音频学习可迁移的通用声学表征。"),
+        ("从纯音频表征，迈向音频文本对齐与零样本迁移", "对比学习把声音与自然语言映射到共享语义空间，使检索、开放词表分类和跨任务迁移不再完全依赖专门标注。"),
+        ("从感知表征，迈向多模态指令理解、长音频推理与智能体", "近期模型把检测、描述、问答和推理统一进音频语言框架，并探索参数高效适配、检索增强和递归自改进。"),
+    ],
+    "face-recognition": [
+        ("从欧氏特征匹配，走向角度间隔判别学习", "方法通过归一化特征和角度间隔损失增强类间分离，使人脸嵌入具备更稳定的身份判别边界。"),
+        ("从单中心身份原型，迈向多子中心与噪声标签建模", "研究开始为同一身份建立多个子中心，以吸收姿态、质量和错误标签造成的类内多样性。"),
+        ("从标准基准识别，迈向长尾、跨域与开放世界身份验证", "后续方向进一步处理低质量图像、未知身份、隐私约束和跨设备部署条件下的可靠性。"),
+    ],
+    "visual-anomaly": [
+        ("从重构误差，走向预训练特征的局部异常度量", "方法由像素重构转向深层特征空间，在不生成图像的情况下比较正常模式与局部缺陷。"),
+        ("从全局异常分数，迈向记忆库检索与像素级定位", "Patch级特征记忆和分布建模提升了细粒度缺陷定位能力，并减少对异常样本的依赖。"),
+        ("从单类别工业检测，迈向基础模型驱动的少样本与零样本泛化", "近期研究利用视觉基础模型和文本语义，把异常检测扩展到新类别、新工厂和开放词表描述。"),
+    ],
+    "cross-domain": [
+        ("从源域监督拟合，走向可迁移的共享表征学习", "研究首先通过特征对齐和迁移学习，降低源域与目标域在设备、环境和数据分布上的差异。"),
+        ("从目标域适配，迈向未知目标域的泛化与开放集拒识", "方法不再假设可访问目标域数据，而是通过域泛化、元学习和不确定性估计提升对新场景的适应能力。"),
+        ("从单模态迁移，迈向多模态先验、基础模型与持续适应", "近期工作结合文本、视觉和物理先验，在参数高效更新的同时处理类别增量、未知类别与长期分布漂移。"),
+    ],
+}
+
 
 def normalize_title(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value.casefold()).strip()
@@ -273,7 +321,7 @@ def insight_for(label: str, subset: list[dict], previous: list[dict] | None = No
     return {"label": label, "count": len(subset), "themes": leaders, "transition_title": transition_title, "narrative": narrative, "examples": examples}
 
 
-def build_evolution(papers: list[dict]) -> tuple[list[dict], dict, str]:
+def build_evolution(papers: list[dict], category: str) -> tuple[list[dict], dict, str]:
     years = sorted({int(p["date"][:4]) for p in papers})
     if not years:
         return [], {}, "当前没有可定年的论文记录。"
@@ -293,19 +341,35 @@ def build_evolution(papers: list[dict]) -> tuple[list[dict], dict, str]:
         info["start"], info["end"] = start, end
         phases.append(info)
         previous = subset
+    stories = EVOLUTION_STORIES.get(category, [])
+    for index, phase in enumerate(phases):
+        if stories:
+            story_index = min(index, len(stories) - 1)
+            phase["transition_title"], phase["narrative"] = stories[story_index]
+            phase["narrative"] += f" 本阶段由 {phase['count']} 篇可定年论文提供证据。"
     annual = {}
     previous = None
     for year in years:
         subset = [p for p in papers if int(p["date"][:4]) == year]
         annual[str(year)] = insight_for(str(year), subset, previous)
         previous = subset
+        if stories and phase_ranges:
+            phase_index = next((i for i, (start, end) in enumerate(phase_ranges) if start <= year <= end), len(stories) - 1)
+            story_title, story_text = stories[min(phase_index, len(stories) - 1)]
+            annual[str(year)]["transition_title"] = story_title
+            annual[str(year)]["narrative"] = story_text + f" {year} 年收录 {len(subset)} 篇论文，代表性工作如下。"
     recent = [p for p in papers if p["date"][:4] in {"2025", "2026"}]
     before_recent = [p for p in papers if p["date"][:4] == "2024"]
     if recent:
         annual["2025–2026"] = insight_for("2025–2026", recent, before_recent)
+        if stories:
+            annual["2025–2026"]["transition_title"], annual["2025–2026"]["narrative"] = stories[-1]
+            annual["2025–2026"]["narrative"] += f" 该判断由 2025—2026 年收录的 {len(recent)} 篇论文及代表性工作支撑。"
     overall_counts = Counter(theme for paper in papers for theme in paper["themes"] if theme != "其他")
     leaders = [name for name, _ in overall_counts.most_common(3)]
-    if phases and len(phases) > 1:
+    if stories:
+        overall = f"整体上，{stories[0][0]}；随后{stories[min(1, len(stories)-1)][0]}；近期则{stories[-1][0]}。"
+    elif phases and len(phases) > 1:
         overall = f"整体上，技术路线从{('、'.join(t for t, _ in phases[0]['themes'][:2]) or '基础任务探索')}，经过{('、'.join(t for t, _ in phases[len(phases)//2]['themes'][:2]) or '方法扩展')}，逐步走向{('、'.join(t for t, _ in phases[-1]['themes'][:2]) or '系统化应用')}。"
     else:
         overall = f"当前论文主要围绕{'、'.join(leaders) if leaders else '多类研究任务'}展开。"
@@ -319,7 +383,7 @@ def escape_json(value) -> str:
 
 def build_html(category: str, title: str, papers: list[dict]) -> str:
     classify_themes(papers, category)
-    phases, annual, overall = build_evolution(papers)
+    phases, annual, overall = build_evolution(papers, category)
     themes = sorted({theme for paper in papers for theme in paper["themes"]})
     years = sorted({paper["date"][:4] for paper in papers})
     min_date = papers[0]["date"] if papers else "—"
