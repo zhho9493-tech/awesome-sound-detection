@@ -31,7 +31,8 @@
       "type": "paper",
       "title": "ECAPA-TDNN",
       "url": "https://arxiv.org/abs/2005.07143",
-      "status": "to-reproduce"
+      "status": "to-reproduce",
+      "pdf_url": "https://arxiv.org/pdf/2005.07143"
     },
     {
       "id": "arcface",
@@ -39,7 +40,8 @@
       "type": "paper",
       "title": "ArcFace",
       "url": "https://arxiv.org/abs/1801.07698",
-      "status": "to-reproduce"
+      "status": "to-reproduce",
+      "pdf_url": "https://arxiv.org/pdf/1801.07698"
     },
     {
       "id": "subcenter",
@@ -47,7 +49,8 @@
       "type": "paper",
       "title": "Sub-center ArcFace",
       "url": "https://arxiv.org/abs/2004.00288",
-      "status": "to-reproduce"
+      "status": "to-reproduce",
+      "pdf_url": "https://arxiv.org/pdf/2004.00288"
     },
     {
       "id": "patchcore",
@@ -55,7 +58,8 @@
       "type": "paper",
       "title": "PatchCore",
       "url": "https://arxiv.org/abs/2106.08265",
-      "status": "to-reproduce"
+      "status": "to-reproduce",
+      "pdf_url": "https://arxiv.org/pdf/2106.08265"
     },
     {
       "id": "padim",
@@ -63,7 +67,8 @@
       "type": "paper",
       "title": "PaDiM",
       "url": "https://arxiv.org/abs/2011.08785",
-      "status": "to-reproduce"
+      "status": "to-reproduce",
+      "pdf_url": "https://arxiv.org/pdf/2011.08785"
     }
   ]
 }

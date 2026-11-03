@@ -1,5 +1,7 @@
 # Face Recognition / 人脸识别
 
+- [论文技术趋势与交互时间线（HTML）](papers-timeline.html)
+
 - [ArcFace](https://arxiv.org/abs/1801.07698) — 角度间隔损失
 - [Sub-center ArcFace](https://arxiv.org/abs/2004.00288) — 多子中心和噪声标签
 - [InsightFace](https://github.com/deepinsight/insightface) — 官方生态实现

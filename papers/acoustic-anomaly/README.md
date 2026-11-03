@@ -3,6 +3,7 @@
 关注无监督 ASD、First-shot、Noise-aware、Domain Generalization、开放集及工业状态识别。
 
 - [arXiv cs.SD 2025-01-01—2026-11-03 相关论文全量初筛](arxiv-cs-sd-2025-2026.md)
+- [论文技术趋势与交互时间线（HTML）](papers-timeline.html)
 
 官方入口：
 - [DCASE](https://dcase.community/)

@@ -2,20 +2,21 @@
 
 A curated repository for **sound detection, acoustic anomaly detection, industrial acoustics, audio foundation models, and cross-domain AI research**.
 
-中文 | [研究路线](roadmap.md) | [资源目录](resources/catalog.json) | [历史论文总索引](resources/historical-paper-index.md) | [arXiv cs.SD 2025–2026 全量索引](resources/arxiv-cs-sd/README.md) | [贡献指南](CONTRIBUTING.md)
+中文 | [研究路线](roadmap.md) | [资源目录](resources/catalog.json) | [历史论文总索引](resources/historical-paper-index.md) | [arXiv cs.SD 2025–2026 全量索引](resources/arxiv-cs-sd/README.md) | [PDF 链接审计](resources/arxiv-pdf-link-audit.md) | [贡献指南](CONTRIBUTING.md)
 
 ## 资源导航
 
 | 方向 | 入口 | 重点 |
 |---|---|---|
-| 声学异常检测 | [ASD](papers/acoustic-anomaly/README.md) | DCASE、跨域泛化、Noise-aware |
-| 声音事件检测 | [SED](papers/sound-event/README.md) · [事件专题](papers/sound-event/TOPICS.md) | 12 领域、具体声源事件、分类与定位 |
-| DAS 光纤听诊 | [DAS](domains/das/README.md) | 皮带机托辊、时空一致性 |
-| 听漏及泄漏 | [Leakage](domains/leakage/README.md) | 水管、气体泄漏、定位 |
-| 声纹识别 | [Speaker](related/speaker-recognition/README.md) | ECAPA、Embedding、域适应 |
-| 人脸识别 | [Face](related/face-recognition/README.md) | ArcFace、Sub-center、标签噪声 |
-| 图像异常检测 | [Vision AD](related/visual-anomaly/README.md) | PatchCore、PaDiM、异常定位 |
-| 基础模型 | [Foundation](related/foundation-models/README.md) | CLAP、BEATs、DINOv2 |
+| 声学异常检测 | [ASD](papers/acoustic-anomaly/README.md) · [交互时间线](papers/acoustic-anomaly/papers-timeline.html) | DCASE、跨域泛化、Noise-aware |
+| 声音事件检测 | [SED](papers/sound-event/README.md) · [交互时间线](papers/sound-event/papers-timeline.html) · [事件专题](papers/sound-event/TOPICS.md) | 12 领域、具体声源事件、分类与定位 |
+| DAS 光纤听诊 | [DAS](domains/das/README.md) · [交互时间线](domains/das/papers-timeline.html) | 皮带机托辊、时空一致性 |
+| 听漏及泄漏 | [Leakage](domains/leakage/README.md) · [交互时间线](domains/leakage/papers-timeline.html) | 水管、气体泄漏、定位 |
+| 声纹识别 | [Speaker](related/speaker-recognition/README.md) · [交互时间线](related/speaker-recognition/papers-timeline.html) | ECAPA、Embedding、域适应 |
+| 人脸识别 | [Face](related/face-recognition/README.md) · [交互时间线](related/face-recognition/papers-timeline.html) | ArcFace、Sub-center、标签噪声 |
+| 图像异常检测 | [Vision AD](related/visual-anomaly/README.md) · [交互时间线](related/visual-anomaly/papers-timeline.html) | PatchCore、PaDiM、异常定位 |
+| 基础模型 | [Foundation](related/foundation-models/README.md) · [交互时间线](related/foundation-models/papers-timeline.html) | CLAP、BEATs、DINOv2 |
+| 跨领域迁移 | [迁移矩阵](cross-domain/transfer-matrix.md) · [交互时间线](cross-domain/papers-timeline.html) | 域泛化、迁移学习、多模态迁移 |
 
 ## 技术趋势与证据链
 

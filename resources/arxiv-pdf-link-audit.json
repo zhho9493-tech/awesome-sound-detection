@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-11-03T16:10:56.972662+00:00",
+  "scope": "structured arXiv paper records plus catalog paper resources; review candidates are excluded",
+  "structured_arxiv_records": 8087,
+  "structured_unique_arxiv_ids": 7646,
+  "structured_missing_pdf_url": 0,
+  "catalog_missing_before_fix": 5,
+  "catalog_verified_available": 5,
+  "catalog_unavailable": 0,
+  "fixed": true,
+  "structured_missing_records": [],
+  "catalog_candidates": [
+    {
+      "source": "catalog",
+      "resource_id": "ecapa",
+      "id": "2005.07143",
+      "title": "ECAPA-TDNN",
+      "url": "https://arxiv.org/pdf/2005.07143",
+      "available": true,
+      "verification": "official-pdf-signature",
+      "error": null
+    },
+    {
+      "source": "catalog",
+      "resource_id": "arcface",
+      "id": "1801.07698",
+      "title": "ArcFace",
+      "url": "https://arxiv.org/pdf/1801.07698",
+      "available": true,
+      "verification": "official-pdf-signature",
+      "error": null
+    },
+    {
+      "source": "catalog",
+      "resource_id": "subcenter",
+      "id": "2004.00288",
+      "title": "Sub-center ArcFace",
+      "url": "https://arxiv.org/pdf/2004.00288",
+      "available": true,
+      "verification": "official-pdf-signature",
+      "error": null
+    },
+    {
+      "source": "catalog",
+      "resource_id": "patchcore",
+      "id": "2106.08265",
+      "title": "PatchCore",
+      "url": "https://arxiv.org/pdf/2106.08265",
+      "available": true,
+      "verification": "official-pdf-signature",
+      "error": null
+    },
+    {
+      "source": "catalog",
+      "resource_id": "padim",
+      "id": "2011.08785",
+      "title": "PaDiM",
+      "url": "https://arxiv.org/pdf/2011.08785",
+      "available": true,
+      "verification": "official-pdf-signature",
+      "error": null
+    }
+  ]
+}

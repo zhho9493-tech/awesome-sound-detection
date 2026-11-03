@@ -1,6 +1,7 @@
 # Speaker Recognition / 声纹识别
 
 - [arXiv cs.SD 2025-01-01—2026-11-03 相关论文全量初筛](arxiv-cs-sd-2025-2026.md)
+- [论文技术趋势与交互时间线（HTML）](papers-timeline.html)
 
 - [ECAPA-TDNN](https://arxiv.org/abs/2005.07143)
 - [SpeechBrain](https://github.com/speechbrain/speechbrain)

@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-11-03T16:13:06.510456Z",
+  "categories": {
+    "sound-event": {
+      "title": "声音事件检测",
+      "path": "papers/sound-event/papers-timeline.html",
+      "paper_count": 764,
+      "pdf_count": 764
+    },
+    "acoustic-anomaly": {
+      "title": "声学异常检测",
+      "path": "papers/acoustic-anomaly/papers-timeline.html",
+      "paper_count": 211,
+      "pdf_count": 211
+    },
+    "das": {
+      "title": "分布式声学传感（DAS）",
+      "path": "domains/das/papers-timeline.html",
+      "paper_count": 7,
+      "pdf_count": 7
+    },
+    "leakage": {
+      "title": "泄漏声学检测",
+      "path": "domains/leakage/papers-timeline.html",
+      "paper_count": 6,
+      "pdf_count": 6
+    },
+    "speaker-recognition": {
+      "title": "声纹识别",
+      "path": "related/speaker-recognition/papers-timeline.html",
+      "paper_count": 386,
+      "pdf_count": 386
+    },
+    "foundation-models": {
+      "title": "音频基础模型",
+      "path": "related/foundation-models/papers-timeline.html",
+      "paper_count": 966,
+      "pdf_count": 966
+    },
+    "face-recognition": {
+      "title": "人脸识别",
+      "path": "related/face-recognition/papers-timeline.html",
+      "paper_count": 3,
+      "pdf_count": 3
+    },
+    "visual-anomaly": {
+      "title": "图像异常检测",
+      "path": "related/visual-anomaly/papers-timeline.html",
+      "paper_count": 2,
+      "pdf_count": 2
+    },
+    "cross-domain": {
+      "title": "跨领域迁移",
+      "path": "cross-domain/papers-timeline.html",
+      "paper_count": 86,
+      "pdf_count": 86
+    }
+  }
+}
