@@ -1,5 +1,7 @@
 # Foundation Models / 基础模型
 
+- [arXiv cs.SD 2025-01-01—2026-11-03 相关论文全量初筛](arxiv-cs-sd-2025-2026.md)
+
 - [CLAP](https://github.com/LAION-AI/CLAP) — 音频文本对齐
 - [BEATs](https://github.com/microsoft/unilm/tree/master/beats) — 音频自监督
 - [DINOv2](https://github.com/facebookresearch/dinov2) — 视觉特征

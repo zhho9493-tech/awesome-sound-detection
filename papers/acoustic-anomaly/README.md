@@ -2,6 +2,8 @@
 
 关注无监督 ASD、First-shot、Noise-aware、Domain Generalization、开放集及工业状态识别。
 
+- [arXiv cs.SD 2025-01-01—2026-11-03 相关论文全量初筛](arxiv-cs-sd-2025-2026.md)
+
 官方入口：
 - [DCASE](https://dcase.community/)
 - [DCASE 2020 Task 2](https://dcase.community/challenge2020/task-unsupervised-detection-of-anomalous-sounds)
