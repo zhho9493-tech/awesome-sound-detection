@@ -10,6 +10,12 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 - 命令行：运行 `python3 scripts/preview_timelines.py`。
 - 默认地址为 `http://127.0.0.1:8765/`；若端口被占用会自动选择下一个可用端口。关闭启动预览的终端窗口即可停止服务。
 
+## 批量下载论文
+
+- 运行 `python3 tools/paper-downloader/paper_downloader.py`，扫描并下载仓库中所有提供公开下载地址的论文。
+- 使用 `--list-only` 可先查看下载清单，使用 `--limit 10` 可先进行小批量验证。
+- 详细参数、断点续传与失败报告说明见 [Paper Downloader](tools/paper-downloader/README.md)。
+
 ## 资源导航
 
 | 方向 | 入口 | 重点 |
