@@ -18,6 +18,11 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 
 ## 资源导航
 
+### 深度学习通用问题
+
+- **[通用问题专题总览](general-problems/README.md)**：跨域泛化、少样本、长尾、噪声标签、开放集/OOD、持续学习、半/弱监督、对抗鲁棒性、校准与不确定性。
+- **[经典论文机器可读索引](general-problems/classic-papers.json)**：按问题方向整理经典解决方案及公开 PDF，可由 Paper Downloader 批量下载。
+
 | 方向 | 入口 | 重点 |
 |---|---|---|
 | 声学异常检测 | [ASD](papers/acoustic-anomaly/README.md) · [交互时间线](papers/acoustic-anomaly/papers-timeline.html) | DCASE、跨域泛化、Noise-aware |
