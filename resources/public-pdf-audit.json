@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-11-05T14:46:03.296302+00:00",
+  "scope": "paper-master-index records missing public pdf_url",
+  "records_checked": 1042,
+  "unique_normalized_titles": 1009,
+  "source": "arXiv official API and PDF endpoint",
+  "match_rule": "normalized full-title similarity >= 0.96, unambiguous runner-up, PDF signature verified",
+  "status_counts": {
+    "not-found": 998,
+    "candidate": 11
+  },
+  "verified_free_pdf_records": 12,
+  "remaining_without_public_pdf": 1030,
+  "fixed": true,
+  "matches": [
+    {
+      "record_id": "title-baac42dc",
+      "title": "A ROBUST FRAMEWORK FOR SOUND EVENT LOCALIZATION AND DETECTION ON REAL RECORDINGS-Rank 3",
+      "arxiv_title": "A Robust framework for sound event localization and detection on real recordings",
+      "similarity": 1.0,
+      "arxiv_id": "2512.22156",
+      "pdf_url": "https://arxiv.org/pdf/2512.22156"
+    },
+    {
+      "record_id": "title-b8ccd0b2",
+      "title": "Audio Captioning Transformer",
+      "arxiv_title": "Audio Captioning Transformer",
+      "similarity": 1.0,
+      "arxiv_id": "2107.09817",
+      "pdf_url": "https://arxiv.org/pdf/2107.09817"
+    },
+    {
+      "record_id": "title-59c49d63",
+      "title": "Distributed collaborative anomalous sound detection by embedding sharing_1",
+      "arxiv_title": "Distributed collaborative anomalous sound detection by embedding sharing",
+      "similarity": 1.0,
+      "arxiv_id": "2403.16610",
+      "pdf_url": "https://arxiv.org/pdf/2403.16610"
+    },
+    {
+      "record_id": "title-2b5c5ac6",
+      "title": "FEW-SHOT BIOACOUSTIC EVENT DETECTION WITH FRAME-LEVEL EMBEDDING LEARNING SYSTEM-Rank 2",
+      "arxiv_title": "Few-Shot Bioacoustic Event Detection with Frame-Level Embedding Learning System",
+      "similarity": 1.0,
+      "arxiv_id": "2407.10182",
+      "pdf_url": "https://arxiv.org/pdf/2407.10182"
+    },
+    {
+      "record_id": "title-166dba11",
+      "title": "Guided Speaker Embedding",
+      "arxiv_title": "Guided Speaker Embedding",
+      "similarity": 1.0,
+      "arxiv_id": "2410.12182",
+      "pdf_url": "https://arxiv.org/pdf/2410.12182"
+    },
+    {
+      "record_id": "title-f7278836",
+      "title": "Improvements of Discriminative Feature Space Training for Anomalous Sound Detection in Unlabeled Con_1",
+      "arxiv_title": "Improvements of Discriminative Feature Space Training for Anomalous Sound Detection in Unlabeled Conditions",
+      "similarity": 0.9662,
+      "arxiv_id": "2409.09332",
+      "pdf_url": "https://arxiv.org/pdf/2409.09332"
+    },
+    {
+      "record_id": "title-176454ec",
+      "title": "Invariant Risk Minimization",
+      "arxiv_title": "Invariant Risk Minimization",
+      "similarity": 1.0,
+      "arxiv_id": "1907.02893",
+      "pdf_url": "https://arxiv.org/pdf/1907.02893"
+    },
+    {
+      "record_id": "title-a93ef949",
+      "title": "Masked Autoencoders that Listen_1",
+      "arxiv_title": "Masked Autoencoders that Listen",
+      "similarity": 1.0,
+      "arxiv_id": "2207.06405",
+      "pdf_url": "https://arxiv.org/pdf/2207.06405"
+    },
+    {
+      "record_id": "title-586b47c8",
+      "title": "QuarkAudio Technical Report",
+      "arxiv_title": "QuarkAudio Technical Report",
+      "similarity": 1.0,
+      "arxiv_id": "2512.20151",
+      "pdf_url": "https://arxiv.org/pdf/2512.20151"
+    },
+    {
+      "record_id": "title-8888e56e",
+      "title": "USAD Universal Speech and Audio Representation via Distillation_1",
+      "arxiv_title": "USAD: Universal Speech and Audio Representation via Distillation",
+      "similarity": 1.0,
+      "arxiv_id": "2506.18843",
+      "pdf_url": "https://arxiv.org/pdf/2506.18843"
+    },
+    {
+      "record_id": "title-c85565bc",
+      "title": "Vision Transformer Segmentation for Visual Bird Sound Denoising_1",
+      "arxiv_title": "Vision Transformer Segmentation for Visual Bird Sound Denoising",
+      "similarity": 1.0,
+      "arxiv_id": "2406.09167",
+      "pdf_url": "https://arxiv.org/pdf/2406.09167"
+    },
+    {
+      "record_id": "title-cb556a75",
+      "title": "Vision Transformer Segmentation for Visual Bird Sound Denoising_2",
+      "arxiv_title": "Vision Transformer Segmentation for Visual Bird Sound Denoising",
+      "similarity": 1.0,
+      "arxiv_id": "2406.09167",
+      "pdf_url": "https://arxiv.org/pdf/2406.09167"
+    }
+  ]
+}

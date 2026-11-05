@@ -5,6 +5,7 @@
 - [完整 JSON](paper-master-index.json)
 - [CSV](paper-master-index.csv)
 - [目录扫描覆盖报告](technical-research-coverage-2026-11-01.md)
+- [缺失公开 PDF 链接复核](public-pdf-audit.md)
 
 字段：`id`（临时标题哈希）、`title`、`primary_category`、`related_categories`、`sources`（仅公开的技术方向名称）、`doi`、`arxiv_id`、`public_url`、`pdf_url` 和 `verification_status`。未核实资料保留 null，绝不使用私人 Drive URL 充当 PDF 链接。
 
@@ -32,4 +33,4 @@
 - [人工复核清单](arxiv-match-review.json)：仅工作流实际运行且产生疑似匹配后创建。
 - [检查进度状态](arxiv-lookup-state.json)：仅工作流实际运行后创建，不能将配置完成理解为已检查完毕。
 
-**最新实际写入（2026-11-01）：** 主库 2,145 条中已确认 2 条对应的 arXiv PDF。其余条目的 arXiv 存在性仍待查询；不把没有搜索到等同于“不存在”。此工作流是否实际成功运行须查看 GitHub Actions 页面。
+**最新实际复核（2026-11-05）：** 对当时缺少公开 PDF 的 1,042 条记录完成批量标题检索；12 条记录通过严格标题匹配及官方 PDF 文件签名验证并已补齐。主索引当前 2,145 条记录中 1,115 条具有公开 PDF，1,030 条仍未找到可安全自动确认的公开全文。未匹配不等于论文不存在。
