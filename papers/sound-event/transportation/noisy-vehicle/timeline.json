@@ -43,6 +43,27 @@
       "kind": "direct",
       "point": "2025 SSRN 预印本→2026 期刊同一工作；Scaper 合成+真实路段测试，现场事件级 F1=0.6629",
       "url": "https://doi.org/10.1016/j.trd.2026.105241"
+    },
+    {
+      "year": "2026-03",
+      "title": "DAS 道路事件时空注意力",
+      "kind": "support",
+      "point": "arXiv:2603.13903（cs.LG / cs.SD）；RNN 时空注意力、跨传感器位置泛化；与空气传声不同",
+      "url": "https://arxiv.org/abs/2603.13903"
+    },
+    {
+      "year": "2026-06",
+      "title": "AT2SELD：预训练语义 → 空间定位",
+      "kind": "method",
+      "point": "arXiv:2606.27751（cs.SD）；track-wise SED 与 DOA，具有公开 spatial_gpat 代码",
+      "url": "https://arxiv.org/abs/2606.27751"
+    },
+    {
+      "year": "2026-09",
+      "title": "JEPA 预测表示：多车检测与跟踪",
+      "kind": "support",
+      "point": "arXiv:2609.13595（cs.SD）；同时估计多车数量、类型、DOA；非改装排气检测",
+      "url": "https://arxiv.org/abs/2609.13595"
     }
   ]
 }
