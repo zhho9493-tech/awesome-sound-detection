@@ -5,7 +5,7 @@
 
 ## 按实际声音事件导航（新增）
 
-- **[炸街车检测专题](transportation/noisy-vehicle/README.md)**：[技术趋势与证据链](transportation/noisy-vehicle/TRENDS.md) · [技术时间线 HTML](transportation/noisy-vehicle/papers-timeline.html) · [数据集与代码](transportation/noisy-vehicle/RESOURCES.md)（2026-11-10）。
+- **[炸街车检测专题](transportation/noisy-vehicle/README.md)**：[技术趋势与证据链](transportation/noisy-vehicle/TRENDS.md) · [技术时间线 HTML](transportation/noisy-vehicle/papers-timeline.html) · [数据集与代码](transportation/noisy-vehicle/RESOURCES.md) · [近一年 arXiv cs.SD 车辆声学相关论文](transportation/noisy-vehicle/arxiv-cs-sd-2025-11-to-2026-11.md)（2026-11-10）。
 
 **[12 个应用领域 / 具体事件专题 / 论文候选映射](TOPICS.md)**：枪声、哭声、鸟鸣、工业机械、医疗生理声音、水下声等。旧技术时间线、趋势和文献页仍保留；新专题为标题级候选关联，需全文复核。
 
