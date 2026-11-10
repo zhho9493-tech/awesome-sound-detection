@@ -27,6 +27,7 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 |---|---|---|
 | 声学异常检测 | [ASD](papers/acoustic-anomaly/README.md) · [交互时间线](papers/acoustic-anomaly/papers-timeline.html) | DCASE、跨域泛化、Noise-aware |
 | 声音事件检测 | [SED](papers/sound-event/README.md) · [交互时间线](papers/sound-event/papers-timeline.html) · [事件专题](papers/sound-event/TOPICS.md) | 12 领域、具体声源事件、分类与定位 |
+| 炸街车检测 | [专题](papers/sound-event/transportation/noisy-vehicle/README.md) · [技术趋势](papers/sound-event/transportation/noisy-vehicle/TRENDS.md) · [时间线](papers/sound-event/transportation/noisy-vehicle/papers-timeline.html) | 改装排气事件检测、车辆声源归属、现场验证 |
 | DAS 光纤听诊 | [DAS](domains/das/README.md) · [交互时间线](domains/das/papers-timeline.html) | 皮带机托辊、时空一致性 |
 | 听漏及泄漏 | [Leakage](domains/leakage/README.md) · [交互时间线](domains/leakage/papers-timeline.html) | 水管、气体泄漏、定位 |
 | 声纹识别 | [Speaker](related/speaker-recognition/README.md) · [交互时间线](related/speaker-recognition/papers-timeline.html) | ECAPA、Embedding、域适应 |
