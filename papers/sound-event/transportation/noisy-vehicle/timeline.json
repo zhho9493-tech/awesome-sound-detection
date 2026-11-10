@@ -1,0 +1,48 @@
+{
+  "title": "炸街车检测 / Noisy Vehicle Detection",
+  "updated": "2026-11-10",
+  "nodes": [
+    {
+      "year": "2021",
+      "title": "IDMT-TRAFFIC：过车声基准",
+      "kind": "support",
+      "point": "以车辆类别、道路与麦克风条件组织声学数据",
+      "url": "https://www.idmt.fraunhofer.de/en/publications/datasets/traffic.html"
+    },
+    {
+      "year": "2021",
+      "title": "OVAD：阵列车辆声定位",
+      "kind": "support",
+      "point": "被遮挡车辆声学检测、阵列定位与跨地点实验",
+      "url": "https://doi.org/10.1109/LRA.2021.3062254"
+    },
+    {
+      "year": "2021",
+      "title": "SEDT：事件级端到端检测",
+      "kind": "method",
+      "point": "由帧级预测转向事件集合建模",
+      "url": "https://arxiv.org/abs/2110.02011"
+    },
+    {
+      "year": "2023",
+      "title": "NTSEL：非法消声器过车声判别",
+      "kind": "direct",
+      "point": "过车声时频图监督学习，评估阵列和真实道路数据",
+      "url": "https://www.ntsel.go.jp/Portals/0/resources/report/files28/ronbungaiyo28.pdf"
+    },
+    {
+      "year": "2025",
+      "title": "MELAUDIS：复杂道路多车数据",
+      "kind": "support",
+      "point": "多车同现、背景和怠速数据支持难负例评估",
+      "url": "https://doi.org/10.1038/s41597-025-04689-3"
+    },
+    {
+      "year": "2025→2026",
+      "title": "Wang 等：改装排气车辆 SED",
+      "kind": "direct",
+      "point": "2025 SSRN 预印本→2026 期刊同一工作；Scaper 合成+真实路段测试，现场事件级 F1=0.6629",
+      "url": "https://doi.org/10.1016/j.trd.2026.105241"
+    }
+  ]
+}
