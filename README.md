@@ -21,6 +21,7 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 ### 深度学习通用问题
 
 - **[通用问题专题总览](general-problems/README.md)**：跨域泛化、少样本、长尾、噪声标签、开放集/OOD、持续学习、半/弱监督、对抗鲁棒性、校准与不确定性。
+- **[OOD（分布外检测）独立专题](general-problems/ood/README.md)**：近一年论文、技术趋势、DAS 适用性及[论文时间线](general-problems/ood/TIMELINE.md)。
 - **[经典论文机器可读索引](general-problems/classic-papers.json)**：按问题方向整理经典解决方案及公开 PDF，可由 Paper Downloader 批量下载。
 
 | 方向 | 入口 | 重点 |
