@@ -10,7 +10,8 @@
 | 少样本学习 | 新类别只有少量标注 | 预训练 + 线性探测/原型网络 | [少样本学习](few-shot-learning/README.md) |
 | 长尾与类别不平衡 | 头部类很好、尾部类几乎失效 | 重采样 + 类别均衡损失 | [长尾学习](long-tail-learning/README.md) |
 | 噪声标签 | 训练损失下降但泛化恶化 | 小损失筛选 + 半监督重标注 | [噪声标签学习](noisy-label-learning/README.md) |
-| 开放集与 OOD | 未知声音被高置信度误判 | MSP/能量分数 + OOD 验证集 | [开放集与 OOD](open-set-ood/README.md) |
+| **OOD（分布外检测）** | 新项目正常声误拒、未知声高置信误判 | Energy、kNN、多原型 + 留类/留项目验证 | **[OOD 独立专题](ood/README.md) · [近一年论文](ood/papers-2025-2026.md) · [时间线](ood/TIMELINE.md)** |
+| 开放集识别与 OOD（经典） | 未知声音被高置信度误判 | MSP/能量分数 + OOD 验证集 | [开放集与 OOD 经典方案](open-set-ood/README.md) |
 | 持续与增量学习 | 学新设备或新类别后遗忘旧知识 | 回放 + 正则化基线 | [持续学习](continual-learning/README.md) |
 | 半监督与弱监督 | 无标签数据多、精标数据少 | Mean Teacher / FixMatch | [半监督与弱监督](semi-weak-supervision/README.md) |
 | 对抗鲁棒性 | 微小恶意扰动导致预测翻转 | FGSM/PGD 评测 + 对抗训练 | [对抗鲁棒性](adversarial-robustness/README.md) |
@@ -26,6 +27,7 @@
 ## 论文数据
 
 - [经典论文机器可读索引](classic-papers.json)：收录本专题引用的论文题录、方向、方法及公开 PDF 地址。
+- [OOD 近一年专项索引](ood/papers-2025-2026.md)：优先 DAS 与工业声学，区分核心 OOD 与关联工作。
 - 仓库的 [Paper Downloader](../tools/paper-downloader/README.md) 会扫描该索引中的 PDF 链接。
 
 > “经典”表示该工作建立了常用问题定义、方法范式或基准，不代表它在所有新数据上仍是最优方案。
