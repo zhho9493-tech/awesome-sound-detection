@@ -19,6 +19,7 @@
 | [水下与海洋](underwater/README.md) | 2 | 11 |
 | [基础设施](infrastructure/README.md) | 3 | 10 |
 
+- **[新专题：炸街车检测 / 改装排气声](transportation/noisy-vehicle/README.md)**：已人工核查直接论文及车辆声学支撑工作，附[技术趋势](transportation/noisy-vehicle/TRENDS.md)、[时间线](transportation/noisy-vehicle/papers-timeline.html)、[数据/代码](transportation/noisy-vehicle/RESOURCES.md)。独立专题不改变原有 40 个自动分类子专题及候选统计。
 - [通用 SED 方法论文与无法可靠按声源细分的候选（306 条）](methods/README.md)
 - [机器可读分类定义](taxonomy.json)
 - [主库论文—专题关联关系](topic-paper-map.json)
