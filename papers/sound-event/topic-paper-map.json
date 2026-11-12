@@ -5075,6 +5075,16 @@
       "source_category": "sound-event",
       "topics": [],
       "verification_status": "official-url-verified"
+    },
+    {
+      "id": "arxiv-2610.31346",
+      "arxiv_id": "2610.31346",
+      "title": "From Signals to Evidence: Interpretable Underwater Acoustic Target Sensing with Large Language Models - Part II: Passive Detection",
+      "source_category": "sound-event",
+      "topics": [
+        "underwater/underwater-target"
+      ],
+      "verification_status": "official-url-verified"
     }
   ]
 }

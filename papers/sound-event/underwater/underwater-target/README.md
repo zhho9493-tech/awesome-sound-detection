@@ -9,6 +9,7 @@
 | Autoencoder-Based Classifier and Anomaly Detector for Underwater Sounds | title-7e7bcadc | 待核验 | drive-file-matched |
 | Decodable but not structured linear probing enables Underwater Acoustic Target Recognition with pre | title-9b88d818 | 待核验 | drive-file-matched |
 | Decodable but not structured linear probing enables Underwater Acoustic Target Recognition with pretrained audio embeddings | title-e04285e5 | 待核验 | drive-file-matched |
+| [From Signals to Evidence: Interpretable Underwater Acoustic Target Sensing with Large Language Models - Part II: Passive Detection](https://arxiv.org/abs/2610.31346) | 2610.31346 | [PDF](https://arxiv.org/pdf/2610.31346) | official-url-verified |
 | [Multi-Representation Attention Framework for Underwater Bioacoustic Denoising and Recognition](https://arxiv.org/abs/2510.26838) | 2510.26838 | [PDF](https://arxiv.org/pdf/2510.26838) | official-url-verified |
 | Navigating the Depths- A Comprehensive Survey of Deep Learning for Passive Underwater Acoustic Target Recognition | title-f8152944 | 待核验 | drive-file-matched |
 | [SONAR Self-Distilled Continual Pre-training for Domain Adaptive Audio Representation](https://arxiv.org/abs/2509.15703) | 2509.15703 | [PDF](https://arxiv.org/pdf/2509.15703) | official-url-verified |

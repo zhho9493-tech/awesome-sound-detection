@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-03T17:16:54.630667Z",
+  "generated_at": "2026-11-12T16:58:10.543895Z",
   "categories": {
     "sound-event": {
       "title": "声音事件检测",
       "path": "papers/sound-event/papers-timeline.html",
-      "paper_count": 764,
-      "pdf_count": 764
+      "paper_count": 766,
+      "pdf_count": 766
     },
     "acoustic-anomaly": {
       "title": "声学异常检测",
@@ -16,8 +16,8 @@
     "das": {
       "title": "分布式声学传感（DAS）",
       "path": "domains/das/papers-timeline.html",
-      "paper_count": 7,
-      "pdf_count": 7
+      "paper_count": 10,
+      "pdf_count": 10
     },
     "leakage": {
       "title": "泄漏声学检测",
@@ -28,8 +28,8 @@
     "speaker-recognition": {
       "title": "声纹识别",
       "path": "related/speaker-recognition/papers-timeline.html",
-      "paper_count": 386,
-      "pdf_count": 386
+      "paper_count": 388,
+      "pdf_count": 388
     },
     "foundation-models": {
       "title": "音频基础模型",
@@ -52,8 +52,8 @@
     "cross-domain": {
       "title": "跨领域迁移",
       "path": "cross-domain/papers-timeline.html",
-      "paper_count": 86,
-      "pdf_count": 86
+      "paper_count": 117,
+      "pdf_count": 117
     }
   }
 }

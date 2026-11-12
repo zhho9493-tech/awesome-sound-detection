@@ -1,9 +1,10 @@
 # underwater / underwater-target：arXiv cs.SD 相关论文（2025-01-01—2026-11-03）
 
-共 5 篇。关键词自动初筛，状态为 `to-reproduce`；使用前请人工复核。
+共 6 篇。关键词自动初筛，状态为 `to-reproduce`；使用前请人工复核。
 
 | 日期 | arXiv ID | 论文 | 作者 | 分类依据 |
 |---|---|---|---|---|
+| 2026-10-22 | [2610.31346](https://arxiv.org/abs/2610.31346) | From Signals to Evidence: Interpretable Underwater Acoustic Target Sensing with Large Language Models - Part II: Passive Detection | Zhiyuan Li, Yuge Zhang, Jie Chen 等 | 低信噪比水下被动目标检测；MVDR、多通道声学证据与 LLM 可解释推理 |
 | 2026-09-24 | [2609.29179](https://arxiv.org/abs/2609.29179) | Towards Deployable Underwater Vessel Classification | Abishek Soti, Thura Pyae Sone, Naqib Ibnul 等 | underwater acoustic classification |
 | 2026-06-27 | [2606.28988](https://arxiv.org/abs/2606.28988) | Underwater Source Detection and Classification for Signal-based Surveillance: Audio Dataset Curation and Cross-Domain Evaluation | Quoc Thinh Vo, David K. Han | underwater acoustic classification |
 | 2026-06-01 | [2606.02341](https://arxiv.org/abs/2606.02341) | Parameter-efficient Dual-encoder Architecture with Differentiable Choquet Integral Fusion for Underwater Acoustic Classification | Amirmohammad Mohammadi, Joshua Peeples, Alexandra Van Dine | underwater acoustic classification |

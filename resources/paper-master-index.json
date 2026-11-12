@@ -52921,6 +52921,24 @@
       "download_source": "google-drive",
       "download_access": "requires Drive permissions unless shared publicly",
       "drive_download_url": "https://drive.google.com/uc?export=download&id=1LL-EiNqbayQt9o9AY9w2BvktCk6-vzVu"
+    },
+    {
+      "id": "arxiv-2610.31346",
+      "title": "From Signals to Evidence: Interpretable Underwater Acoustic Target Sensing with Large Language Models - Part II: Passive Detection",
+      "primary_category": "sound-event",
+      "related_categories": [],
+      "sources": [
+        "arXiv cs.SD",
+        "声音事件检测/水下声音/水下目标检测"
+      ],
+      "public_url": "https://arxiv.org/abs/2610.31346",
+      "pdf_url": "https://arxiv.org/pdf/2610.31346",
+      "doi": "10.48550/arXiv.2610.31346",
+      "arxiv_id": "2610.31346",
+      "verification_status": "official-url-verified",
+      "download_url": "https://arxiv.org/pdf/2610.31346",
+      "download_source": "arxiv",
+      "download_access": "public"
     }
   ]
 }

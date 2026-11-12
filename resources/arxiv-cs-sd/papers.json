@@ -189287,9 +189287,22 @@
       ],
       "abs_url": "https://arxiv.org/abs/2610.31346",
       "pdf_url": "https://arxiv.org/pdf/2610.31346",
-      "repository_categories": [],
-      "repository_topics": [],
-      "classification_evidence": {}
+      "repository_categories": [
+        "sound-event"
+      ],
+      "repository_topics": [
+        "underwater/underwater-target",
+        "low-snr",
+        "noise-robustness",
+        "interpretable-detection"
+      ],
+      "classification_evidence": {
+        "sound-event": [
+          "underwater acoustic passive detection",
+          "low signal-to-noise ratio",
+          "target-present and noise-only hypotheses"
+        ]
+      }
     },
     {
       "id": "2610.31470",
