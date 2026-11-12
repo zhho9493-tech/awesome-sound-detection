@@ -1,6 +1,7 @@
 # Visual Anomaly Detection / 图像异常检测
 
 - [论文技术趋势与交互时间线（HTML）](papers-timeline.html)
+- [云端“论文仓库”新增论文（2026-11-12，含 Drive 下载链接）](drive-cloud-library-2026-11-12.md)
 
 - [PatchCore](https://arxiv.org/abs/2106.08265) — patch 特征检索
 - [PaDiM](https://arxiv.org/abs/2011.08785) — 分布建模

@@ -1,0 +1,14 @@
+# 云端论文仓库增量：papers/acoustic-anomaly
+
+本页收录 9 篇在 Google Drive“论文仓库”中可核验、且此前未进入 GitHub 主索引的论文。
+链接访问权限沿用 Google Drive 设置；分类与题名为自动初筛，后续可继续做 DOI/arXiv 身份核验。
+
+- **2026-03-15 · [Real-time detection of acoustic anomalies in drone servo motors using edge-based machine learning](https://drive.google.com/file/d/1lY2Hmrl-dy-fM8_9O821lwPmDCa22hlR/view?usp=drivesdk)** — [下载 PDF](https://drive.google.com/uc?export=download&id=1lY2Hmrl-dy-fM8_9O821lwPmDCa22hlR)；轻量化与部署
+- **2026-03-14 · [SCAN- Selective Contrastive Learning Against Noisy Data for Acoustic Anomaly Detection](https://drive.google.com/file/d/1QzXNpr4iha832m3zSOLB9UilRsdjmICQ/view?usp=drivesdk)** — [下载 PDF](https://drive.google.com/uc?export=download&id=1QzXNpr4iha832m3zSOLB9UilRsdjmICQ)；异常检测与故障诊断
+- **2026-03-14 · [Noise Supervised Contrastive Learning and Feature-Perturbed for Anomalous Sound Detection](https://drive.google.com/file/d/1HqecQSLnr0x06pwj8pMMlitcvp0Cbdms/view?usp=drivesdk)** — [下载 PDF](https://drive.google.com/uc?export=download&id=1HqecQSLnr0x06pwj8pMMlitcvp0Cbdms)；异常检测与故障诊断
+- **2026-03-14 · [Multi-Spectral and Multi-Temporal Features Fusion With SE Network for Anomalous Sound Detection](https://drive.google.com/file/d/1Io4W_X0XxtNj5fO766wgCZQ5Jbh61mmE/view?usp=drivesdk)** — [下载 PDF](https://drive.google.com/uc?export=download&id=1Io4W_X0XxtNj5fO766wgCZQ5Jbh61mmE)；定位与时空建模
+- **2026-03-14 · [ESTM- An Enhanced Dual-Branch Spectral-Temporal Mamba for Anomalous Sound Detection](https://drive.google.com/file/d/1AgaT33QFMC_3EDbm1Pp4HCUQxZo8uXgU/view?usp=drivesdk)** — [下载 PDF](https://drive.google.com/uc?export=download&id=1AgaT33QFMC_3EDbm1Pp4HCUQxZo8uXgU)；定位与时空建模
+- **2025-08-26 · [Pre-trained representation-driven and multi-domain feature fusion method for anomalous sound detection](https://drive.google.com/file/d/14ijh3_9TgyhpkaVEsPleK9GGmHJvJhOf/view?usp=drivesdk)** — [下载 PDF](https://drive.google.com/uc?export=download&id=14ijh3_9TgyhpkaVEsPleK9GGmHJvJhOf)；表征学习与预训练
+- **2025-03-02 · [Acoustic Anomaly Detection on UAM Propeller Defect with Acoustic dataset for Crack of drone Propelle](https://drive.google.com/file/d/1MQthgrBrPQkxv4soVW1E97U_8IDC-dLz/view?usp=drivesdk)** — [下载 PDF](https://drive.google.com/uc?export=download&id=1MQthgrBrPQkxv4soVW1E97U_8IDC-dLz)；异常检测与故障诊断
+- **2023-12-02 · [A Machine Anomalous Sound Detection Method Using the lMS Spectrogram and ES-MobileNetV3 Network](https://drive.google.com/file/d/1h6EaOxLejntCbz37Prt-T5fCvka8adWC/view?usp=drivesdk)** — [下载 PDF](https://drive.google.com/uc?export=download&id=1h6EaOxLejntCbz37Prt-T5fCvka8adWC)；异常检测与故障诊断
+- **2023-09-01 · [Why do angular margin losses work well for semi-supervised anomalous sound detection?](https://drive.google.com/file/d/1UEDRZUt3_-cA1kzIegU2v3ni-YHd9yG_/view?usp=drivesdk)** — [下载 PDF](https://drive.google.com/uc?export=download&id=1UEDRZUt3_-cA1kzIegU2v3ni-YHd9yG_)；半监督与弱监督

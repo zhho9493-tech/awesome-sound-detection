@@ -2,6 +2,7 @@
 
 - [arXiv cs.SD 2025-01-01—2026-11-03 相关论文全量初筛](arxiv-cs-sd-2025-2026.md)
 - [论文技术趋势与交互时间线（HTML）](papers-timeline.html)
+- [云端“论文仓库”新增论文（2026-11-12，含 Drive 下载链接）](drive-cloud-library-2026-11-12.md)
 
 - [CLAP](https://github.com/LAION-AI/CLAP) — 音频文本对齐
 - [BEATs](https://github.com/microsoft/unilm/tree/master/beats) — 音频自监督

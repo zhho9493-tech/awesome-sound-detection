@@ -77,7 +77,9 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 - [字段说明、分类统计与核验限制](resources/paper-master-index-README.md)
 - [目录扫描覆盖报告](resources/technical-research-coverage-2026-11-01.md)
 
-目前共 2,145 条标题级候选，尚未完成逐篇 DOI/arXiv 身份核对和官方下载链接补全。公开仓库不包含私人 Google Drive 链接。
+主索引已在 2026-11-12 合并云端“论文仓库”增量；其中 Google Drive 链接按用户要求保留，访问权限沿用云盘设置。尚未完成逐篇 DOI/arXiv 身份核对和官方下载链接补全。
+
+- [2026-11-12 云端论文仓库增量：按现有类别整理并提供 Drive 下载链接](resources/google-drive-paper-library-2026-11-12.md)
 
 ## 2026 年 10 月 cs.SD 月度索引
 
