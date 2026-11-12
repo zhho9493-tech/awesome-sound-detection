@@ -4,7 +4,7 @@
 - [论文技术趋势与交互时间线（HTML）](papers-timeline.html)
 - [云端“论文仓库”新增论文（2026-11-12，含 Drive 下载链接）](drive-cloud-library-2026-11-12.md)
 
-## 按实际声音事件导航（新增）
+## 横向技术专题\n\n- **[低信噪比声音事件检测 / Low-SNR SED](low-snr/README.md)**：[技术趋势与证据链](low-snr/TRENDS.md) · [2025–2026 论文时间线](low-snr/TIMELINE.md) · [复现实验建议](low-snr/EXPERIMENTS.md)。与 ASD/SELD 的间接证据严格区分。\n\n## 按实际声音事件导航（新增）
 
 - **[炸街车检测专题](transportation/noisy-vehicle/README.md)**：[技术趋势与证据链](transportation/noisy-vehicle/TRENDS.md) · [技术时间线 HTML](transportation/noisy-vehicle/papers-timeline.html) · [数据集与代码](transportation/noisy-vehicle/RESOURCES.md) · [近一年 arXiv cs.SD 车辆声学相关论文](transportation/noisy-vehicle/arxiv-cs-sd-2025-11-to-2026-11.md)（2026-11-10）。
 
