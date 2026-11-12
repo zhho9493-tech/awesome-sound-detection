@@ -234,6 +234,7 @@ DIRECTION_STORIES = {
     "underwater": ("从手工水声特征，迈向自监督、跨海域的目标与生态理解", "水下目标和海洋生物研究开始处理低信噪比、域偏移、弱标注和嵌入式部署。"),
     "infrastructure": ("从声压阈值告警，迈向定位、严重度与结构状态联合推理", "泄漏和结构声音研究逐步引入传播规律、多传感器信息及物理约束诊断。"),
     "methods": ("从单任务检测器，迈向可迁移、可组合的通用声音事件方法", "通用方法聚焦弱监督、空间定位、开放词表、基础模型和多任务统一表征。"),
+    "low-snr": ("从统一降噪，迈向目标条件分离、噪声感知表征与事件级可靠性约束", "低信噪比研究逐步联合目标存在性、动态时频结构和真实噪声评估，在弱目标与强干扰条件下兼顾召回和误报。"),
 }
 
 DIRECTION_TERMS = {
@@ -552,6 +553,7 @@ def attach_repository_directions(papers: list[dict], category: str) -> dict[str,
     taxonomy = json.loads((ROOT / "papers/sound-event/taxonomy.json").read_text(encoding="utf-8"))
     direction_titles = {group["slug"]: group["title"] for group in taxonomy["groups"]}
     direction_titles["methods"] = "通用 SED 方法"
+    direction_titles["low-snr"] = "低信噪比声音事件检测"
     topic_map = json.loads((ROOT / "papers/sound-event/topic-paper-map.json").read_text(encoding="utf-8"))["records"]
     by_id, by_title = {}, {}
     for row in topic_map:

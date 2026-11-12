@@ -889,7 +889,9 @@
       "arxiv_id": "2508.04333",
       "title": "Binaural Sound Event Localization and Detection Neural Network based on HRTF Localization Cues for H",
       "source_category": "sound-event",
-      "topics": [],
+      "topics": [
+        "low-snr"
+      ],
       "verification_status": "official-url-verified"
     },
     {
@@ -3433,7 +3435,9 @@
       "arxiv_id": "2508.07176",
       "title": "Noise-Robust Sound Event Detection and Counting via Language-Queried Sound Separation",
       "source_category": "sound-event",
-      "topics": [],
+      "topics": [
+        "low-snr"
+      ],
       "verification_status": "official-url-verified"
     },
     {
@@ -5082,9 +5086,50 @@
       "title": "From Signals to Evidence: Interpretable Underwater Acoustic Target Sensing with Large Language Models - Part II: Passive Detection",
       "source_category": "sound-event",
       "topics": [
-        "underwater/underwater-target"
+        "underwater/underwater-target",
+        "low-snr"
       ],
       "verification_status": "official-url-verified"
+    },
+    {
+      "id": "arxiv-2503.06247",
+      "arxiv_id": "2503.06247",
+      "title": "Infant Cry Detection Using Causal Temporal Representation",
+      "source_category": "sound-event",
+      "topics": ["human/baby-crying", "low-snr"],
+      "verification_status": "abstract-verified"
+    },
+    {
+      "id": "arxiv-2508.19308",
+      "arxiv_id": "2508.19308",
+      "title": "Infant Cry Detection In Noisy Environment Using Blueprint Separable Convolutions and Time-Frequency Recurrent Neural Network",
+      "source_category": "sound-event",
+      "topics": ["human/baby-crying", "low-snr"],
+      "verification_status": "abstract-verified"
+    },
+    {
+      "id": "arxiv-2606.22218",
+      "arxiv_id": "2606.22218",
+      "title": "An Analysis of Untrained Deep Reservoir Networks for Audio Surveillance",
+      "source_category": "sound-event",
+      "topics": ["security", "low-snr"],
+      "verification_status": "abstract-verified"
+    },
+    {
+      "id": "arxiv-2606.26195",
+      "arxiv_id": "2606.26195",
+      "title": "Soroll-IA: A Weakly Labeled Audio Dataset for Real-World Industrial Port Monitoring",
+      "source_category": "sound-event",
+      "topics": ["industrial", "low-snr"],
+      "verification_status": "abstract-verified"
+    },
+    {
+      "id": "arxiv-2610.35641",
+      "arxiv_id": "2610.35641",
+      "title": "Dolphin broadband transient vocalization detection in impulsive ambient noise",
+      "source_category": "sound-event",
+      "topics": ["underwater/marine-life", "low-snr"],
+      "verification_status": "abstract-verified"
     }
   ]
 }

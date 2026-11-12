@@ -20,6 +20,23 @@
 | 2026 | Noise-Robust Environmental Sound Understanding Using an Audio Foundation Model with Text Anchors | 文本锚点、目标/噪声对齐、分离和 SNR 估计 | [DCASE 2026 官方论文集](https://dcase.community/workshop2026/proceedings) | −20 dB 警笛召回 51.2%、特异度 96.4%；ESC 分类结果不可与 SED 混排 |
 | 2026 | Gate-Align-SED: Semi-Supervised Sound Event Detection via Adaptive Feature Gating and Cross-Task Alignment in Situation Awareness | 门控、跨任务对齐与半监督训练 | [DOI](https://doi.org/10.1002/aisy.70355) | 强噪声相关，尚未核实特定负 SNR 档位收益 |
 
+## 仓库内已归入本专题的论文
+
+以下条目均已存在于仓库，并依据摘要中的低 SNR、强背景噪声或噪声条件实验交叉归入本专题；原有婴儿哭声、SELD、工业港口、水下目标等应用分类保持不变。
+
+| 日期 | 论文 | 任务与归入依据 | 原有方向 |
+|---|---|---|---|
+| 2025-03-08 | [Infant Cry Detection Using Causal Temporal Representation](https://arxiv.org/abs/2503.06247) | 其他声音和背景噪声下的婴儿哭声分割与检测 | 人类声音 / 婴儿哭声 |
+| 2025-08-06 | [Binaural Sound Event Localization and Detection Neural Network based on HRTF Localization Cues for Humanoid Robots](https://arxiv.org/abs/2508.04333) | 城市背景噪声下双耳声音事件检测与定位 | SELD / 通用方法 |
+| 2025-08-10 | [Noise-Robust Sound Event Detection and Counting via Language-Queried Sound Separation](https://arxiv.org/abs/2508.07176) | 噪声越强优势越明显的语言查询分离、事件计数和 SED 联合方法 | 通用 SED 方法 |
+| 2025-08-26 | [Infant Cry Detection In Noisy Environment Using Blueprint Separable Convolutions and Time-Frequency Recurrent Neural Network](https://arxiv.org/abs/2508.19308) | 面向嘈杂环境的轻量婴儿哭声事件检测 | 人类声音 / 婴儿哭声 |
+| 2026-06-20 | [An Analysis of Untrained Deep Reservoir Networks for Audio Surveillance](https://arxiv.org/abs/2606.22218) | 多 SNR 条件下的紧急声音事件检测；深层储备池在强噪声下更稳健 | 安防 / 紧急事件 |
+| 2026-06-24 | [Soroll-IA: A Weakly Labeled Audio Dataset for Real-World Industrial Port Monitoring](https://arxiv.org/abs/2606.26195) | 强背景噪声、远距离声源与事件重叠条件下的弱监督 SED 数据集 | 工业声音 / 港口监测 |
+| 2026-10-22 | [From Signals to Evidence: Interpretable Underwater Acoustic Target Sensing with Large Language Models - Part II: Passive Detection](https://arxiv.org/abs/2610.31346) | 低 SNR 水下被动目标检测，融合 MVDR、多通道证据与 LLM 推理 | 水下目标检测 |
+| 2026-10-26 | [Dolphin broadband transient vocalization detection in impulsive ambient noise](https://arxiv.org/abs/2610.35641) | 脉冲环境噪声中的海豚宽带瞬态叫声检测 | 海洋生物声音 |
+
+共 **8 篇仓库论文**归入本横向专题，其中 6 篇为直接检测/定位方法，1 篇为真实强噪声数据集，1 篇为低 SNR 水下被动目标检测。
+
 ## 邻接领域的技术迁移证据（不能算作直接 SED）
 
 - **2026 DCASE Task 2：Noise-aware SSL / NA-BEATs（ASD）**：利用近场与远场噪声参考改善工业异常声音表征；[官方论文集](https://dcase.community/workshop2026/proceedings)。ASD 挑战分数不等同 SED PSDS。
