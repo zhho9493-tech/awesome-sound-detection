@@ -53,3 +53,32 @@
 - 已核实 DOI 的文章收录在此**专题新增文献索引**；不是下载或镜像出版商 PDF，也不声称已有公开源代码。
 - 对“UWFBG AHR RGC”与“An overview ...”保持候选，不将相似论文误判成相同论文。
 - DOI 链接为正式出版商标识；部分文章可能付费阅读，公开 PDF 仅在确有合法链接时提供。
+
+---
+
+## D. 第三批候选（用户提供的 8 条 Google Scholar 结果；2026-11-13 补录）
+
+筛选依据：与便携式水管听漏仪（声学/振动、泄漏检测及定位）联系优先。以下分类表示与产品的相关性，不代表研究质量评级。2026-11-13 对本专题主要索引和 GitHub 代码搜索做了检查，未检索到下列四篇正式题名；**全仓大型数据库仍未完成彻底 DOI 去重**。
+
+| 优先级 | 题名与作者 | 核查信号、应用判断 | 出版商/可靠链接 | 状态 |
+|---|---|---|---|---|
+| **P0 直接相关** | **Research on Leak Source Localization in Complex Pipelines Based on Acoustic Emission Technology** — Gao Zhigang, Lu Ronghao, Zhong Weicheng 等 (FENDT 2025) | 声发射 AE；复杂管路阀门、法兰附近泄漏，考察传播速度/衰减、时域/频域/小波；应重点复核多径、弯头反射对定位误差的影响。实验使用铅芯折断测试传播特性，真实微漏适配需另验 | [DOI: 10.1109/FENDT66689.2025.11547654](https://doi.org/10.1109/FENDT66689.2025.11547654) | DOI 核实；全文和代码未核实 |
+| **P1 系统参考** | **Status Review on Pipeline Leaks Detection and Localization Systems Using Wireless Sensor Network** — J. S. Soja, I. T. Thuku, V. M. Ibrahim, M. K. Luka (2025) | 漏损监测/定位技术综述，着眼无线传感网络与水/油管监测；对多点传感器布设、远程系统架构有参考价值；非新声学定位网络 | [期刊公开 PDF](https://www.njestr.com.ng/downloads/research/1753302063NJESTR%20259D.pdf) | 出版 PDF 已发现；代码不适用 |
+| **P2 压力跨模态** | **Application of Artificial Neural Network for Oil Leakage Detection in Nigeria-Delta Region of Nigeria** — O. O. Olusanya, F. P. Bestor, A. W. Elegbede 等 (2025) | FFNN/Bayesian 正则化基于**出口压力**预测；可以借鉴时序数据处理，**不能视为声学听漏仪模型的验证** | [DOI: 10.37933/nipes/7.4.2025.SI29](https://doi.org/10.37933/nipes/7.4.2025.SI29) · [期刊公开 PDF](https://journals.nipes.org/index.php/jstrissue/article/download/2123/1268/5223) | DOI、出版商 PDF 核实 |
+| **P2 设备跨领域** | **Development of a Portable Electro-mechanical Crack Monitoring Device for Pipeline Steel Materials** — O. Adedipe, C. J. Manulu, J. Abutu 等 (2025) | 电机械传感器与移动检测结构，监测管材表面裂纹，**并非泄漏声识别**；对便携硬件集成或检测流程可有限借鉴 | [DOI: 10.53982/ajerd.2025.0802.10-j](https://doi.org/10.53982/ajerd.2025.0802.10-j) · [期刊公开 PDF](https://journals.abuad.edu.ng/ajerd/article/download/1235/777/5687) | DOI、出版商 PDF 核实；页面发布日期不一致，正文 PDF 载 2025-06-11 |
+| P3 远距离感知 | Pipeline monitoring using radar sensors for the detection of oil leaks — E. O. Uche (2025 thesis) | 雷达监测油泄漏，不是听音/接触声学；仅用于技术路线比较 | [University of Birmingham 仓储检索](https://etheses.bham.ac.uk/) | 学位论文具体条目、全文待核 |
+| P3 化学传感 | Applications of Organic Electrochemical Transistors in Subsea Environments — E. B. Porter (2025 thesis) | OECT 水下污染物传感；与水管声学泄漏定位无直接关系 | [ProQuest 检索](https://www.proquest.com/) | 标题级候选，不列为核心论文 |
+| 不收录 | A Multi-Criteria Decision Analysis (MCDA) in a Petroleum Terminal Pipeline Network for Outbound Flow Path Selection — A. O. Ofem 等 (2025) | 管网出站流路选择，不研究听漏信号检测或声源定位 | 用户提供的出版商线索 | 排除 |
+| 不收录 | “AUS Repository” — F. Yahya, U. Tariq, F. Babiloni, H. Al-Nashash | 检索摘要为脑区连接/警觉状态研究（PDC），与管道泄漏无关，且“AUS Repository”不是确定论文题名 | 用户提供的仓储摘要 | 排除/误检 |
+
+### 本批对技术趋势的新增证据
+
+- **复杂管路的多径/反射影响声学定位**：FENDT 2025 直接探讨复杂管路声发射传播；与上一批 Feng & Cheng (2026) 跨谱域 MVDR 改善互相关多峰问题形成可比较的验证组合。注意 FENDT 2025 的传播实验和真实现场微漏之间仍有差距。
+- **声学算法与传感网络系统分层**：Soja 等综述支持对比单点手持听漏与多节点在线定位系统，而不是证明多节点一定更精准。
+- **避免将压力或表面裂纹研究误归为声学听漏**：Olusanya 等以出口压力为主，Adedipe 等检测裂纹；建议在报告中作为辅助技术而非同任务 SOTA。
+
+### 建议实验
+
+1. 在弯头、T 形连接、阀门和法兰处构造可控泄漏；比较传统 GCC-PHAT、Feng & Cheng 跨谱域 MVDR 和 AE 时频定位方法的 MAE/P90/误定位率。
+2. 同时记录传感器距离、管材、泄漏孔径、压力、背噪、安装耦合方式与采样率；严格区分单点听音设备与双点/阵列定位设备。
+3. 若比较压力/声学/雷达方法，展示额外传感器和部署成本，不以异模态研究结果冒充声学模型性能。
