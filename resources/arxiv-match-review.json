@@ -949,6 +949,30 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "drive-1f67a0545b9e",
+      "title": "Single and Multi-Objective Optimization of Distributed Acoustic Sensing Cable Layouts for Geophysica",
+      "candidates": [
+        {
+          "id": "2510.07531",
+          "arxiv_title": "Single and Multi-Objective Optimization of Distributed Acoustic Sensing Cable Layouts for Geophysical Applications",
+          "similarity": 0.9346
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-dcef565dabc0",
+      "title": "Classification of Short Segment Pediatric Heart Sounds Based on a Transformer-Based Convolutional Ne",
+      "candidates": [
+        {
+          "id": "2404.00470",
+          "arxiv_title": "Classification of Short Segment Pediatric Heart Sounds Based on a Transformer-Based Convolutional Neural Network",
+          "similarity": 0.9434
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
