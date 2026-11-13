@@ -769,6 +769,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "drive-4fdca9f99d19",
+      "title": "Multi-output Classification Framework and Frequency Layer Normalization for Compound Fault Diagnosis",
+      "candidates": [
+        {
+          "id": "2504.11513",
+          "arxiv_title": "Multi-output Classification Framework and Frequency Layer Normalization for Compound Fault Diagnosis in Motor",
+          "similarity": 0.9569
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
