@@ -841,6 +841,42 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "drive-cd5c0650b3f1",
+      "title": "MULTI-Bench A Multi-Turn Interactive Benchmark for Assessing Emotional Intelligence ability of Spok",
+      "candidates": [
+        {
+          "id": "2511.00850",
+          "arxiv_title": "MULTI-Bench: A Multi-Turn Interactive Benchmark for Assessing Emotional Intelligence ability of Spoken Dialogue Models",
+          "similarity": 0.9167
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-2c273c09f7b8",
+      "title": "Few-shot Class-incremental Fault Diagnosis by Preserving Class-Agnostic Knowledge with Dual-Granular",
+      "candidates": [
+        {
+          "id": "2508.16634",
+          "arxiv_title": "Few-shot Class-incremental Fault Diagnosis by Preserving Class-Agnostic Knowledge with Dual-Granularity Representations",
+          "similarity": 0.9132
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-9504308b963c",
+      "title": "Towards Controllable Speech Synthesis in the Era of Large Language Models- A Survey",
+      "candidates": [
+        {
+          "id": "2412.06602",
+          "arxiv_title": "Towards Controllable Speech Synthesis in the Era of Large Language Models: A Systematic Survey",
+          "similarity": 0.9371
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
