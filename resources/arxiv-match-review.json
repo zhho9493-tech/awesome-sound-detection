@@ -757,6 +757,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "drive-f090b69b1157",
+      "title": "A Correction for the Paper Symplectic geometry mode decomposition and its application to rotating m",
+      "candidates": [
+        {
+          "id": "2508.20990",
+          "arxiv_title": "A Correction for the Paper \"Symplectic geometry mode decomposition and its application to rotating machinery compound fault diagnosis\"",
+          "similarity": 0.8571
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
