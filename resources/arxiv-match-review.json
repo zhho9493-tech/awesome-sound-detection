@@ -805,6 +805,42 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "drive-c56b85144c0f",
+      "title": "Sound event detection based on auxiliary decoder and maximum probability aggregation for DCASE Chall",
+      "candidates": [
+        {
+          "id": "2406.12721",
+          "arxiv_title": "Sound event detection based on auxiliary decoder and maximum probability aggregation for DCASE Challenge 2024 Task 4",
+          "similarity": 0.9259
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-2864239f8082",
+      "title": "Speech-Hands A Self-Reflection Voice Agentic Approach to Speech Recognition and Audio Reasoning wit",
+      "candidates": [
+        {
+          "id": "2601.09413",
+          "arxiv_title": "Speech-Hands: A Self-Reflection Voice Agentic Approach to Speech Recognition and Audio Reasoning with Omni Perception",
+          "similarity": 0.9209
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-1e8c323dfb53",
+      "title": "Distributed Acoustic Sensing for Environmental Monitoring, and Newtonian Noise MitigationComparable",
+      "candidates": [
+        {
+          "id": "2507.13523",
+          "arxiv_title": "Distributed Acoustic Sensing for Environmental Monitoring, and Newtonian Noise Mitigation:Comparable Sensitivity to Seismometers",
+          "similarity": 0.8711
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
