@@ -1,6 +1,6 @@
 {
   "title": "炸街车检测 / Noisy Vehicle Detection",
-  "updated": "2026-11-10",
+  "updated": "2026-11-13",
   "nodes": [
     {
       "year": "2021",
@@ -29,6 +29,55 @@
       "kind": "direct",
       "point": "过车声时频图监督学习，评估阵列和真实道路数据",
       "url": "https://www.ntsel.go.jp/Portals/0/resources/report/files28/ronbungaiyo28.pdf"
+    },
+    {
+      "year": "2023-02",
+      "title": "车型声音分类：MFCC/GFCC + CNN",
+      "kind": "support",
+      "point": "arXiv:2302.02945；IDMT 四类车型/背景声学分类；非改装排气标签",
+      "url": "https://arxiv.org/abs/2302.02945"
+    },
+    {
+      "year": "2023-03",
+      "title": "Cheng：改装排气声谱图 CNN 分类",
+      "kind": "direct",
+      "point": "STFT + AlexNet；YOLOv4-Tiny 辅助车型，论文报告乘用车检测整体准确率 96%",
+      "url": "https://doi.org/10.1016/j.apacoust.2023.109254"
+    },
+    {
+      "year": "2023-05",
+      "title": "音视频联合车辆怠速检测",
+      "kind": "method",
+      "point": "arXiv:2305.14579（cs.CV）；发动机开关状态/车辆关联，非改装排气",
+      "url": "https://arxiv.org/abs/2305.14579"
+    },
+    {
+      "year": "2023-09",
+      "title": "MVD/MVDA：多输入车辆声学分类与数据集",
+      "kind": "support",
+      "point": "arXiv:2309.03544；车型和真实道路背景，不含专项改装标注",
+      "url": "https://arxiv.org/abs/2309.03544"
+    },
+    {
+      "year": "2023-12",
+      "title": "AClassiHonk：鸣笛声分类",
+      "kind": "method",
+      "point": "arXiv:2401.00154（cs.SI）；可作高声级非目标干扰分类",
+      "url": "https://arxiv.org/abs/2401.00154"
+    },
+    {
+      "year": "2024-01",
+      "title": "合成经过声改善车辆计数",
+      "kind": "support",
+      "point": "arXiv:2401.09308；真实/合成混训，车辆计数而非排气改装",
+      "url": "https://arxiv.org/abs/2401.09308"
+    },
+    {
+      "year": "2024-09",
+      "title": "DAS 车辆监测半监督自更新",
+      "kind": "support",
+      "point": "arXiv:2409.10259（physics.geo-ph）；地面振动模态",
+      "url": "https://arxiv.org/abs/2409.10259"
     },
     {
       "year": "2025",
@@ -64,6 +113,13 @@
       "kind": "support",
       "point": "arXiv:2609.13595（cs.SD）；同时估计多车数量、类型、DOA；非改装排气检测",
       "url": "https://arxiv.org/abs/2609.13595"
+    },
+    {
+      "year": "2026-09",
+      "title": "城市交通 DAS 时空监测",
+      "kind": "support",
+      "point": "arXiv:2609.28793（cs.LG）；车辆轨迹/流量/速度，不是空气声改装排气",
+      "url": "https://arxiv.org/abs/2609.28793"
     }
   ]
 }
