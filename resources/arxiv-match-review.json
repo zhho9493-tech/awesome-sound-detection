@@ -721,6 +721,42 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "drive-2f86139e30f1",
+      "title": "Semi-supervsied Learning-based Sound Event Detection using Freuqency Dynamic Convolution with Large",
+      "candidates": [
+        {
+          "id": "2306.06461",
+          "arxiv_title": "Semi-supervsied Learning-based Sound Event Detection using Freuqency Dynamic Convolution with Large Kernel Attention for DCASE Challenge 2023 Task 4",
+          "similarity": 0.8016
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-2eed33d09c4a",
+      "title": "Cyber-Resilient Fault Diagnosis Methodology in Inverter-Based Resource-Dominated Microgrids with Sin",
+      "candidates": [
+        {
+          "id": "2511.13162",
+          "arxiv_title": "Cyber-Resilient Fault Diagnosis Methodology in Inverter-Based Resource-Dominated Microgrids with Single-Point Measurement",
+          "similarity": 0.905
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-8adc27fc3095",
+      "title": "Real-time and Downtime-tolerant Fault Diagnosis for Railway Turnout Machines (RTMs) Empowered with C",
+      "candidates": [
+        {
+          "id": "2411.02086",
+          "arxiv_title": "Real-time and Downtime-tolerant Fault Diagnosis for Railway Turnout Machines (RTMs) Empowered with Cloud-Edge Pipeline Parallelism",
+          "similarity": 0.8673
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
