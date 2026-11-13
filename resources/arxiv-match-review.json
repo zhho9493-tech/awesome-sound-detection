@@ -985,6 +985,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "drive-4b23547f58e6",
+      "title": "Research on an intelligent fault diagnosis method for nuclear power plants based on ETCN-SSA combine",
+      "candidates": [
+        {
+          "id": "2411.06765",
+          "arxiv_title": "Research on an intelligent fault diagnosis method for nuclear power plants based on ETCN-SSA combined algorithm",
+          "similarity": 0.9479
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
