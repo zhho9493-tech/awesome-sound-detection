@@ -685,6 +685,42 @@
       ],
       "decision": "resolved-by-unambiguous-prefix",
       "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
+    },
+    {
+      "id": "drive-48a86d715460",
+      "title": "PhyAVBench A Challenging Audio Physics-Sensitivity Benchmark for Physically Grounded Text-to-Audio",
+      "candidates": [
+        {
+          "id": "2512.23994",
+          "arxiv_title": "PhyAVBench: A Challenging Audio Physics-Sensitivity Benchmark for Physically Grounded Text-to-Audio-Video Generation",
+          "similarity": 0.9202
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-6f1ff8f9f7a8",
+      "title": "Why Do Speech Language Models Fail to Generate Semantically Coherent Outputs A Modality Evolving Pe",
+      "candidates": [
+        {
+          "id": "2412.17048",
+          "arxiv_title": "Why Do Speech Language Models Fail to Generate Semantically Coherent Outputs? A Modality Evolving Perspective",
+          "similarity": 0.9565
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-9389ebdc135f",
+      "title": "Bias in the Ear of the Listener Assessing Sensitivity in Audio Language Models Across Linguistic, D",
+      "candidates": [
+        {
+          "id": "2602.01030",
+          "arxiv_title": "Bias in the Ear of the Listener: Assessing Sensitivity in Audio Language Models Across Linguistic, Demographic, and Positional Variations",
+          "similarity": 0.8448
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
