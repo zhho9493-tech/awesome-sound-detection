@@ -3,6 +3,7 @@
 - [arXiv cs.SD 2025-01-01—2026-11-03 相关论文全量初筛](arxiv-cs-sd-2025-2026.md)
 - [论文技术趋势与交互时间线（HTML）](papers-timeline.html)
 - [2026-11-13 两批听漏仪/管道泄漏论文筛选（DOI、适用性、实验计划）](literature-screening-2026-11-13.md)
+- [2026-11-13 十组检索核验：17 篇声学泄漏检测论文、算法趋势与实验建议](ten-round-acoustic-search-2026-11-13.md)
 
 ## 水管听漏仪
 
