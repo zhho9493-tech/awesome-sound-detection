@@ -913,6 +913,42 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "drive-e77d6ccedcde",
+      "title": "WenetSpeech-Wu Datasets, Benchmarks, and Models for a Unified Chinese Wu Dialect Speech Processing",
+      "candidates": [
+        {
+          "id": "2601.11027",
+          "arxiv_title": "WenetSpeech-Wu: Datasets, Benchmarks, and Models for a Unified Chinese Wu Dialect Speech Processing Ecosystem",
+          "similarity": 0.9505
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-224732f964df",
+      "title": "DKDL-NET- A LIGHTWEIGHT BEARING FAULT DETECTION MODEL VIA DECOUPLED KNOWLEDGE DISTILLATION AND LORA FINE-TUNING",
+      "candidates": [
+        {
+          "id": "2406.06653",
+          "arxiv_title": "DKDL-Net: A Lightweight Bearing Fault Detection Model via Decoupled Knowledge Distillation and Low-Rank Adaptation Fine-tuning",
+          "similarity": 0.9362
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-f5d82b01a7df",
+      "title": "Linguistic Ordered Weighted Averaging based deep learning pooling for fault diagnosis in a wastewate",
+      "candidates": [
+        {
+          "id": "2506.08676",
+          "arxiv_title": "Linguistic Ordered Weighted Averaging based deep learning pooling for fault diagnosis in a wastewater treatment plant",
+          "similarity": 0.9217
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
