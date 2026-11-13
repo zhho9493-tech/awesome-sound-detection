@@ -973,6 +973,18 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "drive-66a532d1317c",
+      "title": "Rolling bearing fault diagnosis method based on generative adversarial enhanced multi-scale convolut",
+      "candidates": [
+        {
+          "id": "2403.15483",
+          "arxiv_title": "Rolling bearing fault diagnosis method based on generative adversarial enhanced multi-scale convolutional neural network model",
+          "similarity": 0.885
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
