@@ -781,6 +781,30 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "drive-665b76e0dca1",
+      "title": "Learning to better see the unseen Broad-Deep Mixed Anti-Forgetting Framework for Incremental Zero-S",
+      "candidates": [
+        {
+          "id": "2403.13845",
+          "arxiv_title": "Learning to better see the unseen: Broad-Deep Mixed Anti-Forgetting Framework for Incremental Zero-Shot Fault Diagnosis",
+          "similarity": 0.9124
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-369f2bf05883",
+      "title": "SHapley Estimated Explanation (SHEP) A Fast Post-Hoc Attribution Method for Interpreting Intelligen",
+      "candidates": [
+        {
+          "id": "2504.03773",
+          "arxiv_title": "SHapley Estimated Explanation (SHEP): A Fast Post-Hoc Attribution Method for Interpreting Intelligent Fault Diagnosis",
+          "similarity": 0.9194
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
