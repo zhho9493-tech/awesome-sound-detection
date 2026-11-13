@@ -877,6 +877,42 @@
         }
       ],
       "decision": "manual-review"
+    },
+    {
+      "id": "drive-95ac93d9a5ce",
+      "title": "Knowledge Distillation and Enhanced Subdomain Adaptation Using Graph Convolutional Network for Resou",
+      "candidates": [
+        {
+          "id": "2501.07173",
+          "arxiv_title": "Knowledge Distillation and Enhanced Subdomain Adaptation Using Graph Convolutional Network for Resource-Constrained Bearing Fault Diagnosis",
+          "similarity": 0.8368
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-d280f16b3a97",
+      "title": "Fusing Spectral Correlation Density Imaging with Deep Learning for Intelligent Fault Diagnosis in Ro",
+      "candidates": [
+        {
+          "id": "2509.16580",
+          "arxiv_title": "Fusing Spectral Correlation Density Imaging with Deep Learning for Intelligent Fault Diagnosis in Rotating Machinery",
+          "similarity": 0.9259
+        }
+      ],
+      "decision": "manual-review"
+    },
+    {
+      "id": "drive-318b23267870",
+      "title": "A cross-modal pre-training framework with video data for improving performance and generalization of",
+      "candidates": [
+        {
+          "id": "2511.09342",
+          "arxiv_title": "A cross-modal pre-training framework with video data for improving performance and generalization of distributed acoustic sensing",
+          "similarity": 0.8734
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
