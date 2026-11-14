@@ -1,0 +1,839 @@
+{
+  "domain specific neural networks improve automated bird sound recognition already with small amount of local data": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "robust cepstral feature for bird sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "automated bird sound classifications of long duration recordings produce occupancy model outputs similar to manually annotated data": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "deep learning based bird sound classification using customized convolutional neural networks": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "cnn based bird sound detection a comparative performance study": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "dualstack a multi resolution spectrogram fusion framework for enhanced bird sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "developing an ai powered bird sound recognition system for monitoring avian biodiversity in belarus": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "automatic recognition of pelung and canary bird sounds using machine learning and signal enhancement": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "visual bird sounds": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "one detector per bird a scalable binary classification approach for birdclef 2025": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "effectiveness of bird species identification using birdnet case study at the la mata coastal lagoon": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "machine learning based approach to identifying bird species through vocalization": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "sound event detection in traffic scene based on graph neural network": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "automatic detection for bioacoustic research a practical guide from and for biologists and computer scientists": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "integrating ai models into ecological research workflows the case of terrestrial bioacoustics": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "stratified active learning for spatiotemporal generalisation in bioacoustic monitoring": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "buzzdetect an open source deep learning tool for automated bioacoustic pollinator monitoring": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "bioacoustic assessment of mangrove health influence of habitat characteristics on bird richness": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "cosine similarity based few shot bioacoustic event detection with automatic frequency range identification in mel spectrograms": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "monitoring with machines a review of computational bioacoustics": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "leveraging an observed data likelihood improves the use of machine learning labels in a bayesian hierarchical model for bioacoustic data": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "correction genomic and bioacoustic variation in a midwife toad hybrid zone a role for reinforcement": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a novel deep learning based bioacoustic approach for identification of look alike white eye zosterops species traded in wildlife markets": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "advancing bioacoustic monitoring implementing acoustic indices and sonotyping methods in artificial ecosystems with iot integrated data dashboards": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "speeding up bioacoustic data analysis fine tuning deep models with active learning for efficient wildlife detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "enabling accessible and adaptable ai for bioacoustic monitoring from data annotation to edge deployment": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "from traditional to geometric morphometrics a novel approach in bat bioacoustic analysis": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "importance of the integrated use of bioacoustics and mist nets for bat surveys": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "the biophone developing and testing a bioacoustic recorder for science and citizen science": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "empirical evidence for bioacoustic signaling the bioacoustic cultivation and communication protocol bccp induces whole system modulation of plant development physiology and metabolism": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "bioacoustic fundamental frequency estimation a cross species dataset and deep learning baseline": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "the secret acoustic world of leopards a paired camera trap and bioacoustics survey facilitates individual identification of leopards via their roars": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "empowering our critters running energy efficient deep learning models for on edge bioacoustic monitoring": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "the bioacoustic bridge using animal vocalization motion signals to predict natural hazards": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "automated call detection in big cats a non invasive bioacoustic tool for conservation": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "the use of bioacoustics in biodiversity monitoring and wildlife conservation in panti forest reserve johor": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "insect bioacoustics and biotremology": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "echoes of nature harnessing ai powered bioacoustic monitoring for enhanced wildlife conservation": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "studying domain shifts in bioacoustic recording style with information theory": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "marine bioacoustic sound classification based on enhanced resnet synergy of adaptive attention and multi scale fusion": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "scaling frog monitoring with frogid a robust classification pipeline for citizen science using bioacoustic foundation models": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "investigations of the effect of 3d bioacoustic signals reproduced in a vr room on patients in a geriatric ward of a hospital": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "early prediction of harmful environmental changes based on bioacoustics analysis": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "habitat use and temporal activity of the big crested mastiff bat promops centralis molossidae along an urban natural gradient a bioacoustics approach": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "bioacoustics and rhythm": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "the potential of bioacoustics for surveying carrion insects": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "effective noise suppression in whale bioacoustics using transfer learned stacked bilstm": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "ai driven bioacoustics in poultry farming a critical systematic review on vocalization analysis for stress and disease detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "giving cows a digital voice ai enabled bioacoustics and smart sensing in precision livestock management a review": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "description and bioacoustics of three new eurycorypha orthoptera tettigonioidea species from tanzania and ghana with notes on their biology": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "retrieval augmented bioacoustics evidence guided generation for animal communication": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "bio acoustic design principles through the integration of sound nature and multisensory features into bio architecture": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "bioacoustics as a tool for data exploration": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "an insight into the bioacoustics of some anurans of meghalaya india amphibia anura": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "towards user interface design guidelines for effective human ai interaction in bioacoustics": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "passive acoustic monitoring and acoustic indices reveal noise related changes in bird vocalisations": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "are nonlinear vocal phenomena as distracting as people think": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "anomaly detection in induction motors through irregular sound and vibrations": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "relevance of radiator installation on the efficacy of noise reduction strategies in an industrial engine cooling fan": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "analytical model for predicting rotor stator interaction tonal noise in low speed axial fans": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "fast prediction of broadband and tonal noise of electronics cooling axial fans": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "aeroacoustics analysis of radiator installation effects in a pulling engine cooling module": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "installation effects on the acoustics of low pressure axial fans aspects of source environment and receiver": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "it doesn t sound good sound based intelligent machinery fault diagnosis": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "big data sound science lasting impact a framework for passive acoustic monitoring": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "mc abds a system for low snr fault diagnosis in industrial production with intense overlapping and interference": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "detecting changes in air composition based on speed of sound": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a distributed training framework for abnormal sound detection in industrial devices aggregation strategies and performance analysis": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "masgan a malfunction sound detection model for industrial machines using the generative adversarial networks": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "wind turbine blade anomaly recognition method based on sound feature fusion": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "abnormal heart sound recognition using svm and lstm models in real time mode": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "enhanced lung disease detection using double denoising and 1d convolutional neural networks on respiratory sound analysis": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "detection of abnormal cardiac rhythms using feature fusion technique with heart sound spectrograms": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a review of sound based pig monitoring for enhanced precision production": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "segmentation of heart sound signals using improved hilbert transform and wavelet packet transform": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "heartbeat sound classification using mel spectrogram and cnn optimized by frilled lizard algorithm for cardiovascular disease detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "wind turbine blade fault detection based on graph fourier transform and deep learning": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "advances and challenges in respiratory sound analysis a technique review based on the icbhi2017 database": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "iomt enabled noninvasive lungs disease detection and classification using deep learning based analysis of lungs sounds": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "two way analysis of variance anova ranking of features based on wavelet bi phase and bi spectrum for the classification of adventitious lung sounds": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "acoustics based condition monitoring of industrial machines using deep learning": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "ss esc a spectral subtraction denoising based deep network model on environmental sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "multiscale analysis of heart sound signals in the wavelet domain for heart murmur detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "smartphone for heart sound measurement in hospital feasibility and influencing factors": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "deep learning based ai driven acoustic health monitoring for quadrocopter propellers": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "acoustic process monitoring during projection welding using airborne sound analysis and machine learning": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "deep learning techniques for acoustic health monitoring in ai enabled quadrocopters pdf": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "melaudis a large scale benchmark acoustic dataset for intelligent transportation systems research": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "comparative analysis of feature selection based on metaheuristic methods for human heart sounds classification using pcg signal": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "classification of heart sound signals with whisper model": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "rare sound event detection using superlets and a convolutional tdpanet g pandey et al": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a deep learning approach to heart sound classification based on combined time frequency representations": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "machine learning based fault classification for improved induction motor performance": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "real time sound event localization and detection using iot raspberry pi devices based on single stage crnn": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "advanced signal decomposition techniques for vibration diagnostics in mechanical systems a fourier based approach": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "systematic design and evaluation of a structure guided multimodal framework for heart sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "enhanced heart sound analysis through hierarchical spectral basis vector extraction using deep orthogonal non negative matrix factorization": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "advances in fault detection techniques for automated manufacturing systems in industry 4 0": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "transformer fault diagnosis method based on multilevel acoustic information": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "environmental acoustic intelligence through sound event localization and detection a review": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "hearing the forest machine learning for biodiversity monitoring using soundscapes": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "semi supervised acoustic scene classification under spatial temporal variability with a crnn based model": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "fat net a spectral attention transformer network for industrial audio anomaly detection using mfcc and raw features": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "spatiotemporal attention driven joint reconstruction of elevator audio and vibration signals via dual modality fusion": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a spatio temporal graph neural network with masked self supervision for precise anomaly severity measurement of vibrating screens in mineral processing": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "utilizing large scale foundation models for prognostics and health management in wind turbines techniques challenges and future directions": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "vehicle type classification based on acoustic signals using lt mfcc": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "urban sound and environmental monitoring using distributed iot sensor nodes": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a scalable ai architecture for audio and multimodal analysis on mobile devices a case of environmental monitoring": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "enhancing environmental sound classification performance through data fusion a comparative machine learning analysis": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "evaluating few shot prompting for spectrogram based lung sound classification using a multimodal language model": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "feature extraction for sound detection of industrial parts": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "stargan aug a cross domain fault audio generation method for high performance fault diagnosis of power transformers": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "improving acoustic recognition models author paul primus": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "hissnet sound event detection and speaker identification via hierarchical prototypical networks for low resource headphones": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "fa3 net feature aggregation and augmentation with attention network for sound event localization and detection c wang and q hunag": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "annoyance penalty of impulsive noise the effect of impulse onset": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "field tests of impulsive acoustic event detection localization and classification over telecom fiber networks": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "detection of emergency situation using deep learning sound recognition methods": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "sound event detection in constrained real world environments using fine tuned cnns": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "bird sound detection based on sub band features and the perceptron model": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "deep learning based acoustic event detection and classification using cochleogram images": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "hamnava a dataset for multi label instrument classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "improving bird sounds classification with additional fine tuning on augmented data": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a framework of interaction between machine experts and crowd towards the generation of large scale high quality audio datasets": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a dynamic cross modal learning framework for joint text to audio grounding and acoustic scene classification in smart city environments": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "rf drsn ema": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "enhancing 3 d sound event localization and detection with distance estimation using reverberation and spatial coherence features": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "enhanced forest sound classification dataset efsc 24": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "afds net an attention fused depthwise separable network for acoustic scene classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "an intelligent audio recognition model for gunshot and forest animal sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a dual consistency training dct strategy for polyphonic sound event detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "temporal aware multimodal event network for dense audio visual event localization": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "rnn enriched deep transfer learning model for audio based classification in various environmental settings": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "sound event detection for modified exhaust vehicles in urban environment": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "heartbeat audio signal analysis for cardiovascular abnormality diagnosis using neural networks": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "dpast ls a transformer based self distillation network for efficient recognition of abnormal pulmonary sounds": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "flexible hyperdisk based support tensor machine for railway turnout fault diagnosis using dual channel sound signals": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a method for heart sound classification using sample augmentation and indanet": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "environmental sound classification using advanced pooling and hybrid convolution kan architecture": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a real time bird sound recognition app via deep learning techniques": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "advancements in audio and audiovisual sound event localization and detection with source distance estimation a survey": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "epix embedded panns based intelligent auscultation with xgboost for respiratory sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "sunecho an optimized deep learning model for real time urban environmental sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "novel generative classifier for acoustic events": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "domain aware deep learning for room acoustics parameter estimation localization and source separation": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a comparative study of preprocessing and model compression techniques in deep learning for forest sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "semi supervised and transfer learning for few shot audio classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "zero shot learning for acoustic event classification using an attribute vector and conditional gan": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "fully few shot class incremental audio classification with adaptive improvement of stability and plasticity": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "hierarchical self distillation with attention for class imbalanced acoustic event classification in elevators": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "low snr northern right whale upcall detection and classification using passive acoustic monitoring to reduce adverse human whale interactions": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "investigating the impact of feature extraction techniques for classification and synthesis of dysarthric speech": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "infant cry verification with multi view self attention vision transformers": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "dual feature ensemble deep learning architecture for robust spoofing speech detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "evaluating and interpreting pooling techniques in spectrogram based audio analysis using diverse metrics": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "ensemble learning with parallel trained pretrained models for enhanced environmental sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "tmac temporal multi modal graph learning for acoustic event classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a lightweight dual branch masking network for environmental sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "benchmarking self supervised audio representations for iot enabled acoustic beehive monitoring": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "hypergradient descent based multi task learning on auscultation point guided respiratory sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "class aware permutation invariant signal to distortion ratio for semantic segmentation of sound scene with same class sources": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "enhancing efficiency in cnn based respiratory sound analysis through temporal self attention and frequency band selection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "lungmix a mixup based strategy for generalization in respiratory sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "cross model knowledge distillation and metadata fusion for respiratory sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "adaptive fine grained pruning via binary search for efficient environmental sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a lightweight hybrid machine and deep learning framework via contrastive learning for audio based multiclass vehicle counting": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "improving acoustic scene classification in low resource conditions": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "towards cross lingual audio abuse detection in low resource settings with few shot learning": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "low resource ecoacoustic audio classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "deepfake audio detection in low resource languages a case study of urdu": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "cnn augmented dimensionality reduction with neural network ensembles for low resource data classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "meta learning based percussion transcription and t bar a la identification from low resource audio": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "multilingual audio classification a scalable approach using wav2vec2 and qdrant": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "audio visual fusion framework for low resource language speech recognition based on progressive down sampling and grouped multi heads attention mechanism": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "neural style transfer architectures for improving generalization in low resource spoken language identification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "noise resilient bioacoustics feature extraction methods and their implications on audio classification performance systematic review": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "automated classification of humpback whale calls in four regions using convolutional neural networks and multi scale deep feature aggregation msdfa": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "assessing the effective range for individual acoustic identification comparison of manual and automatic methods": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "acoustic machine learning tools and analysis software for advancing biodiversity monitoring": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a human expert approach to validating attribution for ai generated audio": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "deepsoundvisionnet a new approach to urban sound classification using visual representations of audio signals": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "deepfake audio detection with spectral fusion and dual branch conformer architecture": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "environmental noise dataset for sound event classification and detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "advanced prompt engineering techniques for generative sound synthesis models": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "leveraging machine learning for speech classification using librosa and neural networks": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "time series generation for augmenting multi channel automotive audio data": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "robust classification of urban sounds in noisy environments a novel approach using spwvd mfcc and dual stream classifier": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "m3net efficient time frequency integration network with mirror attention for audio classification on edge": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "environmental sound classification using two stream deep neural network with interactive time frequency attention": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "cas tj channel attention shuffle and temporal jigsaw for audio classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "road traffic events monitoring using a multi head attention mechanism based transformer and temporal convolutional networks": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "artificial intelligence powered environmental sound recognition with explainable ai techniques": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "environmental sound classification using convolutional recurrent neural network and data augmentation": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "adaptive depth wise pruning for efficient environmental sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "sound event localization and classification using wireless acoustic sensor networks in outdoor environments": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a lightweight deep learning architecture for automatic shrimp disease classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "efficient end to end audio embeddings generation for audio classification on target applications": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "cochlscene acquisition of acoustic scene data using crowdsourcing": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a squeeze and excitation and transformer based cross task model for environmental sound recognition": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "rqnet residual quaternion cnn for performance enhancement in low complexity and device robust acoustic scene classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a genetic algorithm approach to automate architecture design for acoustic scene classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "acoustic scene classification using deep residual networks with focal loss and mild domain adaptation": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "scalable neural architectures for end to end environmental sound classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "improving continual learning of acoustic scene classification via mutual information optimization": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "an attention based time frequency pyramid pooling strategy in deep convolutional networks for acoustic scene classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "low complexity acoustic scene classification using data augmentation and lightweight resnet": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "bi level acoustic scene classification using lightweight deep learning model": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "randmasking augment a simple and randomized data augmentation for acoustic scene classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "caa net conditional atrous cnns with attention for explainable device robust acoustic scene classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "reclap improving zero shot audio classification by describing sounds": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "data efficient low complexity acoustic scene classification via distilling and progressive pruning": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "online incremental learning for audio classification using a pretrained audio model": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a topic specific representation learning framework for acoustic scene classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "acoustic scene classification using dynamic time warping technique based on short time fourier transform and discrete wavelet transforms": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "pat parameter free audio text aligner to boost zero shot audio classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "raw audio deep learning filter banks for acoustic scene classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "high accuracy audio based vehicle detection deep learning vs machine learning": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "repsepnet a lightweight reparameterized cnn for gunshot detection on edge devices": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "tf attnet an efficient time frequency structure modeling for low complexity acoustic scene classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "domain specific external data pre training and device aware distillation for data efficient acoustic scene classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "dynacp dynamic parallel selective convolution in cp mobile under multi teacher distillation for acoustic scene classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "frequency tracking features for domain robust and data efficient deep siren identification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "robust audio language retrieval under imbalanced data distributions": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "domain adaptation for multi channel acoustic scene classification to different array positions": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "relaxed instance frequency wise normalization for semi supervised acoustic scene classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "multi task domain adaptation with semi supervised learning for real world acoustic event detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "semi supervised learning for acoustic scene classification using fixmatch": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "few shot underwater acoustic target recognition using domain adaptation and knowledge distillation": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "detection of bolt loosening using acoustic emission signal and domain generalized machine learning method": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a semi supervised underwater acoustic target recognition method based on domain adversarial neural networks": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "an improved prototype learning method for domain generalized industrial machine anomaly sound detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "dit sfda a source free domain adaptation method for intelligent diagnosis of cardiovascular diseases with limited heart sound samples": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "dynamic prompting class distribution optimization for semi supervised sound event detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "adaptive hierarchical pooling for weakly supervised sound event detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "disentangled prototype guided dynamic memory replay for continual learning in acoustic signal classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "semi supervised acoustic scene classification with test time adaptation": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "research on acoustic scene classification based on time frequency wavelet fusion network": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "multi view fusion and parameter perturbation for few shot class incremental audio classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "evaluation of low frequency feature restriction and average pooling for acoustic scene classification under unseen city conditions": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "fusion based reduced variation representations for acoustic scene classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "evaluation of low frequency restriction pitch shift augmentation and average pooling for acoustic scene classification under unseen city conditions": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "representations for acoustic scene": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "evaluation of pitch shift augmentation and average pooling for acoustic scene classification under unseen city conditions": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a domain adaptive acoustic scene classification model in semi supervised transfer learning": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "smartears a practical framework for poultry respiratory monitoring via spectrogram based audio classification and ai assisted labeling": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "dual branch time frequency network with channel masking for automated insect sound monitoring toward field environments": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a hybrid deep learning framework for acoustic pest detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "cbm net automatic detection and separation of cicada chorus from bee wingbeat audios": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "domain enriched knowledge distillation for robust audio edge applications": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "sound event detection in smart cities a systematic review of methods datasets and applications": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "automatic and efficient sound based early fault detection for vehicles based on gcn a and lstm model": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "vibro acoustic analysis of loose foundation effects in electric motors at varying rotational speeds": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a survey on intelligent sound event detection systems for public safety and emergency response": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "synthetic data generation techniques for training deep acoustic siren identification networks": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "environmental sound classification using a hybrid svm cnn approach": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "enhancing environmental sounds classification through deep learning techniques": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "advancements in environmental sound classification evaluating machine learning and deep learning approaches on the urbansound8k": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "adaptive vehicle speed classification via multi feature cnn with reinforcement learning enhanced acoustic processing": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "mel based feature extraction for acoustic event detection and classification a systematic review and research roadmap": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a novel method for anomaly detection using graph signal embedding application to anomalous sound detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "research on traffic sound event detection based on multi scale feature fusion": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "category guided multi resolution fusion approach for polyphonic sound event detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a methodology for real time audio event detection and generation using spectral flux analysis": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "audiosignal based event detection using deep learning techniques": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "multimodal audio visual approach to vehicle detection and classification": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "multiclass classification of faulty industrial machinery using sound samples": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "lskfdy cnn large selective kernel frequency dynamic convolutional neural network for sound event detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "msa tcn robust urban suspicious sound detection using multi scale temporal convolutions and dual attention": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "two stage acoustic event detection and classification for horn signals in urban scenarios comparing vggish yamnet and mel spectrogram approaches with mrmr feature selection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "from general purpose audio tagging to real time emergency vehicle siren detection": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "conformer enhanced hybrid neural architectures for sound event detection in driving scenarios": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "cognitive prototype learning towards self supervised and semantic aware few shot open set sound recognition": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "edge computing for driving safety evaluating deep learning models for cost effective sound event detection c castorena et al": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "evaluation of real time acoustic event detection models in driving scenarios": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "a comparative analysis of interior vs exterior vehicle microphone placement for acoustic event detection in driving environments": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "sound event detection for detecting modified exhaust vehicles in urban environments": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "dasss and kinescaper open python frameworks for physically grounded synthetic emergency vehicle siren dataset generation": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>"
+  },
+  "dual dimensional adaptive extraction method of mechanical equipment acoustic features under variable working conditions": {
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  }
+}

@@ -269,7 +269,7 @@ def brief_summary(value: str, fallback: str, limit: int = 50) -> str:
 
 def date_for(row: dict) -> str | None:
     for key in ("published", "updated"):
-        if re.match(r"20\d\d-\d\d-\d\d", row.get(key, "")):
+        if re.match(r"20\d\d-\d\d-\d\d", row.get(key) or ""):
             return row[key][:10]
     arxiv = row.get("arxiv_id") or row.get("id", "")
     match = re.fullmatch(r"(\d{2})(\d{2})\.\d{4,5}", arxiv or "")

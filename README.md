@@ -83,6 +83,7 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 - [论文下载覆盖情况：arXiv / Google Drive / 未匹配](resources/paper-download-coverage-2026-11-01.md)
 - [论文表格（CSV）](resources/paper-master-index.csv)
 - [字段说明、分类统计与核验限制](resources/paper-master-index-README.md)
+- [citations.csv 逐篇复核与新增论文](papers/imported-citations/README.md)
 - [目录扫描覆盖报告](resources/technical-research-coverage-2026-11-01.md)
 
 主索引已在 2026-11-12 合并云端“论文仓库”增量；其中 Google Drive 链接按用户要求保留，访问权限沿用云盘设置。尚未完成逐篇 DOI/arXiv 身份核对和官方下载链接补全。
