@@ -1,5 +1,7 @@
 # Leakage Detection / 泄漏声学检测
 
+- [2026-11-14 首批 6 篇正式出版来源核验（含 2027 卷期纠正）](verified-citations-2026-11-14.md)
+
 - [2026-11-14 citations.csv 导入：123 条核对、109 条新增候选及去重说明](citations-csv-import-2026-11-14.md)
 
 - [arXiv cs.SD 2025-01-01—2026-11-03 相关论文全量初筛](arxiv-cs-sd-2025-2026.md)
