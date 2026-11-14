@@ -6,6 +6,8 @@
 > **技术洞察（第三阶段）：** [交互式论文时间线与趋势证据](portal/insights.html) · [论文详情与相似方向关联](portal/library.html) · [Pages 部署工作流](.github/workflows/publish-research-portal.yml)。Pages 仅发布经字段白名单处理的数据，**不直接部署包含私人云盘信息的原始主索引**；首次部署还需在仓库 Settings → Pages 中选用 GitHub Actions。
 > **各方向论文详情（专题目录）：** [打开逐篇论文列表](portal/topic.html?topic=das) · 支持切换 DAS、泄漏、ASD、SED、炸街车、OOD、低 SNR 等应用与方法专题，并逐篇查看标题、作者、日期、摘要、分类依据、来源与 PDF。可按年份、来源、关键词筛选，分页展示及导出 CSV；关键词规则结果标记为待复核候选。
 
+> **逐篇论文总结：** 已为每个专题和全库论文详情添加结构化的「研究目标 / 方法要点 / 作者报告结果 / 证据限制」字段。内容基于公开摘要提取；缺少摘要的记录显示待补充，不代表全文审核完成。参见 [总结字段规范](docs/PAPER_SUMMARY_CONTRACT.md)。
+
 A curated repository for **sound detection, acoustic anomaly detection, industrial acoustics, audio foundation models, and cross-domain AI research**.
 
 中文 | [研究路线](roadmap.md) | [资源目录](resources/catalog.json) | [历史论文总索引](resources/historical-paper-index.md) | [arXiv cs.SD 2025–2026 全量索引](resources/arxiv-cs-sd/README.md) | [缺失 PDF 复核](resources/public-pdf-audit.md) | [贡献指南](CONTRIBUTING.md)
