@@ -11,6 +11,7 @@ import re
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
+from paper_summary import extract_summary
 
 ROOT = Path(__file__).resolve().parents[1]
 MASTER = ROOT / "resources/paper-master-index.json"
@@ -94,10 +95,12 @@ def main():
         for alias in aliases: mapping[alias]=key
     for i,row in enumerate(masters): ingest(row,"master",i)
     for i,row in enumerate(arxivs): ingest(row,"arxiv",i)
+    for entry in out.values():
+        entry["summary"] = extract_summary(entry.get("abstract"), entry.get("title"))
     # No private file URLs, IDs, download endpoints, or source directory names exported.
     rows=sorted(out.values(),key=lambda x:(x.get("published",""),x["title"].casefold()),reverse=True)
     stats=Counter(key for r in rows for key in r["categories"])
-    payload={"schema_version":"1.0.0","generated_at":datetime.now(timezone.utc).isoformat(),"source_counts":{"master":len(masters),"arxiv":len(arxivs)},"record_count":len(rows),"note":"Exact DOI/arXiv identifiers only. Title-only duplicates are intentionally not merged; identity_status=identifier-present does not imply full bibliographic verification.","category_counts":dict(stats),"conflict_count":len(ambiguous),"records":rows}
+    payload={"schema_version":"1.1.0","generated_at":datetime.now(timezone.utc).isoformat(),"source_counts":{"master":len(masters),"arxiv":len(arxivs)},"record_count":len(rows),"summary_method":"abstract-extractive-v1; no artificial generation, no verified findings without source sentences","note":"Exact DOI/arXiv identifiers only. Title-only duplicates are intentionally not merged; identity_status=identifier-present does not imply full bibliographic verification.","category_counts":dict(stats),"conflict_count":len(ambiguous),"records":rows}
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     OUTPUT.write_text(json.dumps(payload,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
     print(f"Exported {len(rows)} public records, {len(ambiguous)} identifier conflicts to {OUTPUT}")
