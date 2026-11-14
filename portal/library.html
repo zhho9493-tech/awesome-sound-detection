@@ -25,5 +25,48 @@ function more(){const slice=selected.slice(shown,shown+PAGE);let html=slice.map(
 function setup(data){rows=data.records||[];$('total').textContent=format(data.record_count);$('maincount').textContent=format(data.source_counts.master);$('arxivcount').textContent=format(data.source_counts.arxiv);const cats=[...new Set(rows.flatMap(x=>x.categories||[]))].sort();$('category').insertAdjacentHTML('beforeend',cats.map(x=>'<option value="'+escapeHTML(x)+'">'+escapeHTML(x)+'</option>').join(''));const years=[...new Set(rows.map(x=>x.year).filter(Boolean))].sort().reverse();$('year').insertAdjacentHTML('beforeend',years.map(x=>'<option>'+escapeHTML(x)+'</option>').join(''));update()}
 for(const id of ['query','category','source','year'])$(id).addEventListener(id==='query'?'input':'change',update);
 $('more').addEventListener('click',more);$('reset').addEventListener('click',()=>{for(const id of ['query','category','source','year'])$(id).value='';update()});
-fetch('./data/papers.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(setup).catch(e=>{$('summary').textContent='检索数据尚未构建：'+e.message;$('results').innerHTML='<div class="notice">请在仓库根目录运行 <code>python3 scripts/build_paper_discovery.py</code>，再使用 HTTP 服务打开本页面。部署静态站点时，需先构建生成文件。</div>'});
+async function loadIndex(){
+  const r=await fetch('./data/papers.json');
+  if(r.ok)return r.json();
+  // First-run read-only fallback. No source data are modified or sent elsewhere.
+  $('summary').textContent='正在加载两个原始索引（首次访问可能较慢）…';
+  const [ma,ar]=await Promise.all([
+    fetch('../resources/paper-master-index.json').then(x=>{if(!x.ok)throw Error('主索引 HTTP '+x.status);return x.json()}),
+    fetch('../resources/arxiv-cs-sd/papers.json').then(x=>{if(!x.ok)throw Error('arXiv 索引 HTTP '+x.status);return x.json()})
+  ]);
+  const items=[],byId=new Map();
+  const normId=v=>{let m=String(v||'').match(/(?:arxiv.org\\/(?:abs|pdf)\\/|arxiv:)?(\\d{4}\\.\\d{4,5})(?:v\\d+)?/i);return m?m[1]:''};
+  const cat=v=>Array.isArray(v)?v:(typeof v==='string'?v.split(/[;,]/).map(x=>x.trim()).filter(Boolean):[]);
+  for(const [type,source] of [['master',ma],['arxiv',ar]]){
+    for(const x of source.records||[]){
+      const arxiv=normId(x.arxiv_id||(type==='arxiv'?x.id:'')||x.abs_url);
+      const doi=String(x.doi||'').replace(/^https?:\\/\\/doi.org\\//,'').trim().toLowerCase();
+      const key=doi?'doi:'+doi:(arxiv?'arxiv:'+arxiv:type+':'+String(x.id||items.length));
+      let entry=byId.get(key);
+      if(!entry){
+        entry={id:key,title:x.title||'',year:'',abstract:'',categories:[],topics:[],sources:[],doi,arxiv_id:arxiv,url:'',pdf_url:'',verification_status:'candidate'};
+        byId.set(key,entry);items.push(entry);
+      }
+      entry.sources.push({dataset:type,source_id:String(x.id||'')});
+      const categories=type==='arxiv'?cat(x.repository_categories):[...cat(x.primary_category),...cat(x.related_categories)];
+      entry.categories=[...new Set(entry.categories.concat(categories))];
+      if(type==='arxiv'){
+        entry.year=String(x.published||'').slice(0,4);
+        entry.abstract=String(x.abstract||'').slice(0,1600);
+        entry.topics=[...new Set(entry.topics.concat(cat(x.repository_topics)))];
+        if(arxiv){entry.url='https://arxiv.org/abs/'+arxiv;entry.pdf_url='https://arxiv.org/pdf/'+arxiv;}
+      }else{
+        entry.verification_status=String(x.verification_status||'candidate');
+        // No Drive links or untrusted websites.
+        for(const [field,src] of [['url','public_url'],['pdf_url','pdf_url']]){
+          const v=String(x[src]||'');
+          if(!entry[field]&&/^https:\\/\\/(?:arxiv.org|doi.org|openreview.net)\\//.test(v))entry[field]=v;
+        }
+      }
+    }
+  }
+  items.sort((a,b)=>b.year.localeCompare(a.year)||a.title.localeCompare(b.title));
+  return{records:items,record_count:items.length,source_counts:{master:(ma.records||[]).length,arxiv:(ar.records||[]).length}};
+}
+loadIndex().then(setup).catch(e=>{$('summary').textContent='加载失败：'+e.message;$('results').innerHTML='<div class="notice">可在仓库根目录运行 <code>python3 scripts/build_paper_discovery.py</code> 生成检索数据，并通过 HTTP 服务访问本页面。</div>'});
 </script></body></html>
