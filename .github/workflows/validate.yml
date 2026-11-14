@@ -16,3 +16,5 @@ jobs:
         run: python scripts/validate_topic_papers.py
       - name: Smoke test paper discovery
         run: python -m unittest discover -s scripts -p 'test_paper_discovery.py'
+      - name: Verify evidence-bound paper summaries
+        run: python -m unittest discover -s scripts -p 'test_paper_summary.py'
