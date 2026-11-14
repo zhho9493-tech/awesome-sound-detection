@@ -1,0 +1,47 @@
+name: Build public paper discovery index
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: paper-discovery-index
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build public discovery index
+        run: python scripts/build_paper_discovery.py
+      - name: Validate index
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          a=json.loads(Path('portal/data/papers.json').read_text(encoding='utf-8'))
+          assert a['record_count']==len(a['records'])
+          assert a['record_count']>1000, 'suspiciously small index'
+          for x in a['records']:
+              assert set(x).issubset({'id','title','year','published','authors','abstract','categories','topics','sources','doi','arxiv_id','url','pdf_url','verification_status','identity_status'})
+          print(a['record_count'], a['source_counts'])
+          PY
+      - name: Commit generated public metadata only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add portal/data/papers.json
+          if git diff --cached --quiet; then
+            echo "Index unchanged"
+          else
+            git commit -m "data: refresh public paper discovery index"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
