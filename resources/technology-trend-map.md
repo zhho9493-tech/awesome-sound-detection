@@ -1,6 +1,6 @@
 # 全仓技术趋势地图 · Trend Evidence Map
 
-**最后更新**：2026-11-01 · **技术趋势详情页：51 页** · 8 个研究方向。
+**地图同步日期**：2026-11-14 · **当前登记技术趋势：52 条** · 8 个研究方向。此数量基于下方详情页链接统计，不代表 52 个趋势均得到 A/B 级证据验证。
 
 每个趋势都可点击进入自己的 Markdown 页面，查看：**趋势主张、分析链路、证据/原文入口、支持与反证、迁移条件、建议对照实验及不确定性**。
 
@@ -28,7 +28,7 @@
 5. [离线分类 → 事件级决策](../papers/sound-event/trends/trend-05.md)
 6. [静态类别集合 → Open-world / Class-incremental](../papers/sound-event/trends/trend-06.md)
 
-## DAS 光纤听诊（7）
+## DAS 光纤听诊（8）
 
 [返回方向首页](../domains/das/README.md)
 
@@ -39,6 +39,7 @@
 5. [单项目模型 → 标准化 + 自监督预训练 + 跨项目适配](../domains/das/trends/trend-05.md)
 6. [异常/正常 → 严重度/健康状态/RUL](../domains/das/trends/trend-06.md)
 7. [离线高精度 → 边缘实时与工程指标](../domains/das/trends/trend-07.md)
+8. [闭集故障分类 → 开集识别与未知干扰拒识](../domains/das/trends/trend-08.md)
 
 ## 泄漏检测（6）
 

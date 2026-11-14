@@ -1,0 +1,63 @@
+name: Publish research portal (GitHub Pages)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'portal/**'
+      - 'resources/research-taxonomy.json'
+      - 'resources/technology-trend-map.md'
+      - 'resources/paper-master-index.json'
+      - 'resources/arxiv-cs-sd/papers.json'
+      - 'scripts/build_paper_discovery.py'
+      - '.github/workflows/publish-research-portal.yml'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: publish-research-portal
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Prepare safe public search data
+        run: python scripts/build_paper_discovery.py
+      - name: Ensure sanitized artifact contents
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p _site/portal/data _site/resources
+          cp portal/index.html portal/library.html portal/insights.html _site/portal/
+          cp portal/data/papers.json _site/portal/data/papers.json
+          cp resources/research-taxonomy.json resources/technology-trend-map.md _site/resources/
+          printf '%s\n' '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=./portal/"><a href="./portal/">进入研究门户</a>' > _site/index.html
+          touch _site/.nojekyll
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          site=Path('_site')
+          actual={str(x.relative_to(site)) for x in site.rglob('*') if x.is_file()}
+          expected={'index.html','.nojekyll','portal/index.html','portal/library.html','portal/insights.html','portal/data/papers.json','resources/research-taxonomy.json','resources/technology-trend-map.md'}
+          assert actual==expected, (actual-expected,expected-actual)
+          obj=json.loads((site/'portal/data/papers.json').read_text())
+          assert obj['record_count']==len(obj['records']) and obj['record_count']>1000
+          serialized=json.dumps(obj,ensure_ascii=False).lower()
+          assert 'drive.google.com' not in serialized and 'drive_download_url' not in serialized
+          print('Prepared sanitized Pages site:',len(actual),'files,',obj['record_count'],'records')
+          PY
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
