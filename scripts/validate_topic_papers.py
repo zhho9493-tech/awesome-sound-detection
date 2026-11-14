@@ -16,7 +16,7 @@ for slug,rule in rules.items():
         assert rule["categories"] and not rule["terms"],slug
     else:
         assert rule["terms"] and not rule["categories"],slug
-        assert all(isinstance(term,str) and len(term)>=3 for term in rule["terms"]),slug
+        assert all(isinstance(term,str) and (len(term)>=3 or (len(term)>=2 and any('\u4e00'<=ch<='\u9fff' for ch in term))) for term in rule["terms"]),slug
 portal=(ROOT/"portal/topic.html").read_text(encoding="utf-8")
 assert "data-topic" in portal and "来源" in portal and "作者" in portal and "继续加载更多论文" in portal
 wf=(ROOT/".github/workflows/publish-research-portal.yml").read_text(encoding="utf-8")
