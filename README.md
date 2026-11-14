@@ -4,6 +4,7 @@
 > **全库论文检索（第二阶段）：** [论文探索页面](portal/library.html) · [自动构建脚本](scripts/build_paper_discovery.py) · [定时刷新工作流](.github/workflows/build-paper-discovery.yml)。论文索引按官方 DOI/arXiv 明确编号进行保守合并，未进行标题级强制去重。
 
 > **技术洞察（第三阶段）：** [交互式论文时间线与趋势证据](portal/insights.html) · [论文详情与相似方向关联](portal/library.html) · [Pages 部署工作流](.github/workflows/publish-research-portal.yml)。Pages 仅发布经字段白名单处理的数据，**不直接部署包含私人云盘信息的原始主索引**；首次部署还需在仓库 Settings → Pages 中选用 GitHub Actions。
+> **各方向论文详情（专题目录）：** [打开逐篇论文列表](portal/topic.html?topic=das) · 支持切换 DAS、泄漏、ASD、SED、炸街车、OOD、低 SNR 等应用与方法专题，并逐篇查看标题、作者、日期、摘要、分类依据、来源与 PDF。可按年份、来源、关键词筛选，分页展示及导出 CSV；关键词规则结果标记为待复核候选。
 
 A curated repository for **sound detection, acoustic anomaly detection, industrial acoustics, audio foundation models, and cross-domain AI research**.
 

@@ -6,6 +6,7 @@ on:
     paths:
       - 'portal/**'
       - 'resources/research-taxonomy.json'
+      - 'resources/topic-paper-rules.json'
       - 'resources/technology-trend-map.md'
       - 'resources/paper-master-index.json'
       - 'resources/arxiv-cs-sd/papers.json'
@@ -36,9 +37,9 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p _site/portal/data _site/resources
-          cp portal/index.html portal/library.html portal/insights.html _site/portal/
+          cp portal/index.html portal/library.html portal/insights.html portal/topic.html _site/portal/
           cp portal/data/papers.json _site/portal/data/papers.json
-          cp resources/research-taxonomy.json resources/technology-trend-map.md _site/resources/
+          cp resources/research-taxonomy.json resources/topic-paper-rules.json resources/technology-trend-map.md _site/resources/
           printf '%s\n' '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=./portal/"><a href="./portal/">进入研究门户</a>' > _site/index.html
           touch _site/.nojekyll
           python - <<'PY'
@@ -46,7 +47,7 @@ jobs:
           from pathlib import Path
           site=Path('_site')
           actual={str(x.relative_to(site)) for x in site.rglob('*') if x.is_file()}
-          expected={'index.html','.nojekyll','portal/index.html','portal/library.html','portal/insights.html','portal/data/papers.json','resources/research-taxonomy.json','resources/technology-trend-map.md'}
+          expected={'index.html','.nojekyll','portal/index.html','portal/library.html','portal/insights.html','portal/topic.html','portal/data/papers.json','resources/research-taxonomy.json','resources/topic-paper-rules.json','resources/technology-trend-map.md'}
           assert actual==expected, (actual-expected,expected-actual)
           obj=json.loads((site/'portal/data/papers.json').read_text())
           assert obj['record_count']==len(obj['records']) and obj['record_count']>1000

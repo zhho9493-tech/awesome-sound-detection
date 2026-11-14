@@ -12,5 +12,7 @@ jobs:
         run: python scripts/validate_catalog.py
       - name: Validate research taxonomy and paths
         run: python scripts/validate_research_taxonomy.py
+      - name: Validate topic-paper selection coverage
+        run: python scripts/validate_topic_papers.py
       - name: Smoke test paper discovery
         run: python -m unittest discover -s scripts -p 'test_paper_discovery.py'

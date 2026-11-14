@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0.0",
+  "notes": "exact-category = source catalog classification; keyword-candidate = title/abstract heuristic, not verified topic membership. All source records retained in the global library.",
+  "topics": {
+    "das": {
+      "match": "exact-category",
+      "categories": [
+        "das"
+      ],
+      "terms": []
+    },
+    "leakage": {
+      "match": "exact-category",
+      "categories": [
+        "leakage"
+      ],
+      "terms": []
+    },
+    "noisy-vehicle": {
+      "match": "keyword-candidate",
+      "categories": [],
+      "terms": [
+        "modified exhaust",
+        "modified-exhaust",
+        "loud exhaust",
+        "noisy vehicle",
+        "noisy motorbike",
+        "noisy motorcycle",
+        "illegal exhaust",
+        "exhaust sound",
+        "exhaust noise",
+        "vehicle noise detection",
+        "vehicle acoustic detection",
+        "炸街"
+      ]
+    },
+    "asd": {
+      "match": "exact-category",
+      "categories": [
+        "acoustic-anomaly",
+        "asd"
+      ],
+      "terms": []
+    },
+    "sed": {
+      "match": "exact-category",
+      "categories": [
+        "sound-event",
+        "sed"
+      ],
+      "terms": []
+    },
+    "ood": {
+      "match": "keyword-candidate",
+      "categories": [],
+      "terms": [
+        "out-of-distribution",
+        "out of distribution",
+        "ood detection",
+        "open-set",
+        "open set recognition",
+        "open-world",
+        "unknown class",
+        "novelty detection"
+      ]
+    },
+    "domain-generalization": {
+      "match": "keyword-candidate",
+      "categories": [],
+      "terms": [
+        "domain generalization",
+        "cross-domain generalization",
+        "domain adaptation",
+        "domain shift",
+        "unseen domain",
+        "cross-project",
+        "domain invariant"
+      ]
+    },
+    "noisy-label": {
+      "match": "keyword-candidate",
+      "categories": [],
+      "terms": [
+        "noisy label",
+        "label noise",
+        "noisy annotation",
+        "label correction",
+        "label quality",
+        "robust learning with noisy",
+        "mislabeled"
+      ]
+    },
+    "few-shot": {
+      "match": "keyword-candidate",
+      "categories": [],
+      "terms": [
+        "few-shot",
+        "few shot",
+        "one-shot",
+        "one shot",
+        "low-resource",
+        "limited labeled"
+      ]
+    },
+    "continual-learning": {
+      "match": "keyword-candidate",
+      "categories": [],
+      "terms": [
+        "continual learning",
+        "continuous learning",
+        "incremental learning",
+        "class-incremental",
+        "lifelong learning",
+        "catastrophic forgetting"
+      ]
+    },
+    "calibration": {
+      "match": "keyword-candidate",
+      "categories": [],
+      "terms": [
+        "probability calibration",
+        "confidence calibration",
+        "uncertainty estimation",
+        "uncertainty quantification",
+        "temperature scaling",
+        "selective prediction",
+        "conformal prediction"
+      ]
+    },
+    "low-snr": {
+      "match": "keyword-candidate",
+      "categories": [],
+      "terms": [
+        "low snr",
+        "low-snr",
+        "low signal-to-noise",
+        "low signal to noise",
+        "noise robust sound event",
+        "noise-aware",
+        "weak acoustic signal",
+        "noisy sound event"
+      ]
+    },
+    "foundation": {
+      "match": "exact-category",
+      "categories": [
+        "foundation",
+        "foundation-models"
+      ],
+      "terms": []
+    },
+    "speaker": {
+      "match": "exact-category",
+      "categories": [
+        "speaker",
+        "speaker-recognition"
+      ],
+      "terms": []
+    },
+    "face": {
+      "match": "exact-category",
+      "categories": [
+        "face",
+        "face-recognition"
+      ],
+      "terms": []
+    },
+    "visual-ad": {
+      "match": "exact-category",
+      "categories": [
+        "visual-anomaly",
+        "visual-ad"
+      ],
+      "terms": []
+    },
+    "transfer": {
+      "match": "exact-category",
+      "categories": [
+        "cross-domain"
+      ],
+      "terms": []
+    }
+  }
+}
