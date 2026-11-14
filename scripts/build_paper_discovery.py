@@ -5,6 +5,7 @@ Never mutates source data. Merge only on exact normalized DOI or arXiv ID.
 Title similarity is NOT identity verification. Private Drive URLs are excluded.
 """
 import argparse
+import hashlib
 import json
 import re
 from collections import Counter
@@ -57,11 +58,11 @@ def main():
             return
         raw_arxiv = aid(row.get("arxiv_id") or (row.get("id") if origin=="arxiv" else "") or row.get("abs_url"))
         raw_doi = doi(row.get("doi"))
-        canonical = "doi:"+raw_doi if raw_doi else ("arxiv:"+raw_arxiv if raw_arxiv else origin+":"+s(row.get("id") or index))
+        canonical = "doi:"+raw_doi if raw_doi else ("arxiv:"+raw_arxiv if raw_arxiv else origin+":title-"+hashlib.sha256(title.casefold().encode("utf-8")).hexdigest()[:16])
         aliases = [x for x in ["doi:"+raw_doi if raw_doi else "", "arxiv:"+raw_arxiv if raw_arxiv else ""] if x]
         existing = {mapping[x] for x in aliases if x in mapping}
         if len(existing)>1:
-            ambiguous.append({"source":origin,"source_id":s(row.get("id")),"reason":"conflicting identifiers"})
+            ambiguous.append({"source":origin,"reason":"conflicting identifiers"})
             return
         key = next(iter(existing)) if existing else canonical
         entry = out.get(key)
