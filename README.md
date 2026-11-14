@@ -1,6 +1,7 @@
 # Awesome Sound Detection 🔊
 
 > **新入口 · Knowledge Portal：** [交互式研究导航](portal/index.html) ｜ [架构与迁移规范](docs/KNOWLEDGE_ARCHITECTURE.md) ｜ [多维分类数据](resources/research-taxonomy.json)。当前为第一阶段兼容式重构，原始论文与历史页面保持不变。建议通过 `python3 scripts/preview_timelines.py` 本地预览门户（打开 `/portal/`）。
+> **全库论文检索（第二阶段）：** [论文探索页面](portal/library.html) · [自动构建脚本](scripts/build_paper_discovery.py) · [定时刷新工作流](.github/workflows/build-paper-discovery.yml)。论文索引按官方 DOI/arXiv 明确编号进行保守合并，未进行标题级强制去重。
 
 A curated repository for **sound detection, acoustic anomaly detection, industrial acoustics, audio foundation models, and cross-domain AI research**.
 
