@@ -68,7 +68,8 @@ def main():
         if entry is None:
             entry = {"id":key,"title":title,"year":"","published":"","authors":[],"abstract":"","categories":[],"topics":[],"sources":[],"doi":"","arxiv_id":"","url":"","pdf_url":"","verification_status":"candidate","identity_status":"source-record-only"}
             out[key] = entry
-        entry["sources"].append({"dataset":origin,"source_id":s(row.get("id") or index)})
+        if not any(src["dataset"] == origin for src in entry["sources"]):
+            entry["sources"].append({"dataset":origin})
         if raw_doi: entry["doi"]=raw_doi
         if raw_arxiv: entry["arxiv_id"]=raw_arxiv
         if entry["doi"] or entry["arxiv_id"]: entry["identity_status"]="identifier-present"
