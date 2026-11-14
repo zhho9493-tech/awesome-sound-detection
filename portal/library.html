@@ -35,12 +35,12 @@ async function loadIndex(){
     fetch('../resources/arxiv-cs-sd/papers.json').then(x=>{if(!x.ok)throw Error('arXiv 索引 HTTP '+x.status);return x.json()})
   ]);
   const items=[],byId=new Map();
-  const normId=v=>{let m=String(v||'').match(/(?:arxiv.org\\/(?:abs|pdf)\\/|arxiv:)?(\\d{4}\\.\\d{4,5})(?:v\\d+)?/i);return m?m[1]:''};
+  const normId=v=>{let m=String(v||'').match(/(?:arxiv.org\/(?:abs|pdf)\/|arxiv:)?(\d{4}\.\d{4,5})(?:v\d+)?/i);return m?m[1]:''};
   const cat=v=>Array.isArray(v)?v:(typeof v==='string'?v.split(/[;,]/).map(x=>x.trim()).filter(Boolean):[]);
   for(const [type,source] of [['master',ma],['arxiv',ar]]){
     for(const x of source.records||[]){
       const arxiv=normId(x.arxiv_id||(type==='arxiv'?x.id:'')||x.abs_url);
-      const doi=String(x.doi||'').replace(/^https?:\\/\\/doi.org\\//,'').trim().toLowerCase();
+      const doi=String(x.doi||'').replace(/^https?:\/\/doi.org\//,'').trim().toLowerCase();
       const key=doi?'doi:'+doi:(arxiv?'arxiv:'+arxiv:type+':'+String(x.id||items.length));
       let entry=byId.get(key);
       if(!entry){
@@ -60,7 +60,7 @@ async function loadIndex(){
         // No Drive links or untrusted websites.
         for(const [field,src] of [['url','public_url'],['pdf_url','pdf_url']]){
           const v=String(x[src]||'');
-          if(!entry[field]&&/^https:\\/\\/(?:arxiv.org|doi.org|openreview.net)\\//.test(v))entry[field]=v;
+          if(!entry[field]&&/^https:\/\/(?:arxiv.org|doi.org|openreview.net)\//.test(v))entry[field]=v;
         }
       }
     }
