@@ -6,5 +6,6 @@ __pycache__/
 secrets/
 data/private/
 artifacts/
+portal/data/
 downloads/
 resources/public-pdf-audit-cache.json

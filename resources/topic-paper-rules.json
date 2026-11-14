@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "notes": "exact-category = source catalog classification; keyword-candidate = title/abstract heuristic, not verified topic membership. All source records retained in the global library.",
   "topics": {
     "das": {
@@ -139,6 +139,30 @@
         "noise-aware",
         "weak acoustic signal",
         "noisy sound event"
+      ]
+    },
+    "long-tail": {
+      "match": "keyword-candidate",
+      "categories": [],
+      "terms": [
+        "long-tail", "long tailed", "long-tailed", "class imbalance",
+        "imbalanced class", "rare class", "minority class", "tail class"
+      ]
+    },
+    "semi-weak": {
+      "match": "keyword-candidate",
+      "categories": [],
+      "terms": [
+        "weakly supervised", "weak supervision", "semi-supervised",
+        "pseudo-label", "pseudo label", "mean teacher", "self-training"
+      ]
+    },
+    "adversarial": {
+      "match": "keyword-candidate",
+      "categories": [],
+      "terms": [
+        "adversarial attack", "adversarial robustness", "adversarial training",
+        "evasion attack", "poisoning attack", "adversarial example"
       ]
     },
     "foundation": {

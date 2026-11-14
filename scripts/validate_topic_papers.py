@@ -18,7 +18,10 @@ for slug,rule in rules.items():
         assert rule["terms"] and not rule["categories"],slug
         assert all(isinstance(term,str) and (len(term)>=3 or (len(term)>=2 and any('\u4e00'<=ch<='\u9fff' for ch in term))) for term in rule["terms"]),slug
 portal=(ROOT/"portal/topic.html").read_text(encoding="utf-8")
-assert "data-topic" in portal and "来源" in portal and "作者" in portal and "继续加载更多论文" in portal
+for marker in ("data-topic", "data-cross", "技术时间线", "技术趋势", "论文详情", "最新优先", "作者"):
+    assert marker in portal, f"topic portal missing required UI marker: {marker}"
+content=json.loads((ROOT/"resources/topic-page-content.json").read_text(encoding="utf-8"))
+assert content.get("default",{}).get("timeline") and content.get("default",{}).get("trends")
 wf=(ROOT/".github/workflows/publish-research-portal.yml").read_text(encoding="utf-8")
-assert "portal/topic.html" in wf and "resources/topic-paper-rules.json" in wf
+assert "portal/topic.html" in wf and "resources/topic-paper-rules.json" in wf and "resources/topic-page-content.json" in wf
 print(f"Validated {len(expected)} per-topic selection rules and publishing references")

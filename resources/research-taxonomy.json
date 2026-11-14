@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "updated_at": "2026-11-14",
   "dimensions": {
     "applications": [
@@ -94,6 +94,21 @@
         "id": "low-snr",
         "name": "低信噪比",
         "path": "papers/sound-event/low-snr/README.md"
+      },
+      {
+        "id": "long-tail",
+        "name": "长尾与类别不平衡",
+        "path": "general-problems/long-tail-learning/README.md"
+      },
+      {
+        "id": "semi-weak",
+        "name": "半监督与弱监督",
+        "path": "general-problems/semi-weak-supervision/README.md"
+      },
+      {
+        "id": "adversarial",
+        "name": "对抗鲁棒性",
+        "path": "general-problems/adversarial-robustness/README.md"
       }
     ],
     "methods": [
@@ -162,6 +177,7 @@
     ]
   },
   "principles": [
+    "方向与解决的问题是两个独立维度；一篇论文可同时归入多个方向和多个问题",
     "论文身份统一，主题关联多标签",
     "原始来源、论文结论、迁移假设、实测结果分开",
     "更新一次数据，派生多种页面",

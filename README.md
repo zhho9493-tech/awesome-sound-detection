@@ -4,7 +4,7 @@
 > **全库论文检索（第二阶段）：** [论文探索页面](portal/library.html) · [自动构建脚本](scripts/build_paper_discovery.py) · [定时刷新工作流](.github/workflows/build-paper-discovery.yml)。论文索引按官方 DOI/arXiv 明确编号进行保守合并，未进行标题级强制去重。
 
 > **技术洞察（第三阶段）：** [交互式论文时间线与趋势证据](portal/insights.html) · [论文详情与相似方向关联](portal/library.html) · [Pages 部署工作流](.github/workflows/publish-research-portal.yml)。Pages 仅发布经字段白名单处理的数据，**不直接部署包含私人云盘信息的原始主索引**；首次部署还需在仓库 Settings → Pages 中选用 GitHub Actions。
-> **各方向论文详情（专题目录）：** [打开逐篇论文列表](portal/topic.html?topic=das) · 支持切换 DAS、泄漏、ASD、SED、炸街车、OOD、低 SNR 等应用与方法专题，并逐篇查看标题、作者、日期、摘要、分类依据、来源与 PDF。可按年份、来源、关键词筛选，分页展示及导出 CSV；关键词规则结果标记为待复核候选。
+> **双维研究专题（方向 × 问题）：** [打开统一专题页面](portal/topic.html?topic=sed) · 每个方向页均显示其论文正在解决的问题，每个问题页也反向展示涉及的研究方向；论文允许多标签交叠。所有专题统一采用“总览 → 技术时间线 → 技术趋势 → 论文详情”四模块结构，论文按时间从最新到最旧排列。
 
 > **逐篇论文总结：** 已为每个专题和全库论文详情添加结构化的「研究目标 / 方法要点 / 作者报告结果 / 证据限制」字段。内容基于公开摘要提取；缺少摘要的记录显示待补充，不代表全文审核完成。参见 [总结字段规范](docs/PAPER_SUMMARY_CONTRACT.md)。
 
