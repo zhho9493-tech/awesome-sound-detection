@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-11-14",
+  "dimensions": {
+    "applications": [
+      {
+        "id": "das",
+        "name": "DAS 光纤听诊",
+        "path": "domains/das/README.md",
+        "summary": "皮带托辊、时空事件、状态监测",
+        "tags": [
+          "工业声学",
+          "跨项目泛化",
+          "物理约束"
+        ]
+      },
+      {
+        "id": "leakage",
+        "name": "听漏与泄漏检测",
+        "path": "domains/leakage/README.md",
+        "summary": "水管听漏、气体泄漏、定位和定量",
+        "tags": [
+          "低信噪比",
+          "传播模型",
+          "定位"
+        ]
+      },
+      {
+        "id": "noisy-vehicle",
+        "name": "炸街车检测",
+        "path": "papers/sound-event/transportation/noisy-vehicle/README.md",
+        "summary": "改装排气声、过车事件、声源归属",
+        "tags": [
+          "声音事件检测",
+          "开放集",
+          "事件定位"
+        ]
+      },
+      {
+        "id": "asd",
+        "name": "声学异常检测 ASD",
+        "path": "papers/acoustic-anomaly/README.md",
+        "summary": "DCASE、工业故障、域偏移",
+        "tags": [
+          "异常检测",
+          "标签噪声",
+          "域泛化"
+        ]
+      },
+      {
+        "id": "sed",
+        "name": "声音事件检测 SED",
+        "path": "papers/sound-event/README.md",
+        "summary": "多标签、事件边界、细粒度声源",
+        "tags": [
+          "事件检测",
+          "弱监督",
+          "开放世界"
+        ]
+      }
+    ],
+    "problems": [
+      {
+        "id": "ood",
+        "name": "OOD / 开放集",
+        "path": "general-problems/ood/README.md"
+      },
+      {
+        "id": "domain-generalization",
+        "name": "跨域泛化",
+        "path": "general-problems/domain-generalization/README.md"
+      },
+      {
+        "id": "noisy-label",
+        "name": "噪声标签",
+        "path": "general-problems/noisy-label-learning/README.md"
+      },
+      {
+        "id": "few-shot",
+        "name": "少样本学习",
+        "path": "general-problems/few-shot-learning/README.md"
+      },
+      {
+        "id": "continual-learning",
+        "name": "持续学习",
+        "path": "general-problems/continual-learning/README.md"
+      },
+      {
+        "id": "calibration",
+        "name": "校准与不确定性",
+        "path": "general-problems/calibration-uncertainty/README.md"
+      },
+      {
+        "id": "low-snr",
+        "name": "低信噪比",
+        "path": "papers/sound-event/low-snr/README.md"
+      }
+    ],
+    "methods": [
+      {
+        "id": "foundation",
+        "name": "音频基础模型",
+        "path": "related/foundation-models/README.md"
+      },
+      {
+        "id": "speaker",
+        "name": "声纹与表征学习",
+        "path": "related/speaker-recognition/README.md"
+      },
+      {
+        "id": "face",
+        "name": "人脸识别可迁移方法",
+        "path": "related/face-recognition/README.md"
+      },
+      {
+        "id": "visual-ad",
+        "name": "视觉异常检测迁移",
+        "path": "related/visual-anomaly/README.md"
+      },
+      {
+        "id": "transfer",
+        "name": "跨领域迁移矩阵",
+        "path": "cross-domain/transfer-matrix.md"
+      }
+    ],
+    "assets": [
+      {
+        "id": "master",
+        "name": "论文主索引",
+        "path": "resources/paper-master-index-README.md"
+      },
+      {
+        "id": "arxiv",
+        "name": "arXiv cs.SD 全量索引",
+        "path": "resources/arxiv-cs-sd/README.md"
+      },
+      {
+        "id": "trends",
+        "name": "技术趋势证据地图",
+        "path": "resources/technology-trend-map.md"
+      },
+      {
+        "id": "datasets",
+        "name": "数据集",
+        "path": "datasets/README.md"
+      },
+      {
+        "id": "code",
+        "name": "开源代码",
+        "path": "code/README.md"
+      },
+      {
+        "id": "experiments",
+        "name": "实验复现",
+        "path": "experiments/README.md"
+      },
+      {
+        "id": "industry",
+        "name": "行业动态",
+        "path": "industry/README.md"
+      }
+    ]
+  },
+  "principles": [
+    "论文身份统一，主题关联多标签",
+    "原始来源、论文结论、迁移假设、实测结果分开",
+    "更新一次数据，派生多种页面",
+    "不公开私人 Drive 链接或内部数据",
+    "原目录长期保留兼容链接"
+  ]
+}
