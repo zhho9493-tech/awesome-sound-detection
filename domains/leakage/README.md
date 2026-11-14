@@ -1,5 +1,7 @@
 # Leakage Detection / 泄漏声学检测
 
+- [2026-11-14 citations.csv 导入：123 条核对、109 条新增候选及去重说明](citations-csv-import-2026-11-14.md)
+
 - [arXiv cs.SD 2025-01-01—2026-11-03 相关论文全量初筛](arxiv-cs-sd-2025-2026.md)
 - [论文技术趋势与交互时间线（HTML）](papers-timeline.html)
 - [2026-11-13 两批听漏仪/管道泄漏论文筛选（DOI、适用性、实验计划）](literature-screening-2026-11-13.md)
