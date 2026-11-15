@@ -51,3 +51,29 @@ python3 tools/paper-downloader/paper_downloader.py --overwrite
 - 工具不会下载普通网页，也不会尝试绕过需要登录或无公开权限的下载页面。
 
 部分 Google Drive 文件可能需要登录、确认页或额外权限，此类记录会进入失败报告，便于后续人工处理。
+
+## 从引文 CSV 检索并下载公开论文
+
+当 CSV 只有作者、题名、期刊和年份，没有 PDF 地址时，使用引文下载器：
+
+```bash
+python3 tools/paper-downloader/citation_downloader.py \
+  /Users/jianfengzhou/Downloads/sed_citations.csv \
+  --output downloads/sed-citations \
+  --email your-email@example.com
+```
+
+解析顺序为：CSV 中的 arXiv 编号 → OpenAlex 开放获取地址 → Crossref DOI/PDF → Unpaywall（提供真实邮箱时启用）。工具只尝试合法公开地址，不绕过登录、付费墙或访问控制。
+
+输出内容：
+
+- `download-report.csv`：全部引文的匹配结果、DOI、落地页、PDF 地址和下载状态；
+- `failed-downloads.csv`：未找到公开 PDF 或下载失败的论文，包含论文信息、可人工访问的落地页、尝试地址和失败原因；
+- `summary.json`：总数、公开 PDF 数、成功数和待人工处理数；
+- `resolver-cache.json`：题名解析缓存，中断后再次运行无需重复查询已完成记录。
+
+先只解析链接、不下载文件：
+
+```bash
+python3 tools/paper-downloader/citation_downloader.py sed_citations.csv --resolve-only
+```

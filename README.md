@@ -21,6 +21,7 @@ A curated repository for **sound detection, acoustic anomaly detection, industri
 ## 批量下载论文
 
 - 运行 `python3 tools/paper-downloader/paper_downloader.py`，扫描并下载仓库中所有提供公开下载地址的论文。
+- 对只有题录、没有下载地址的 CSV，运行 `python3 tools/paper-downloader/citation_downloader.py <citations.csv>`；工具会查询公开来源，并把未公开或下载失败的论文写入 `failed-downloads.csv` 供人工补充。
 - 使用 `--list-only` 可先查看下载清单，使用 `--limit 10` 可先进行小批量验证。
 - 详细参数、断点续传与失败报告说明见 [Paper Downloader](tools/paper-downloader/README.md)。
 
