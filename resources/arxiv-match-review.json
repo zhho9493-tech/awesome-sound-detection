@@ -1020,6 +1020,18 @@
       ],
       "decision": "resolved-by-unambiguous-prefix",
       "resolution_rule": "single arXiv API candidate; normalized full title starts with original >=52 character title prefix"
+    },
+    {
+      "id": "citation-0ece30104f95",
+      "title": "A squeeze-and-excitation and transformer-based cross-task model for environmental sound recognition",
+      "candidates": [
+        {
+          "id": "2203.08350",
+          "arxiv_title": "A Squeeze-and-Excitation and Transformer based Cross-task System for Environmental Sound Recognition",
+          "similarity": 0.9548
+        }
+      ],
+      "decision": "manual-review"
     }
   ]
 }
